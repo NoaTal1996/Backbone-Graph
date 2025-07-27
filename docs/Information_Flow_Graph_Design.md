@@ -6,6 +6,7 @@
 
 The graph is specific to a single topic, representing interactions within that context.  
 It consists of `nodes` representing authors and directed `edges` representing the reuse of hashtags and mentions.  
+For visual clarity, only key-authors (authors with high TF-IDF scores) are included in the graph.  
 A time window `w` (in days) ensures edges reflect timely hashtag or mention reuse, capturing relevant influence.  
 The graph is built using *Neo4j* graph engine.  
 
@@ -13,7 +14,7 @@ The graph aims to reflect potential influence through shared entities (hashtag, 
 
 ## Nodes
 
-Each node represents a single author (user) participating in the topic.
+Each node represents a single key-author (user) participating in the topic.
 
 #### **Node Properties:**
 
