@@ -5,7 +5,8 @@
 ## Intro
 
 The graph is specific to a single topic, representing interactions within that context.  
-It consists of `nodes` representing authors and directed `edges` representing the reuse of entities (hashtags and mentions).  
+
+The graph consists of `nodes` representing authors and directed `edges` representing the reuse of entities (hashtags and mentions).  
 
 The graph is built using *Neo4j* graph engine.  
 
@@ -13,7 +14,7 @@ The graph aims to reflect potential influence through shared entities (hashtag, 
 
 ## Filtering Relevant Interactions
 * For visual clarity, only key-authors (authors with high TF-IDF scores) are included in the graph.
-* A time window ensures edges reflect timely reuse:
+* A time window ensures edges reflect timely entities reuse:
   * Minimum bound `min_time` (in days) to filter out cases when autors use enteties simultaneously.
   * Maximum bound `max_time` (in days) to ensure that only reuse occurring within a relevant timeframe is considered
 * A threshold `entities_threshold` (in decimal) is used to ensure that only entities appearing in less than a given proportion of all posts are considered significant. This filters out overly common entities, allowing the graph to focus on rarer, mor meaningful interactions while reducing noise from generic or widely used terms.
@@ -37,7 +38,7 @@ Each node represents a single key-author (user) participating in the topic.
 
 ## Edges
 
-An edge from `Author A → Author B` means that, within a sliding time window of `w` days, `Author B` used at least one hashtag *after* `Author A` used it. 
+An edge from `Author A → Author B` means that, `Author B` used at least one entities *after* `Author A` with in the time window. 
 
 #### **Edge Properties:**
 
