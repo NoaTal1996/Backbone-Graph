@@ -5,12 +5,20 @@
 ## Intro
 
 The graph is specific to a single topic, representing interactions within that context.  
-It consists of `nodes` representing authors and directed `edges` representing the reuse of hashtags and mentions.  
-For visual clarity, only key-authors (authors with high TF-IDF scores) are included in the graph.  
-A time window `w` (in days) ensures edges reflect timely hashtag or mention reuse, capturing relevant influence.  
+It consists of `nodes` representing authors and directed `edges` representing the reuse of entities (hashtags and mentions).  
+
 The graph is built using *Neo4j* graph engine.  
 
 The graph aims to reflect potential influence through shared entities (hashtag, mention) usage.
+
+## Filtering Relevant Interactions
+* For visual clarity, only key-authors (authors with high TF-IDF scores) are included in the graph.
+* A time window ensures edges reflect timely reuse:
+  * Minimum bound `min_time` (in days) to filter out cases when autors use enteties simultaneously.
+  * Maximum bound `max_time` (in days) to ensure that only reuse occurring within a relevant timeframe is considered
+* A threshold `entities_threshold` (in decimal) is used to ensure that only entities appearing in less than a given proportion of all posts are considered significant. This filters out overly common entities, allowing the graph to focus on rarer, mor meaningful interactions while reducing noise from generic or widely used terms.
+
+
 
 ## Nodes
 
