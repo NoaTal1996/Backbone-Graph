@@ -7,4 +7,6 @@ tqdm
 scikit-learn
 matplotlib
 seaborn
-networkx
+network
+jupyterlab
+ipykernel
