@@ -1,0 +1,10 @@
+torch
+torchvision
+torchaudio
+sentence-transformers
+pandas
+tqdm
+scikit-learn
+matplotlib
+seaborn
+networkx
