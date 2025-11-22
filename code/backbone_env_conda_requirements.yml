@@ -1,0 +1,19 @@
+name: backbone_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - matplotlib
+  - emoji
+  - spacy
+  - nltk
+  - scikit-learn
+  - pyarrow
+  - fastparquet
+  - pip
+  - pip:
+      - bertopic
+      - sentence-transformers
+      - transformers
