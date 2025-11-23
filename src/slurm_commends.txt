@@ -1,0 +1,2 @@
+conda activate backbone_env
+sjupyter --gpu rtx_4090:1
