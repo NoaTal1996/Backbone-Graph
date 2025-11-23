@@ -12,6 +12,7 @@ dependencies:
   - scikit-learn
   - pyarrow
   - fastparquet
+  - ipywidgets
   - pip
   - pip:
       - bertopic
