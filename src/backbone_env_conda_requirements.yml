@@ -12,6 +12,8 @@ dependencies:
   - scikit-learn
   - pyarrow
   - fastparquet
+  - sentencepiece
+  - accelerate
   - pip
   - pip:
       - bertopic
