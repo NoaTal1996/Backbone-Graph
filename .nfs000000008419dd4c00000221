@@ -1,0 +1,124 @@
+Tue 25 Nov 2025 15:36:10 IST
+[I 2025-11-25 15:36:23.279 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2025-11-25 15:36:23.364 ServerApp] Package jupyter_lsp took 0.0841s to import
+[W 2025-11-25 15:36:23.364 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-11-25 15:36:23.396 ServerApp] Package jupyter_server_terminals took 0.0318s to import
+[I 2025-11-25 15:36:23.396 ServerApp] Package notebook took 0.0000s to import
+[I 2025-11-25 15:36:23.399 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2025-11-25 15:36:23.399 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-11-25 15:36:26.902 ServerApp] Package panel.io.jupyter_server_extension took 3.5010s to import
+[I 2025-11-25 15:36:26.902 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-11-25 15:36:26.905 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-11-25 15:36:26.923 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-11-25 15:36:26.938 JupyterNotebookApp] 'certfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-11-25 15:36:26.938 JupyterNotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-11-25 15:36:26.938 JupyterNotebookApp] 'keyfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-11-25 15:36:26.938 JupyterNotebookApp] 'keyfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-11-25 15:36:26.938 JupyterNotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-11-25 15:36:26.940 ServerApp] notebook | extension was successfully linked.
+[I 2025-11-25 15:36:28.277 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-11-25 15:36:28.277 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-11-25 15:36:28.341 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-11-25 15:36:28.343 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-11-25 15:36:28.344 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-11-25 15:36:28.381 LabApp] JupyterLab extension loaded from /storage/modules/packages/anaconda/lib/python3.11/site-packages/jupyterlab
+[I 2025-11-25 15:36:28.381 LabApp] JupyterLab application directory is /storage/modules/packages/anaconda/share/jupyter/lab
+[I 2025-11-25 15:36:28.381 LabApp] Extension Manager is 'pypi'.
+[I 2025-11-25 15:36:28.383 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-11-25 15:36:28.398 ServerApp] notebook | extension was successfully loaded.
+[I 2025-11-25 15:36:28.398 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-11-25 15:36:28.401 ServerApp] Serving notebooks from local directory: /home/amitner
+[I 2025-11-25 15:36:28.401 ServerApp] Jupyter Server 2.10.0 is running at:
+[I 2025-11-25 15:36:28.401 ServerApp] https://ise-4090-07.auth.ad.bgu.ac.il:9987/lab?token=6b5d94dd8d751fa4f62f63edb63eff88b37f887736ae1438
+[I 2025-11-25 15:36:28.401 ServerApp]     https://127.0.0.1:9987/lab?token=6b5d94dd8d751fa4f62f63edb63eff88b37f887736ae1438
+[I 2025-11-25 15:36:28.401 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-11-25 15:36:28.408 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/amitner/.local/share/jupyter/runtime/jpserver-3916214-open.html
+    Or copy and paste one of these URLs:
+        https://ise-4090-07.auth.ad.bgu.ac.il:9987/lab?token=6b5d94dd8d751fa4f62f63edb63eff88b37f887736ae1438
+        https://127.0.0.1:9987/lab?token=6b5d94dd8d751fa4f62f63edb63eff88b37f887736ae1438
+[I 2025-11-25 15:36:28.487 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-11-25 15:37:46.426 ServerApp] SSL Error on 7 ('132.72.81.145', 62026): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:37:46.429 ServerApp] SSL Error on 8 ('132.72.81.145', 49669): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:37:48.919 ServerApp] SSL Error on 7 ('132.72.81.145', 61361): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:37:48.920 ServerApp] SSL Error on 8 ('132.72.81.145', 55950): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:37:48.929 LabApp] 302 GET /lab?token=[secret] (@132.72.81.145) 0.57ms
+[W 2025-11-25 15:37:49.056 ServerApp] SSL Error on 9 ('132.72.81.145', 64631): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:37:49.056 ServerApp] SSL Error on 10 ('132.72.81.145', 50743): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:37:49.057 ServerApp] SSL Error on 11 ('132.72.81.145', 63949): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:38:31.419 ServerApp] SSL Error on 13 ('132.72.81.145', 55545): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:38:31.420 ServerApp] SSL Error on 14 ('132.72.81.145', 53409): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:38:31.492 ServerApp] SSL Error on 13 ('132.72.81.145', 53254): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2025-11-25 15:38:36.903 ServerApp] SSL Error on 13 ('132.72.81.145', 62562): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:38:38.157 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-11-25 15:39:16.812 ServerApp] Notebook Backbone-Graph/src/Topic_Clustring_and_NER.ipynb is not trusted
+[I 2025-11-25 15:39:17.532 ServerApp] Kernel started: 0f308b75-ff71-4c12-95d0-58237de21ffa
+[W 2025-11-25 15:39:17.551 ServerApp] SSL Error on 24 ('132.72.81.145', 59378): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:39:17.570 ServerApp] SSL Error on 21 ('132.72.81.145', 54856): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:39:19.970 ServerApp] Connecting to kernel 0f308b75-ff71-4c12-95d0-58237de21ffa.
+[I 2025-11-25 15:39:20.003 ServerApp] Connecting to kernel 0f308b75-ff71-4c12-95d0-58237de21ffa.
+[W 2025-11-25 15:39:20.033 ServerApp] SSL Error on 44 ('132.72.81.145', 49669): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:39:20.055 ServerApp] Connecting to kernel 0f308b75-ff71-4c12-95d0-58237de21ffa.
+[W 2025-11-25 15:39:20.291 ServerApp] SSL Error on 34 ('132.72.81.145', 54286): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:41:17.535 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 15:44:42.763 ServerApp] SSL Error on 8 ('132.72.81.145', 51428): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:44:42.764 ServerApp] SSL Error on 7 ('132.72.81.145', 65022): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:47:18.536 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 15:49:00.176 ServerApp] SSL Error on 7 ('132.72.81.145', 58196): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:49:05.810 ServerApp] SSL Error on 8 ('132.72.81.145', 64054): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:49:05.811 ServerApp] SSL Error on 9 ('132.72.81.145', 64518): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:49:18.588 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-11-25 15:51:18.640 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-11-25 15:53:18.707 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-11-25 15:55:18.762 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 15:56:45.519 ServerApp] SSL Error on 11 ('132.72.81.145', 53531): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 15:57:06.525 ServerApp] SSL Error on 10 ('132.72.81.145', 50343): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 15:57:19.517 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 15:58:52.513 ServerApp] SSL Error on 10 ('132.72.81.145', 49700): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:01:21.510 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:03:29.519 ServerApp] SSL Error on 11 ('132.72.81.145', 62859): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:04:29.328 ServerApp] Kernel interrupted: 0f308b75-ff71-4c12-95d0-58237de21ffa
+[I 2025-11-25 16:05:23.511 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:10:34.512 ServerApp] SSL Error on 10 ('132.72.81.145', 60754): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:10:55.516 ServerApp] SSL Error on 10 ('132.72.81.145', 56019): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:11:25.522 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:11:25.583 ServerApp] SSL Error on 11 ('132.72.81.145', 53193): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:11:25.595 ServerApp] SSL Error on 12 ('132.72.81.145', 50060): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:12:26.550 ServerApp] SSL Error on 10 ('132.72.81.145', 56120): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:12:26.551 ServerApp] SSL Error on 11 ('132.72.81.145', 62902): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:13:25.617 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-11-25 16:15:26.500 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:16:55.488 ServerApp] SSL Error on 10 ('132.72.81.145', 54706): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:17:05.516 ServerApp] SSL Error on 10 ('132.72.81.145', 54952): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:17:15.539 ServerApp] SSL Error on 10 ('132.72.81.145', 50603): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:17:25.560 ServerApp] SSL Error on 10 ('132.72.81.145', 52811): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:17:26.548 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:19:27.498 ServerApp] SSL Error on 7 ('132.72.81.145', 64930): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:19:27.515 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:19:36.499 ServerApp] SSL Error on 8 ('132.72.81.145', 60013): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:20:30.643 ServerApp] SSL Error on 8 ('132.72.81.145', 63189): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:20:30.644 ServerApp] SSL Error on 9 ('132.72.81.145', 62203): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:20:41.500 ServerApp] SSL Error on 8 ('132.72.81.145', 63568): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:20:41.501 ServerApp] SSL Error on 9 ('132.72.81.145', 54631): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:23:10.498 ServerApp] SSL Error on 11 ('132.72.81.145', 55040): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-25 16:23:21.501 ServerApp] SSL Error on 10 ('132.72.81.145', 52459): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:23:29.506 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:24:42.575 ServerApp] SSL Error on 10 ('132.72.81.145', 60081): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:24:43.404 ServerApp] Kernel restarted: 0f308b75-ff71-4c12-95d0-58237de21ffa
+[I 2025-11-25 16:24:43.408 ServerApp] Starting buffering for 0f308b75-ff71-4c12-95d0-58237de21ffa:8c0c2f35-6111-4a65-8e85-e32e5462739c
+[W 2025-11-25 16:24:43.417 ServerApp] SSL Error on 12 ('132.72.81.145', 62610): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:24:43.450 ServerApp] Connecting to kernel 0f308b75-ff71-4c12-95d0-58237de21ffa.
+[I 2025-11-25 16:24:43.450 ServerApp] Restoring connection for 0f308b75-ff71-4c12-95d0-58237de21ffa:8c0c2f35-6111-4a65-8e85-e32e5462739c
+[W 2025-11-25 16:24:43.479 ServerApp] SSL Error on 22 ('132.72.81.145', 54776): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:25:29.546 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:29:34.958 ServerApp] SSL Error on 24 ('132.72.81.145', 49174): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:31:30.499 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-11-25 16:33:30.554 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-25 16:33:55.823 ServerApp] SSL Error on 24 ('132.72.81.145', 55521): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-25 16:35:30.607 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb

@@ -1,2 +1,3 @@
 conda activate backbone_env
+cd "/home/amitner/Backbone-Graph/JupyterLab_log/"
 sjupyter --gpu rtx_4090:1
