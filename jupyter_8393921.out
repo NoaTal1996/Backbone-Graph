@@ -172,3 +172,13 @@ Wed 26 Nov 2025 12:49:02 IST
 [W 2025-11-26 14:04:44.505 ServerApp] SSL Error on 11 ('132.73.96.50', 56528): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
 [I 2025-11-26 14:04:45.260 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
 [W 2025-11-26 14:04:54.038 ServerApp] SSL Error on 9 ('132.73.96.50', 64513): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:06:27.391 ServerApp] SSL Error on 9 ('132.73.96.50', 59091): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:06:27.391 ServerApp] SSL Error on 11 ('132.73.96.50', 54931): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-26 14:06:45.372 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-26 14:09:16.850 ServerApp] SSL Error on 9 ('132.73.96.50', 60370): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:09:18.095 ServerApp] SSL Error on 11 ('132.73.96.50', 61372): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:09:58.183 ServerApp] SSL Error on 11 ('132.73.96.50', 62528): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:10:48.026 ServerApp] SSL Error on 11 ('132.73.96.50', 59413): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:10:49.026 ServerApp] SSL Error on 11 ('132.73.96.50', 49374): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:10:58.057 ServerApp] SSL Error on 11 ('132.73.96.50', 56854): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:11:05.030 ServerApp] SSL Error on 11 ('132.73.96.50', 51113): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
