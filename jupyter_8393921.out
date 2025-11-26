@@ -182,3 +182,1047 @@ Wed 26 Nov 2025 12:49:02 IST
 [W 2025-11-26 14:10:49.026 ServerApp] SSL Error on 11 ('132.73.96.50', 49374): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
 [W 2025-11-26 14:10:58.057 ServerApp] SSL Error on 11 ('132.73.96.50', 56854): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
 [W 2025-11-26 14:11:05.030 ServerApp] SSL Error on 11 ('132.73.96.50', 51113): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:11:09.672 ServerApp] SSL Error on 11 ('132.73.96.50', 52722): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:11:30.049 ServerApp] SSL Error on 11 ('132.73.96.50', 51986): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:11:30.057 ServerApp] SSL Error on 9 ('132.73.96.50', 51800): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+Task exception was never retrieved
+future: <Task finished name='Task-12662' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12666' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12670' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12674' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12678' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12684' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12686' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12697' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12701' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12705' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12709' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12713' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12719' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12721' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12734' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12738' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12742' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12746' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12750' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12756' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12758' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12769' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12773' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12777' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12781' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12785' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12791' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12793' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12804' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12808' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12812' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12816' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12820' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12826' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12828' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12843' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12847' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12851' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12855' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12859' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12865' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12867' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12880' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12884' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12888' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12892' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12896' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12902' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12904' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12924' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12928' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12932' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12936' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12940' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12946' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12948' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12960' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12964' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12968' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12972' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12976' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12982' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12984' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-12996' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13000' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13004' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13008' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13012' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13018' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13020' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13032' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13036' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13040' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13044' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13048' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13054' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13056' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py:1085> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/modules/packages/anaconda/lib/python3.11/site-packages/tornado/websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[W 2025-11-26 14:15:27.028 ServerApp] SSL Error on 10 ('132.73.96.50', 64445): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:15:27.031 ServerApp] SSL Error on 12 ('132.73.96.50', 53218): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:15:37.263 ServerApp] SSL Error on 10 ('132.73.96.50', 57780): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:15:47.071 ServerApp] SSL Error on 10 ('132.73.96.50', 54620): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:15:58.035 ServerApp] SSL Error on 10 ('132.73.96.50', 52679): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:15:58.036 ServerApp] SSL Error on 12 ('132.73.96.50', 61208): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:17:14.030 ServerApp] SSL Error on 10 ('132.73.96.50', 57527): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:17:14.030 ServerApp] SSL Error on 12 ('132.73.96.50', 56717): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:18:25.018 ServerApp] SSL Error on 12 ('132.73.96.50', 54181): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:18:25.028 ServerApp] SSL Error on 10 ('132.73.96.50', 62456): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-26 14:18:50.041 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-26 14:19:08.023 ServerApp] SSL Error on 10 ('132.73.96.50', 65471): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:19:18.044 ServerApp] SSL Error on 10 ('132.73.96.50', 52666): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:19:59.144 ServerApp] SSL Error on 10 ('132.73.96.50', 64777): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:20:31.025 ServerApp] SSL Error on 10 ('132.73.96.50', 65288): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:20:42.029 ServerApp] SSL Error on 10 ('132.73.96.50', 64153): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-26 14:20:51.044 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-26 14:21:47.039 ServerApp] SSL Error on 10 ('132.73.96.50', 50564): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:21:57.051 ServerApp] SSL Error on 10 ('132.73.96.50', 57568): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:22:07.065 ServerApp] SSL Error on 10 ('132.73.96.50', 56272): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:22:48.022 ServerApp] SSL Error on 10 ('132.73.96.50', 53845): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-11-26 14:22:52.037 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-11-26 14:23:53.038 ServerApp] SSL Error on 10 ('132.73.96.50', 62045): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:24:04.014 ServerApp] SSL Error on 10 ('132.73.96.50', 58780): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:24:25.014 ServerApp] SSL Error on 10 ('132.73.96.50', 59866): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:24:35.483 ServerApp] SSL Error on 10 ('132.73.96.50', 56891): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:24:46.150 ServerApp] SSL Error on 10 ('132.73.96.50', 51191): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:24:55.533 ServerApp] SSL Error on 10 ('132.73.96.50', 62175): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:25:05.552 ServerApp] SSL Error on 10 ('132.73.96.50', 64125): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:26:06.913 ServerApp] SSL Error on 10 ('132.73.96.50', 60293): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:30:43.728 ServerApp] SSL Error on 10 ('132.73.96.50', 58586): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:30:43.739 ServerApp] SSL Error on 9 ('132.73.96.50', 63646): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:30:43.739 ServerApp] SSL Error on 12 ('132.73.96.50', 64767): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:30:43.950 ServerApp] SSL Error on 11 ('132.73.96.50', 60745): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:30:54.016 ServerApp] SSL Error on 11 ('132.73.96.50', 61820): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:49:20.173 ServerApp] SSL Error on 10 ('132.73.96.50', 59413): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:49:20.173 ServerApp] SSL Error on 9 ('132.73.96.50', 55653): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:49:27.005 ServerApp] SSL Error on 11 ('132.73.96.50', 63818): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-11-26 14:49:27.007 ServerApp] SSL Error on 12 ('132.73.96.50', 53181): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[2025-11-26T14:49:28.115] error: *** JOB 8393921 ON cs-4090-03 CANCELLED AT 2025-11-26T14:49:28 DUE TO TIME LIMIT ***
