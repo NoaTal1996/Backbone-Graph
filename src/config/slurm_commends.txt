@@ -1,2 +1,2 @@
 conda activate backbone_env
-sjupyter --gpu rtx_4090:1
+sjupyter --gpu rtx_6000:1
