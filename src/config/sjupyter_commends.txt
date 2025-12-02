@@ -1,2 +1,6 @@
 conda activate backbone_env
 sjupyter --gpu rtx_6000:1
+
+
+
+sbatch "/home/amitner/Backbone-Graph/src/config/run_notebook.sbatch" Ecuador_part_3.gzip.parquet
