@@ -1,0 +1,65 @@
+Thu 11 Dec 2025 15:45:24 IST
+[I 2025-12-11 15:45:29.500 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2025-12-11 15:45:29.578 ServerApp] Package jupyter_lsp took 0.0770s to import
+[W 2025-12-11 15:45:29.578 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-12-11 15:45:29.612 ServerApp] Package jupyter_server_terminals took 0.0348s to import
+[I 2025-12-11 15:45:29.613 ServerApp] Package notebook took 0.0000s to import
+[I 2025-12-11 15:45:29.615 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2025-12-11 15:45:29.615 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-12-11 15:45:32.064 ServerApp] Package panel.io.jupyter_server_extension took 2.4473s to import
+[I 2025-12-11 15:45:32.064 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-12-11 15:45:32.067 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-12-11 15:45:32.083 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-12-11 15:45:32.094 JupyterNotebookApp] 'certfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-12-11 15:45:32.094 JupyterNotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-12-11 15:45:32.094 JupyterNotebookApp] 'keyfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-12-11 15:45:32.094 JupyterNotebookApp] 'keyfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-12-11 15:45:32.094 JupyterNotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-12-11 15:45:32.095 ServerApp] notebook | extension was successfully linked.
+[I 2025-12-11 15:45:35.008 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-12-11 15:45:35.008 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-12-11 15:45:35.085 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-12-11 15:45:35.086 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-12-11 15:45:35.087 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-12-11 15:45:35.125 LabApp] JupyterLab extension loaded from /storage/modules/packages/anaconda/lib/python3.11/site-packages/jupyterlab
+[I 2025-12-11 15:45:35.125 LabApp] JupyterLab application directory is /storage/modules/packages/anaconda/share/jupyter/lab
+[I 2025-12-11 15:45:35.126 LabApp] Extension Manager is 'pypi'.
+[I 2025-12-11 15:45:35.127 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-12-11 15:45:35.135 ServerApp] notebook | extension was successfully loaded.
+[I 2025-12-11 15:45:35.138 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-12-11 15:45:35.139 ServerApp] Serving notebooks from local directory: /home/amitner
+[I 2025-12-11 15:45:35.140 ServerApp] Jupyter Server 2.10.0 is running at:
+[I 2025-12-11 15:45:35.140 ServerApp] https://cs-6000-04.auth.ad.bgu.ac.il:9999/lab?token=ef995bfef793da23d103b4b9bcf955f891352e4aca8828ac
+[I 2025-12-11 15:45:35.140 ServerApp]     https://127.0.0.1:9999/lab?token=ef995bfef793da23d103b4b9bcf955f891352e4aca8828ac
+[I 2025-12-11 15:45:35.140 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-12-11 15:45:35.147 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/amitner/.local/share/jupyter/runtime/jpserver-70479-open.html
+    Or copy and paste one of these URLs:
+        https://cs-6000-04.auth.ad.bgu.ac.il:9999/lab?token=ef995bfef793da23d103b4b9bcf955f891352e4aca8828ac
+        https://127.0.0.1:9999/lab?token=ef995bfef793da23d103b4b9bcf955f891352e4aca8828ac
+[I 2025-12-11 15:45:35.456 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-12-11 16:02:34.640 ServerApp] SSL Error on 7 ('132.72.80.78', 64607): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:34.641 ServerApp] SSL Error on 8 ('132.72.80.78', 53620): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:36.840 ServerApp] SSL Error on 7 ('132.72.80.78', 52220): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:36.841 ServerApp] SSL Error on 8 ('132.72.80.78', 49856): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:36.975 ServerApp] SSL Error on 8 ('132.72.80.78', 65300): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:36.978 ServerApp] SSL Error on 9 ('132.72.80.78', 55992): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:36.978 ServerApp] SSL Error on 10 ('132.72.80.78', 59481): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:37.058 ServerApp] SSL Error on 12 ('132.72.80.78', 60182): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:37.058 ServerApp] SSL Error on 13 ('132.72.80.78', 61546): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2025-12-11 16:02:41.147 ServerApp] SSL Error on 11 ('132.72.80.78', 54519): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-11 16:02:42.672 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-12-11 16:02:44.042 ServerApp] Kernel started: f0152a6b-f98d-4483-b587-8c20056d45a9
+[W 2025-12-11 16:02:44.090 ServerApp] SSL Error on 25 ('132.72.80.78', 57457): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2025-12-11 16:02:47.175 ServerApp] Connecting to kernel f0152a6b-f98d-4483-b587-8c20056d45a9.
+[W 2025-12-11 16:02:47.195 ServerApp] SSL Error on 14 ('132.72.80.78', 57201): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
