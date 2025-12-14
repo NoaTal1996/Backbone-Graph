@@ -121,3 +121,110 @@ Sun 14 Dec 2025 10:44:54 IST
 [W 2025-12-14 11:35:10.673 ServerApp] SSL Error on 10 ('132.73.98.215', 61429): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
 [W 2025-12-14 11:36:10.908 ServerApp] SSL Error on 10 ('132.73.98.215', 59555): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
 [I 2025-12-14 11:37:45.674 ServerApp] Saving file at /Backbone-Graph/src/key_authors_graph.ipynb
+[I 2025-12-14 11:39:06.200 ServerApp] Kernel started: 7967838b-5454-4568-bd83-aba8607cdd45
+[W 2025-12-14 11:39:06.287 ServerApp] SSL Error on 17 ('132.73.98.215', 64156): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:39:06.961 ServerApp] Connecting to kernel 7967838b-5454-4568-bd83-aba8607cdd45.
+[I 2025-12-14 11:39:25.080 ServerApp] Starting buffering for c900239c-ac49-455e-97b0-8db56b324c4a:d654f5c8-c748-489b-a547-7a387b6797b6
+[W 2025-12-14 11:39:54.580 ServerApp] SSL Error on 13 ('132.73.98.215', 64020): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:39:54.633 ServerApp] Connecting to kernel c900239c-ac49-455e-97b0-8db56b324c4a.
+[I 2025-12-14 11:40:01.590 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 11:40:01.642 ServerApp] Starting buffering for 7967838b-5454-4568-bd83-aba8607cdd45:6200e8b0-c70e-4200-a200-e17e9de511c1
+[W 2025-12-14 11:40:01.727 ServerApp] SSL Error on 17 ('132.73.98.215', 61876): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 11:40:01.737 ServerApp] SSL Error on 47 ('132.73.98.215', 54445): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:40:04.793 ServerApp] Saving file at /Backbone-Graph/src/key_authors_graph.ipynb
+[I 2025-12-14 11:40:05.022 ServerApp] Starting buffering for c900239c-ac49-455e-97b0-8db56b324c4a:832581ca-187b-4213-a5ba-1534e30f3e96
+[W 2025-12-14 11:40:05.115 ServerApp] SSL Error on 13 ('132.73.98.215', 55266): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 11:40:06.808 ServerApp] SSL Error on 13 ('132.73.98.215', 63520): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:40:06.860 ServerApp] Connecting to kernel c900239c-ac49-455e-97b0-8db56b324c4a.
+[W 2025-12-14 11:40:06.944 ServerApp] SSL Error on 31 ('132.73.98.215', 63610): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:40:21.346 ServerApp] Saving file at /Backbone-Graph/src/key_authors_graph.ipynb
+[I 2025-12-14 11:40:22.174 ServerApp] Starting buffering for c900239c-ac49-455e-97b0-8db56b324c4a:e9c0e08e-cff5-4fa9-9578-e47843307938
+[W 2025-12-14 11:40:23.666 ServerApp] SSL Error on 13 ('132.73.98.215', 63331): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:40:23.716 ServerApp] Connecting to kernel 7967838b-5454-4568-bd83-aba8607cdd45.
+[W 2025-12-14 11:40:23.797 ServerApp] SSL Error on 42 ('132.73.98.215', 57669): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 11:41:29.344 ServerApp] SSL Error on 44 ('132.73.98.215', 52499): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:41:29.540 ServerApp] Connecting to kernel c900239c-ac49-455e-97b0-8db56b324c4a.
+[W 2025-12-14 11:42:21.609 ServerApp] SSL Error on 47 ('132.73.98.215', 60801): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:42:23.749 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 11:44:24.254 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 11:45:13.094 ServerApp] SSL Error on 7 ('132.73.98.215', 64814): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:46:24.679 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 11:46:24.771 ServerApp] SSL Error on 9 ('132.73.98.215', 58332): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:48:25.230 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 11:51:11.222 ServerApp] SSL Error on 7 ('132.73.98.215', 60569): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 11:51:11.222 ServerApp] SSL Error on 9 ('132.73.98.215', 64512): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:52:26.396 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 11:53:12.230 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 11:53:12.314 ServerApp] SSL Error on 12 ('132.73.98.215', 49822): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:53:19.167 ServerApp] Saving file at /Backbone-Graph/src/key_authors_graph.ipynb
+[W 2025-12-14 11:53:19.256 ServerApp] SSL Error on 12 ('132.73.98.215', 60461): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 11:53:20.888 ServerApp] SSL Error on 12 ('132.73.98.215', 52053): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 11:55:12.581 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 11:57:13.526 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 11:59:13.971 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:01:14.392 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:03:14.682 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:05:15.054 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:05:41.891 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:05:42.006 ServerApp] SSL Error on 12 ('132.73.98.215', 54828): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:06:27.175 ServerApp] SSL Error on 12 ('132.73.98.215', 59712): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:07:42.381 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:09:42.693 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:11:43.368 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:13:43.887 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:15:14.352 ServerApp] SSL Error on 7 ('132.73.98.215', 58335): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:15:14.383 ServerApp] SSL Error on 7 ('132.73.98.215', 50200): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:15:39.571 ServerApp] SSL Error on 12 ('132.73.98.215', 63829): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:15:44.011 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:15:44.540 ServerApp] SSL Error on 12 ('132.73.98.215', 51559): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:15:55.069 ServerApp] SSL Error on 12 ('132.73.98.215', 61097): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:16:05.507 ServerApp] SSL Error on 12 ('132.73.98.215', 61305): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:16:25.215 ServerApp] SSL Error on 12 ('132.73.98.215', 50104): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:16:36.069 ServerApp] SSL Error on 12 ('132.73.98.215', 61204): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:16:46.120 ServerApp] SSL Error on 12 ('132.73.98.215', 52512): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:16:56.148 ServerApp] SSL Error on 12 ('132.73.98.215', 60542): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:17:07.061 ServerApp] SSL Error on 12 ('132.73.98.215', 62587): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:17:28.118 ServerApp] SSL Error on 12 ('132.73.98.215', 59172): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:17:44.467 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[I 2025-12-14 12:19:44.991 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:21:21.075 ServerApp] SSL Error on 12 ('132.73.98.215', 64886): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:21:22.087 ServerApp] SSL Error on 12 ('132.73.98.215', 49669): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:21:46.626 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:22:04.311 ServerApp] SSL Error on 12 ('132.73.98.215', 52897): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:23:47.629 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:25:31.055 ServerApp] SSL Error on 12 ('132.73.98.215', 62692): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:25:48.577 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:29:15.835 ServerApp] SSL Error on 12 ('132.73.98.215', 60890): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:29:15.836 ServerApp] SSL Error on 47 ('132.73.98.215', 63678): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:29:25.856 ServerApp] SSL Error on 12 ('132.73.98.215', 52556): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:29:50.675 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:33:10.059 ServerApp] SSL Error on 12 ('132.73.98.215', 55818): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:33:20.093 ServerApp] SSL Error on 12 ('132.73.98.215', 61856): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:33:51.490 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:35:00.387 ServerApp] SSL Error on 12 ('132.73.98.215', 62588): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:35:11.052 ServerApp] SSL Error on 12 ('132.73.98.215', 53293): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:35:21.171 ServerApp] SSL Error on 12 ('132.73.98.215', 51145): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:35:22.967 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:35:23.071 ServerApp] SSL Error on 12 ('132.73.98.215', 64919): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:35:32.049 ServerApp] SSL Error on 12 ('132.73.98.215', 62909): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:37:41.063 ServerApp] SSL Error on 12 ('132.73.98.215', 52765): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:38:06.520 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:38:06.617 ServerApp] SSL Error on 12 ('132.73.98.215', 54128): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:39:21.431 ServerApp] SSL Error on 12 ('132.73.98.215', 62295): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:39:31.464 ServerApp] SSL Error on 12 ('132.73.98.215', 62394): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:39:41.494 ServerApp] SSL Error on 12 ('132.73.98.215', 64610): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[I 2025-12-14 12:40:06.731 ServerApp] Saving file at /Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
+[W 2025-12-14 12:40:11.598 ServerApp] SSL Error on 12 ('132.73.98.215', 55486): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:40:31.693 ServerApp] SSL Error on 12 ('132.73.98.215', 59457): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:41:01.830 ServerApp] SSL Error on 12 ('132.73.98.215', 64299): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:41:11.822 ServerApp] SSL Error on 12 ('132.73.98.215', 52011): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:41:22.082 ServerApp] SSL Error on 12 ('132.73.98.215', 60557): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:41:54.308 ServerApp] SSL Error on 12 ('132.73.98.215', 57481): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:42:04.341 ServerApp] SSL Error on 12 ('132.73.98.215', 63919): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:42:14.370 ServerApp] SSL Error on 12 ('132.73.98.215', 63842): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:42:44.473 ServerApp] SSL Error on 12 ('132.73.98.215', 53863): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:43:04.540 ServerApp] SSL Error on 12 ('132.73.98.215', 52369): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:44:36.107 ServerApp] SSL Error on 12 ('132.73.98.215', 56892): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:45:10.708 ServerApp] SSL Error on 7 ('132.73.98.215', 55243): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[W 2025-12-14 12:45:15.672 ServerApp] SSL Error on 9 ('132.73.98.215', 57898): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1006)
+[2025-12-14T12:45:24.060] error: *** JOB 9071159 ON cs-6000-02 CANCELLED AT 2025-12-14T12:45:24 DUE TO TIME LIMIT ***
