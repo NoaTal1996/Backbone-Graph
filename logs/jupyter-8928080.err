@@ -1,9 +1,0 @@
-Input Notebook:  /home/amitner/Backbone-Graph/src/Topic_Clustring_and_NER.ipynb
-Output Notebook: /dev/null
-Executing:   0%|          | 0/60 [00:00<?, ?cell/s]/home/amitner/.conda/envs/backbone_env/lib/python3.12/site-packages/papermill/iorw.py:149: UserWarning: the file is not specified with any extension : null
-  warnings.warn(f"the file is not specified with any extension : {os.path.basename(path)}")
-Executing notebook with kernel: backbone_env
-/home/amitner/.conda/envs/backbone_env/lib/python3.12/site-packages/papermill/iorw.py:149: UserWarning: the file is not specified with any extension : null
-  warnings.warn(f"the file is not specified with any extension : {os.path.basename(path)}")
-Executing:   2%|▏         | 1/60 [00:01<01:45,  1.78s/cell]Executing:   7%|▋         | 4/60 [00:27<06:40,  7.16s/cell]Executing:  15%|█▌        | 9/60 [00:27<02:06,  2.48s/cell]Executing:  23%|██▎       | 14/60 [00:27<00:59,  1.29s/cell]Executing:  32%|███▏      | 19/60 [00:27<00:31,  1.29cell/s]Executing:  42%|████▏     | 25/60 [00:27<00:16,  2.17cell/s]Executing:  45%|████▌     | 27/60 [00:39<00:15,  2.17cell/s]Executing:  47%|████▋     | 28/60 [00:49<01:04,  2.00s/cell]Executing:  52%|█████▏    | 31/60 [00:50<00:45,  1.56s/cell]Executing:  57%|█████▋    | 34/60 [00:50<00:30,  1.18s/cell]Executing:  67%|██████▋   | 40/60 [00:53<00:17,  1.11cell/s]Executing:  72%|███████▏  | 43/60 [01:01<00:22,  1.31s/cell]Executing:  75%|███████▌  | 45/60 [01:01<00:16,  1.12s/cell]Executing:  80%|████████  | 48/60 [01:03<00:11,  1.03cell/s]Executing:  82%|████████▏ | 49/60 [01:04<00:10,  1.09cell/s]Executing:  85%|████████▌ | 51/60 [01:06<00:08,  1.05cell/s]Executing:  87%|████████▋ | 52/60 [01:07<00:07,  1.08cell/s]Executing:  93%|█████████▎| 56/60 [01:07<00:02,  1.97cell/s]Executing:  97%|█████████▋| 58/60 [01:07<00:00,  2.30cell/s]Executing: 100%|██████████| 60/60 [01:10<00:00,  1.18s/cell]
-
