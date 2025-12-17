@@ -1,0 +1,6 @@
+Posts time range: 2017-07 → 2017-09
+
+df shape:                                (100, 19)
+df posts with hashtags # shape:          (79, 19)  (79.00%)
+df posts with account_mentions @ shape:  (67, 19)  (67.00%)
+df posts with urls shape:                (26, 19)  (26.00%)
