@@ -1,0 +1,9 @@
+### io_key_summary ###
+
+Number of all authors: 1170
+
+Number of IO authors: 14
+Number of key authors: 578
+
+Number of authors that are both IO and key: 12
+85.7% of IO authors are also key authors
