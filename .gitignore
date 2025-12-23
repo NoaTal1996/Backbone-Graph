@@ -1,0 +1,23 @@
+
+# Data and generated artifacts
+/data/
+/results/
+/logs/
+
+# NFS temporary files
+.nfs*
+
+# BERTopic outputs
+BERTopic_model/
+**/BERTopic_model/
+
+# Jupyter
+.ipynb_checkpoints/
+~/.jupyter/
+~/.jupyter/workspaces/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
