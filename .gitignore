@@ -1,8 +1,10 @@
 
 # Data and generated artifacts
-/data/
 /results/
 /logs/
+
+# Large files
+data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
 
 # NFS temporary files
 .nfs*
