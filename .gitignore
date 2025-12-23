@@ -17,6 +17,8 @@ BERTopic_model/
 .ipynb_checkpoints/
 ~/.jupyter/
 ~/.jupyter/workspaces/
+*.out
+*.err
 
 # Python
 __pycache__/
