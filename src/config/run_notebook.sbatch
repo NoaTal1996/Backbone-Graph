@@ -6,7 +6,7 @@
 ################################################################################################
 
 #SBATCH --partition main			### specify partition name where to run a job. change only if you have a matching qos!! main: all nodes; gtx1080: 1080 gpu card nodes; rtx2080: 2080 nodes; teslap100: p100 nodes; titanrtx: titan nodes
-#SBATCH --time 0-05:00:00			### limit the time of job running. Make sure it is not greater than the partition time limit!! Format: D-H:MM:SS
+#SBATCH --time 0-24:00:00			### limit the time of job running. Make sure it is not greater than the partition time limit!! Format: D-H:MM:SS
 #SBATCH --job-name Topic_Clustring_and_NER			### name of the job
 #SBATCH --output=logs/jupyter-%j.out
 #SBATCH --error=logs/jupyter-%j.err	  ### output log for running job - %J for job number
@@ -36,6 +36,7 @@ echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID
 echo -e "SLURM_JOB_NODELIST:\t" $SLURM_JOB_NODELIST "\n\n"
 
 ### Start your code below ####
-module load anaconda				                                                                    ### load anaconda module (must be present when working with conda environments)
+module load anaconda				### load anaconda module
+source activate backbone_env			                                                                    
 cd /home/amitner/Backbone-Graph/src
 conda run -n backbone_env papermill "/home/amitner/Backbone-Graph/src/Topic_Clustring_and_NER.ipynb" /dev/null -p file_name "$DATASET_FILE_NAME"
