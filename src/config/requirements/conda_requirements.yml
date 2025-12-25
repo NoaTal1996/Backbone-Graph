@@ -15,6 +15,7 @@ dependencies:
   - sentencepiece
   - accelerate
   - ipywidgets
+  - langdetect
   - pip
   - pip:
       - bertopic
