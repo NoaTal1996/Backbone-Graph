@@ -37,8 +37,6 @@ echo -e "SLURM_JOB_NODELIST:\t" $SLURM_JOB_NODELIST "\n\n"
 
 ### Start your code below ####
 module load anaconda				### load anaconda module
-source activate backbone_env			                                                                    
-conda run -n backbone_env papermill \
-  Topic_Clustring_and_NER.ipynb \
-  ../logs/${DATASET_FILE_NAME}.Topic_Clustring_and_NER.ipynb \
-  -p file_name "$DATASET_FILE_NAME"
+source activate backbone_env
+cd /home/amitner/Backbone-Graph/src
+conda run -n backbone_env papermill "Topic_Clustring_and_NER.ipynb" "../logs/${DATASET_FILE_NAME}_Topic_Clustring_and_NER-${SLURM_JOB_ID}.ipynb" -p file_name "$DATASET_FILE_NAME"
