@@ -37,7 +37,7 @@ Backbone-Graph/
 
 ## Quick Start
 
-1. **Environment**: `conda env create -f src/config/requirements/conda_requirements.yml`
+1. **Environment**: `conda env create -f config/requirements/conda_requirements.yml`
 2. **Process Data**: Run `src/Topic_Clustring_and_NER.ipynb` with your dataset parameters
 3. **Graph Building**: Run `src/key_authors_graph.ipynb`
 
