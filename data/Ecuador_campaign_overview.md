@@ -15,9 +15,6 @@ Source: https://en.wikipedia.org/wiki/2010_Ecuador_crisis
 ---
 
 ### 2011
-**February 2011 – Chevron Environmental Ruling**  
-An Ecuadorian court ordered the U.S. oil company [Chevron](https://en.wikipedia.org/wiki/Chevron_Corporation) to pay billions of dollars in damages for environmental contamination in the Amazon, a landmark ruling later contested through international arbitration.  
-Source: https://en.wikipedia.org/wiki/Chevron_Corporation#Environmental_issues
 
 **April 2011 – Diplomatic Crisis with the United States**  
 Ecuador expelled the U.S. ambassador following leaked diplomatic cables alleging police corruption, triggering a major diplomatic rift.  
@@ -37,7 +34,7 @@ Source: https://www.culturalsurvival.org/news/marching-water-life-and-dignity-in
 
 ---
 
-### 2013–2014
+### 2013
 **February 2013 – Correa Reelected**  
 Rafael Correa won re-election, consolidating the “Citizens’ Revolution” and extending his presidency until 2017.  
 Source: https://en.wikipedia.org/wiki/2013_Ecuadorian_general_election
@@ -48,7 +45,7 @@ Source: https://en.wikipedia.org/wiki/Confederation_of_Indigenous_Nationalities_
 
 ---
 
-### 2015–2016
+### 2015
 **June 2015 – Mass Protests**  
 Large-scale demonstrations erupted in response to proposed inheritance and capital-gains taxes and concerns over increasing concentration of presidential power.  
 Source: https://en.wikipedia.org/wiki/Politics_of_Ecuador
@@ -89,4 +86,9 @@ Source: https://www.imf.org/en/news/articles/2019/03/11/ecuador-pr1972-imf-execu
 **April 2019 – Assange Asylum Revoked**  
 The Ecuadorian government revoked Julian Assange’s asylum in its London embassy, leading to his immediate arrest by British police.
 Source: https://en.wikipedia.org/wiki/Julian_Assange#Arrest
+
+**October 2019 – Mass Protests Over Fuel Subsidy Cuts**
+The government enacted decree 883 ending four decades of fuel subsidies, triggering a sudden doubling of gasoline and diesel prices – as part of the IMF austerity plan.
+Source: https://en.wikipedia.org/wiki/2019_Ecuadorian_protests
+
 
