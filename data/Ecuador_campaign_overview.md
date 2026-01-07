@@ -39,7 +39,10 @@ Source: https://www.culturalsurvival.org/news/marching-water-life-and-dignity-in
 Rafael Correa won re-election, consolidating the “Citizens’ Revolution” and extending his presidency until 2017.  
 Source: https://en.wikipedia.org/wiki/2013_Ecuadorian_general_election
 
-**November 2013 – Rising Authoritarianism**  
+**November 2013 – Rising Authoritarianism**  <br>
+
+
+
 Tensions escalated with indigenous organizations such as CONAIE and civil society groups over mining, oil extraction, limits on protest, and pressure on independent media.  
 Source: https://en.wikipedia.org/wiki/Confederation_of_Indigenous_Nationalities_of_Ecuador
 
@@ -87,8 +90,8 @@ Source: https://www.imf.org/en/news/articles/2019/03/11/ecuador-pr1972-imf-execu
 The Ecuadorian government revoked Julian Assange’s asylum in its London embassy, leading to his immediate arrest by British police.
 Source: https://en.wikipedia.org/wiki/Julian_Assange#Arrest
 
-**October 2019 – Mass Protests Over Fuel Subsidy Cuts**
-The government enacted decree 883 ending four decades of fuel subsidies, triggering a sudden doubling of gasoline and diesel prices – as part of the IMF austerity plan.
+**October 2019 – Mass Protests Over Fuel Subsidy Cuts**  
+The government enacted decree 883 ending four decades of fuel subsidies, triggering a sudden doubling of gasoline and diesel prices.  
 Source: https://en.wikipedia.org/wiki/2019_Ecuadorian_protests
 
 
