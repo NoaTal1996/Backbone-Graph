@@ -6,6 +6,7 @@ sjupyter --gpu rtx_6000:1
 ### Non-Interactive Job ###
 cd /home/amitner/Backbone-Graph
 sbatch "/home/amitner/Backbone-Graph/config/run_notebook.sbatch" Ecuador_part_3.gzip.parquet
+sbatch /home/amitner/Backbone-Graph/config/run_big_data_clustering.sbatch
 
 ### Interactive Job ###
 sinteractive --gpu rtx_6000:1
