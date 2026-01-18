@@ -6,7 +6,7 @@
 ################################################################################################
 
 #SBATCH --partition main			### specify partition name where to run a job. change only if you have a matching qos!! main: all nodes; gtx1080: 1080 gpu card nodes; rtx2080: 2080 nodes; teslap100: p100 nodes; titanrtx: titan nodes
-#SBATCH --time 1-00:00:00			### limit the time of job running. Make sure it is not greater than the partition time limit!! Format: D-H:MM:SS
+#SBATCH --time 3-00:00:00			### limit the time of job running. Make sure it is not greater than the partition time limit!! Format: D-H:MM:SS
 #SBATCH --job-name run_big_data_clustering			### name of the job
 #SBATCH --output=logs/jupyter-%j.out
 #SBATCH --error=logs/jupyter-%j.err	  ### output log for running job - %J for job number
