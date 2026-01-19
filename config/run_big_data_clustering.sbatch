@@ -19,15 +19,18 @@
 
 ################  Following lines will be executed by a compute node    #######################
 
-
+### Read argument from command line
+MIN_TOPIC_SIZE="$1"
 
 ### Print some data to output file ###
 echo `date`
 echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID
 echo -e "SLURM_JOB_NODELIST:\t" $SLURM_JOB_NODELIST "\n\n"
 
+echo -e "\nMIN_TOPIC_SIZE:\t" $MIN_TOPIC_SIZE
+
 ### Start your code below ####
 module load anaconda				### load anaconda module
 source activate backbone_env
 cd /home/amitner/Backbone-Graph/src
-conda run -n backbone_env papermill "big_data_topic_clustering.ipynb" "../logs/big_data_topic_clustering-${SLURM_JOBID}.ipynb"
+conda run -n backbone_env papermill "big_data_topic_clustering.ipynb" "../logs/big_data_topic_clustering-${SLURM_JOBID}.ipynb" -p min_topic_size "${MIN_TOPIC_SIZE}"
