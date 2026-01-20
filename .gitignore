@@ -4,14 +4,9 @@ BERTopic_model
 **/BERTopic_model
 BERTopic_model/
 results/
-results\
-results
 logs/
-logs
-logs\
-data/US-24_Fix.zip
-data/US-24_Fix.db
-data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
+data/Labeled_Datasets/
+data/US_24/
 
 
 
