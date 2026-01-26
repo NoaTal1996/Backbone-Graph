@@ -8,8 +8,8 @@
 #SBATCH --partition main			                    ### partition name where to run a job. change only if you have a matching qos!! main: all nodes; gtx1080: 1080 gpu card nodes; rtx2080: 2080 nodes; teslap100: p100 nodes; titanrtx: titan nodes
 #SBATCH --time 3-00:00:00			                    ### Time Limit Format: D-H:MM:SS
 #SBATCH --job-name translate_and_clustering		        ### name of the job
-#SBATCH --output=$HOME/Backbone-Graph/logs/%x_%j.out    ### %x – Job name, %j – Job ID
-#SBATCH --error=$HOME/Backbone-Graph/logs/%x_%j.err
+#SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
+#SBATCH --error=..logs/%x_%j.err
 #SBATCH --gpus=rtx_4090:1		                        ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
 
 ### Note: Lines are with ## are commented out
@@ -21,14 +21,13 @@
 
 
 
+
+################################### run frm the IN_NOTEBOOK folder ###################################
+
+
+
 ### Read argument from command line
 DATASET_FILE_NAME="$1"
-
-
-PROJECT_DIR="$HOME/Backbone-Graph"
-LOGS_DIR="$PROJECT_DIR/logs"
-
-
 
 
 if [ -z "$DATASET_FILE_NAME" ]; then
@@ -42,14 +41,13 @@ echo "$(date)"
 echo -e "\nSLURM_JOB_ID:\t\t$SLURM_JOB_ID"
 echo -e "SLURM_JOB_NODELIST:\t$SLURM_JOB_NODELIST"
 echo -e "Job name:\t\t$SLURM_JOB_NAME"
-echo -e "LOGS_DIR:\t\t$LOGS_DIR\n"
 
 ### Start your code below ####
 module load anaconda				### load anaconda module
 source activate backbone_env
 
 # papermill
-IN_NOTEBOOK="${PROJECT_DIR}/src/${SLURM_JOB_NAME}.ipynb"
-OUT_NOTEBOOK="${LOGS_DIR}/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
+IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
+OUT_NOTEBOOK="..logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
 
 conda run -n backbone_env papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p file_name "$DATASET_FILE_NAME"
