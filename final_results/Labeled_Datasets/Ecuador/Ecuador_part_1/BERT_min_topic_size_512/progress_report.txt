@@ -1,0 +1,191 @@
+2026-01-26 16:08:57 | Undefined post language percentage **before** mapping: 2.98%
+2026-01-26 16:08:58 | Language detection failed: No features in text. | lang_code=und | text=1
+2026-01-26 16:08:58 | Language detection failed: No features in text. | lang_code=und | text=:$
+2026-01-26 16:09:00 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:00 | Language detection failed: No features in text. | lang_code=und | text=♥
+2026-01-26 16:09:00 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=und | text=:( :@
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=und | text=:$
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=None | text==/
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=und | text=☺
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-26 16:09:01 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:02 | Language detection failed: No features in text. | lang_code=und | text=:/
+2026-01-26 16:09:02 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-26 16:09:03 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-26 16:09:04 | Language detection failed: No features in text. | lang_code=None | text=(:
+2026-01-26 16:09:04 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:04 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-26 16:09:04 | Language detection failed: No features in text. | lang_code=und | text=☹
+2026-01-26 16:09:04 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:05 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:05 | Language detection failed: No features in text. | lang_code=None | text==)
+2026-01-26 16:09:06 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:06 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:07 | Language detection failed: No features in text. | lang_code=None | text=/:
+2026-01-26 16:09:07 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:08 | Language detection failed: No features in text. | lang_code=None | text=8-)
+2026-01-26 16:09:08 | Language detection failed: No features in text. | lang_code=None | text=.....
+2026-01-26 16:09:08 | Language detection failed: No features in text. | lang_code=None | text=-.-
+2026-01-26 16:09:09 | Language detection failed: No features in text. | lang_code=und | text=:'( :'( :'( :'( :'( :'( :'(: :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'(' :'(
+2026-01-26 16:09:09 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:09 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:09 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:09 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-26 16:09:09 | Language detection failed: No features in text. | lang_code=None | text=....
+2026-01-26 16:09:10 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-26 16:09:10 | Language detection failed: No features in text. | lang_code=None | text=12-03-11♥
+2026-01-26 16:09:10 | Language detection failed: No features in text. | lang_code=None | text=12♡
+2026-01-26 16:09:11 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:11 | Language detection failed: No features in text. | lang_code=None | text=-.-
+2026-01-26 16:09:12 | Language detection failed: No features in text. | lang_code=None | text=(:
+2026-01-26 16:09:12 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:13 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-26 16:09:13 | Language detection failed: No features in text. | lang_code=und | text=...
+2026-01-26 16:09:15 | Language detection failed: No features in text. | lang_code=None | text=:((((
+2026-01-26 16:09:18 | Language detection failed: No features in text. | lang_code=und | text=:) :) :) :) :) :)
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=und | text=14:41
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=und | text=15:15 *-*
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=und | text=1919
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=und | text=*-*
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=und | text=:))))))))))))
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=und | text=20:20 *-*
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:19 | Language detection failed: No features in text. | lang_code=None | text=:'(
+2026-01-26 16:09:21 | Language detection failed: No features in text. | lang_code=und | text==[
+2026-01-26 16:09:21 | Language detection failed: No features in text. | lang_code=None | text=╔══════════════════╗ ║.(¯`♥´¯)´´¯`•°*”˜˜”*°•. ƹӝʒ ║.`*.¸.*.•°*”˜˜”*°•.ƹӝʒ ║.•°*”˜˜”*°•.ƹӝʒ ✶*¸ .✫♥ ║
+2026-01-26 16:09:22 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:23 | Language detection failed: No features in text. | lang_code=und | text=:$ ....
+2026-01-26 16:09:23 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:24 | Language detection failed: No features in text. | lang_code=None | text=11:11
+2026-01-26 16:09:24 | Language detection failed: No features in text. | lang_code=und | text=937729372600
+2026-01-26 16:09:24 | Undefined post language percentage **before** mapping: 2.98%
+2026-01-26 16:09:24 | Language detection failed: No features in text. | lang_code=und | text=☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁
+2026-01-26 16:09:24 | Language detection failed: No features in text. | lang_code=und | text=656
+2026-01-26 16:09:25 | Language detection failed: No features in text. | lang_code=und | text=1
+2026-01-26 16:09:25 | Language detection failed: No features in text. | lang_code=und | text=:$
+2026-01-26 16:09:27 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:27 | Language detection failed: No features in text. | lang_code=und | text=♥
+2026-01-26 16:09:27 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:27 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=und | text=:( :@
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=und | text=:$
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text==/
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text=11:11 .
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=und | text=☺
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-26 16:09:28 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:29 | Language detection failed: No features in text. | lang_code=und | text=:/
+2026-01-26 16:09:29 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-26 16:09:30 | Language detection failed: No features in text. | lang_code=None | text=11:11
+2026-01-26 16:09:30 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-26 16:09:30 | Language detection failed: No features in text. | lang_code=None | text=(:
+2026-01-26 16:09:31 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:31 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-26 16:09:31 | Language detection failed: No features in text. | lang_code=und | text=☹
+2026-01-26 16:09:31 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:32 | Language detection failed: No features in text. | lang_code=None | text=┈┈╭━┫╭╮╭━╮╭━╮┈┈┈ ┈┈╰━┫┃┫┣━┛┣━┛┈┈┈ ┈┈╰━╯┃┫╰━╯╰━╯┈┈┈ ┈┈╭┳┳┫┫┈┈┈┈┈┈┈┈┈ ┈┈┃┃┃┃╰━━╮┈┈┈┈┈┈ ┈┈┣╯╯╯╭━┻┛┈glee
+2026-01-26 16:09:32 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:32 | Language detection failed: No features in text. | lang_code=None | text==)
+2026-01-26 16:09:33 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:33 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:33 | Language detection failed: No features in text. | lang_code=und | text='-'
+2026-01-26 16:09:33 | Language detection failed: No features in text. | lang_code=und | text=20:02
+2026-01-26 16:09:33 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:34 | Language detection failed: No features in text. | lang_code=None | text=/:
+2026-01-26 16:09:34 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:35 | Language detection failed: No features in text. | lang_code=None | text=8-)
+2026-01-26 16:09:35 | Language detection failed: No features in text. | lang_code=None | text=.....
+2026-01-26 16:09:35 | Language detection failed: No features in text. | lang_code=None | text=-.-
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=und | text==)
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=und | text=:'( :'( :'( :'( :'( :'( :'(: :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'(' :'(
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:36 | Language detection failed: No features in text. | lang_code=None | text=....
+2026-01-26 16:09:37 | Language detection failed: No features in text. | lang_code=None | text=04♥
+2026-01-26 16:09:37 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-26 16:09:37 | Language detection failed: No features in text. | lang_code=und | text==(
+2026-01-26 16:09:37 | Language detection failed: No features in text. | lang_code=None | text=12-03-11♥
+2026-01-26 16:09:37 | Language detection failed: No features in text. | lang_code=None | text=12♡
+2026-01-26 16:09:38 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:38 | Language detection failed: No features in text. | lang_code=None | text=-.-
+2026-01-26 16:09:38 | Language detection failed: No features in text. | lang_code=und | text=¬¬ ┈┈┈.╭╋╋╋╋╋╮┈┈┈┈┈ ╭╭╮╭╭┫╭╲┈╱╮┣╮╭╭╮╮ ╭╭╲╲┃┫╰╯▂╰╯┣┃╱╱╮╮ ╰╰╱╱╰┫┳┳┳┳╮┣╯╲╲╯╯ ╰╭━━╮┃┻┻┻┻┻┃╭━━╮╯ ┈┗┻┻┛╰━┓
+2026-01-26 16:09:38 | Language detection failed: No features in text. | lang_code=None | text=:-)
+2026-01-26 16:09:39 | Language detection failed: No features in text. | lang_code=None | text=(:
+2026-01-26 16:09:39 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:40 | Language detection failed: No features in text. | lang_code=None | text=:-)
+2026-01-26 16:09:40 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-26 16:09:40 | Language detection failed: No features in text. | lang_code=und | text=...
+2026-01-26 16:09:41 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-26 16:09:42 | Language detection failed: No features in text. | lang_code=None | text=:((((
+2026-01-26 16:09:42 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-26 16:09:44 | Language detection failed: No features in text. | lang_code=und | text=♥.♥
+2026-01-26 16:09:45 | Language detection failed: No features in text. | lang_code=und | text=:) :) :) :) :) :)
+2026-01-26 16:09:45 | Language detection failed: No features in text. | lang_code=und | text=:@
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=und | text=14:41
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=und | text=15:15 *-*
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=und | text=1919
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=und | text=*-*
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=und | text=:))))))))))))
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=und | text=20:20 *-*
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:46 | Language detection failed: No features in text. | lang_code=None | text=:'(
+2026-01-26 16:09:47 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:48 | Language detection failed: No features in text. | lang_code=und | text==[
+2026-01-26 16:09:48 | Language detection failed: No features in text. | lang_code=und | text=20:02
+2026-01-26 16:09:48 | Language detection failed: No features in text. | lang_code=None | text=╔══════════════════╗ ║.(¯`♥´¯)´´¯`•°*”˜˜”*°•. ƹӝʒ ║.`*.¸.*.•°*”˜˜”*°•.ƹӝʒ ║.•°*”˜˜”*°•.ƹӝʒ ✶*¸ .✫♥ ║
+2026-01-26 16:09:49 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:50 | Language detection failed: No features in text. | lang_code=und | text=:$ ....
+2026-01-26 16:09:50 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:09:51 | Language detection failed: No features in text. | lang_code=None | text=♥
+2026-01-26 16:09:51 | Language detection failed: No features in text. | lang_code=None | text=11:11
+2026-01-26 16:09:51 | Language detection failed: No features in text. | lang_code=und | text=937729372600
+2026-01-26 16:09:51 | Language detection failed: No features in text. | lang_code=None | text=
+2026-01-26 16:09:51 | Language detection failed: No features in text. | lang_code=und | text=☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁
+2026-01-26 16:09:51 | Language detection failed: No features in text. | lang_code=und | text=656
+2026-01-26 16:09:52 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-26 16:09:52 | Language detection failed: No features in text. | lang_code=und | text=:'''''''''''''''''(
+2026-01-26 16:09:55 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:55 | Language detection failed: No features in text. | lang_code=None | text=11:11 .
+2026-01-26 16:09:55 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-26 16:09:55 | Language detection failed: No features in text. | lang_code=und | text=1/5
+2026-01-26 16:09:55 | Language detection failed: No features in text. | lang_code=eu | text=lo que le mundo necesita es ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ 
+2026-01-26 16:09:55 | Language detection failed: No features in text. | lang_code=und | text=...
+2026-01-26 16:09:56 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:09:56 | Language detection failed: No features in text. | lang_code=und | text=11,600
+2026-01-26 16:09:57 | Language detection failed: No features in text. | lang_code=None | text=11:11
+2026-01-26 16:09:57 | Language detection failed: No features in text. | lang_code=und | text=-___________________-
+2026-01-26 16:09:57 | Language detection failed: No features in text. | lang_code=und | text=& 420
+2026-01-26 16:09:58 | Language detection failed: No features in text. | lang_code=None | text=♥
+2026-01-26 16:09:59 | Language detection failed: No features in text. | lang_code=None | text=┈┈╭━┫╭╮╭━╮╭━╮┈┈┈ ┈┈╰━┫┃┫┣━┛┣━┛┈┈┈ ┈┈╰━╯┃┫╰━╯╰━╯┈┈┈ ┈┈╭┳┳┫┫┈┈┈┈┈┈┈┈┈ ┈┈┃┃┃┃╰━━╮┈┈┈┈┈┈ ┈┈┣╯╯╯╭━┻┛┈glee
+2026-01-26 16:09:59 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-26 16:09:59 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-26 16:10:00 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:10:01 | Language detection failed: No features in text. | lang_code=und | text='-'
+2026-01-26 16:10:01 | Language detection failed: No features in text. | lang_code=und | text=20:02
+2026-01-26 16:10:01 | Language detection failed: No features in text. | lang_code=None | text=13.
+2026-01-26 16:10:03 | Language detection failed: No features in text. | lang_code=und | text==)
+2026-01-26 16:10:03 | Language detection failed: No features in text. | lang_code=und | text=:/
+2026-01-26 16:10:03 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-26 16:10:04 | Language detection failed: No features in text. | lang_code=None | text=04♥
+2026-01-26 16:10:04 | Language detection failed: No features in text. | lang_code=und | text=12:34
+2026-01-26 16:10:04 | Language detection failed: No features in text. | lang_code=und | text=12:34
+2026-01-26 16:10:04 | Language detection failed: No features in text. | lang_code=und | text=-____-
+2026-01-26 16:10:04 | Language detection failed: No features in text. | lang_code=und | text==(
+2026-01-26 16:10:05 | Language detection failed: No features in text. | lang_code=und | text=¬¬ ┈┈┈.╭╋╋╋╋╋╮┈┈┈┈┈ ╭╭╮╭╭┫╭╲┈╱╮┣╮╭╭╮╮ ╭╭╲╲┃┫╰╯▂╰╯┣┃╱╱╮╮ ╰╰╱╱╰┫┳┳┳┳╮┣╯╲╲╯╯ ╰╭━━╮┃┻┻┻┻┻┃╭━━╮╯ ┈┗┻┻┛╰━┓
+2026-01-26 16:10:06 | Language detection failed: No features in text. | lang_code=None | text=:-)
+2026-01-26 16:10:06 | Language detection failed: No features in text. | lang_code=und | text=:'(
+2026-01-26 16:10:07 | Language detection failed: No features in text. | lang_code=None | text=:-)
+2026-01-26 16:10:07 | Language detection failed: No features in text. | lang_code=und | text=
+2026-01-26 16:10:07 | Language detection failed: No features in text. | lang_code=None | text=:(
