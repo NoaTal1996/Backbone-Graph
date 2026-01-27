@@ -10,7 +10,7 @@
 #SBATCH --job-name translate_and_clustering		        ### name of the job
 #SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
 #SBATCH --error=../logs/%x_%j.err
-#SBATCH --gpus=rtx_4090:1		                        ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
+##SBATCH --gpus=rtx_4090:1		                        ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
 
 ### Note: Lines are with ## are commented out
 #SBATCH --mail-user=amitner@post.bgu.ac.il	            ### user's email for sending job status messages
