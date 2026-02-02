@@ -3837,3 +3837,1016 @@ ng_code=und | text=ʅ(◔.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨
 2026-01-27 10:08:51 | Language detection failed: No features in text. | lang_code=und | text=:)
 2026-01-27 10:08:51 | Language detection failed: No features in text. | lang_code=None | text=:(
 2026-01-27 10:08:53 | Language detection failed: No features in text. | lang_code=None | text=13.
+2026-01-27 10:08:55 | Language detection failed: No features in text. | lang_code=und | text=:/
+2026-01-27 10:08:56 | Language detection failed: No features in text. | lang_code=und | text=12:34
+2026-01-27 10:08:56 | Language detection failed: No features in text. | lang_code=und | text=12:34
+2026-01-27 10:08:56 | Language detection failed: No features in text. | lang_code=und | text=-____-
+2026-01-27 10:08:58 | Language detection failed: No features in text. | lang_code=und | text=:'(
+2026-01-27 10:08:59 | Language detection failed: No features in text. | lang_code=und | text=
+2026-01-27 10:08:59 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:09:01 | Language detection failed: No features in text. | lang_code=None | text=✡
+2026-01-27 10:09:01 | Language detection failed: No features in text. | lang_code=und | text=610
+2026-01-27 10:09:04 | Language detection failed: No features in text. | lang_code=und | text=ʅ(◔.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨̨̨̨.̸̸̨̨◔)ʃ
+2026-01-27 10:09:04 | Language detection failed: No features in text. | lang_code=und | text=ˆ.ˆ
+2026-01-27 10:09:04 | Language detection failed: No features in text. | lang_code=und | text=ʅ(´◉◞.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨̨̨̨.̸̸̨̨◟◉) ʃ
+2026-01-27 10:09:05 | Language detection failed: No features in text. | lang_code=und | text=:|
+2026-01-27 10:09:05 | Language detection failed: No features in text. | lang_code=None | text=-____-
+2026-01-27 10:09:05 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:09:06 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:09:08 | Language detection failed: No features in text. | lang_code=und | text=♋
+2026-01-27 10:09:08 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸
+2026-01-27 10:09:09 | Language detection failed: No features in text. | lang_code=None | text=ƹӝʒ
+2026-01-27 10:09:09 | Language detection failed: No features in text. | lang_code=und | text=:(:
+2026-01-27 10:09:09 | Undefined post language percentage **after** mapping: 0.24%
+2026-01-27 10:09:09 | Removing 122 posts with undefined language code und
+2026-01-27 10:09:10 | Using device: cuda
+2026-01-27 10:09:14 | Loaded facebook/nllb-200-distilled-600M model and tokenizer on cuda
+2026-01-27 10:09:14 | Translation pipeline created.
+2026-01-27 10:09:14 | 51 posts: afr_Latn → eng_Latn
+2026-01-27 10:09:16 | 52 posts: als_Latn → eng_Latn
+2026-01-27 10:09:21 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:09:21 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:09:31 | 543 posts: cat_Latn → eng_Latn
+2026-01-27 10:09:35 | 44 posts: als_Latn → eng_Latn
+2026-01-27 10:10:37 | 51 posts: als_Latn → eng_Latn
+2026-01-27 10:10:50 | 50 posts: als_Latn → eng_Latn
+2026-01-27 10:11:04 | 53 posts: als_Latn → eng_Latn
+2026-01-27 10:11:12 | 43 posts: als_Latn → eng_Latn
+2026-01-27 10:11:17 | 49 posts: als_Latn → eng_Latn
+2026-01-27 10:11:20 | 49 posts: als_Latn → eng_Latn
+2026-01-27 10:11:27 | 48 posts: als_Latn → eng_Latn
+2026-01-27 10:11:27 | 48 posts: als_Latn → eng_Latn
+2026-01-27 10:11:28 | 43 posts: als_Latn → eng_Latn
+2026-01-27 10:11:29 | 49 posts: als_Latn → eng_Latn
+2026-01-27 10:11:30 | 46 posts: als_Latn → eng_Latn
+2026-01-27 10:11:30 | 49 posts: als_Latn → eng_Latn
+2026-01-27 10:11:31 | 45 posts: als_Latn → eng_Latn
+2026-01-27 10:11:38 | 42 posts: als_Latn → eng_Latn
+2026-01-27 10:11:40 | 52 posts: als_Latn → eng_Latn
+2026-01-27 10:12:43 | 53 posts: als_Latn → eng_Latn
+2026-01-27 10:13:33 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:13:52 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:13:57 | 45 posts: als_Latn → eng_Latn
+2026-01-27 10:14:07 | Undefined post language percentage **before** mapping: 2.98%
+2026-01-27 10:14:08 | Language detection failed: No features in text. | lang_code=und | text=1
+2026-01-27 10:14:08 | Language detection failed: No features in text. | lang_code=und | text=:$
+2026-01-27 10:14:10 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:10 | Language detection failed: No features in text. | lang_code=und | text=♥
+2026-01-27 10:14:10 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:10 | 45 posts: als_Latn → eng_Latn
+2026-01-27 10:14:10 | Language detection failed: No features in text. | lang_code=und | text=:( :@
+2026-01-27 10:14:10 | Language detection failed: No features in text. | lang_code=und | text=:$
+2026-01-27 10:14:10 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=None | text==/
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=und | text=☺
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-27 10:14:11 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:12 | Language detection failed: No features in text. | lang_code=und | text=:/
+2026-01-27 10:14:12 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-27 10:14:13 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-27 10:14:13 | Language detection failed: No features in text. | lang_code=None | text=(:
+2026-01-27 10:14:13 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:14 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-27 10:14:14 | Language detection failed: No features in text. | lang_code=und | text=☹
+2026-01-27 10:14:14 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:15 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:15 | Language detection failed: No features in text. | lang_code=None | text==)
+2026-01-27 10:14:15 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:16 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:16 | Language detection failed: No features in text. | lang_code=None | text=/:
+2026-01-27 10:14:17 | 49 posts: als_Latn → eng_Latn
+2026-01-27 10:14:17 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:18 | Language detection failed: No features in text. | lang_code=None | text=8-)
+2026-01-27 10:14:18 | Language detection failed: No features in text. | lang_code=None | text=.....
+2026-01-27 10:14:18 | Language detection failed: No features in text. | lang_code=None | text=-.-
+2026-01-27 10:14:19 | Language detection failed: No features in text. | lang_code=und | text=:'( :'( :'( :'( :'( :'( :'(: :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'(' :'(
+2026-01-27 10:14:19 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:19 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:19 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:19 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-27 10:14:19 | Language detection failed: No features in text. | lang_code=None | text=....
+2026-01-27 10:14:20 | Language detection failed: No features in text. | lang_code=None | text=:/
+2026-01-27 10:14:20 | Language detection failed: No features in text. | lang_code=None | text=12-03-11♥
+2026-01-27 10:14:20 | Language detection failed: No features in text. | lang_code=None | text=12♡
+2026-01-27 10:14:21 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:21 | Language detection failed: No features in text. | lang_code=None | text=-.-
+2026-01-27 10:14:22 | Language detection failed: No features in text. | lang_code=None | text=(:
+2026-01-27 10:14:22 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:22 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:14:23 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-27 10:14:23 | Language detection failed: No features in text. | lang_code=und | text=...
+2026-01-27 10:14:25 | Language detection failed: No features in text. | lang_code=None | text=:((((
+2026-01-27 10:14:28 | Language detection failed: No features in text. | lang_code=und | text=:) :) :) :) :) :)
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=und | text=14:41
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=und | text=15:15 *-*
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=und | text=1919
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=und | text=*-*
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=und | text=:))))))))))))
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=und | text=20:20 *-*
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:29 | Language detection failed: No features in text. | lang_code=None | text=:'(
+2026-01-27 10:14:31 | Language detection failed: No features in text. | lang_code=und | text==[
+2026-01-27 10:14:31 | Language detection failed: No features in text. | lang_code=None | text=╔══════════════════╗ ║.(¯`♥´¯)´´¯`•°*”˜˜”*°•. ƹӝʒ ║.`*.¸.*.•°*”˜˜”*°•.ƹӝʒ ║.•°*”˜˜”*°•.ƹӝʒ ✶*¸ .✫♥ ║
+2026-01-27 10:14:32 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:33 | Language detection failed: No features in text. | lang_code=und | text=:$ ....
+2026-01-27 10:14:33 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:34 | Language detection failed: No features in text. | lang_code=None | text=11:11
+2026-01-27 10:14:34 | Language detection failed: No features in text. | lang_code=und | text=937729372600
+2026-01-27 10:14:34 | Language detection failed: No features in text. | lang_code=und | text=☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁☁
+2026-01-27 10:14:34 | Language detection failed: No features in text. | lang_code=und | text=656
+2026-01-27 10:14:37 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:38 | Language detection failed: No features in text. | lang_code=None | text=11:11 .
+2026-01-27 10:14:40 | Language detection failed: No features in text. | lang_code=None | text=11:11
+2026-01-27 10:14:42 | Language detection failed: No features in text. | lang_code=None | text=┈┈╭━┫╭╮╭━╮╭━╮┈┈┈ ┈┈╰━┫┃┫┣━┛┣━┛┈┈┈ ┈┈╰━╯┃┫╰━╯╰━╯┈┈┈ ┈┈╭┳┳┫┫┈┈┈┈┈┈┈┈┈ ┈┈┃┃┃┃╰━━╮┈┈┈┈┈┈ ┈┈┣╯╯╯╭━┻┛┈glee
+2026-01-27 10:14:43 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:14:43 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:43 | Language detection failed: No features in text. | lang_code=und | text='-'
+2026-01-27 10:14:43 | Language detection failed: No features in text. | lang_code=und | text=20:02
+2026-01-27 10:14:46 | Language detection failed: No features in text. | lang_code=und | text==)
+2026-01-27 10:14:46 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:14:47 | Language detection failed: No features in text. | lang_code=None | text=04♥
+2026-01-27 10:14:47 | Language detection failed: No features in text. | lang_code=und | text==(
+2026-01-27 10:14:48 | Language detection failed: No features in text. | lang_code=und | text=¬¬ ┈┈┈.╭╋╋╋╋╋╮┈┈┈┈┈ ╭╭╮╭╭┫╭╲┈╱╮┣╮╭╭╮╮ ╭╭╲╲┃┫╰╯▂╰╯┣┃╱╱╮╮ ╰╰╱╱╰┫┳┳┳┳╮┣╯╲╲╯╯ ╰╭━━╮┃┻┻┻┻┻┃╭━━╮╯ ┈┗┻┻┛╰━┓
+2026-01-27 10:14:48 | Language detection failed: No features in text. | lang_code=None | text=:-)
+2026-01-27 10:14:50 | Language detection failed: No features in text. | lang_code=None | text=:-)
+2026-01-27 10:14:51 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-27 10:14:52 | Language detection failed: No features in text. | lang_code=None | text=:)
+2026-01-27 10:14:54 | Language detection failed: No features in text. | lang_code=und | text=♥.♥
+2026-01-27 10:14:55 | Language detection failed: No features in text. | lang_code=und | text=:@
+2026-01-27 10:14:57 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:14:58 | Language detection failed: No features in text. | lang_code=und | text=20:02
+2026-01-27 10:15:01 | Language detection failed: No features in text. | lang_code=None | text=♥
+2026-01-27 10:15:01 | Language detection failed: No features in text. | lang_code=None | text=
+2026-01-27 10:15:02 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-01-27 10:15:02 | Language detection failed: No features in text. | lang_code=und | text=:'''''''''''''''''(
+2026-01-27 10:15:05 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-27 10:15:05 | Language detection failed: No features in text. | lang_code=und | text=1/5
+2026-01-27 10:15:05 | Language detection failed: No features in text. | lang_code=eu | text=lo que le mundo necesita es ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ ℒ ℴ ѵ ℯ 
+2026-01-27 10:15:06 | Language detection failed: No features in text. | lang_code=und | text=...
+2026-01-27 10:15:06 | Language detection failed: No features in text. | lang_code=None | text=:@
+2026-01-27 10:15:06 | Language detection failed: No features in text. | lang_code=und | text=11,600
+2026-01-27 10:15:07 | Language detection failed: No features in text. | lang_code=und | text=-___________________-
+2026-01-27 10:15:07 | Language detection failed: No features in text. | lang_code=und | text=& 420
+2026-01-27 10:15:08 | Language detection failed: No features in text. | lang_code=None | text=♥
+2026-01-27 10:15:09 | Language detection failed: No features in text. | lang_code=und | text=:)
+2026-01-27 10:15:09 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:15:12 | Language detection failed: No features in text. | lang_code=None | text=13.
+2026-01-27 10:15:14 | Language detection failed: No features in text. | lang_code=und | text=:/
+2026-01-27 10:15:14 | Language detection failed: No features in text. | lang_code=und | text=12:34
+2026-01-27 10:15:14 | Language detection failed: No features in text. | lang_code=und | text=12:34
+2026-01-27 10:15:14 | Language detection failed: No features in text. | lang_code=und | text=-____-
+2026-01-27 10:15:17 | Language detection failed: No features in text. | lang_code=und | text=:'(
+2026-01-27 10:15:17 | Language detection failed: No features in text. | lang_code=und | text=
+2026-01-27 10:15:18 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:15:19 | Language detection failed: No features in text. | lang_code=None | text=✡
+2026-01-27 10:15:19 | Language detection failed: No features in text. | lang_code=und | text=610
+2026-01-27 10:15:23 | Language detection failed: No features in text. | lang_code=und | text=ʅ(◔.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨̨̨̨.̸̸̨̨◔)ʃ
+2026-01-27 10:15:23 | Language detection failed: No features in text. | lang_code=und | text=ˆ.ˆ
+2026-01-27 10:15:23 | Language detection failed: No features in text. | lang_code=und | text=ʅ(´◉◞.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨̨̨̨.̸̸̨̨◟◉) ʃ
+2026-01-27 10:15:23 | Language detection failed: No features in text. | lang_code=und | text=:|
+2026-01-27 10:15:23 | Language detection failed: No features in text. | lang_code=None | text=-____-
+2026-01-27 10:15:23 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:15:24 | Language detection failed: No features in text. | lang_code=None | text=:(
+2026-01-27 10:15:26 | Language detection failed: No features in text. | lang_code=und | text=♋
+2026-01-27 10:15:26 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸
+2026-01-27 10:15:27 | Language detection failed: No features in text. | lang_code=None | text=ƹӝʒ
+2026-01-27 10:15:27 | Language detection failed: No features in text. | lang_code=und | text=:(:
+2026-01-27 10:15:28 | Undefined post language percentage **after** mapping: 0.24%
+2026-01-27 10:15:28 | Removing 122 posts with undefined language code und
+2026-01-27 10:15:28 | Using device: cuda
+2026-01-27 10:15:54 | Loaded facebook/nllb-200-distilled-600M model and tokenizer on cuda
+2026-01-27 10:15:54 | Translation pipeline created.
+2026-01-27 10:15:54 | 53 posts: afr_Latn → eng_Latn
+2026-01-27 10:15:57 | 45 posts: als_Latn → eng_Latn
+2026-01-27 10:16:02 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:16:02 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:16:04 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:16:12 | 552 posts: cat_Latn → eng_Latn
+2026-01-27 10:16:49 | 39 posts: ces_Latn → eng_Latn
+2026-01-27 10:16:59 | 200 posts: cym_Latn → eng_Latn
+2026-01-27 10:17:12 | 42 posts: dan_Latn → eng_Latn
+2026-01-27 10:17:15 | 252 posts: deu_Latn → eng_Latn
+2026-01-27 10:17:45 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:17:49 | 8 posts: ell_Grek → eng_Latn
+2026-01-27 10:17:56 | 9813 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 10:18:07 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:18:54 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:19:11 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:19:45 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:19:59 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:20:03 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:20:04 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:20:23 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:20:29 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:20:42 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:20:49 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:21:07 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:21:08 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:21:28 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:21:29 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:21:47 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:22:05 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:22:39 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:22:44 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:22:50 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:22:58 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:23:03 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:23:11 | 26 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:23:28 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:23:49 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:25:10 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:25:26 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:25:48 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:26:07 | 25 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:27:33 | 1 posts: arb_Arab → eng_Latn
+2026-01-27 10:27:56 | 24 posts: bul_Cyrl → eng_Latn
+2026-01-27 10:30:20 | 389 posts: est_Latn → eng_Latn
+2026-01-27 10:30:38 | 379 posts: est_Latn → eng_Latn
+2026-01-27 10:30:42 | 386 posts: est_Latn → eng_Latn
+2026-01-27 10:30:59 | 391 posts: est_Latn → eng_Latn
+2026-01-27 10:31:08 | 394 posts: est_Latn → eng_Latn
+2026-01-27 10:31:10 | 185 posts: fin_Latn → eng_Latn
+2026-01-27 10:31:16 | 380 posts: est_Latn → eng_Latn
+2026-01-27 10:31:29 | 182 posts: fin_Latn → eng_Latn
+2026-01-27 10:31:31 | 178 posts: fin_Latn → eng_Latn
+2026-01-27 10:31:50 | 462 posts: fra_Latn → eng_Latn
+2026-01-27 10:32:00 | 175 posts: fin_Latn → eng_Latn
+2026-01-27 10:32:05 | 182 posts: fin_Latn → eng_Latn
+2026-01-27 10:32:06 | 451 posts: fra_Latn → eng_Latn
+2026-01-27 10:32:07 | 181 posts: fin_Latn → eng_Latn
+2026-01-27 10:32:11 | 467 posts: fra_Latn → eng_Latn
+2026-01-27 10:32:36 | 467 posts: fra_Latn → eng_Latn
+2026-01-27 10:32:39 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:32:39 | 100 posts: hrv_Latn → eng_Latn
+2026-01-27 10:32:42 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:32:42 | 99 posts: hrv_Latn → eng_Latn
+2026-01-27 10:32:43 | 457 posts: fra_Latn → eng_Latn
+2026-01-27 10:32:44 | 465 posts: fra_Latn → eng_Latn
+2026-01-27 10:33:01 | 52 posts: hun_Latn → eng_Latn
+2026-01-27 10:33:05 | 45 posts: hun_Latn → eng_Latn
+2026-01-27 10:33:05 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:33:05 | 106 posts: hrv_Latn → eng_Latn
+2026-01-27 10:33:08 | 327 posts: ind_Latn → eng_Latn
+2026-01-27 10:33:09 | 326 posts: ind_Latn → eng_Latn
+2026-01-27 10:33:20 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:33:20 | 91 posts: hrv_Latn → eng_Latn
+2026-01-27 10:33:25 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:33:26 | 96 posts: hrv_Latn → eng_Latn
+2026-01-27 10:33:26 | 49 posts: hun_Latn → eng_Latn
+2026-01-27 10:33:27 | 551 posts: cat_Latn → eng_Latn
+2026-01-27 10:33:31 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:33:31 | 104 posts: hrv_Latn → eng_Latn
+2026-01-27 10:33:33 | 329 posts: ind_Latn → eng_Latn
+2026-01-27 10:33:36 | 49 posts: hun_Latn → eng_Latn
+2026-01-27 10:33:41 | 50 posts: hun_Latn → eng_Latn
+2026-01-27 10:33:41 | 326 posts: ind_Latn → eng_Latn
+2026-01-27 10:33:48 | 326 posts: ind_Latn → eng_Latn
+2026-01-27 10:33:48 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:33:48 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:33:48 | 760 posts: ita_Latn → eng_Latn
+2026-01-27 10:33:48 | 762 posts: ita_Latn → eng_Latn
+2026-01-27 10:33:54 | 52 posts: hun_Latn → eng_Latn
+2026-01-27 10:34:02 | 337 posts: ind_Latn → eng_Latn
+2026-01-27 10:34:17 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:34:18 | 760 posts: ita_Latn → eng_Latn
+2026-01-27 10:34:24 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:34:25 | 767 posts: ita_Latn → eng_Latn
+2026-01-27 10:34:33 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:34:34 | 741 posts: ita_Latn → eng_Latn
+2026-01-27 10:34:45 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:34:45 | 750 posts: ita_Latn → eng_Latn
+2026-01-27 10:34:47 | 538 posts: cat_Latn → eng_Latn
+2026-01-27 10:34:53 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:34:54 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:34:57 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:34:59 | 83 posts: lit_Latn → eng_Latn
+2026-01-27 10:34:59 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:35:00 | 89 posts: lit_Latn → eng_Latn
+2026-01-27 10:35:07 | 43 posts: lvs_Latn → eng_Latn
+2026-01-27 10:35:08 | 42 posts: lvs_Latn → eng_Latn
+2026-01-27 10:35:16 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:35:16 | 102 posts: nld_Latn → eng_Latn
+2026-01-27 10:35:17 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:35:17 | 100 posts: nld_Latn → eng_Latn
+2026-01-27 10:35:21 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:35:26 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:35:27 | 95 posts: lit_Latn → eng_Latn
+2026-01-27 10:35:29 | 68 posts: nob_Latn → eng_Latn
+2026-01-27 10:35:30 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:35:31 | 54 posts: pol_Latn → eng_Latn
+2026-01-27 10:35:34 | 39 posts: lvs_Latn → eng_Latn
+2026-01-27 10:35:35 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:35:35 | 2481 posts: por_Latn → eng_Latn
+2026-01-27 10:35:36 | 87 posts: lit_Latn → eng_Latn
+2026-01-27 10:35:36 | 73 posts: nob_Latn → eng_Latn
+2026-01-27 10:35:36 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:35:39 | 58 posts: pol_Latn → eng_Latn
+2026-01-27 10:35:40 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:35:41 | 104 posts: nld_Latn → eng_Latn
+2026-01-27 10:35:41 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:35:42 | 91 posts: lit_Latn → eng_Latn
+2026-01-27 10:35:43 | 38 posts: lvs_Latn → eng_Latn
+2026-01-27 10:35:45 | 2457 posts: por_Latn → eng_Latn
+2026-01-27 10:35:51 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:35:51 | 101 posts: nld_Latn → eng_Latn
+2026-01-27 10:35:51 | 40 posts: lvs_Latn → eng_Latn
+2026-01-27 10:35:53 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:35:54 | 66 posts: nob_Latn → eng_Latn
+2026-01-27 10:35:56 | 58 posts: pol_Latn → eng_Latn
+2026-01-27 10:35:57 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:35:58 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:35:58 | 103 posts: nld_Latn → eng_Latn
+2026-01-27 10:35:59 | 89 posts: lit_Latn → eng_Latn
+2026-01-27 10:36:02 | 2467 posts: por_Latn → eng_Latn
+2026-01-27 10:36:07 | 42 posts: lvs_Latn → eng_Latn
+2026-01-27 10:36:10 | 71 posts: nob_Latn → eng_Latn
+2026-01-27 10:36:11 | 67 posts: nob_Latn → eng_Latn
+2026-01-27 10:36:13 | 55 posts: pol_Latn → eng_Latn
+2026-01-27 10:36:16 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:36:16 | 104 posts: nld_Latn → eng_Latn
+2026-01-27 10:36:17 | 2485 posts: por_Latn → eng_Latn
+2026-01-27 10:36:19 | 54 posts: pol_Latn → eng_Latn
+2026-01-27 10:36:21 | 546 posts: cat_Latn → eng_Latn
+2026-01-27 10:36:25 | 2460 posts: por_Latn → eng_Latn
+2026-01-27 10:36:29 | 60 posts: nob_Latn → eng_Latn
+2026-01-27 10:36:32 | 52 posts: pol_Latn → eng_Latn
+2026-01-27 10:36:35 | 2471 posts: por_Latn → eng_Latn
+2026-01-27 10:38:45 | 561 posts: cat_Latn → eng_Latn
+2026-01-27 10:38:53 | 176 posts: ron_Latn → eng_Latn
+2026-01-27 10:39:07 | 177 posts: ron_Latn → eng_Latn
+2026-01-27 10:39:13 | 166 posts: ron_Latn → eng_Latn
+2026-01-27 10:39:14 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:39:24 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:39:25 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:39:25 | 56 posts: slk_Latn → eng_Latn
+2026-01-27 10:39:33 | 578 posts: slv_Latn → eng_Latn
+2026-01-27 10:39:35 | 165 posts: ron_Latn → eng_Latn
+2026-01-27 10:39:35 | 56 posts: slk_Latn → eng_Latn
+2026-01-27 10:39:36 | 56 posts: slk_Latn → eng_Latn
+2026-01-27 10:39:37 | 551 posts: cat_Latn → eng_Latn
+2026-01-27 10:39:41 | 170 posts: ron_Latn → eng_Latn
+2026-01-27 10:39:42 | 577 posts: slv_Latn → eng_Latn
+2026-01-27 10:39:44 | 586 posts: slv_Latn → eng_Latn
+2026-01-27 10:39:52 | 159 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:39:55 | 171 posts: ron_Latn → eng_Latn
+2026-01-27 10:39:58 | 159 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:40:03 | 55 posts: slk_Latn → eng_Latn
+2026-01-27 10:40:09 | 53 posts: slk_Latn → eng_Latn
+2026-01-27 10:40:15 | 586 posts: slv_Latn → eng_Latn
+2026-01-27 10:40:16 | 575 posts: slv_Latn → eng_Latn
+2026-01-27 10:40:17 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:40:28 | 54 posts: slk_Latn → eng_Latn
+2026-01-27 10:40:36 | 578 posts: slv_Latn → eng_Latn
+2026-01-27 10:40:54 | 557 posts: cat_Latn → eng_Latn
+2026-01-27 10:41:18 | 414 posts: som_Latn → eng_Latn
+2026-01-27 10:41:29 | 545 posts: cat_Latn → eng_Latn
+2026-01-27 10:41:32 | 415 posts: som_Latn → eng_Latn
+2026-01-27 10:41:37 | 417 posts: som_Latn → eng_Latn
+2026-01-27 10:42:13 | 413 posts: som_Latn → eng_Latn
+2026-01-27 10:42:13 | 548 posts: cat_Latn → eng_Latn
+2026-01-27 10:42:14 | 413 posts: som_Latn → eng_Latn
+2026-01-27 10:42:23 | 545 posts: cat_Latn → eng_Latn
+2026-01-27 10:42:28 | 31827 posts: spa_Latn → eng_Latn
+2026-01-27 10:42:33 | 420 posts: som_Latn → eng_Latn
+2026-01-27 10:42:39 | 31849 posts: spa_Latn → eng_Latn
+2026-01-27 10:42:46 | 31823 posts: spa_Latn → eng_Latn
+2026-01-27 10:42:49 | 549 posts: cat_Latn → eng_Latn
+2026-01-27 10:43:20 | 31853 posts: spa_Latn → eng_Latn
+2026-01-27 10:43:26 | 31811 posts: spa_Latn → eng_Latn
+2026-01-27 10:43:47 | 31838 posts: spa_Latn → eng_Latn
+2026-01-27 10:43:58 | 555 posts: cat_Latn → eng_Latn
+2026-01-27 10:44:06 | 389 posts: est_Latn → eng_Latn
+2026-01-27 10:44:15 | 556 posts: cat_Latn → eng_Latn
+2026-01-27 10:44:54 | 178 posts: fin_Latn → eng_Latn
+2026-01-27 10:44:58 | 549 posts: cat_Latn → eng_Latn
+2026-01-27 10:45:00 | 542 posts: cat_Latn → eng_Latn
+2026-01-27 10:45:24 | 560 posts: cat_Latn → eng_Latn
+2026-01-27 10:45:29 | 462 posts: fra_Latn → eng_Latn
+2026-01-27 10:45:49 | 549 posts: cat_Latn → eng_Latn
+2026-01-27 10:45:52 | 552 posts: cat_Latn → eng_Latn
+2026-01-27 10:46:12 | 8 posts: hin_Deva → eng_Latn
+2026-01-27 10:46:12 | 99 posts: hrv_Latn → eng_Latn
+2026-01-27 10:46:28 | 548 posts: cat_Latn → eng_Latn
+2026-01-27 10:46:35 | 53 posts: hun_Latn → eng_Latn
+2026-01-27 10:46:42 | 322 posts: ind_Latn → eng_Latn
+2026-01-27 10:47:01 | 550 posts: cat_Latn → eng_Latn
+2026-01-27 10:47:27 | 5 posts: isl_Latn → eng_Latn
+2026-01-27 10:47:27 | 758 posts: ita_Latn → eng_Latn
+2026-01-27 10:48:33 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-27 10:48:38 | 9 posts: kor_Hang → eng_Latn
+2026-01-27 10:48:39 | 88 posts: lit_Latn → eng_Latn
+2026-01-27 10:48:47 | 40 posts: lvs_Latn → eng_Latn
+2026-01-27 10:48:53 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-27 10:48:54 | 104 posts: nld_Latn → eng_Latn
+2026-01-27 10:49:07 | 66 posts: nob_Latn → eng_Latn
+2026-01-27 10:49:12 | 51 posts: pol_Latn → eng_Latn
+2026-01-27 10:49:15 | 2482 posts: por_Latn → eng_Latn
+2026-01-27 10:52:32 | 172 posts: ron_Latn → eng_Latn
+2026-01-27 10:52:45 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-27 10:52:56 | 64 posts: slk_Latn → eng_Latn
+2026-01-27 10:53:06 | 576 posts: slv_Latn → eng_Latn
+2026-01-27 10:53:41 | 546 posts: cat_Latn → eng_Latn
+2026-01-27 10:55:07 | 408 posts: som_Latn → eng_Latn
+2026-01-27 10:56:21 | 31825 posts: spa_Latn → eng_Latn
+2026-01-27 11:19:22 | 58 posts: swe_Latn → eng_Latn
+2026-01-27 11:19:36 | 102 posts: swh_Latn → eng_Latn
+2026-01-27 11:19:39 | 63 posts: swe_Latn → eng_Latn
+2026-01-27 11:19:42 | 261 posts: tgl_Latn → eng_Latn
+2026-01-27 11:19:56 | 107 posts: swh_Latn → eng_Latn
+2026-01-27 11:20:00 | 42 posts: tur_Latn → eng_Latn
+2026-01-27 11:20:01 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:20:03 | 60 posts: swe_Latn → eng_Latn
+2026-01-27 11:20:04 | 269 posts: tgl_Latn → eng_Latn
+2026-01-27 11:20:08 | 13 posts: vie_Latn → eng_Latn
+2026-01-27 11:20:08 | Completed: transformers_translator
+2026-01-27 11:20:08 | Translation completed.
+2026-01-27 11:20:10 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:20:10 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:20:11 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:20:11 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:20:18 | 106 posts: swh_Latn → eng_Latn
+2026-01-27 11:20:23 | 38 posts: tur_Latn → eng_Latn
+2026-01-27 11:20:24 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:20:24 | 264 posts: tgl_Latn → eng_Latn
+2026-01-27 11:20:31 | 13 posts: vie_Latn → eng_Latn
+2026-01-27 11:20:31 | Completed: transformers_translator
+2026-01-27 11:20:31 | Translation completed.
+2026-01-27 11:20:32 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:20:32 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:20:35 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:20:35 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:20:40 | 46 posts: tur_Latn → eng_Latn
+2026-01-27 11:20:41 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:20:41 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:20:44 | 63 posts: swe_Latn → eng_Latn
+2026-01-27 11:20:48 | 12 posts: vie_Latn → eng_Latn
+2026-01-27 11:20:49 | Completed: transformers_translator
+2026-01-27 11:20:49 | Translation completed.
+2026-01-27 11:20:50 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:20:50 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:20:52 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:20:52 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:20:58 | 105 posts: swh_Latn → eng_Latn
+2026-01-27 11:21:03 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:21:05 | 262 posts: tgl_Latn → eng_Latn
+2026-01-27 11:21:20 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:21:23 | 48 posts: tur_Latn → eng_Latn
+2026-01-27 11:21:24 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:21:27 | 61 posts: swe_Latn → eng_Latn
+2026-01-27 11:21:31 | 63 posts: swe_Latn → eng_Latn
+2026-01-27 11:21:31 | 13 posts: vie_Latn → eng_Latn
+2026-01-27 11:21:32 | Completed: transformers_translator
+2026-01-27 11:21:32 | Translation completed.
+2026-01-27 11:21:32 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:21:32 | BERTopic found 3 topics.
+2026-01-27 11:21:33 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:21:33 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:21:35 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:21:35 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:21:42 | 103 posts: swh_Latn → eng_Latn
+2026-01-27 11:21:43 | Completed: english_BERTopic_modeling
+2026-01-27 11:21:44 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:21:45 | 111 posts: swh_Latn → eng_Latn
+2026-01-27 11:21:45 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:21:45 | Completed: make_topic_top_posts_table
+2026-01-27 11:21:45 | Completed: make_topic_stats
+2026-01-27 11:21:46 | Completed: make_topic_account_stats
+2026-01-27 11:21:48 | 258 posts: tgl_Latn → eng_Latn
+2026-01-27 11:21:51 | 263 posts: tgl_Latn → eng_Latn
+2026-01-27 11:21:58 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:21:58 | BERTopic found 3 topics.
+2026-01-27 11:22:03 | 44 posts: tur_Latn → eng_Latn
+2026-01-27 11:22:05 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:22:05 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:22:07 | 42 posts: tur_Latn → eng_Latn
+2026-01-27 11:22:09 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:22:10 | Completed: english_BERTopic_modeling
+2026-01-27 11:22:10 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:22:10 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:22:10 | BERTopic found 3 topics.
+2026-01-27 11:22:12 | 12 posts: vie_Latn → eng_Latn
+2026-01-27 11:22:12 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:22:12 | Completed: make_topic_top_posts_table
+2026-01-27 11:22:12 | Completed: make_topic_stats
+2026-01-27 11:22:12 | Completed: transformers_translator
+2026-01-27 11:22:12 | Translation completed.
+2026-01-27 11:22:12 | Completed: make_topic_account_stats
+2026-01-27 11:22:13 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:22:13 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:22:15 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:22:15 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:22:16 | 14 posts: vie_Latn → eng_Latn
+2026-01-27 11:22:16 | Completed: transformers_translator
+2026-01-27 11:22:16 | Translation completed.
+2026-01-27 11:22:17 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:22:17 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:22:19 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:22:19 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:22:22 | Completed: english_BERTopic_modeling
+2026-01-27 11:22:22 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:22:23 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:22:23 | Completed: make_topic_top_posts_table
+2026-01-27 11:22:24 | Completed: make_topic_stats
+2026-01-27 11:22:24 | Completed: make_topic_account_stats
+2026-01-27 11:22:41 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:22:49 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:22:52 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:22:52 | BERTopic found 4 topics.
+2026-01-27 11:23:04 | Completed: english_BERTopic_modeling
+2026-01-27 11:23:04 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:23:05 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:23:05 | Completed: make_topic_top_posts_table
+2026-01-27 11:23:05 | Completed: make_topic_stats
+2026-01-27 11:23:06 | Completed: make_topic_account_stats
+2026-01-27 11:23:28 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:23:28 | BERTopic found 4 topics.
+2026-01-27 11:23:38 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:23:38 | BERTopic found 3 topics.
+2026-01-27 11:23:39 | Completed: english_BERTopic_modeling
+2026-01-27 11:23:39 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:23:41 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:23:41 | Completed: make_topic_top_posts_table
+2026-01-27 11:23:41 | Completed: make_topic_stats
+2026-01-27 11:23:42 | Completed: make_topic_account_stats
+2026-01-27 11:23:50 | Completed: english_BERTopic_modeling
+2026-01-27 11:23:50 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:23:51 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:23:51 | Completed: make_topic_top_posts_table
+2026-01-27 11:23:51 | Completed: make_topic_stats
+2026-01-27 11:23:52 | Completed: make_topic_account_stats
+2026-01-27 11:29:32 | 41 posts: ces_Latn → eng_Latn
+2026-01-27 11:31:18 | Completed: auto_kmeans_topics
+2026-01-27 11:31:18 | Completed: make_topic_stats
+2026-01-27 11:31:18 | Completed: make_topic_account_stats
+2026-01-27 11:31:34 | Completed: auto_kmeans_topics
+2026-01-27 11:31:34 | Completed: make_topic_stats
+2026-01-27 11:31:34 | Completed: make_topic_account_stats
+2026-01-27 11:31:44 | Completed: auto_kmeans_topics
+2026-01-27 11:31:44 | Completed: make_topic_stats
+2026-01-27 11:31:45 | Completed: make_topic_account_stats
+2026-01-27 11:32:43 | Completed: auto_kmeans_topics
+2026-01-27 11:32:44 | Completed: make_topic_stats
+2026-01-27 11:32:44 | Completed: make_topic_account_stats
+2026-01-27 11:33:06 | Completed: auto_kmeans_topics
+2026-01-27 11:33:06 | Completed: make_topic_stats
+2026-01-27 11:33:07 | Completed: make_topic_account_stats
+2026-01-27 11:33:21 | Completed: auto_kmeans_topics
+2026-01-27 11:33:21 | Completed: make_topic_stats
+2026-01-27 11:33:22 | Completed: make_topic_account_stats
+2026-01-27 11:34:01 | 57 posts: swe_Latn → eng_Latn
+2026-01-27 11:34:22 | 109 posts: swh_Latn → eng_Latn
+2026-01-27 11:34:28 | 265 posts: tgl_Latn → eng_Latn
+2026-01-27 11:34:45 | 42 posts: tur_Latn → eng_Latn
+2026-01-27 11:34:46 | 14 posts: ukr_Cyrl → eng_Latn
+2026-01-27 11:34:53 | 13 posts: vie_Latn → eng_Latn
+2026-01-27 11:34:53 | Completed: transformers_translator
+2026-01-27 11:34:53 | Translation completed.
+2026-01-27 11:34:55 | Untranslated posts: 0/49878 (0.00%)
+2026-01-27 11:34:55 | Filled untranslated posts with original cleaned text.
+2026-01-27 11:34:56 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:34:56 | Finished Translation
+Saved df to ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256
+Continuing to Topic Clustering
+2026-01-27 11:35:23 | 39 posts: ces_Latn → eng_Latn
+2026-01-27 11:35:30 | Generated embeddings shape: (49878, 768)
+2026-01-27 11:36:21 | BERTopic modeling completed with min_topic_size=256.
+2026-01-27 11:36:21 | BERTopic found 5 topics.
+2026-01-27 11:36:36 | Completed: english_BERTopic_modeling
+2026-01-27 11:36:36 | Saved df with BERTopic topics. min_topic_size = 256
+2026-01-27 11:36:38 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:36:38 | Completed: make_topic_top_posts_table
+2026-01-27 11:36:38 | Completed: make_topic_stats
+2026-01-27 11:36:39 | Completed: make_topic_account_stats
+2026-01-27 11:36:40 | Completed: extract_ner_entities
+2026-01-27 11:36:41 | Completed: clean_entity_columns
+2026-01-27 11:36:41 | Completed: entity_topic_counts
+2026-01-27 11:36:43 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:36:43 | Finished Running Successfully
+2026-01-27 11:36:43 | #######################################################
+2026-01-27 11:36:43 | #######################################################
+2026-01-27 11:37:07 | Completed: extract_ner_entities
+2026-01-27 11:37:08 | Completed: clean_entity_columns
+2026-01-27 11:37:08 | Completed: entity_topic_counts
+2026-01-27 11:37:10 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:37:10 | Finished Running Successfully
+2026-01-27 11:37:10 | #######################################################
+2026-01-27 11:37:10 | #######################################################
+2026-01-27 11:37:13 | Completed: extract_ner_entities
+2026-01-27 11:37:14 | Completed: clean_entity_columns
+2026-01-27 11:37:14 | Completed: entity_topic_counts
+2026-01-27 11:37:16 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:37:16 | Finished Running Successfully
+2026-01-27 11:37:16 | #######################################################
+2026-01-27 11:37:16 | #######################################################
+2026-01-27 11:38:12 | Completed: extract_ner_entities
+2026-01-27 11:38:13 | Completed: clean_entity_columns
+2026-01-27 11:38:13 | Completed: entity_topic_counts
+2026-01-27 11:38:15 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:38:15 | Finished Running Successfully
+2026-01-27 11:38:15 | #######################################################
+2026-01-27 11:38:15 | #######################################################
+2026-01-27 11:38:34 | Completed: extract_ner_entities
+2026-01-27 11:38:35 | Completed: clean_entity_columns
+2026-01-27 11:38:35 | Completed: entity_topic_counts
+2026-01-27 11:38:37 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:38:37 | Finished Running Successfully
+2026-01-27 11:38:37 | #######################################################
+2026-01-27 11:38:37 | #######################################################
+2026-01-27 11:38:50 | Completed: extract_ner_entities
+2026-01-27 11:38:51 | Completed: clean_entity_columns
+2026-01-27 11:38:51 | Completed: entity_topic_counts
+2026-01-27 11:38:53 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:38:53 | Finished Running Successfully
+2026-01-27 11:38:53 | #######################################################
+2026-01-27 11:38:53 | #######################################################
+2026-01-27 11:44:19 | 37 posts: ces_Latn → eng_Latn
+2026-01-27 11:44:35 | 195 posts: cym_Latn → eng_Latn
+2026-01-27 11:45:37 | 39 posts: ces_Latn → eng_Latn
+2026-01-27 11:46:18 | Completed: auto_kmeans_topics
+2026-01-27 11:46:18 | Completed: make_topic_stats
+2026-01-27 11:46:19 | Completed: make_topic_account_stats
+2026-01-27 11:48:16 | 41 posts: ces_Latn → eng_Latn
+2026-01-27 11:48:45 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 11:50:22 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 11:51:55 | Completed: extract_ner_entities
+2026-01-27 11:51:56 | Completed: clean_entity_columns
+2026-01-27 11:51:56 | Completed: entity_topic_counts
+2026-01-27 11:51:59 | df is saved to: ../final_results/Labeled_Datasets/Ecuador/Ecuador_part_1/BERT_min_topic_size_256/processed_Ecuador_part_1.gzip.parquet
+2026-01-27 11:51:59 | Finished Running Successfully
+2026-01-27 11:51:59 | #######################################################
+2026-01-27 11:51:59 | #######################################################
+2026-01-27 11:52:15 | 40 posts: ces_Latn → eng_Latn
+2026-01-27 11:52:56 | 193 posts: cym_Latn → eng_Latn
+2026-01-27 11:54:36 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 11:58:24 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 12:01:43 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 12:01:49 | 194 posts: cym_Latn → eng_Latn
+2026-01-27 12:03:53 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:04:20 | 199 posts: cym_Latn → eng_Latn
+2026-01-27 12:04:25 | 37 posts: ces_Latn → eng_Latn
+2026-01-27 12:04:44 | 39 posts: ces_Latn → eng_Latn
+2026-01-27 12:05:15 | 41 posts: ces_Latn → eng_Latn
+2026-01-27 12:06:12 | 196 posts: cym_Latn → eng_Latn
+2026-01-27 12:06:23 | 41 posts: ces_Latn → eng_Latn
+2026-01-27 12:07:06 | 190 posts: cym_Latn → eng_Latn
+2026-01-27 12:07:13 | 201 posts: cym_Latn → eng_Latn
+2026-01-27 12:07:45 | 41 posts: ces_Latn → eng_Latn
+2026-01-27 12:08:01 | 247 posts: deu_Latn → eng_Latn
+2026-01-27 12:08:31 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 12:08:37 | 38 posts: ces_Latn → eng_Latn
+2026-01-27 12:11:57 | 39 posts: ces_Latn → eng_Latn
+2026-01-27 12:12:41 | 39 posts: ces_Latn → eng_Latn
+2026-01-27 12:13:59 | 198 posts: cym_Latn → eng_Latn
+2026-01-27 12:15:00 | 194 posts: cym_Latn → eng_Latn
+2026-01-27 12:17:50 | 42 posts: dan_Latn → eng_Latn
+2026-01-27 12:18:59 | 199 posts: cym_Latn → eng_Latn
+2026-01-27 12:19:23 | 197 posts: cym_Latn → eng_Latn
+2026-01-27 12:22:46 | 245 posts: deu_Latn → eng_Latn
+2026-01-27 12:23:33 | 47 posts: dan_Latn → eng_Latn
+2026-01-27 12:26:04 | 196 posts: cym_Latn → eng_Latn
+2026-01-27 12:26:10 | 49 posts: dan_Latn → eng_Latn
+2026-01-27 12:26:14 | 195 posts: cym_Latn → eng_Latn
+2026-01-27 12:26:40 | 201 posts: cym_Latn → eng_Latn
+2026-01-27 12:28:28 | 245 posts: deu_Latn → eng_Latn
+2026-01-27 12:29:44 | 204 posts: cym_Latn → eng_Latn
+2026-01-27 12:29:46 | 199 posts: cym_Latn → eng_Latn
+2026-01-27 12:29:52 | 195 posts: cym_Latn → eng_Latn
+2026-01-27 12:30:49 | 248 posts: deu_Latn → eng_Latn
+2026-01-27 12:30:53 | 43 posts: dan_Latn → eng_Latn
+2026-01-27 12:31:39 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:31:58 | 201 posts: cym_Latn → eng_Latn
+2026-01-27 12:32:00 | 41 posts: dan_Latn → eng_Latn
+2026-01-27 12:32:53 | 197 posts: cym_Latn → eng_Latn
+2026-01-27 12:34:16 | 194 posts: cym_Latn → eng_Latn
+2026-01-27 12:35:40 | 248 posts: deu_Latn → eng_Latn
+2026-01-27 12:36:47 | 244 posts: deu_Latn → eng_Latn
+2026-01-27 12:36:48 | 250 posts: deu_Latn → eng_Latn
+2026-01-27 12:38:59 | 47 posts: dan_Latn → eng_Latn
+2026-01-27 12:40:48 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:44:09 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:44:13 | 247 posts: deu_Latn → eng_Latn
+2026-01-27 12:46:01 | 251 posts: deu_Latn → eng_Latn
+2026-01-27 12:48:03 | 45 posts: dan_Latn → eng_Latn
+2026-01-27 12:53:06 | 48 posts: dan_Latn → eng_Latn
+2026-01-27 12:53:46 | 245 posts: deu_Latn → eng_Latn
+2026-01-27 12:54:24 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:56:26 | 47 posts: dan_Latn → eng_Latn
+2026-01-27 12:56:37 | 243 posts: deu_Latn → eng_Latn
+2026-01-27 12:57:38 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:57:39 | 45 posts: dan_Latn → eng_Latn
+2026-01-27 12:58:52 | 245 posts: deu_Latn → eng_Latn
+2026-01-27 12:59:03 | 43 posts: dan_Latn → eng_Latn
+2026-01-27 12:59:25 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 12:59:38 | 249 posts: deu_Latn → eng_Latn
+2026-01-27 13:02:50 | 44 posts: dan_Latn → eng_Latn
+2026-01-27 13:02:52 | 43 posts: dan_Latn → eng_Latn
+2026-01-27 13:03:05 | 249 posts: deu_Latn → eng_Latn
+2026-01-27 13:03:07 | 247 posts: deu_Latn → eng_Latn
+2026-01-27 13:04:21 | 251 posts: deu_Latn → eng_Latn
+2026-01-27 13:04:56 | 246 posts: deu_Latn → eng_Latn
+2026-01-27 13:05:54 | 247 posts: deu_Latn → eng_Latn
+2026-01-27 13:08:10 | 245 posts: deu_Latn → eng_Latn
+2026-01-27 13:08:20 | 252 posts: deu_Latn → eng_Latn
+2026-01-27 13:10:14 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 13:19:28 | 9826 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 13:31:36 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 13:31:49 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 13:35:28 | 3 posts: ell_Grek → eng_Latn
+2026-01-27 13:36:51 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 13:41:28 | 9820 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 13:41:45 | 9828 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 13:42:50 | 9804 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 13:46:39 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 13:47:16 | 9814 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 13:52:09 | 3 posts: ell_Grek → eng_Latn
+2026-01-27 13:53:56 | 6 posts: ell_Grek → eng_Latn
+2026-01-27 13:56:19 | 9816 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:00:48 | 9810 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:05:46 | 9821 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:10:42 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 14:12:41 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 14:15:37 | 2 posts: ell_Grek → eng_Latn
+2026-01-27 14:15:58 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 14:17:29 | 3 posts: ell_Grek → eng_Latn
+2026-01-27 14:21:01 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 14:22:26 | 9830 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:23:21 | 9810 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:24:00 | 9826 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:25:03 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 14:26:58 | 9822 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:28:04 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 14:28:28 | 9814 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:29:03 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 14:30:35 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 14:31:38 | 4 posts: ell_Grek → eng_Latn
+2026-01-27 14:31:55 | 9797 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:32:15 | 5 posts: ell_Grek → eng_Latn
+2026-01-27 14:37:40 | 9828 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:40:33 | 9828 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:40:59 | 9804 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:42:08 | 9818 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:43:17 | 9812 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-27 14:45:21 | 9816 posts: eng_Latn → spa_Latn → eng_Latn
+2026-01-29 09:28:24 | 386 posts: est_Latn → eng_Latn
+2026-01-29 09:55:34 | 382 posts: est_Latn → eng_Latn
+2026-01-29 10:57:54 | 176 posts: fin_Latn → eng_Latn
+2026-01-29 11:35:29 | 182 posts: fin_Latn → eng_Latn
+2026-01-29 11:55:05 | 462 posts: fra_Latn → eng_Latn
+2026-01-29 12:27:56 | 456 posts: fra_Latn → eng_Latn
+2026-01-29 13:26:36 | 8 posts: hin_Deva → eng_Latn
+2026-01-29 13:26:59 | 93 posts: hrv_Latn → eng_Latn
+2026-01-29 13:39:49 | 8 posts: hin_Deva → eng_Latn
+2026-01-29 13:40:13 | 103 posts: hrv_Latn → eng_Latn
+2026-01-29 13:58:57 | 48 posts: hun_Latn → eng_Latn
+2026-01-29 14:09:45 | 327 posts: ind_Latn → eng_Latn
+2026-01-29 14:17:54 | 49 posts: hun_Latn → eng_Latn
+2026-01-29 14:28:48 | 326 posts: ind_Latn → eng_Latn
+2026-01-29 15:26:11 | 5 posts: isl_Latn → eng_Latn
+2026-01-29 15:26:33 | 766 posts: ita_Latn → eng_Latn
+2026-01-29 15:31:21 | 5 posts: isl_Latn → eng_Latn
+2026-01-29 15:31:43 | 777 posts: ita_Latn → eng_Latn
+2026-01-29 16:03:58 | 383 posts: est_Latn → eng_Latn
+2026-01-29 17:12:24 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-29 17:20:14 | 9 posts: kor_Hang → eng_Latn
+2026-01-29 17:20:45 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-29 17:21:59 | 87 posts: lit_Latn → eng_Latn
+2026-01-29 17:28:35 | 9 posts: kor_Hang → eng_Latn
+2026-01-29 17:30:21 | 80 posts: lit_Latn → eng_Latn
+2026-01-29 17:34:08 | 40 posts: lvs_Latn → eng_Latn
+2026-01-29 17:35:21 | 385 posts: est_Latn → eng_Latn
+2026-01-29 17:39:17 | 186 posts: fin_Latn → eng_Latn
+2026-01-29 17:42:42 | 41 posts: lvs_Latn → eng_Latn
+2026-01-29 17:45:12 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-29 17:45:20 | 103 posts: nld_Latn → eng_Latn
+2026-01-29 17:53:57 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-29 17:54:05 | 98 posts: nld_Latn → eng_Latn
+2026-01-29 18:17:44 | 71 posts: nob_Latn → eng_Latn
+2026-01-29 18:19:03 | 63 posts: nob_Latn → eng_Latn
+2026-01-29 18:21:25 | 56 posts: pol_Latn → eng_Latn
+2026-01-29 18:22:29 | 56 posts: pol_Latn → eng_Latn
+2026-01-29 18:30:40 | 2480 posts: por_Latn → eng_Latn
+2026-01-29 18:31:35 | 2474 posts: por_Latn → eng_Latn
+2026-01-29 18:56:48 | 461 posts: fra_Latn → eng_Latn
+2026-01-29 19:15:01 | 180 posts: fin_Latn → eng_Latn
+2026-01-29 20:22:57 | 386 posts: est_Latn → eng_Latn
+2026-01-29 20:25:24 | 399 posts: est_Latn → eng_Latn
+2026-01-29 20:27:46 | 8 posts: hin_Deva → eng_Latn
+2026-01-29 20:28:12 | 101 posts: hrv_Latn → eng_Latn
+2026-01-29 20:28:37 | 460 posts: fra_Latn → eng_Latn
+2026-01-29 20:41:27 | 373 posts: est_Latn → eng_Latn
+2026-01-29 20:55:18 | 374 posts: est_Latn → eng_Latn
+2026-01-29 21:06:31 | 395 posts: est_Latn → eng_Latn
+2026-01-29 21:20:39 | 47 posts: hun_Latn → eng_Latn
+2026-01-29 21:29:29 | 325 posts: ind_Latn → eng_Latn
+2026-01-29 22:05:12 | 8 posts: hin_Deva → eng_Latn
+2026-01-29 22:05:39 | 102 posts: hrv_Latn → eng_Latn
+2026-01-29 22:12:53 | 174 posts: fin_Latn → eng_Latn
+2026-01-29 22:22:56 | 178 posts: fin_Latn → eng_Latn
+2026-01-29 22:23:39 | 177 posts: fin_Latn → eng_Latn
+2026-01-29 22:45:41 | 50 posts: hun_Latn → eng_Latn
+2026-01-29 22:49:15 | 177 posts: fin_Latn → eng_Latn
+2026-01-29 22:52:04 | 5 posts: isl_Latn → eng_Latn
+2026-01-29 22:52:30 | 785 posts: ita_Latn → eng_Latn
+2026-01-29 22:55:58 | 179 posts: fin_Latn → eng_Latn
+2026-01-29 22:59:00 | 326 posts: ind_Latn → eng_Latn
+2026-01-29 23:35:14 | 452 posts: fra_Latn → eng_Latn
+2026-01-29 23:37:20 | 460 posts: fra_Latn → eng_Latn
+2026-01-29 23:49:31 | 459 posts: fra_Latn → eng_Latn
+2026-01-29 23:51:18 | 160 posts: ron_Latn → eng_Latn
+2026-01-29 23:54:34 | 169 posts: ron_Latn → eng_Latn
+2026-01-29 23:59:34 | 449 posts: fra_Latn → eng_Latn
+2026-01-30 00:08:09 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-30 00:23:15 | 5 posts: isl_Latn → eng_Latn
+2026-01-30 00:23:42 | 758 posts: ita_Latn → eng_Latn
+2026-01-30 00:27:02 | 54 posts: slk_Latn → eng_Latn
+2026-01-30 00:27:07 | 160 posts: rus_Cyrl → eng_Latn
+2026-01-30 00:29:47 | 459 posts: fra_Latn → eng_Latn
+2026-01-30 00:44:28 | 586 posts: slv_Latn → eng_Latn
+2026-01-30 00:46:14 | 55 posts: slk_Latn → eng_Latn
+2026-01-30 00:49:00 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 00:49:28 | 99 posts: hrv_Latn → eng_Latn
+2026-01-30 00:58:06 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 00:59:10 | 584 posts: slv_Latn → eng_Latn
+2026-01-30 01:07:06 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 01:09:07 | 90 posts: lit_Latn → eng_Latn
+2026-01-30 01:14:21 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 01:14:49 | 99 posts: hrv_Latn → eng_Latn
+2026-01-30 01:16:59 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 01:17:16 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 01:17:28 | 104 posts: hrv_Latn → eng_Latn
+2026-01-30 01:17:44 | 97 posts: hrv_Latn → eng_Latn
+2026-01-30 01:24:59 | 40 posts: lvs_Latn → eng_Latn
+2026-01-30 01:36:31 | 49 posts: hun_Latn → eng_Latn
+2026-01-30 01:37:40 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 01:37:49 | 105 posts: nld_Latn → eng_Latn
+2026-01-30 01:51:37 | 342 posts: ind_Latn → eng_Latn
+2026-01-30 01:52:59 | 51 posts: hun_Latn → eng_Latn
+2026-01-30 01:55:49 | 48 posts: hun_Latn → eng_Latn
+2026-01-30 01:56:08 | 46 posts: hun_Latn → eng_Latn
+2026-01-30 02:00:31 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 02:00:59 | 102 posts: hrv_Latn → eng_Latn
+2026-01-30 02:04:20 | 71 posts: nob_Latn → eng_Latn
+2026-01-30 02:05:33 | 334 posts: ind_Latn → eng_Latn
+2026-01-30 02:08:13 | 332 posts: ind_Latn → eng_Latn
+2026-01-30 02:08:29 | 56 posts: pol_Latn → eng_Latn
+2026-01-30 02:09:22 | 332 posts: ind_Latn → eng_Latn
+2026-01-30 02:17:19 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 02:18:58 | 2483 posts: por_Latn → eng_Latn
+2026-01-30 02:26:28 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 02:28:31 | 88 posts: lit_Latn → eng_Latn
+2026-01-30 02:44:27 | 39 posts: lvs_Latn → eng_Latn
+2026-01-30 02:48:51 | 51 posts: hun_Latn → eng_Latn
+2026-01-30 02:57:17 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 02:57:26 | 102 posts: nld_Latn → eng_Latn
+2026-01-30 02:57:48 | 393 posts: est_Latn → eng_Latn
+2026-01-30 03:02:44 | 331 posts: ind_Latn → eng_Latn
+2026-01-30 03:06:23 | 393 posts: est_Latn → eng_Latn
+2026-01-30 03:20:56 | 382 posts: est_Latn → eng_Latn
+2026-01-30 03:22:42 | 5 posts: isl_Latn → eng_Latn
+2026-01-30 03:23:10 | 768 posts: ita_Latn → eng_Latn
+2026-01-30 03:24:59 | 68 posts: nob_Latn → eng_Latn
+2026-01-30 03:28:58 | 5 posts: isl_Latn → eng_Latn
+2026-01-30 03:29:11 | 5 posts: isl_Latn → eng_Latn
+2026-01-30 03:29:26 | 767 posts: ita_Latn → eng_Latn
+2026-01-30 03:29:39 | 778 posts: ita_Latn → eng_Latn
+2026-01-30 03:29:39 | 387 posts: est_Latn → eng_Latn
+2026-01-30 03:31:23 | 395 posts: est_Latn → eng_Latn
+2026-01-30 03:34:23 | 55 posts: pol_Latn → eng_Latn
+2026-01-30 03:35:29 | 5 posts: isl_Latn → eng_Latn
+2026-01-30 03:35:56 | 744 posts: ita_Latn → eng_Latn
+2026-01-30 03:41:19 | 2481 posts: por_Latn → eng_Latn
+2026-01-30 03:51:31 | 388 posts: est_Latn → eng_Latn
+2026-01-30 04:09:17 | 421 posts: som_Latn → eng_Latn
+2026-01-30 04:09:40 | 395 posts: est_Latn → eng_Latn
+2026-01-30 04:15:49 | 407 posts: som_Latn → eng_Latn
+2026-01-30 04:18:30 | 387 posts: est_Latn → eng_Latn
+2026-01-30 04:26:04 | 384 posts: est_Latn → eng_Latn
+2026-01-30 04:40:31 | 382 posts: est_Latn → eng_Latn
+2026-01-30 04:47:05 | 397 posts: est_Latn → eng_Latn
+2026-01-30 04:47:22 | 5 posts: isl_Latn → eng_Latn
+2026-01-30 04:47:50 | 772 posts: ita_Latn → eng_Latn
+2026-01-30 04:54:00 | 182 posts: fin_Latn → eng_Latn
+2026-01-30 05:06:21 | 183 posts: fin_Latn → eng_Latn
+2026-01-30 05:08:23 | 176 posts: fin_Latn → eng_Latn
+2026-01-30 05:29:02 | 183 posts: fin_Latn → eng_Latn
+2026-01-30 05:40:41 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 05:44:11 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 05:46:09 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 05:50:18 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 05:51:17 | 177 posts: fin_Latn → eng_Latn
+2026-01-30 05:52:27 | 89 posts: lit_Latn → eng_Latn
+2026-01-30 05:53:20 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 05:53:51 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 05:55:45 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 05:56:00 | 85 posts: lit_Latn → eng_Latn
+2026-01-30 05:57:54 | 83 posts: lit_Latn → eng_Latn
+2026-01-30 05:59:40 | 178 posts: fin_Latn → eng_Latn
+2026-01-30 06:00:12 | 175 posts: fin_Latn → eng_Latn
+2026-01-30 06:03:00 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 06:04:58 | 31833 posts: spa_Latn → eng_Latn
+2026-01-30 06:05:07 | 87 posts: lit_Latn → eng_Latn
+2026-01-30 06:08:18 | 41 posts: lvs_Latn → eng_Latn
+2026-01-30 06:10:54 | 38 posts: lvs_Latn → eng_Latn
+2026-01-30 06:11:57 | 31822 posts: spa_Latn → eng_Latn
+2026-01-30 06:12:38 | 177 posts: fin_Latn → eng_Latn
+2026-01-30 06:13:57 | 461 posts: fra_Latn → eng_Latn
+2026-01-30 06:14:17 | 38 posts: lvs_Latn → eng_Latn
+2026-01-30 06:20:10 | 185 posts: fin_Latn → eng_Latn
+2026-01-30 06:20:56 | 43 posts: lvs_Latn → eng_Latn
+2026-01-30 06:24:26 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 06:24:36 | 107 posts: nld_Latn → eng_Latn
+2026-01-30 06:25:19 | 167 posts: fin_Latn → eng_Latn
+2026-01-30 06:27:20 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 06:27:30 | 104 posts: nld_Latn → eng_Latn
+2026-01-30 06:27:45 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 06:27:55 | 106 posts: nld_Latn → eng_Latn
+2026-01-30 06:33:12 | 451 posts: fra_Latn → eng_Latn
+2026-01-30 06:33:40 | 463 posts: fra_Latn → eng_Latn
+2026-01-30 06:40:27 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 06:40:37 | 107 posts: nld_Latn → eng_Latn
+2026-01-30 06:44:07 | 172 posts: fin_Latn → eng_Latn
+2026-01-30 06:56:01 | 66 posts: nob_Latn → eng_Latn
+2026-01-30 06:56:04 | 455 posts: fra_Latn → eng_Latn
+2026-01-30 06:59:04 | 68 posts: nob_Latn → eng_Latn
+2026-01-30 07:00:16 | 50 posts: pol_Latn → eng_Latn
+2026-01-30 07:03:28 | 27 posts: jpn_Jpan → eng_Latn
+2026-01-30 07:05:31 | 458 posts: fra_Latn → eng_Latn
+2026-01-30 07:07:16 | 2474 posts: por_Latn → eng_Latn
+2026-01-30 07:08:15 | 460 posts: fra_Latn → eng_Latn
+2026-01-30 07:10:02 | 69 posts: nob_Latn → eng_Latn
+2026-01-30 07:10:30 | 63 posts: nob_Latn → eng_Latn
+2026-01-30 07:13:13 | 9 posts: kor_Hang → eng_Latn
+2026-01-30 07:14:19 | 55 posts: pol_Latn → eng_Latn
+2026-01-30 07:14:24 | 57 posts: pol_Latn → eng_Latn
+2026-01-30 07:15:22 | 83 posts: lit_Latn → eng_Latn
+2026-01-30 07:16:19 | 50 posts: pol_Latn → eng_Latn
+2026-01-30 07:21:04 | 2476 posts: por_Latn → eng_Latn
+2026-01-30 07:23:18 | 2465 posts: por_Latn → eng_Latn
+2026-01-30 07:25:26 | 2473 posts: por_Latn → eng_Latn
+2026-01-30 07:27:18 | 465 posts: fra_Latn → eng_Latn
+2026-01-30 07:30:01 | 41 posts: lvs_Latn → eng_Latn
+2026-01-30 07:33:40 | 459 posts: fra_Latn → eng_Latn
+2026-01-30 07:35:32 | 458 posts: fra_Latn → eng_Latn
+2026-01-30 07:39:15 | 455 posts: fra_Latn → eng_Latn
+2026-01-30 07:44:01 | 2 posts: mkd_Cyrl → eng_Latn
+2026-01-30 07:44:11 | 104 posts: nld_Latn → eng_Latn
+2026-01-30 07:53:20 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 07:53:50 | 99 posts: hrv_Latn → eng_Latn
+2026-01-30 07:55:55 | 456 posts: fra_Latn → eng_Latn
+2026-01-30 08:14:13 | 67 posts: nob_Latn → eng_Latn
+2026-01-30 08:18:45 | 53 posts: pol_Latn → eng_Latn
+2026-01-30 08:25:14 | 2471 posts: por_Latn → eng_Latn
+2026-01-30 08:26:28 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 08:26:50 | 180 posts: ron_Latn → eng_Latn
+2026-01-30 08:26:59 | 97 posts: hrv_Latn → eng_Latn
+2026-01-30 08:27:43 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 08:28:12 | 104 posts: hrv_Latn → eng_Latn
+2026-01-30 08:43:43 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 08:44:07 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 08:44:14 | 98 posts: hrv_Latn → eng_Latn
+2026-01-30 08:44:38 | 102 posts: hrv_Latn → eng_Latn
+2026-01-30 08:45:37 | 51 posts: hun_Latn → eng_Latn
+2026-01-30 08:46:27 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 08:46:56 | 98 posts: hrv_Latn → eng_Latn
+2026-01-30 08:51:17 | 159 posts: rus_Cyrl → eng_Latn
+2026-01-30 09:01:54 | 333 posts: ind_Latn → eng_Latn
+2026-01-30 09:09:37 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 09:10:08 | 107 posts: hrv_Latn → eng_Latn
+2026-01-30 09:10:53 | 49 posts: hun_Latn → eng_Latn
+2026-01-30 09:13:14 | 48 posts: slk_Latn → eng_Latn
+2026-01-30 09:13:16 | 45 posts: hun_Latn → eng_Latn
+2026-01-30 09:17:43 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 09:18:14 | 99 posts: hrv_Latn → eng_Latn
+2026-01-30 09:22:36 | 332 posts: ind_Latn → eng_Latn
+2026-01-30 09:26:22 | 592 posts: slv_Latn → eng_Latn
+2026-01-30 09:28:00 | 334 posts: ind_Latn → eng_Latn
+2026-01-30 09:29:12 | 49 posts: hun_Latn → eng_Latn
+2026-01-30 09:29:54 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 09:30:25 | 107 posts: hrv_Latn → eng_Latn
+2026-01-30 09:32:24 | 48 posts: hun_Latn → eng_Latn
+2026-01-30 09:35:05 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 09:35:35 | 93 posts: hrv_Latn → eng_Latn
+2026-01-30 09:37:18 | 47 posts: hun_Latn → eng_Latn
+2026-01-30 09:44:10 | 326 posts: ind_Latn → eng_Latn
+2026-01-30 09:45:07 | 8 posts: hin_Deva → eng_Latn
+2026-01-30 09:45:37 | 94 posts: hrv_Latn → eng_Latn
+2026-01-30 09:47:17 | 324 posts: ind_Latn → eng_Latn
+2026-01-30 09:47:39 | 330 posts: ind_Latn → eng_Latn
+2026-01-30 09:57:18 | 47 posts: hun_Latn → eng_Latn
+2026-01-30 10:00:56 | 169 posts: ron_Latn → eng_Latn
+2026-01-30 10:03:23 | 48 posts: hun_Latn → eng_Latn
