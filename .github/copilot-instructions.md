@@ -19,7 +19,8 @@ This project analyzes information flow in social media topics by building direct
 - **Dataset Naming**: `{Country}_part_{number}.gzip.parquet` (e.g., `Ecuador_part_1.gzip.parquet`)
 - **Date Formatting**: `YYYY_MM_DD` for processed dates (e.g., `2025_12_16`)
 - **Output Structure**: Results in `results/Labeled_Datasets/{Country}/{part}/YYYY_MM_DD/` with `dataset_summary.txt`, `accounts_graph.gexf`, `io_key_authors_summary.txt`
-- **Code Style**: Notebooks for exploratory analysis, modular functions for reusable logic; avoid hardcoding paths, use `Path` for file handling
+- **Code Style**: Keep code simple and clean; notebooks for exploratory analysis, modular functions for reusable logic; avoid hardcoding paths, use `Path` for file handling
+- **Error Handling**: Prefer explicit failures over extensive fallbacks; in research contexts, it's better for the program to fail than to produce irrelevant results through aggressive error recovery
 - **Graph Construction**: Always filter entities by frequency threshold, apply time window constraints, use directed edges for temporal influence
 
 ## Integration Points
