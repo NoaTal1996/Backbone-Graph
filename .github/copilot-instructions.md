@@ -1,38 +1,38 @@
-# Backbone-Graph Copilot Instructions
+# Backbone-Graph: Copilot Instructions
 
-## Project Overview
-This project analyzes information flow in social media topics by building directed graphs where nodes represent key authors (identified via TF-IDF) and edges represent influence through hashtag/mention reuse within time windows. Core architecture uses NetworkX for graph construction and analysis, with data stored in Parquet format and results exported as GEXF files for visualization tools like Gephi.
+## Big picture
+- Goal: build topic-specific **author graphs** for discourse / IO analysis. Nodes are authors; edges represent behavioral similarity signals.
+- Core workflow is notebook-driven in [src/](../src/) and produces PNG + Parquet artifacts + GEXF graphs for Gephi.
 
-## Key Architecture Components
-- **Data Flow**: Raw social media data → Parquet files in `data/Labeled_Datasets/` → Notebook processing → Graph analysis → GEXF exports in `results/Labeled_Datasets/`
-- **Graph Model**: Nodes have properties like `username`, `tfidf_score`, `hashtags` (JSON), `mentions` (JSON); Edges have `shared_entity_count`, `shared_hashtags`, `shared_mentions`
-- **Filtering**: Key authors only (high TF-IDF), entity reuse within min/max time bounds, entities below threshold frequency
-- **Adapters**: Neo4j adapters exist in `neo4j/adapters/` but are not fully integrated; current implementation uses in-memory NetworkX graphs
+## Where to run + data layout
+- Run notebooks from [src/](../src/) (matches [src/README_src.md](../src/README_src.md)). Many paths assume `../results/` relative to `src/`.
+- Inputs are Parquet files under [data/Labeled_Datasets/](../data/Labeled_Datasets/) (e.g. `Ecuador_part_1.gzip.parquet`).
+- Outputs go under `../results/Labeled_Datasets/<Country>/<FileStem>/YYYY_MM_DD/` (sometimes `../final_results/`).
 
-## Developer Workflows
-- **Local Development**: Run Jupyter notebooks in `src/` (e.g., `key_authors_graph.ipynb`) with parameters like `dataset_name = "Labeled_Datasets/Ecuador"`, `file_name = "Ecuador_part_1.gzip.parquet"`
-- **Batch Execution**: Use SLURM via `src/config/run_notebook.sbatch` with `sbatch run_notebook.sbatch <DATASET_FILE_NAME>`; executes notebooks with Papermill in `backbone_env` conda environment
-- **Environment Setup**: `conda env create -f src/config/requirements/conda_requirements.yml` then `conda activate backbone_env`; additional pip installs from `src/config/requirements/requirements.txt`
-- **Data Processing**: Load Parquet with `pd.read_parquet()`, compute TF-IDF using `TfidfVectorizer`, build graphs with `nx.DiGraph()`, export with `nx.write_gexf()`
+## Environment
+- Conda env: `backbone_env` in [config/conda_requirements.yml](../config/conda_requirements.yml) (Python 3.12; pip installs BERTopic + transformers).
+- Setup: `conda env create -f config/conda_requirements.yml` then `conda activate backbone_env`.
 
-## Project Conventions
-- **Dataset Naming**: `{Country}_part_{number}.gzip.parquet` (e.g., `Ecuador_part_1.gzip.parquet`)
-- **Date Formatting**: `YYYY_MM_DD` for processed dates (e.g., `2025_12_16`)
-- **Output Structure**: Results in `results/Labeled_Datasets/{Country}/{part}/YYYY_MM_DD/` with `dataset_summary.txt`, `accounts_graph.gexf`, `io_key_authors_summary.txt`
-- **Code Style**: Keep code simple and clean; notebooks for exploratory analysis, modular functions for reusable logic; avoid hardcoding paths, use `Path` for file handling
-- **Error Handling**: Prefer explicit failures over extensive fallbacks; in research contexts, it's better for the program to fail than to produce irrelevant results through aggressive error recovery
-- **Graph Construction**: Always filter entities by frequency threshold, apply time window constraints, use directed edges for temporal influence
+## Notebook pipeline (execution order)
+1) [src/translate_and_clustering.ipynb](../src/translate_and_clustering.ipynb)
+   - Set near the top: `dataset_name`, `file_name`, `min_topic_size`.
+   - Produces `Topic_Ner_<file_name>` and `processed_<file_name>` plus reports/plots.
+2) If clustering OOM: [src/big_data_clustering.ipynb](../src/big_data_clustering.ipynb)
+   - Set: `dataset_name`, `raw_file_name`, `min_topic_size` → creates `BERTopic_topic_<min_topic_size>` column.
+3) Graph + key authors: [src/key_authors_graph.ipynb](../src/key_authors_graph.ipynb)
+   - Set: `file_name`, `account_id_col` (default `accountid`), `topic_col` (e.g. `BERTopic_topic_512`), `top_n`.
+   - Exports `author_topic_tfidf_by_<topic_col>.parquet`, `io_key_authors_summary.txt`, `<topic_col>_accounts_graph.gexf`.
 
-## Integration Points
-- **Visualization**: Export graphs to GEXF for Gephi analysis; summaries in TXT for quick insights
-- **Dependencies**: Core: pandas, networkx, scikit-learn; NLP: spacy, nltk, sentence-transformers; HPC: papermill for parameterized execution
-- **External Services**: Neo4j for potential persistence (drafts in `src/drafts/Key_Authors.ipynb`), but not required for core analysis
+## Graph conventions (from the notebooks)
+- Key authors are selected per-topic via TF‑IDF with a `top_n` cutoff.
+- Directed edges use canonical author id `accountid` and interaction columns like `in_reply_to_accountid`, `account_mentions`, `reposted_accountid`.
 
-## Common Patterns
-- **Key Author Selection**: `tfidf_scores = vectorizer.fit_transform(corpus); top_authors = scores.argsort()[-k:]`
-- **Entity Reuse Edges**: For each author pair, check shared hashtags/mentions within time window; create edge if count > 0
-- **Time Filtering**: Use pandas datetime for min/max bounds: `df[(df['timestamp'] > start) & (df['timestamp'] < end)]`
-- **JSON Properties**: Store entity counts as `json.dumps({"#tag": count})` in node properties
+## SLURM (papermill)
+- Run from [src/](../src/):
+  - `sbatch ../config/run_translate_and_clustering.sbatch <DATASET_FILE_NAME>` (passes papermill param `file_name`).
+  - `sbatch ../config/run_big_data_clustering.sbatch <MIN_TOPIC_SIZE>` (passes papermill param `min_topic_size`).
+- More examples in [config/slurm_commends.md](../config/slurm_commends.md).
 
-Reference: `docs/Information_Flow_Graph_Design.md` for detailed schema, `src/key_authors_graph.ipynb` for implementation example.</content>
-<parameter name="filePath">/home/amitner/Backbone-Graph/.github/copilot-instructions.md
+## Experimental / prototypes
+- Neo4j adapters: [src/neo4j/adapters/](../src/neo4j/adapters/).
+- Entity reuse + time-window edge logic: [src/drafts/Key_Authors.ipynb](../src/drafts/Key_Authors.ipynb) (not guaranteed to run end-to-end).
