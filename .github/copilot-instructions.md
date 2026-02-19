@@ -36,3 +36,9 @@
 ## Experimental / prototypes
 - Neo4j adapters: [src/neo4j/adapters/](../src/neo4j/adapters/).
 - Entity reuse + time-window edge logic: [src/drafts/Key_Authors.ipynb](../src/drafts/Key_Authors.ipynb) (not guaranteed to run end-to-end).
+
+
+## Instalation
+- Conda env: `backbone_env` in [config/conda_requirements.yml](../config/conda_requirements.yml) (Python 3.12; pip installs BERTopic + transformers).
+- Setup: `conda env create -f config/conda_requirements.yml` then `conda activate backbone_env`.
+- when downloading prefer using conda
