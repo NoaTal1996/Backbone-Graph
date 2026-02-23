@@ -7,7 +7,7 @@
 
 #SBATCH --partition main			                    ### partition name where to run a job. change only if you have a matching qos!! main: all nodes; gtx1080: 1080 gpu card nodes; rtx2080: 2080 nodes; teslap100: p100 nodes; titanrtx: titan nodes
 #SBATCH --time 3-00:00:00			                    ### Time Limit Format: D-H:MM:SS
-#SBATCH --job-name translate_and_clustering		        ### name of the job
+#SBATCH --job-name translate_topics_entities		    ### name of the job
 #SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
 #SBATCH --error=../logs/%x_%j.err
 ##SBATCH --gpus=rtx_4090:1		                        ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
@@ -32,7 +32,7 @@ DATASET_FILE_NAME="$1"
 
 if [ -z "$DATASET_FILE_NAME" ]; then
     echo "ERROR: No file name provided!"
-    echo "Usage: sbatch run_notebook.sh <DATASET_FILE_NAME>"
+    echo "Usage: sbatch run_translate_topics_entities.sbatch <DATASET_FILE_NAME>"
     exit 1
 fi
 
