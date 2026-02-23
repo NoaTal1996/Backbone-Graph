@@ -5,7 +5,7 @@ sjupyter --gpu rtx_6000:1
 
 ### Non-Interactive Job ###
 cd /home/amitner/Backbone-Graph/src
-sbatch "../config/run_translate_and_clustering.sbatch" Ecuador_part_1.gzip.parquet
+sbatch "../config/run_translate_topics_entities.sbatch" Ecuador_part_1.gzip.parquet
 
 cd /home/amitner/Backbone-Graph/src
 sbatch "../config/run_big_data_clustering.sbatch" 256

@@ -18,7 +18,7 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 ## Notebook order (pipeline)
 
-### 1. `translate_and_clustering.ipynb`
+### 1. `translate_topics_entities.ipynb`
 
   - pre-prosses
   - Entities Recognition
