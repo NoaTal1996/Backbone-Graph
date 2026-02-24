@@ -1,49 +1,226 @@
 # Backbone-Graph
 
-A framework for social media graph representation used for social platform discourse analysis and IO (information operation) detection, where edges represent behavioural similarity through entity usage patterns, using TF-IDF scoring.
+A research framework for building **key author graphs** from social media data and posts, used for **discourse analysis** and **Information Operation (IO) detection**.
 
+The pipeline takes a dataset of social media posts, cleans, translates to English, clusters posts into topics, identifies the most influential entities (hashtags, urls, account mention, NER) using **TF_IDF**, identifies influential accounts per topic, and outputs a **backbone graph** where:
+- **Nodes** are authors (social media accounts)
+- **Edges** represent behavioral similarity, based on co-actions (e.g. same hashtag usage, repos) usage patterns scored with **TF-IDF**
 
-## Core Idea
+The pipeline is based on `pandas` and `NetworkX` and exported the data as parquet file and the graph as GEXF.
 
-Social media users exhibit behavioral patterns through their use of entities (hashtags, mentions). This project constructs **graphs** where:
-- **Nodes** represent authors
-- **Edges** indicate behavioral similarity based on shared entity usage
+---
 
-The graph representation is used for social platform discourse analysis and more IO detection, enabling analysis of user communities and behavioral clusters through graph-based measures.
+## Key Terms
 
-## Key Concepts
+| Term | Definition |
+|---|---|
+| **IO (Information Operation)** | A collection of publications by coordinated actors pursuing a shared intent while misleading others. |
+| **IO Driver** | An account that promotes one or more IO.
+| **Key Author** | An account that is a leading participant in one or more narrative topics |
+| **Backbone Graph** | A graph of where *nodes* represent key authors and *edges* represent behavioral similarity. |
 
-- **Goal**: Accurate identification of IO (information operation) authors
-- **Focus**: Relationships and interactions between authors
-- **Analysis Scope**: Narrow analysis to key authors only
-- **Detection**: Identify abnormal coordinated behavioral patterns
+---
 
-## Project Structure
+## Folder Structure
 
 ```
 Backbone-Graph/
-├── data/                               # Datasets (Parquet format)
-├── docs/                               # Design documentation
-├── neo4j/                              # Graph database adapters
-├── src/                                # Core notebooks & scripts
-|   ├── Topic_Clustring_and_NER.ipynb   # Preprocessing, Topic clustering, NER
-│   ├── key_authors_graph.ipynb         # Graph construction
-│   ├── config/                         # SLURM commends and environments requirements
-│   └── Evaluation/                     
-└── results/                            
+├── config/                                    # Environment and job configuration
+│   ├── conda_requirements.yml                 # Conda environment specification
+│   ├── run_translate_topics_entities.sbatch   # SLURM job: Step 1 (preprocessing + clustering)
+│   ├── run_big_data_clustering.sbatch         # SLURM job: Step 1b (large-scale clustering)
+│   ├── slurm_commends.md                      # Common SLURM command
+│
+├── data/                                      # Input datasets (Parquet format)
+│   └── Labeled_Datasets/                      # Labeled social media datasets
+│
+├── docs/                                      # Design documentation, meeting notes, figures
+│
+├── src/                                       # All notebooks — run from this directory
+│   ├── translate_topics_entities.ipynb        # Step 1: preprocessing, NER, topic modeling
+│   ├── big_data_clustering.ipynb              # Step 1b: chunked BERTopic for large datasets
+│   ├── key_authors_graph.ipynb                # Step 2: key authors, TF-IDF, graph export
+│   ├── Boost.ipynb                            # Standalone boost-score exploration (not in pipeline)
+│   ├── README_src.md                          # Detailed src-level documentation
+│   ├── evaluation/                            # Evaluation and Checks
+│
+├── results/                                   # Pipeline outputs (auto-created)
+└── logs/                                      # SLURM papermill output notebooks and error logs
 ```
 
+---
+
+## Environment Setup
+
+The project uses a `Conda` environment.
+
+```bash
+# 1. Create the environment (only once)
+conda env create -f config/conda_requirements.yml
+
+# 2. Activate before every session
+conda activate backbone_env
+```
+
+---
+
+## Notebook Pipeline
+
+> **Important:** Always run notebooks with `Backbone-Graph/src/` as the working directory.
+
+### Step 1 — `translate_topics_entities.ipynb`
+
+Full preprocessing for datasets. Run this first.
+The notebook enrich the dataset by adding new columns that provide additional information.
+
+For large data or machine with low RAM memory, the topic modeling can runs out of memory (OOM). Use *Step 1b* in this case.
+For reference, 1M posts takes about 60G RAM.
+
+**Input**
+ Parquet dataset file.
+schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
+
+**Parameters**
+
+| Parameter | Example value | Description |
+|---|---|---|
+| `dataset_name` | `"Labeled_Datasets/Ecuador"` | Subfolder path under `data/` |
+| `file_name` | `"Ecuador_part_1.gzip.parquet"` | Input Parquet filename |
+| `min_topic_size` | `256` | BERTopic minimum cluster size |
+
+**What it does:**
+1. Cleans and Translates to English (English posts are translated to a pivot language and then back to English for normalization).
+2. Runs Named Entity Recognition (NER).
+3. Identify entity reuse.
+4. Performs topic clustering (BERTopic + KMeans)
+
+**Main Outputs** (to `results/` or `final_results/`):
+
+| File | Description |
+|---|---|
+| `processed_<file_name>.gzip.parquet` | Enriched dataset |
+| `dataset_summary.txt` | Dataset statistics |
+| `progress_report.txt` | Execution progress log |
+| `BERTopic_model/` | Saved BERTopic model directory |
+| `*.png` | Topic distribution and account distribution plots |
+
+---
+
+### Step 1b — `big_data_clustering.ipynb` _(for large datasets)_
+
+Use this instead of Step 1's built-in clustering when Step 1 runs out of memory (OOM) during topic modeling. Step 1 still handles preprocessing and NER; this notebook handles only the clustering in chunks.
+
+**Input**
+ Parquet dataset file.
+schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
+
+**Parameters**
+
+| Parameter | Example value | Description |
+|---|---|---|
+| `min_topic_size` | `256` | BERTopic minimum cluster size |
+| `chunk_size` | `100k` | Number of documents per BERTopic chunk |
+
+**What it does:**
+1. Loads the preprocessed/NER-enriched dataset from Step 1
+2. Trains BERTopic in chunks and merges chunk models
+3. Appends `BERTopic_topic_<min_topic_size>` column to the dataframe
+4. Saves progress reports during long runs
+
+**Main Outputs** 
+See Step 1 output.
+
+---
+
+### Step 2 — `key_authors_graph.ipynb`
+
+Identifies Key Authors and builds the backbone author graph. Run this after Step 1 
+
+**Input**
+Output of Step 1 (or Step 1b).
+Note that this notebook’s capabilities depend on the configuration of Step 1 and on the existence of the relevant columns.
+
+**Parameters**
+
+| Parameter | Example value | Description |
+|---|---|---|
+| `account_id_col` | `"accountid"` | Column name for author identifier |
+| `topic_col` | `"BERTopic_topic_512"` | Topic column to use (must exist in dataset) |
+| `top_n` | `300` | Number of top authors per topic to select as key authors |
+
+**What it does:**
+1. Entities scoring via TF-IDF scores. Each entity has a per-topic scores.
+2. Aggregates entity scores to create an author-topic scores. Each author has a per-topic scores. 
+3. Selects `top_n` key authors per topic.
+4. Builds a graph using interaction relation columns.
+5. Computes IO indicators (e.g., centralities)
+
+**Main Outputs** (to the same folder as the processed dataset):
+
+| File | Description |
+|---|---|
+| `author_topic_tfidf_by_<topic_col>.parquet` | Author-topic TF-IDF scores |
+| `io_key_authors_summary.txt` | IO indicator report |
+| `<topic_col>_accounts_graph.gexf` | Backbone graph |
+| `<topic_col>_accounts_graph_<layout>.png` | Photo of the graph |
+| `<model>_topic_<min_topic_size>_indicators_information_gain.png` | Information gain of the IO indicators
+
+---
+
+## Evaluation Notebooks
+
+These notebooks are standalone tools for inspecting results. They are not part of the main pipeline.
+
+| Notebook | Purpose |
+|---|---|
+| `evaluation/author_insights.ipynb` | Deep-dive into a specific author: statistics, word cloud, timeline. Set the `account_ids` parameter. |
+| `evaluation/topic_clustering_evaluation.ipynb` | Produces a topic coherence report and calculates a coherence score per topic. |
+| `evaluation/key_authors_and_boosts.ipynb` | Combines key author analysis with boost-score data. |
+| `Boost.ipynb` | Standalone exploratory boost-score analysis. |
+
+---
+
+## HPC / SLURM Usage
+
+For long-running jobs on the cluster, use the provided SLURM scripts with [papermill](https://papermill.readthedocs.io). Run all `sbatch` commands from `Backbone-Graph/src/`.
+
+### Run Step 1 (preprocessing + clustering)
+
+```bash
+cd Backbone-Graph/src
+sbatch "../config/run_translate_topics_entities.sbatch" <file_name>
+```
+
+The dataset filename is passed as the `file_name` papermill parameter. Other parameters (`dataset_name`, `min_topic_size`) must be set inside the notebook before submission.
+
+### Run Step 1b (large-scale clustering)
+
+```bash
+cd Backbone-Graph/src
+sbatch "../config/run_big_data_clustering.sbatch" <min_topic_size>
+```
+
+The `min_topic_size` value is passed as a papermill parameter.
 
 
-## Quick Start
+## Data Format
 
-1. **Environment**: `conda env create -f config/requirements/conda_requirements.yml`
-2. **Process Data**: Run `src/Topic_Clustring_and_NER.ipynb` with your dataset parameters
-3. **Graph Building**: Run `src/key_authors_graph.ipynb`
+Input datasets are Parquet files following the schema at [https://zenodo.org/records/14189193](https://zenodo.org/records/14189193).
 
+Key columns used by the pipeline:
 
-## Output
+| Column | Description |
+|---|---|
+| `accountid` | Author identifier |
+| `in_reply_to_accountid` | Reply-to author (used for graph edges) |
+| `account_mentions` | Mentioned accounts (used for graph edges) |
+| `reposted_accountid` | Reposted author (used for graph edges) |
+| `label` | IO label: `1` = IO Driver, `0` = not an IO Driver |
 
-- **Data Statistics**
-- **Author level IO centereleties indicators**
-- **GEXF Files**: Graph exports compatible with Gephi
+---
+
+## Further Reading
+
+- [src/README_src.md](src/README_src.md) — detailed notebook documentation and workflow diagram
+- [docs/](docs/) — design documentation and meeting notes
+- [config/slurm_commends.md](config/slurm_commends.md) — SLURM command reference
