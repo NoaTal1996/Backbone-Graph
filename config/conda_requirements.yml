@@ -3,23 +3,36 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.12
+  - python=3.11  # here are problems with newer python versions.
+  # Data manipulation
   - pandas
-  - matplotlib
-  - emoji
-  - spacy
-  - nltk
-  - scikit-learn
+  - numpy
   - pyarrow
-  - fastparquet
+  # ML / NLP
+  - scikit-learn
+  - gensim 
+  - umap-learn
+  - sentence-transformers
+  - transformers
   - sentencepiece
-  - accelerate
-  - ipywidgets
-  - langdetect
-  - wordcloud
+  - pytorch          # torch
+  - bertopic 
+  # Visualization
+  - matplotlib
+  - matplotlib-venn  # matplotlib_venn
   - seaborn
-  - pip
-  - pip:
-      - bertopic
-      - sentence-transformers
-      - transformers
+  - wordcloud
+  - ipython
+  - ipywidgets
+  - venn
+  # NLP utilities
+  - nltk
+  - spacy
+  - langdetect
+  - emoji
+  # Graph / network
+  - networkx
+  # Utilities
+  - tqdm
+  - tabulate
+  - ruptures
