@@ -42,8 +42,10 @@ That is: **1,468,565 rows** (posts) and **29 columns**.
 | `clean_text_without_enteties` | `str` | Cleaned text with entities removed or masked.|
 | `translated_post` | `str` | Machine-translated version of the post to English. Original English posts was translated from and to english for normalization |
 | `BERTopic_topic_<min_topic_size>` | `int64` | Topic assignment from BERTopic using the `min_topic_size` configuration. `-1` often indicates outliers/unassigned (BERTopic default). |
-| `BERTopic_prob<min_topic_size>` | `float32` | Probability/confidence of the BERTopic model to the chosen topic. |
+| `BERTopic_prob_<min_topic_size>` | `float32` | Probability/confidence of the BERTopic model to the chosen topic. |
 | `ner_entities` | `ndarray` | Named entities extracted from the post. Empty list when none found. |
+| `<entity_type>_reuse_<time_window>_postids"` | `ndarray` | Earlier posts within a `time_window` that share at least one entity. |
+| `<entity_column>_reuse_<time_window>_accountids` | `ndarray` | Account ids of the authors of the relevant posts. |
 
 ## Acknowledgments and Additional Details
 
