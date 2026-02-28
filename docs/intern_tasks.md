@@ -1,8 +1,11 @@
 # Intern Tasks
 
+<<<<<<< Updated upstream
 ### 0. Learning
 
 
+=======
+>>>>>>> Stashed changes
 ### 1. Processed Dataset Publication 
 We can't. No licenses.
 
