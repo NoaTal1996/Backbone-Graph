@@ -1,7 +1,7 @@
 # Intern Tasks
-For each section, create a GitHub issue and mark the checkbox of tasks you have completed.
-All reports, codes. slides are in English. Communications can be in Hebrew or English.
-Ask questions if needed.
+For each section, create a GitHub issue and mark the checkbox of tasks you have completed. <br/>
+All reports, codes and slides are should be in English. Communications can be in Hebrew or English. <br/>
+Ask questions if needed. <br/>
 
 
 ## 0. Learning and Preparation
