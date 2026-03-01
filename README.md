@@ -10,6 +10,18 @@ The pipeline is based on `pandas` and `NetworkX` and exported the data as parque
 
 ---
 
+## Workflow
+
+![Workflow](docs/figures/workflow.jpg)
+
+---
+
+## Working Directory
+
+**Important:** Always run notebooks with `Backbone-Graph/src/` as the working directory. All paths in the notebooks assume this location.
+
+---
+
 ## Key Terms
 
 | Term | Definition |
@@ -31,8 +43,9 @@ Backbone-Graph/
 │   ├── run_big_data_clustering.sbatch         # SLURM job: Step 1b (large-scale clustering)
 │   ├── slurm_commends.md                      # Common SLURM command
 │
-├── data/                                      # Input datasets (Parquet format)
-│   └── Labeled_Datasets/                      # Labeled social media datasets
+├── data/                                      # Input datasets
+│   └── Labeled_Datasets/                      # Labeled Datasets for IO (Parquet format)
+|       └── Ecuador/                           # Ecuador Campaign
 │
 ├── docs/                                      # Design documentation, meeting notes, figures
 │
@@ -66,15 +79,12 @@ conda activate backbone_env
 
 ## Notebook Pipeline
 
-> **Important:** Always run notebooks with `Backbone-Graph/src/` as the working directory.
-
 ### Step 1 — `translate_topics_entities.ipynb`
 
 Full preprocessing for datasets. Run this first.
-The notebook enrich the dataset by adding new columns that provide additional information.
+The notebook enriches the dataset by adding new columns that provide additional information.
 
-For large data or machine with low RAM memory, the topic modeling can runs out of memory (OOM). Use *Step 1b* in this case.
-For reference, 1M posts takes about 60G RAM.
+**Memory Note:** For datasets with ~100k+ posts or machines with low RAM, the topic modeling may run out of memory (OOM). Use *Step 1b* in this case (topic modeling is offloaded to `big_data_clustering.ipynb`, while Step 1 still handles preprocessing and NER). For reference, 1M posts takes approximately 60G RAM.
 
 **Input**
  Parquet dataset file.
@@ -108,7 +118,9 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 
 ### Step 1b — `big_data_clustering.ipynb` _(for large datasets)_
 
-Use this instead of Step 1's built-in clustering when Step 1 runs out of memory (OOM) during topic modeling. Step 1 still handles preprocessing and NER; this notebook handles only the clustering in chunks.
+Use this **instead of Step 1's built-in clustering** when Step 1 runs out of memory (OOM) during topic modeling.
+
+**Workflow:** Step 1 (`translate_topics_entities.ipynb`) still performs preprocessing and NER; this notebook (`big_data_clustering.ipynb`) handles only the chunked topic clustering and merges the results.
 
 **Input**
  Parquet dataset file.
@@ -167,9 +179,19 @@ Note that this notebook’s capabilities depend on the configuration of Step 1 a
 
 ---
 
+---
+
+## Non-Pipeline Notebooks
+
+### Standalone Exploration
+
+- **`Boost.ipynb`** — Exploratory analysis of boost-score data. Not part of the main workflow.
+
+---
+
 ## Evaluation Notebooks
 
-These notebooks are standalone tools for inspecting results. They are not part of the main pipeline.
+These notebooks are standalone tools for inspecting and validating results. They are not part of the main pipeline.
 
 | Notebook | Purpose |
 |---|---|
