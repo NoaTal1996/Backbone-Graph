@@ -23,7 +23,7 @@ Ask questions if needed.
 - [ ] Read [README_processed_labeled_datasets.md](../final_results/Labeled_Datasets/README_processed_labeled_datasets.md). 
 - [ ] Choose a campaign from a different country in the dataset (criteria: > 1M posts, Latin language, not Spanish).
 - [ ] Create a README for the campaign (reference: [Ecuador_campaign_overview.md](../data/Ecuador_campaign_overview.md)).
-- [ ] Run the full pipeline on the selected dataset (translate, clustering, key authors detection).
+- [ ] Run the full pipeline on the selected dataset (translate, clustering, key authors detection). Output folder shuild be `final_results\<campaign name\country>
 
 ## 3. Documentation & Reproducibility
 - [ ] Improve README and setup instructions to clarify the pipeline for new contributors.
