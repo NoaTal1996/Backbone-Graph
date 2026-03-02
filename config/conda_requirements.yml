@@ -1,4 +1,4 @@
-name: backbone_env
+name: backbone_env_v2
 channels:
   - conda-forge
   - defaults
@@ -16,7 +16,7 @@ dependencies:
   - transformers
   - sentencepiece
   - pytorch          # torch
-  - bertopic 
+  - bertopic         # maybe it is better to install it via pip, to avoid dependency issues.
   # Visualization
   - matplotlib
   - matplotlib-venn  # matplotlib_venn
@@ -36,3 +36,13 @@ dependencies:
   - tqdm
   - tabulate
   - ruptures
+  - ipykernel
+  # - pip:
+  #   - bertopic
+
+
+
+################ How to use? In terminal do: ################
+# conda env create -y -f ./config/conda_requirements.yml
+# conda activate backbone_env_v2
+# python -m ipykernel install --user --name backbone_env_v2 --display-name "backbone_env_v2"
