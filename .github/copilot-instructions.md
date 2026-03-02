@@ -4,6 +4,37 @@
 - Goal: build topic-specific **author graphs** for discourse / IO analysis. Nodes are authors; edges represent behavioral similarity signals.
 - Core workflow is notebook-driven in [src/](../src/) and produces PNG + Parquet artifacts + GEXF graphs for Gephi.
 
+## Coding Standards
+This is a **research project**. Prioritize clarity and simplicity over production-grade robustness:
+
+- **Clear, simple code**: Write straightforward implementations that are easy to understand and modify.
+- **Minimal error handling**: No need for extensive try-catch blocks or complex error recovery mechanisms. Simple assertions or basic checks are sufficient.
+- **Descriptive variable names**: Use clear, meaningful variable names that explain their purpose (e.g., `author_topic_tfidf` instead of `at_tfidf`).
+- **Google-style docstrings**: Every function must have a Google-style docstring describing parameters, returns, and purpose.
+- **Inline comments**: Add short, explanatory comments inside functions to clarify logic and intent.
+
+Example:
+```python
+def calculate_author_tfidf(author_posts, topic_id, min_posts=5):
+    """Calculate TF-IDF scores for authors within a specific topic.
+    
+    Args:
+        author_posts (pd.DataFrame): DataFrame with author posts and content.
+        topic_id (int): The topic ID to filter by.
+        min_posts (int): Minimum number of posts required per author.
+    
+    Returns:
+        pd.DataFrame: TF-IDF scores indexed by author.
+    """
+    # Filter posts for the specified topic
+    topic_posts = author_posts[author_posts['topic'] == topic_id]
+    
+    # Calculate term frequency for each author
+    author_term_freq = topic_posts.groupby('author')['content'].apply(lambda x: ' '.join(x))
+    
+    return author_term_freq
+```
+
 ## Where to run + data layout
 - Run notebooks from [src/](../src/) (matches [src/README_src.md](../src/README_src.md)). Many paths assume `../results/` relative to `src/`.
 - Inputs are Parquet files under [data/Labeled_Datasets/](../data/Labeled_Datasets/) (e.g. `Ecuador_part_1.gzip.parquet`).
