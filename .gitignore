@@ -4,6 +4,7 @@ BERTopic_model
 **/BERTopic_model
 BERTopic_model/
 results/
+experimental_results/
 logs/
 data/Labeled_Datasets/
 data/US_24/
