@@ -1,13 +1,10 @@
 
 # Processed Labeled Dataset (Parquet)
 
-This folder contains *processed / labeled* social-media posts exported as Parquet tables for downstream analysis (topic modeling, NER, and information-flow graph construction).
 
 ## DataFrame shape (Ecuador Campaign)
 
-`df.shape == (1468565, 29)`
-
-That is: **1,468,565 rows** (posts) and **29 columns**.
+**1,468,565 rows** (posts) and **37 columns**.
 
 ## Column schema
 
@@ -45,7 +42,7 @@ That is: **1,468,565 rows** (posts) and **29 columns**.
 | `BERTopic_prob_<min_topic_size>` | `float32` | Probability/confidence of the BERTopic model to the chosen topic. |
 | `ner_entities` | `ndarray` | Named entities extracted from the post. Empty list when none found. |
 | `<entity_type>_reuse_<time_window>_postids"` | `JSON` | Earlier posts within a `time_window` that share at least one entity from the <entity_type>. Note: This column may be unavailable due to system constraints. |
-| `<entity_column>_reuse_<time_window>_accountids` | `ndarray` | Account ids of the authors of the relevant posts. |
+| `<entity_type>_reuse_<time_window>_accountids` | `ndarray` | Account ids of the authors of the relevant posts. |
 
 ## Acknowledgments and Additional Details
 
