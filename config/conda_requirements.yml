@@ -37,6 +37,7 @@ dependencies:
   - tabulate
   - ruptures
   - ipykernel
+  - papermill
   # - pip:
   #   - bertopic
 
