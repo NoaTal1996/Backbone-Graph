@@ -1,0 +1,36 @@
+#!/bin/bash
+
+################################################################################################
+### sbatch configuration parameters must start with #SBATCH and must precede any other commands.
+### To ignore, just add another # - like so: ##SBATCH
+################################################################################################
+
+#SBATCH --partition main			                    ### partition name where to run a job
+#SBATCH --time 00-20:00:00			                    ### Time Limit Format: D-H:MM:SS
+#SBATCH --job-name key_authors_graph		            ### name of the job
+#SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
+#SBATCH --error=../logs/%x_%j.err
+
+#SBATCH --mail-user=amitner@post.bgu.ac.il	            ### user's email for sending job status messages
+#SBATCH --mail-type=ALL			                        ### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
+#SBATCH --mem=60G				                    ### ammount of RAM memory, allocating more than 60G requires IT team's permission
+
+################  Following lines will be executed by a compute node    #######################
+
+### Print some data to output file ###
+echo "$(date)"
+echo -e "\nSLURM_JOB_ID:\t\t$SLURM_JOB_ID"
+echo -e "SLURM_JOB_NODELIST:\t$SLURM_JOB_NODELIST"
+echo -e "Job name:\t\t$SLURM_JOB_NAME"
+
+### Start your code ###
+module load anaconda
+source activate backbone_env_v2
+
+IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
+OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}.ipynb"
+
+echo "Starting papermill..."
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}"
+
+echo "Completed ${SLURM_JOB_NAME}!"
