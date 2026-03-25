@@ -68,9 +68,15 @@ Backbone-Graph/
 The project uses a `Conda` environment.
 
 ```bash
+# 1. Create the environment (only once)
 conda env create -y -f ./config/conda_requirements.yml
+
+# 2. Register as ipynb kernel
 conda activate backbone_env_v2
 python -m ipykernel install --user --name backbone_env_v2 --display-name "backbone_env_v2"
+
+# 3. Activate before every session
+conda activate backbone_env_v2
 ```
 
 ---

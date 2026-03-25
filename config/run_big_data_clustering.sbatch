@@ -36,10 +36,10 @@ echo -e "\nMIN_TOPIC_SIZE:\t" $MIN_TOPIC_SIZE
 
 ### Start your code below ####
 module load anaconda				### load anaconda module
-source activate backbone_env
+source activate backbone_env_v2
 
 # papermill
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
 
-conda run -n backbone_env papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p min_topic_size "${MIN_TOPIC_SIZE}"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p min_topic_size "${MIN_TOPIC_SIZE}"
