@@ -44,10 +44,10 @@ echo -e "Job name:\t\t$SLURM_JOB_NAME"
 
 ### Start your code below ####
 module load anaconda				### load anaconda module
-source activate backbone_env
+source activate backbone_env_v2
 
 # papermill
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
 
-conda run -n backbone_env papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p file_name "$DATASET_FILE_NAME"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p file_name "$DATASET_FILE_NAME"
