@@ -7,7 +7,7 @@ sjupyter --gpu rtx_6000:1
 
 # translate_topics_entities
 cd /home/amitner/Backbone-Graph/src
-sbatch "../config/run_translate_topics_entities.sbatch" Ecuador_part_1.gzip.parquet
+sbatch "../config/run_translate_topics_entities.sbatch" Ecuador_part_all.gzip.parquet
 
 # big_data_clustering
 cd /home/amitner/Backbone-Graph/src
