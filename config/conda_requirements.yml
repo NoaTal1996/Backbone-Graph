@@ -3,41 +3,40 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11  # here are problems with newer python versions.
+  - python=3.11.7 
   # Data manipulation
-  - pandas
-  - numpy
-  - pyarrow
+  - pandas=2.1.4   
+  - numpy=1.26.3  
+  - pyarrow=11.0.0 
   # ML / NLP
-  - scikit-learn
+  - scikit-learn=1.2.2 
   - xgboost
-  - gensim 
+  - gensim=4.3.0       
   - umap-learn
+  - transformers=4.32.1 
   - sentence-transformers
-  - transformers
   - sentencepiece
-  - pytorch          # torch
-  - bertopic         # maybe it is better to install it via pip, to avoid dependency issues.
+  - pytorch
+  - bertopic         
   # Visualization
-  - matplotlib
-  - matplotlib-venn  # matplotlib_venn
-  - seaborn
+  - matplotlib=3.8.0 
+  - matplotlib-venn  
+  - seaborn=0.12.2   
   - wordcloud
-  - ipython
-  - ipywidgets
+  - ipython=8.20.0  
+  - ipywidgets=8.0.4 
   - venn
   # NLP utilities
-  - nltk
+  - nltk=3.8.1       
   - spacy
   - langdetect
   - emoji
   # Graph / network
-  - networkx
+  - networkx=3.1     
   # Utilities
-  - tqdm
-  - tabulate
+  - tqdm=4.65.0      
   - ruptures
-  - ipykernel
+  - ipykernel=6.28.0 
   - papermill
   # - pip:
   #   - bertopic
