@@ -110,4 +110,5 @@ cython_debug/
 .ropeproject
 .pypirc
 .vscode/
-.vscode
+.vscodedata/Labeled_Datasets/*part_all*
+data/Labeled_Datasets/*part_all*
