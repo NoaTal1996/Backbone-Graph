@@ -13,7 +13,7 @@
 #SBATCH --gpus=rtx_4090:1		                        ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
 
 ### Note: Lines are with ## are commented out
-#SBATCH --mail-user=amitner@post.bgu.ac.il	            ### user's email for sending job status messages
+#SBATCH --mail-user=idanmu@post.bgu.ac.il	            ### user's email for sending job status messages
 #SBATCH --mail-type=ALL			                        ### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
 #SBATCH --mem=60G				                        ### ammount of RAM memory, allocating more than 60G requires IT team's permission
 
@@ -28,7 +28,6 @@
 
 ### Read argument from command line
 DATASET_FILE_NAME="$1"
-
 
 if [ -z "$DATASET_FILE_NAME" ]; then
     echo "ERROR: No file name provided!"
@@ -50,4 +49,8 @@ source activate backbone_env_v2
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
 
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p file_name "$DATASET_FILE_NAME"
+# This cleans the name for the log file
+CLEAN_NAME=$(basename "$1")
+export SLURM_DATA_PATH="$1"
+# This runs the job and saves a CLEAN log name
+conda run -n backbone_env_v2 papermill translate_topics_entities.ipynb "../logs/log_${SLURM_JOB_ID}_${CLEAN_NAME}.ipynb" -p file_name "$CLEAN_NAME"
