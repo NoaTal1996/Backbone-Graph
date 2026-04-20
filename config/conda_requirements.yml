@@ -12,6 +12,7 @@ dependencies:
   - scikit-learn=1.2.2 
   - xgboost
   - gensim=4.3.0       
+  - shap
   - umap-learn
   - transformers=4.32.1 
   - sentence-transformers
