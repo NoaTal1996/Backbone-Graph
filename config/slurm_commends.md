@@ -19,8 +19,7 @@ sbatch "../config/run_key_authors_graph.sbatch"
 
 ### Interactive Job ###
 sinteractive  --time 0-8:00:00  --gpu rtx_6000:1
-sinteractive  --time 0-8:00:00
-
+sinteractive --time 0-8:00:00 --cpu 4
 
 ### Utils ###
 
