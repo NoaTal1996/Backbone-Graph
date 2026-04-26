@@ -10,10 +10,10 @@
 #SBATCH --job-name big_data_clustering			    ### name of the job
 #SBATCH --output=../logs/%x_%j.out                  ### %x – Job name, %j – Job ID
 #SBATCH --error=../logs/%x_%j.err
-##SBATCH --gpus=rtx_4090:1		                    ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
+#SBATCH --gpus=rtx_4090:1		                    ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
 
 ### Note: Lines are with ## are commented out
-#SBATCH --mail-user=amitner@post.bgu.ac.il	        ### user's email for sending job status messages
+#SBATCH --mail-user=idanmu@post.bgu.ac.il	        ### user's email for sending job status messages
 #SBATCH --mail-type=ALL			                    ### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
 #SBATCH --mem=60G				                    ### ammount of RAM memory, allocating more than 60G requires IT team's permission
 
@@ -40,6 +40,6 @@ source activate backbone_env_v2
 
 # papermill
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
-OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
+OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_size_${MIN_TOPIC_SIZE}.ipynb" # added the size to the log name for better tracking
 
 conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p min_topic_size "${MIN_TOPIC_SIZE}"
