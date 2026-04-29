@@ -1,21 +1,16 @@
 
-# Processed Labeled Dataset (Parquet)
+# Processed Labeled Dataset Schema
 
-
-## DataFrame shape (Ecuador Campaign)
-
-**1,468,565 rows** (posts) and **37 columns**.
-
-## Column schema
-
- Notes on types:
+ Notes:
 - `Timestamp` refers to a pandas datetime (`datetime64[ns]`).
 - `date` refers to Python `datetime.date`.
 - `ndarray` columns typically contain a NumPy array (list-like).
 - `min_topic_size` is a number (e.g. 128,256,512) serve as parameter for BERTopic. Higher `min_topic_size` mean few and larger topics.
+- `enteties` are post enteties such as hashtags, urls and account mentions.
 
 | Column | Type | Description |
 |---|---:|---|
+| **### Original Dataset Columns ###**|-|-|
 | `postid` | `str` | Unique identifier of the post. |
 | `post_text` | `str` | The textual content of the post. The PII inside post_text such as mentions and URLs are hashed. |
 | `application_name` | `str` | Hashed version of the name of the application or platform from which the post was made. |
@@ -35,6 +30,7 @@
 | `urls` | `ndarray` | Hashed URLs shared within the post. Empty list when none found. |
 | `account_mentions` | `ndarray` | Anonymized ID of accounts mentioned within the post. Empty list when none found. |
 | `is_control` | `bool_` | Boolean indicator marking whether the post is from a control (True) or IO (False) account.|
+| **### Added Columns ###** |-|-|
 | `clean_text_with_entities` | `str` | Cleaned text with entity strings preserved. |
 | `clean_text_without_enteties` | `str` | Cleaned text with entities removed or masked.|
 | `translated_post` | `str` | Machine-translated version of the post to English. Original English posts was translated from and to english for normalization |
@@ -46,9 +42,9 @@
 
 ## Acknowledgments and Additional Details
 
-This dataset is a processed derivative of the **"Labeled Datasets for Research on Information Operations."**
+This dataset is a derivative of the **"Labeled Datasets for Research on Information Operations."**
 
-For more details, including the dataset schema, see:
+For more details, including the schema of the original dataset see:
 https://zenodo.org/records/14189193
 
 
