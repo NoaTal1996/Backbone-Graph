@@ -136,4 +136,3 @@ The repo contains papermill-based SLURM scripts:
   - Script: `../config/run_big_data_clustering.sbatch`
 
 See `../config/slurm_commends.md` for examples.
-
