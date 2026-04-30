@@ -1,6 +1,7 @@
 name: backbone_env_v2
 channels:
   - conda-forge
+  - rapidsai # for nx-cugraph
   - defaults
 dependencies:
   - python=3.11.7 
@@ -34,7 +35,8 @@ dependencies:
   - emoji
   - sentencepiece
   # Graph / network
-  - networkx=3.1     
+  - networkx=3.6
+  - nx-cugraph
   # Utilities
   - tqdm=4.65.0      
   - tabulate
