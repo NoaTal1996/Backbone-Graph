@@ -44,8 +44,8 @@ dependencies:
   - ruptures
   - ipykernel=6.28.0 
   - papermill
-  # - pip:
-  #   - bertopic
+  - pip:
+    - MLstatkit
 
 
 
