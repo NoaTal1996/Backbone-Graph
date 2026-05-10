@@ -27,7 +27,8 @@ slurm-*.out
 .nfs*
 
 
-
+# Temporary PowerPoint Files
+**/~$*.pptx 
 
 
 
