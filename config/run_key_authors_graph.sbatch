@@ -10,6 +10,7 @@
 #SBATCH --job-name key_authors_graph		            ### name of the job
 #SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
 #SBATCH --error=../logs/%x_%j.err
+#SBATCH --gpus=rtx_4090:1
 
 #SBATCH --mail-user=amitner@post.bgu.ac.il	            ### user's email for sending job status messages
 #SBATCH --mail-type=ALL			                        ### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
