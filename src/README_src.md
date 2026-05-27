@@ -21,13 +21,14 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 ### 1. `translate_topics_entities.ipynb`
   - Pre-processing: Dataset cleaning and text translation.
   - Entities Recognition (NER): Identifying and storing named entities.
-  - Topic modeling (for data up to 100k posts). <br/>
-      If the dataset is too large for the clustering (usealy OOM error), use `big_data_clustering.ipynb` for the topic modeling. Note that pre-prosses and NER are stiil preformed by `translate_and_clustering.ipynb`.
+  - Topic modeling (for data up to 100k posts).
+
+> **Large dataset?** Switch to `big_data_clustering.ipynb` for the clustering step — pre-processing and NER still run here first.
 
 ### 2. `key_authors_graph.ipynb`
-  - Calculates TF-IDF score for enttities, posts and authors.
-  - key autros selection : Identifies leading participants within specific topics.
-  - Backbone graph bulding : Constructs a directed account graph (GEXF) based on user interactions.
+  - Calculates TF-IDF score for entities, posts and authors.
+  - key authors selection : Identifies leading participants within specific topics.
+  - Backbone graph building : Constructs a directed account graph (GEXF) based on user interactions.
   - IO indicators : Generates summaries of Information Operation (IO) activity.
 
 ### Not part of the pipeline
@@ -44,11 +45,16 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 ## Notebook details
 
-### 1) `translate_and_clustering.ipynb`
+### 1) `translate_topics_entities.ipynb`
+
+The pipeline's entry point. Takes a raw social media dataset, cleans and translates the text, extracts named entities, and clusters posts into topics.
 
 **Inputs**
-- Path to a combined Dataset parquet with the secma like https://zenodo.org/records/14189193.
-- `min_topic_size` (used for BERTopic and naming the output folder)
+- Parameters in the notebook:
+  - `dataset_name` — subfolder path under `data/` (e.g., `"Labeled_Datasets/Venezuela_2"`).
+  - `file_name` — input Parquet filename (defaults to `<dataset_name>_part_all.gzip.parquet`).
+  - `min_topic_size` — BERTopic minimum cluster size (also used to name the output folder).
+- Input Parquet must follow the schema at https://zenodo.org/records/14189193.
 
 **What it does**
 - Loads the parquet and performs dataset cleaning.
@@ -58,12 +64,12 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 - Writes progress logs during execution.
 
 **Outputs**
-- Output to `results/<campaing's name>` folder or `final_results` folder. Examaple: 
+- Output folder: `results/<dataset_name>/<file_stem>/BERT_min_topic_size_<min_topic_size>/`
 - Main Artifacts created:
   - `processed_<file_name>` (gzip parquet)
   - `dataset_summary.txt`
   - `progress_report.txt`
-  - `BERTopic_model` 
+  - `BERTopic_model_<min_topic_size>` 
   - `Topic plots` (PNG) such as BERTopic topic distribution / accounts distribution.
 
 
@@ -71,13 +77,15 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 ### 1b) `big_data_clustering.ipynb` (for huge datasets)
 
-This notebook is intended for **large-scale topic clustering** (chunked BERTopic + merge). It should be used after `translate_topic_entities.ipynb` rins into OOM.
+This notebook is intended for **large-scale topic clustering** (chunked BERTopic + merge). It should be used after `translate_topics_entities.ipynb` runs into OOM.
 
 **Inputs**
-- A path to **preprocessed parquet** that already contains the translated / NER-enriched content required for clustering.
 - Parameters in the notebook:
+  - `dataset_name` — same value used in notebook 1 (e.g., `"Labeled_Datasets/Egypt_UAE"`).
+  - `raw_file_name` — the original input Parquet filename.
   - `min_topic_size` (used for BERTopic and naming the output folder).
   - `chunk_size` (controls how many documents per BERTopic chunk).
+- Reads the preprocessed parquet produced by notebook 1 (already translated and NER-enriched), located automatically under `results/<dataset_name>/<file_stem>/`.
 
 **What it does**
 - Loads the preprocessed dataset.
@@ -87,11 +95,9 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 - Saves progress reports during long runs.
 
 **Outputs**
-- Output root (current behavior):
-  - `processed_<raw_file_name_no_suffixes>.gzip.parquet`
-  - `progress_reports/progress_report_min_topic_size_<min_topic_size>.txt`
-  - `BERTopic_models_min_topic_size_<min_topic_size>/` (chunk models + merged model)
-  - Plots (PNG) like `<topic_col>_topic_clustering.png` and `<topic_col>_topic_accounts.png`
+- `clustered_<raw_file_name_no_suffixes>.gzip.parquet`
+- `BERTopic_models_min_topic_size_<min_topic_size>/` (chunk models + merged model)
+- Plots (PNG): `<topic_col>_topic_clustering.png`, `<topic_col>_topic_accounts.png`
 
 ---
 
@@ -100,35 +106,36 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 This notebook builds the **Key-Authors Backbone graph** for the chosen topic column and exports it to GEXF.
 
 **Inputs**
-- A processed parquet (with topic labels) at:
 - Parameters in the notebook:
-  - Path to the the procced dataset from notbook (1).
-  - `topic_col` (example: `BERTopic_topic_512`)
-  - `top_n` (example: `300`; top authors per topic)
+  - `dataset_folder` — subfolder path under `experimental_results/` (e.g., `"Labeled_Datasets/Ecuador"`).
+  - `file_name` — input Parquet filename (e.g., `"Ecuador_part_all.gzip.parquet"`).
+  - `dataset_procced_date` — date subfolder from notebook 1's output (e.g., `"2026_01_10"`).
+  - `topic_col` (example: `BERTopic_topic_256`)
+  - `top_percentage` — fraction of top authors per topic to select as key authors (e.g., `0.01` = top 1%).
+  - `account_id_col` — account identifier column (default: `"accountid"`).
+- Reads from: `experimental_results/<dataset_folder>/<file_stem>/<dataset_procced_date>/processed_<file_name>`
 - The processed dataframe is expected to contain:
-  - An account identifier (default: `accountid`)
   - The chosen `topic_col`
   - Interaction columns used to build edges (e.g., replies/mentions/reposts; see notebook)
 
 **What it does**
 - Computes author-topic TF-IDF and identifies “key authors” per topic.
 - Produces IO summaries.
-- Builds a directed accounts graph and exports.
+- Builds a directed accounts graph and exports it to GEXF.
 
-**Outputs** (written to the same folder as the processed parquet)
-- `author_topic_tfidf_by_<topic_col>.parquet`
+**Outputs** (written to `experimental_results/<dataset_folder>/<file_stem>/<dataset_procced_date>/<run_date>/`)
+- `author_topic_key_score_by_<topic_col>.parquet`
 - `io_key_authors_summary.txt`
-- `<topic_col>_accounts_graph.gexf`
-- `<topic_col>_accounts_graph_spring.png`
-- Additional indicators/plots/parquets (information gain, comparisons, etc.)
+- `accounts_graph_topic_col_<topic_col>.gexf`
+- Additional indicators/plots/parquets (information gain, IO classification reports, comparisons, etc.)
 
 ## Batch execution (SLURM)
 
 The repo contains papermill-based SLURM scripts:
 - Translate + clustering:
 
-  - `sbatch ../config/run_translate_and_clustering.sbatch <DATASET_FILE_NAME>`
-  - Script: `../config/run_translate_and_clustering.sbatch`
+  - `sbatch ../config/run_translate_topics_entities.sbatch <DATASET_FILE_NAME>`
+  - Script: `../config/run_translate_topics_entities.sbatch`
   - Note: it passes only `file_name`; `dataset_name` and other parameters remain as set inside the notebook.
 - Big data clustering:
 
