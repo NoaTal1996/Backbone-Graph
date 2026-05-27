@@ -105,7 +105,7 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 **What it does:**
 1. Cleans and Translates to English (English posts are translated to a pivot language and then back to English for normalization).
 2. Runs Named Entity Recognition (NER).
-3. Identify entity reuse.
+3. Identifies entity reuse.
 4. Performs topic clustering (BERTopic + KMeans)
 
 **Main Outputs** (to `results/` or `final_results/`):
