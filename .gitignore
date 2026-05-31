@@ -10,7 +10,8 @@ logs/
 data/
 *part_all*
 
-
+# AI
+AGENTS.md
 
 # Jupyter
 .ipynb_checkpoints/
