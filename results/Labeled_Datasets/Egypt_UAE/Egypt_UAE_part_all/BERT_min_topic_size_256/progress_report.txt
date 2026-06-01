@@ -1,0 +1,250 @@
+2026-05-20 13:21:33 | postid duplication sum 1 (0.000%)
+2026-05-20 13:22:11 | Undefined post language percentage **before** mapping: 1.71%
+2026-05-20 13:22:14 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️❤️❤️ ❤️ ❤️ ❤️❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ <URL>
+2026-05-20 13:22:15 | Language detection failed: No features in text. | lang_code=und | text=🌹🌹🌹🌹
+2026-05-20 13:22:16 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER>
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER>
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤ <USER> f
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤ <USER> <
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤ <USER> <
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> si
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER>
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER> <U
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=★★★▀█▀▀█▀█▀▀█┏━━╮╱▔╲-- follow ★★★░█▄▌░░█▄▌░╰┳╮╲▏┈◑◤-- feliz ★★★░█░░░░█░░░▔╰┳╮╲┈┈◣--noche ★★★▄█▄░░▄█▄
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▐──▐▀▌█─█▐█▀─❤╔══╗░░█╔═╗░❤╔══╗╔═╗░ ▐▄█▐▄▌▀▄▀▐▄▄─❤╠╗╚╣░█░║║║░❤╚╗╔╝║║║░ ─────────────❤╚══╝█░░╚═╝░❤░╚╝░
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=★★★▀█▀▀█▀█▀▀█┏━━╮╱▔╲-- follow ★★★░█▄▌░░█▄▌░╰┳╮╲▏┈◑◤-- feliz ★★★░█░░░░█░░░▔╰┳╮╲┈┈◣--noche ★★★▄█▄░░▄█▄
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=★★★▀█▀▀█▀█▀▀█┏━━╮╱▔╲-- follow ★★★░█▄▌░░█▄▌░╰┳╮╲▏┈◑◤-- feliz ★★★░█░░░░█░░░▔╰┳╮╲┈┈◣--noche ★★★▄█▄░░▄█▄
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER>
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER>
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▄▓▓▄══════▓▓▓═▓═══════☆▂╱╲▂☆ ▓║▓▓════╥╖▓═▓═▓═╓╖╥═╥═＼(◕‿◕)／▂☆ ▓╚╝▓╓╖╓╖║║▓═▓═▓╥║╥║╖╫═☆▔╲╱▔☆ ▀▓▓▓╙╜╙╜╨╜
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▄▓▓▄══════▓▓▓═▓═══════☆▂╱╲▂☆ ▓║▓▓════╥╖▓═▓═▓═╓╖╥═╥═＼(◕‿◕)／▂☆ ▓╚╝▓╓╖╓╖║║▓═▓═▓╥║╥║╖╫═☆▔╲╱▔☆ ▀▓▓▓╙╜╙╜╨╜
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▄▓▓▄══════▓▓▓═▓═══════☆▂╱╲▂☆ ▓║▓▓════╥╖▓═▓═▓═╓╖╥═╥═＼(◕‿◕)／▂☆ ▓╚╝▓╓╖╓╖║║▓═▓═▓╥║╥║╖╫═☆▔╲╱▔☆ ▀▓▓▓╙╜╙╜╨╜
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=▄▓▓▄══════▓▓▓═▓═══════☆▂╱╲▂☆ ▓║▓▓════╥╖▓═▓═▓═╓╖╥═╥═＼(◕‿◕)／▂☆ ▓╚╝▓╓╖╓╖║║▓═▓═▓╥║╥║╖╫═☆▔╲╱▔☆ ▀▓▓▓╙╜╙╜╨╜
+2026-05-20 13:22:17 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤<USER>
+2026-05-20 13:22:18 | Language detection failed: No features in text. | lang_code=und | text=██▀▀█═══★█★═▄█▀▀█▄☆█▀█▀█═█▀█═tᕼᕮ═★ ▀███▄══★█★══█▌░░▐█☆═▄█▄══█▄█═ᙖᕮᔕt═★ █▄▄██═★█★═══▀█▄▄█▀☆➤ <USER>
+2026-05-20 13:22:18 | Language detection failed: No features in text. | lang_code=und | text=★╥╓╥╥╥╓╖════════╥════✦ ☆║║║╟╜╙╖╓╖╫╥╥╓╖╓║╓╖╥╓☆ ★╙╜╨╨─╙╜╙╙╙╙╜╨─╙╜╙╙╙║✦<USER>
+2026-05-20 13:22:18 | Language detection failed: No features in text. | lang_code=und | text=❤─╔══╗❤─❤ⓕⓞⓛⓛⓞⓦ❤ⓕⓡⓘⓓⓐⓨ❤ ❤─║░═╝❤─❤╔══╗─❤ followback ❤─║╔═╝❤─❤║░═╝─❤ ff love ❤─╚╝──❤─❤║╔═╝─❤ shoutout 
+2026-05-20 13:22:18 | Language detection failed: No features in text. | lang_code=nan | text=★ * ★ * ★ * ★ * ★ ★ ★ * * ★ ★ * ★* ★ ★ ★ ★ ★ ★. * ★ * ★ * ★ * ... <URL>
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻭﺍﺣﺸﻨﻰ ﺍﻳﺪﻩ ﺗﻠﻤﺴﻨﻰ ﻃﺮﻳﻘﺔ ﻧﻄﻘﻪ ﻻﺳﻤﻰ ﺩﻩ ﺭﻭﺣﻰ ﻭ ﻏﺎﻳﺒﻪ ﻋﻦ ﺟﺴﻤﻰ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻣﺎ ﺗﻜﺴﺮﺵ ﺑﺨﺎﻃﺮ ﺣﺪ ﺑﻴﺤﺒﻚ ! ﺣﻂ ﻓﻰ ﺑﺎﻟﻚ ﺇﻥ ﻓﻴﻪ ﻛﻼﻡ ﻛﺘﻴﺮ ﺑﻴﻮﺟﻊ ﺣﺘﻰ ﻟﻮ ﻛﺎﻥ ﺑﻬﺰﺍﺭ ..
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻳﺎ ﺃﻫﻞ ﺍﻟﻌﺮﺏ ﻭﺑﺎﻟﻄﺮﺏ ﺍﻟﻌﺪﻝ ﻣﻴﻦ ﺳﻴﺪﻭ ﺳﻴﺪﻭ ﻳﺎ ﻻ ﺍﻟﻌﺠﺐ ﻭﻃﻰ ﻭﺑﺎﺱ ﺍﻳﺪﻭﺍ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=..
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=.
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=...
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=......
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺗﻜﻠﻤﻨﻲ ﻋﻦ ﺍﻻﺟﺘﻬﺎﺩ ﻭﺍﻟﻤﺬﺍﻛﺮﻩ ... ﺍﻛﻠﻤﻚ ﻋﻨﻲ ﺗﻜﻠﻤﻨﻲ ﻋﻦ ﺍﻟﻬﺪﺅﺅﺅﺀ # ....ﺍﻛﻠﻤﻚ ﻋﻨﻲ ﺗﻜﻠﻤﻨﻲ ﻋﻦ ﺍﻟﻜﺬﺏ .... ﻭﺍ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻭ ﻣﻴﻦ ﻓﻴﻜﻲ ﻳﺎ ﺑﻠﺪ ﻣﺒﻴﻘﻌﺪﺵ ﻳﺮﻛﺰ ﻣﻊ ﻟﻮﺣﻪ ﺍﺭﻗﺎﻡ ﺍﻟﻌﺮﺑﻴﺎﺕ ﻭ ﻳﺸﻮﻑ ﺍﻟﺤﺮﻭﻑ ﻣﻤﻜﻦ ﺗﻜﻮﻥ ﻛﻠﻤﻪ ﺃﻳﻪ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺣﺎﺳﺲ ﺃﻧﻰ ﺟﺪﻉ ﺍﻭﻯ ﻟﺪﺭﺟﺔ ﺍﻧﻰ ﻣﻤﻜﻦ ﺍﻗﻒ “ﺟﻨﺒﻰ” ﻟﻤﺎ “ﺍﺣﺘﺎﺟﻨﻰ”
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻟﻨﺎﺱ ﺍﻟﻰ ﻣﻊ ﺍﻻﺧﻮﺍﻥ ﺑﺘﻘﻮﻝ ﺍﻟﺴﻴﺴﻰ ﻫﻮ ﺳﺒﺐ ﺍﻻﻧﻔﺠﺎﺭ ﻭﺍﻟﻨﺎﺱ ﺍﻟﻰ ﻣﻊ ﺍﻟﺴﻴﺴﻰ ﺑﺘﻘﻮﻝ ﺍﻻﺧﻮﺍﻥ ﻫﻤﺎ ﺍﻟﺴﺒﺐ ﻭﻣﺤﺪﺵ ﺑﻴ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻫﺎﻟﻲ ﺍﻟﻤﻨﺼﻮﺭﺓ ﻳﻄﺎﺭﺩﻭﻥ ﺍﻻﺧﻮﺍﻥ ﻓﻲ ﻛﻞ ﻣﻜﺎﻥ ﻭﻳﺪﻣﺮﻭﻥ ﺍﻟﻤﺤﻼﺕ ﻭﺍﻟﺸﺮﻛﺎﺕ ﺍﻟﺘﺎﺑﻌﺔ ﻟﻠﺠﻤﺎﻋﺔ .. ﺍﻻﻧﺘﻘﺎﻡ ﺍﻟﺸﻌﺒﻲ ﺭ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻛﻞ ﻭﺍﺣﺪ ﻓﻴﻨﺎ ﺟﻮﺍﻩ*ﻛﻠﺐ ﺣﺮﺍﺳﻪ ﺻﻐﻴﺮ* ﺑﻴﻄﻠﻊ ﻟﻤﺎ ﺣﺪ ﻳﻤﺴﻚ ﻣﻮﺑﻴﻠﻪ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻣﻊ ﺍﻻﻳﺎﻡ ﻫﺘﻌﺮﻑ ﺇﻥ ﻓﻲ ﻧﺎﺱ ﻫﺘﻔﻀﻞ ﻓﻲ ﻗﻠﺒﻚ ﺑﺲ ﻣﺶ ﻫﺘﻜﻤﻞ ﻓﻲ ﺣﻴﺎﺗﻚ .//~
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻟﻮ ﻋﺎﻭﺯ ﺗﻌﺮﻑ ﺷﺨﺼﻴﺘﻚ ﺑﺠﺪ ﺍﻧﺰﻝ ﻭﻛﻤﻞ ﻗﺮﺍﻳﻪ ﻛﻴﻒ ﺗﺘﻌﺮﻑ ﻋﻠﻲ ﺷﺨﺼﻴﺘﻚ ﺧﻼﻝ ﻋﺸﺮ ﺛﻮﺍﻧﻲ.. ﺑﺴﻢ ﺍﻟﻠﻪ …ﻧﺒﺪﺃ ﺍﻻﺧﺘﺒﺎﺭ 
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻟﺒﻨﺎﺕ ﻋﻠﻰ ﺍﻟﻔﻴﺲ ﺑﻮﻙ ﻭ ﺁﺳﻤﺎﺀﻫﻢ ﺍﻟﺤﻘﻴﻘﻴﻪ : tota ﻓﺘﺤﻴﻪ : dody ﻋﺪﻻﺕ : koky ﻓﺘﻜﺎﺕ : soso ﺳﻴﺪﻩ : rery ﺭﺗﻴ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻟﻤﺼﺮﻱ ﻫﻮ ﺍﻟﻮﺣﻴﺪ ﺍﻟﻠﻲ : . . - ﺑﻴﺤﻂ ﺍﻟﺮﻳﻤﻮﺕ ﻛﻨﺘﺮﻭﻝ ﻓﻲ ﻛﻴﺲ ﺑﻼﺳﺘﻴﻚ ﻛﻌﺎﺩﺓ ﻓﺮﻋﻮﻧﻴﺔ x_x - ﻳﻘﻒ ﻳﺘﻜﻠﻢ ﻋﻠﻰ ﺍﻟ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=»ﺍﻟﺴﻴﺴﻲ« ﻳﻌﻠﻦ ﺍﻟﺘﺮﺷﺢ ﻟﻠﺮﺋﺎﺳﺔ ﺗﺎﺑﻊ ﺍﻟﺘﻔﺎﺻﻴﻞ : http:// <URL> /789229
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺣﺮﺁﻣﻲ ﻛﺎﻥ ﻋﺎﻭﺯ ﻳﺴﺮﻕ ﺑﻴﺖ ﺳﺖ ﻋﺠﻮﺯﻩ ﻭ ﻳﺴﺘﻨﺎﻫﺎ ﻟﺤﺪ ﻣﺘﻨﺂﻡ . . ﻗﻌﺪﺕ ﺗﺴﺮﺡ ﺷﻌﺮﻫﺎ 3 ﺳﺎﻋﺎﺕ ﻭﺗﺴﺮﺡ |: ﻭﺗﺴﺮﺡ |: ﻭ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺗﺨﻴﻠﻮ ﺍﻭ ﺍﻣﺮﻳﻜﺎ ﺑﺘﺘﺠﺴﺲ ﻋﻠﻴﻨﺎ « ﺁﻟﻮ ﻳﺎ ﺍﻡ ﻣﺤﻤﺪ ﻋﺎﻳﺰﻳﻦ ﻧﻴﺠﻲ ﻧﺨﻄﺐ ﻵﺑﻨﻨﺎ ﺑﻨﺘﮕﻢ ﺯﻫﺮﻩ !! - ﺍﻟﻤﺘﺮﺟﻢ : ﺳﻴﺪﻱ 
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﻭ ﻫﻰ ﺑﺘﺘﻜﻠﻢ ﻟﻘﻴﺘﻪ ﻣﺮﻛﺰ ﺍﻭﻯ ﻉ ﺷﻔﺎﻳﻔﻬﺎ ﺍﺗﻜﺴﻔﺖ ﺍﻭﻯ ﻭﻭﺷﻬﺎ ﺍﺣﻤﺮ ♥: . . . . . . ﻗﺎﻟﻬﺎ ﻣﺶ ﻧﺎﻭﻳﺔ ﺗﺤﻠﻘﻰ ﺷﻨﺒﻚ 
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻟﻲ ﻣﺨﺘﺮﻉ ﺍﻟﺸﻮﺍﺣﻦ ﻳﺎﺗﺮﻱ ﻫﺘﺨﺴﺮ ﺣﺎﺟﻪ ﻟﻮ ﺧﻠﻴﺘﻪ ﻧﻔﺲ ﻃﻮﻝ ﺳﻠﻚ ﺍﻟﻤﻜﻨﺴﻪ ﻭﺍﻟﻠﻪ ﻫﺘﻌﻤﻞ ﻓﻴﻨﺎ ﺧﻴﺮ ﺗﻌﺒﻨﺎ ﻣﻦ ﺍﻟﻘﻌﺪﻩ
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻟﻤﺼﺮﻱ ﺑﺲ ﻫﻮ ﺍﻟﻠﻰ ﺑﻴﻘﻮﻝ "ﺻﻤﻮﻋﻠﻴﻘﻮ... " ﻭﺍﻟﻠﻰ ﻳﺮﺩ ﻳﺮﻭﺡ ﻗﺎﻳﻞ "ﺳﻤﺤﺘﺮﻛﺎﺗﻮ! " ﺑﺠﺪ .. ﺯﻣﺒﺆﻟﻚ ﻛﺪﻩ !
+2026-05-20 13:22:19 | Language detection failed: No features in text. | lang_code=nan | text=.............................................
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﺃﻟﻤﺦ ﺯﻯ ﺻﺪﻳﻖ ﺍﻟﺴﻮﺀ , , , , ﻭﻗﺖ ﺍﻷﻣﺘﺤﺎﻥ ﻣﺎ ﻳﻌﺮﻓﻜﺶ o_o , , , ﺑﺲ ﻭﻗﺖ ﺍﻷﻧﺤﺮﺍﻑ ﺑﺠﻴﺒﻠﻚ ﺃﻓﻜﺎﺭ ﻣﺎﺗﺨﻄﺮﺵ ﻋﻠﻰ ﺑ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﺍﻟﺒﻨﺎﺕ ﻛﺎﻧﺖ ﺗﺤﻂ ﺯﻣﺎﻥ ﻛﺤﻞ . ﺗﺴﺮﺡ ﺷﻌﺮﻫﺎ٠ :ﺍﻣﺎ ﺑﻨﺎﺕ ﺍﻻﻳﺎﻡ ﺩﻱ ﻛﺮﻳﻢ ﺷﻌﺮ ﻛﺮﻳﻢ ﻭﺟﻪ ﻛﺮﻳﻢ ﻳﺪ ﻛﺮﻳﻢ ﺭﺟﻞ ﻛﺮﻳﻢ ﺑﻨ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﺑﺸﻮﻓﻚ ﻣﻌﺎﻳﺎ ﻭﻟﻮ ﻣﺶ ﻣﻌﺎﻳﺎ ﻭﺍﺩﻭﺭ ﻭﺍﺩﻭﺭ ﻭﻋﻤﺮﻱ ﻳﻔﻮﺕ ﺗﻌﺒﻨﺎ ﻭﻻ ﻣﺮﻩ ﻗﻠﻨﺎ ﻛﻔﺎﻳﻪ ﻭﻻ ﺣﺘﻰ ﻳﻘﺪﺭ ﻳﻔﺮﻗﻨﺎ ﻣﻮﺕ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﻋﻠﺸﺎﻥ ﺍﺣﻨﺎ ﻣﻊ ﺑﻌﻀﻴﻨﺎ ﻭ ﻻﻭﻝ ﻣﺮﻩ ﻟﻮﺣﺪﻳﻨﺎ ﻭ ﻣﺤﺪﺵ ﺑﻴﺒﺺ ﻋﻠﻴﻨﺎ ﻣﺎﺗﺠﻴﺒﻰ ﺑﻮﺳﻪ ﺍﺑﺖ ﻋﺒﺪﺍﻟﺤﻠﻴﻢ_ﺳﺘﺎﻳﻞ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=:/
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﺭﺳﺎﺍﺍﺍﺍﺍﺍﺍﺍﺍﻟﻪ ﻟﻠﺒﻨﺎﺍﺍﺍﺍﺍﺍﺍﺍﺍﺍ ﺕ ﻭﺍﻟﺸﺒﺎﺍﺍﺍﺍﺍﺍﺍﺍﺍ ﺍﺍﺏ . . . ﺍﻭﻻ ﺍﻟﺸﺒﺎﺍﺍﺍﺍﺍﺍﺍﺍﺍﺍ ﺍﺍﺏ ﻣﺎﺗﻔﺘﻜﺮﺵ ﻧﻔﺴﻚ ﺭﺍﺟ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﻓﻲ ﻧﺎﺍﺍﺱ ﺍﻟﻮﺍﺍﺍﺣﺪ ﻛﺎﺍﺍﻥ ﻣﺘﺨﻴﻞ ﺍﻥ ﺍﻟﺤﻴﺎﺍﺍﻩ ﻣﻦ ﻏﻴﺮﻫﻢ ﻣﺶ ﻫﺘﻤﺸﻲ !! ﻫﻲ ﻓﻌﻞ ﻣﺎﻣﺸﺘﺶ !! ﻫﻲ ﺟﺮﻳﺖ ﺯﻱ ﺍﻟﺴﻜﻴﻨﻪ ﻑ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﻗﺮﻳﺒﺂﺁ ﻓﻲ ﺭﻣﻀﺂﻥ : ﺍﻟﻮﻟﺪ : ﺣﺒﻴﺒﺘﻲ ﺻﻠﻴﺘﻲ ﺍﻟﻔﺠﺮ ﻭﻵ ﻟﺴﻪ .. ﺍﻟﺒﻨﺖ : ﺁﺁﺁﻩ ﻳﺎ ﺣﺒﻴﺒﻲ ﻭﺃﻧﺖ ... ﺁﻟﻮﻟﺪ : ﻃﺒﻌﺂ ﻳ
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=nan | text=ﻳﺎﻟﻠﻰ ﺍﻧﺖ ﻓﺎﻛﺮ ﺍﻥ ﺣﻠﻤﻚ ﺭﺍﺡ ﻭﻣﺶ ﻫﻴﻴﺠﻰ ﻋﻮﻛﻞ ﻗﺒﻞ ﻣﺎ ﻳﻘﺎﺑﻞ ﺷﺮﻭﻕ ﻋﺪﺕ ﻋﻠﻴﻪ ﺍﻭﺷﻪ ﺍﺧﺖ ﻣﻠﻴﺠﻰ !
+2026-05-20 13:22:20 | Language detection failed: No features in text. | lang_code=und | text=.
+2026-05-20 13:22:21 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂
+2026-05-20 13:22:22 | Language detection failed: No features in text. | lang_code=und | text=🎶🎼🎻🎹🎶🎶
+2026-05-20 13:22:22 | Language detection failed: No features in text. | lang_code=und | text=😂😆😆👏👏👏
+2026-05-20 13:22:23 | Language detection failed: No features in text. | lang_code=und | text=............
+2026-05-20 13:22:23 | Language detection failed: No features in text. | lang_code=und | text=😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍 <URL>
+2026-05-20 13:22:23 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️😘😘😘 <URL>
+2026-05-20 13:22:23 | Language detection failed: No features in text. | lang_code=und | text=💚🌹💚🌹💚🌹💚🌹💚🌹💚🌹💚🌹💚🌹💚🖒 <URL>
+2026-05-20 13:22:23 | Language detection failed: No features in text. | lang_code=und | text=💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚 <URL>
+2026-05-20 13:22:23 | Language detection failed: No features in text. | lang_code=und | text=💙😍💙😍💙😍👇 <URL>
+2026-05-20 13:22:24 | Language detection failed: No features in text. | lang_code=und | text=😍😍
+2026-05-20 13:22:25 | Language detection failed: No features in text. | lang_code=und | text=😅😅😅😅😅😅😅😅
+2026-05-20 13:22:25 | Language detection failed: No features in text. | lang_code=und | text=👍👍👍👍👍
+2026-05-20 13:22:25 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️❤️❤️ <URL>
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍😍😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😒👊
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=؟؟؟
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=🤲
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=🤣
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=🍓❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😡
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=🥰
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=🥰
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😡
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=💚
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:26 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=❤️💚
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=👍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍😍😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😡😡😡😡
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=💪
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=❤️
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=🙏🏻🙏🏻🙏🏻🌸🌸🌸🌸 <URL>
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=😕
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣🤣
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣🤣🤣🤣🤣🤣🤣
+2026-05-20 13:22:27 | Language detection failed: No features in text. | lang_code=und | text=🏋🏼‍♂️🏋🏼‍♂️ <URL>
+2026-05-20 13:22:28 | Language detection failed: No features in text. | lang_code=und | text=🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦 🇶🇦🇶
+2026-05-20 13:22:28 | Language detection failed: No features in text. | lang_code=und | text=🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦🇶🇦 🇶🇦🇶
+2026-05-20 13:22:28 | Language detection failed: No features in text. | lang_code=und | text=👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏 <URL>
+2026-05-20 13:22:29 | Language detection failed: No features in text. | lang_code=und | text=🇹🇳🇸🇦🇦🇪❤️🙏🏻 <URL>
+2026-05-20 13:22:29 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣🤣🤣🤣
+2026-05-20 13:22:29 | Language detection failed: No features in text. | lang_code=und | text=👎👎
+2026-05-20 13:22:30 | Undefined post language percentage **after** mapping: 0.07%
+2026-05-20 13:22:30 | Removing 162 posts with undefined language code und
+2026-05-20 13:22:30 | Using device: cuda
+2026-05-20 13:22:39 | Loaded facebook/nllb-200-distilled-600M model and tokenizer on cuda
+2026-05-20 13:22:39 | Translation pipeline created.
+2026-05-20 13:22:39 | 7 posts: afr_Latn → eng_Latn
+2026-05-20 13:22:41 | 6 posts: als_Latn → eng_Latn
+2026-05-20 13:22:41 | 211156 posts: arb_Arab → eng_Latn
+2026-05-20 18:05:18 | 1269 posts: cat_Latn → eng_Latn
+2026-05-20 18:05:46 | 2 posts: ces_Latn → eng_Latn
+2026-05-20 18:05:46 | 19 posts: cym_Latn → eng_Latn
+2026-05-20 18:05:47 | 7 posts: dan_Latn → eng_Latn
+2026-05-20 18:05:52 | 582 posts: deu_Latn → eng_Latn
+2026-05-20 18:06:41 | 14909 posts: eng_Latn → spa_Latn → eng_Latn
+2026-05-20 18:28:45 | 27 posts: est_Latn → eng_Latn
+2026-05-20 18:28:47 | 4 posts: fin_Latn → eng_Latn
+2026-05-20 18:28:47 | 51 posts: fra_Latn → eng_Latn
+2026-05-20 18:28:53 | 1 posts: heb_Hebr → eng_Latn
+2026-05-20 18:28:54 | 4 posts: hin_Deva → eng_Latn
+2026-05-20 18:28:54 | 11 posts: hrv_Latn → eng_Latn
+2026-05-20 18:28:55 | 5 posts: hun_Latn → eng_Latn
+2026-05-20 18:28:55 | 187 posts: ind_Latn → eng_Latn
+2026-05-20 18:29:07 | 22 posts: ita_Latn → eng_Latn
+2026-05-20 18:29:08 | 4 posts: jpn_Jpan → eng_Latn
+2026-05-20 18:29:12 | 13 posts: kor_Hang → eng_Latn
+2026-05-20 18:29:13 | 6 posts: lit_Latn → eng_Latn
+2026-05-20 18:29:13 | 5 posts: lvs_Latn → eng_Latn
+2026-05-20 18:29:13 | 15 posts: nld_Latn → eng_Latn
+2026-05-20 18:29:18 | 21 posts: nob_Latn → eng_Latn
+2026-05-20 18:29:19 | 110 posts: pes_Arab → eng_Latn
+2026-05-20 18:29:28 | 6 posts: pol_Latn → eng_Latn
+2026-05-20 18:29:28 | 59 posts: por_Latn → eng_Latn
+2026-05-20 18:29:30 | 18 posts: ron_Latn → eng_Latn
+2026-05-20 18:29:31 | 23 posts: rus_Cyrl → eng_Latn
+2026-05-20 18:29:32 | 1 posts: slk_Latn → eng_Latn
+2026-05-20 18:29:32 | 4 posts: slv_Latn → eng_Latn
+2026-05-20 18:29:38 | 98 posts: som_Latn → eng_Latn
+2026-05-20 18:30:00 | 416 posts: spa_Latn → eng_Latn
+2026-05-20 18:30:19 | 8 posts: swe_Latn → eng_Latn
+2026-05-20 18:30:20 | 17 posts: swh_Latn → eng_Latn
+2026-05-20 18:30:21 | 56 posts: tgl_Latn → eng_Latn
+2026-05-20 18:30:22 | 117 posts: tha_Thai → eng_Latn
+2026-05-20 18:30:40 | 94 posts: tur_Latn → eng_Latn
+2026-05-20 18:30:54 | 78 posts: urd_Arab → eng_Latn
+2026-05-20 18:31:03 | 7 posts: vie_Latn → eng_Latn
+2026-05-20 18:31:03 | 3 posts: zho_Hans → eng_Latn
+2026-05-20 18:31:04 | Completed: transformers_translator
+2026-05-20 18:31:04 | Translation completed.
+2026-05-20 18:31:09 | Untranslated posts: 0/229448 (0.00%)
+2026-05-20 18:31:09 | Filled untranslated posts with original cleaned text.
+2026-05-20 18:31:40 | df is saved to: ../results/Labeled_Datasets/Cuba_1/Egypt_UAE_part_all/BERT_min_topic_size_256/processed_Egypt_UAE_part_all.gzip.parquet
+2026-05-20 18:31:40 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Cuba_1/Egypt_UAE_part_all/BERT_min_topic_size_256
+Continuing to Entities Reuse
+2026-05-20 19:00:28 | Completed: extract_ner_entities
+2026-05-20 19:00:31 | Completed: clean_entity_columns
+2026-05-20 19:00:31 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-05-20 19:01:02 | df is saved to: ../results/Labeled_Datasets/Cuba_1/Egypt_UAE_part_all/BERT_min_topic_size_256/processed_Egypt_UAE_part_all.gzip.parquet
+2026-05-20 19:01:02 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-05-20 19:01:20 | Completed: add_entity_reuse
+2026-05-20 19:01:20 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-05-20 19:01:27 | Completed: add_entity_reuse
+2026-05-20 19:01:27 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-05-20 19:01:28 | Completed: add_entity_reuse
+2026-05-20 19:01:28 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-05-20 19:01:43 | Completed: add_entity_reuse
+2026-05-20 19:01:43 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-05-20 19:02:47 | Completed: add_entity_reuse
+2026-05-20 19:02:47 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-05-20 19:03:10 | Completed: add_entity_reuse
+2026-05-20 19:03:10 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-05-20 19:03:11 | Completed: add_entity_reuse
+2026-05-20 19:03:11 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-05-20 19:04:11 | Completed: add_entity_reuse
+2026-05-20 19:04:44 | df is saved to: ../results/Labeled_Datasets/Cuba_1/Egypt_UAE_part_all/BERT_min_topic_size_256/processed_Egypt_UAE_part_all.gzip.parquet
+2026-05-20 19:04:44 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
