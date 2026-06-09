@@ -17,6 +17,8 @@ data/
 results/Labeled_Datasets/**/BERTopic_models_*/chunk_model_*
 
 
+# AI
+AGENTS.md
 
 # Jupyter
 .ipynb_checkpoints/
