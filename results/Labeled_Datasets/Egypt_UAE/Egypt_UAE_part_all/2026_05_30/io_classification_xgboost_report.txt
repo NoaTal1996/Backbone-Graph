@@ -1,0 +1,14 @@
+Model: xgboost
+Training set: 488 samples
+Test set: 122 samples
+
+              precision    recall  f1-score   support
+
+      Non-IO       1.00      0.99      0.99        75
+          IO       0.98      1.00      0.99        47
+
+    accuracy                           0.99       122
+   macro avg       0.99      0.99      0.99       122
+weighted avg       0.99      0.99      0.99       122
+
+AUC: 0.9997
