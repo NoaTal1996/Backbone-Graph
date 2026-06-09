@@ -208,25 +208,49 @@ These notebooks are standalone tools for inspecting and validating results. They
 
 ## HPC / SLURM Usage
 
-For long-running jobs on the cluster, use the provided SLURM scripts with [papermill](https://papermill.readthedocs.io). Run all `sbatch` commands from `Backbone-Graph/src/`.
+For long-running jobs on the cluster, use the provided SLURM scripts with [papermill](https://papermill.readthedocs.io). **All `sbatch` commands must be run from `Backbone-Graph/src/`.**
 
-### Run Step 1 (preprocessing + clustering)
+> **Before submitting any job:** open the target notebook and set the parameters at the top of the file (e.g. `dataset_name`, `min_topic_size`). These are NOT passed via command line — they must be configured inside the notebook.
+
+### Step 1 — preprocessing + clustering
 
 ```bash
 cd Backbone-Graph/src
 sbatch "../config/run_translate_topics_entities.sbatch" <file_name>
+
+# Example:
+sbatch "../config/run_translate_topics_entities.sbatch" Ecuador_part_all.gzip.parquet
 ```
 
-The dataset filename is passed as the `file_name` papermill parameter. Other parameters (`dataset_name`, `min_topic_size`) must be set inside the notebook before submission.
+`file_name` is the only CLI argument. Set `dataset_name` and `min_topic_size` in the notebook beforehand.
 
-### Run Step 1b (large-scale clustering)
+### Step 1b — large-scale clustering
 
 ```bash
 cd Backbone-Graph/src
 sbatch "../config/run_big_data_clustering.sbatch" <min_topic_size>
+
+# Example:
+sbatch "../config/run_big_data_clustering.sbatch" 256
 ```
 
-The `min_topic_size` value is passed as a papermill parameter.
+### Step 2 — key authors graph
+
+```bash
+cd Backbone-Graph/src
+sbatch "../config/run_key_authors_graph.sbatch"
+```
+
+No CLI arguments — set all parameters (`account_id_col`, `topic_col`, `top_n`) in the notebook beforehand.
+
+### Monitoring & logs
+
+```bash
+squeue -u $USER       # list your running/pending jobs
+scancel <job_id>      # cancel a job
+```
+
+Logs are saved to `Backbone-Graph/logs/` as `.out` / `.err` files and a papermill output notebook.
 
 
 ## Data Format
