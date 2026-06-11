@@ -12,7 +12,7 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 - **Information Operation (IO)**: A collection of publications produced by a set of actors performing similar or complementary actions in pursuit of a shared intent, while misleading others.
 - **IO Driver**: An account that participates in one or more IO.
-- Author ‘s **IO Label**: label =  1 if the author is IO Driver and label = 0 if not.
+- Author’s **IO Label**: label = 1 if the author is IO Driver and label = 0 if not.
 - **Key Author**: An author who acts as a leading participant in one or more narratives or topics.
 
 
@@ -27,13 +27,13 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 ### 2. `key_authors_graph.ipynb`
   - Calculates TF-IDF score for entities, posts and authors.
-  - key authors selection : Identifies leading participants within specific topics.
-  - Backbone graph building : Constructs a directed account graph (GEXF) based on user interactions.
-  - IO indicators : Generates summaries of Information Operation (IO) activity.
+  - key authors selection: Identifies leading participants within specific topics.
+  - Backbone graph building: Constructs a directed account graph (GEXF) based on user interactions.
+  - IO indicators: Generates summaries of Information Operation (IO) activity.
 
 ### Not part of the pipeline
 
-- `Boost.ipynb` is  not part of the ordered workflow.
+- `Boost.ipynb` is not part of the ordered workflow.
 
 ## Evaluation
 ### a. `author_insights.ipynb`
