@@ -44,6 +44,10 @@ dependencies:
   - ruptures
   - ipykernel=6.28.0 
   - papermill
+  # Latex
+  - texlive-core
+  - latexmk
+  - perl
   - pip:
     - MLstatkit
 
