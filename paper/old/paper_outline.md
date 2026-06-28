@@ -1,6 +1,6 @@
 **Paper Outline**
 
-# I Can See U: Indicator-Based Information Operation Detection with Topic-Aware Analysis
+# I Can See U: Indicator-Based Information Operation Detection and Topic-Aware Analysis
 
 ## Abstract
 
