@@ -1,4 +1,4 @@
-# I Can See U: Indicator-Based Information Operation Detection with Topic-Aware Analysis
+# I Can See U: Indicator-Based Information Operation Detection and Topic-Aware Analysis
 
 ## Abstract
 
@@ -18,7 +18,7 @@ The method turns raw social-media activity into an author-level story. Posts are
 
 ### 3.1 Indicator-Based IO Classification
 
-The main indicator story is about dense coordination. IO drivers are expected to be embedded in groups where many accounts repeatedly behave alike, so structural indicators should help distinguish them from ordinary users. Core number is especially intuitive because it measures how deeply a node belongs to a dense subgraph: an author with high core number is not merely connected to many others, but remains inside a mutually connected region after peripheral accounts are peeled away. This makes the feature explainable to an analyst: the account looks suspicious because it belongs to the inner coordination structure, not because a model produced an unexplained score.
+The main indicator story is about dense coordination. IO drivers are expected to be embedded in groups where many accounts repeatedly behave alike, so structural indicators should help distinguish them from ordinary users. Core number is especially intuitive because it measures how deeply a node belongs to a dense subgraph: an author with high core number is not merely connected to many others, but remains inside a mutually connected region after peripheral accounts are peeled away. This makes the feature **explainable to an analyst**: the account looks suspicious because it belongs to the inner coordination structure, not because a model produced an unexplained score.
 
 ### 3.2 Influential IO Drivers Detection
 
@@ -26,28 +26,41 @@ The paper also separates ordinary participation from narrative leadership. Some 
 
 ### 3.3 Topic-Aware Graph Analysis
 
-Topic awareness gives meaning to the structure. A dense group of accounts is more informative when we can also ask what narrative holds the group together. Topic modeling therefore acts as the bridge between content and structure: it does not replace graph analysis, but it helps explain what the graph is about. In the paper's story, topic-aware analysis lets an analyst move from "these accounts coordinate" to "these accounts coordinate around this campaign narrative," which is a much stronger and more useful interpretation.
+Plotting the behavior-similarity graph in a topic-aware manner. See suspicious authors in key places.
+
 
 ## 4. Experiments
 
-The experimental setup is used to demonstrate the story rather than to make this draft a full evaluation paper. The pipeline takes labeled IO datasets, preprocesses posts, extracts entities, assigns topics, builds co-action graphs, computes author indicators, and trains simple classifiers on the author-level feature vectors. The important design choice is that the models are ordinary and the features remain interpretable, so the framework can show why a user is suspicious instead of only predicting that the user is suspicious.
+The pipeline takes labeled IO datasets, preprocesses posts, extracts entities, assigns topics, builds co-action graphs, computes author indicators, and trains XGBoots classifiers on the author-level feature vectors. 
+The features remain interpretable, so the framework can show why a user is suspicious instead of only predicting that the user is suspicious.
 
 ### 4.1 Dataset
 
-The data consists of labeled social-media campaigns containing posts from IO and control accounts. Each post provides the raw material for the story: who posted, when they posted, what entities they used, and which topic or narrative the post belongs to. The author-level label allows the framework to ask whether accounts that participate in coordinated narrative behavior are more likely to be IO drivers.
+The data consists of labeled social-media campaigns containing posts from IO and control accounts.
+
+### 4.2 System Configuration
+
 
 ### 4.2 Baseline
 
-The baseline idea is simple: compare ordinary machine-learning models trained on interpretable author indicators. The point is not to introduce a complex new classifier, but to test whether the graph representation itself carries the IO signal. If simple models can use these indicators, then the main contribution is the representation and the explanation, not model complexity.
+Compere to other paper on the classification results.
 
 ### 4.3 Frameworks and Hardware
 
-The implementation is organized as a notebook pipeline that performs preprocessing, translation when needed, entity extraction, topic modeling, key-author scoring, graph construction, indicator computation, and classification. This structure keeps the workflow modular: each step has a clear role in the narrative, from raw posts to topics, from topics to behavior graphs, and from behavior graphs to interpretable suspicious-user indicators.
 
 ## 5. Discussion
 
 The core claim is that IO detection should be told as a network story. A suspicious account is not only an account that writes suspicious text; it is an account that repeatedly appears in the same narrative space as other coordinated actors and occupies a dense structural position in the behavior graph. This gives the analyst a chain of reasoning: the account pushes a narrative, reuses campaign entities, connects to similar actors, and belongs to a dense coordination region. That chain is the main value of the approach.
 
-## 6. Conclusion
 
-This paper's idea is that topic-aware graph indicators can make IO detection more interpretable. Topic modeling identifies the narratives, entity reuse connects authors through shared behavior, key-author scoring highlights narrative leaders, and graph indicators reveal which authors are embedded in coordination. The final story is simple: to find IO drivers, look not only at what users say, but at how they move together inside the campaign.
+## 5. Discussion
+
+* Conclusion: 
+    Indicators that is interpretable - not a black box, 
+    Identifying influential (key) IO drivers.
+    Topic aware graph layout for identifying are critical authors for the operation
+* Future Work
+* Acknowledgments
+
+
+## References
