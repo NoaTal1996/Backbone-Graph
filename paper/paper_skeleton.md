@@ -1,5 +1,9 @@
 # I Can See U: Indicator-Based Information Operation Detection and Topic-Aware Analysis
 
+## Authors
+Amit Ner Gaon, Noa Tal, Idan Muallem, Rami Puzis
+
+
 ## Abstract
 
 Information operations are coordinated attempts to shape online discourse by making many accounts act as if they are independent voices while they are actually reinforcing the same narratives. The story of this paper is that suspicious users can be detected by their behavior in the network, not only by the content of their posts. We build a topic-aware behavior graph in which authors are connected when they reuse the same campaign entities, participate in the same narratives, or show similar co-action patterns. The central idea is that IO drivers should appear less like isolated users and more like actors embedded inside dense regions of coordinated activity. Instead of relying on an opaque classifier, the paper focuses on interpretable indicators such as core number and other structural measures that explain why an account looks suspicious.
@@ -20,13 +24,20 @@ The method turns raw social-media activity into an author-level story. Posts are
 
 The main indicator story is about dense coordination. IO drivers are expected to be embedded in groups where many accounts repeatedly behave alike, so structural indicators should help distinguish them from ordinary users. Core number is especially intuitive because it measures how deeply a node belongs to a dense subgraph: an author with high core number is not merely connected to many others, but remains inside a mutually connected region after peripheral accounts are peeled away. This makes the feature **explainable to an analyst**: the account looks suspicious because it belongs to the inner coordination structure, not because a model produced an unexplained score.
 
+![indicator_information_gain](.\figure_examples\indicator_information_gain.png)
+
 ### 3.2 Influential IO Drivers Detection
 
 The paper also separates ordinary participation from narrative leadership. Some users simply appear in a topic, while others repeatedly use the entities that define that topic and help drive the discussion. The author-topic key score captures this idea by measuring how strongly an author is associated with topic-specific entities. This creates a topic-aware backbone: first focus on authors who matter to the narratives, then inspect which of them are also structurally embedded in coordinated behavior. The story is that influential IO drivers are suspicious not only because they post, but because they both push narratives and move with others.
 
+
+* Classification on the most influential subset of the authors.
+* Seeing informative grpah insted of 'hair ball'.
+
 ### 3.3 Topic-Aware Graph Analysis
 
 Plotting the behavior-similarity graph in a topic-aware manner. See suspicious authors in key places.
+![grpah_topipc_aware](.\figure_examples\grpah_topipc_aware.jpg)
 
 
 ## 4. Experiments
@@ -36,14 +47,17 @@ The features remain interpretable, so the framework can show why a user is suspi
 
 ### 4.1 Dataset
 
-The data consists of labeled social-media campaigns containing posts from IO and control accounts.
+The data consists of labeled social-media campaigns containing posts from IO and control accounts. 
+[Processed labeled datasets README](docs/README_processed_labeled_datasets.md)
 
 ### 4.2 System Configuration
+BERTopic min_topic_size, directed or undirected נehavioral similarity graph, global or per-topic key authors selection.
+
 
 
 ### 4.2 Baseline
 
-Compere to other paper on the classification results.
+Compere to other paper on the classification results. ![Classification Preformance IOHunter](./figure_examples/Classification_Preformance_IOHunter.png)
 
 ### 4.3 Frameworks and Hardware
 
