@@ -34,10 +34,17 @@ The paper also separates ordinary participation from narrative leadership. Some 
 * Classification on the most influential subset of the authors.
 * Seeing informative grpah insted of 'hair ball'.
 
+
+`Using tf-idf as ranking scoring **without** the need to build the social netwrok graph. Cheak authors key score coralation to PageRank which is know indicator for infulance. Then build a backbone grpah of only the most infulnational auhors.`
+
+![graph filtering](./figure_examples/graph_filtering.png)
+
 ### 3.3 Topic-Aware Graph Analysis
 
 Plotting the behavior-similarity graph in a topic-aware manner. See suspicious authors in key places.
 ![grpah_topipc_aware](.\figure_examples\grpah_topipc_aware.jpg)
+
+Allow to viusalize the core authors of a topic.
 
 
 ## 4. Experiments
