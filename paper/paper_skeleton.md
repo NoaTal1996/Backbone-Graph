@@ -10,6 +10,14 @@ Information operations are coordinated attempts to shape online discourse by mak
 
 ## 1. Introduction
 
+* Start with fact that can not be argued.
+* There are a lot of IO in the social netwrok. 
+* The IO leaders use a group of accounts (bots or humans) to operate the IO.
+* The group of accounts must coordinate. (Our conclusion?, in the literature? we want a paper from political science).
+* Until now the IO was detected by? What is the gap? How we are better?
+* In this paper we propose (core number and the tf-idf).
+* Summery of contribution (bullet point) 2-4. 
+
 Social networks make it easy for coordinated actors to amplify narratives, imitate organic discussion, and hide their coordination inside ordinary public conversation. A single post may not look suspicious, and a single user may appear legitimate when viewed alone, but repeated shared behavior across many users can reveal the operation. The paper begins from this intuition: if IO drivers coordinate, then their coordination should leave a visible trace in the relationships between accounts. The goal is therefore to move from isolated posts to a behavior-based view of users, where suspiciousness is explained by an author's position in a topic-aware co-action structure.
 
 ## 2. Related Work
@@ -37,9 +45,12 @@ The paper also separates ordinary participation from narrative leadership. Some 
 
 `Using tf-idf as ranking scoring **without** the need to build the social netwrok graph. Cheak authors key score coralation to PageRank which is know indicator for infulance. Then build a backbone grpah of only the most infulnational auhors.`
 
+[An Influence Propagation View of PageRank
+](https://dl.acm.org/doi/pdf/10.1145/3046941)
+
 ![graph filtering](./figure_examples/graph_filtering.png)
 
-### 3.3 Topic-Aware Graph Analysis
+### 3.3 Topic-Aware Graph Visualization for Campine core user
 
 Plotting the behavior-similarity graph in a topic-aware manner. See suspicious authors in key places.
 ![grpah_topipc_aware](.\figure_examples\grpah_topipc_aware.jpg)
@@ -69,17 +80,23 @@ Compere to other paper on the classification results. ![Classification Preforman
 ### 4.3 Frameworks and Hardware
 
 
-## 5. Discussion
-
-The core claim is that IO detection should be told as a network story. A suspicious account is not only an account that writes suspicious text; it is an account that repeatedly appears in the same narrative space as other coordinated actors and occupies a dense structural position in the behavior graph. This gives the analyst a chain of reasoning: the account pushes a narrative, reuses campaign entities, connects to similar actors, and belongs to a dense coordination region. That chain is the main value of the approach.
-
 
 ## 5. Discussion
 
-* Conclusion: 
+* Conclusion:   
+    The core claim is that IO detection should be told as a network story. A suspicious account is not only an account that writes
+    suspicious text; it is an account that repeatedly appears in the same narrative space as other coordinated actors and occupies
+    a dense structural position in the behavior graph. This gives the analyst a chain of reasoning: the account pushes a narrative,
+    reuses campaign entities, connects to similar actors, and belongs to a dense coordination region. That chain is the main value
+    of the approach.
+
     Indicators that is interpretable - not a black box, 
     Identifying influential (key) IO drivers.
     Topic aware graph layout for identifying are critical authors for the operation
+* Limitation:
+    The data is old
+    The data is gather and not just sample from the social media.
+    Only qualitative validation of some aspects.
 * Future Work
 * Acknowledgments
 
