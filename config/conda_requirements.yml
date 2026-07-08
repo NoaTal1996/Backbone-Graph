@@ -48,6 +48,7 @@ dependencies:
   - texlive-core=20260301
   - latexmk=4.88
   - perl=5.42.2
+ # - wordfreq=3.1.1
   - pip:
     - MLstatkit==0.1.91
 
