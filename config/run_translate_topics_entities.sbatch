@@ -47,10 +47,10 @@ source activate backbone_env_v2
 
 # papermill
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
-OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_${DATASET_FILE_NAME}.ipynb"
 
 # This cleans the name for the log file
 CLEAN_NAME=$(basename "$1")
+OUT_NOTEBOOK="../logs/log_${SLURM_JOB_ID}_${CLEAN_NAME}.ipynb"
 export SLURM_DATA_PATH="$1"
 # This runs the job and saves a CLEAN log name
-conda run -n backbone_env_v2 papermill translate_topics_entities.ipynb "../logs/log_${SLURM_JOB_ID}_${CLEAN_NAME}.ipynb" -p file_name "$CLEAN_NAME"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p file_name "$CLEAN_NAME"

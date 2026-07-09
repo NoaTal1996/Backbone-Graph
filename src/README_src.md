@@ -18,14 +18,14 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 ## Notebook order (pipeline)
 
-### 1. `translate_topics_entities.ipynb`
+### 1. `1_translate_topics_entities.ipynb`
   - Pre-processing: Dataset cleaning and text translation.
   - Entities Recognition (NER): Identifying and storing named entities.
   - Topic modeling (for data up to 100k posts).
 
-> **Large dataset?** Switch to `big_data_clustering.ipynb` for the clustering step — pre-processing and NER still run here first.
+> **Large dataset?** Switch to `2_big_data_clustering.ipynb` for the clustering step — pre-processing and NER still run here first.
 
-### 2. `key_authors_graph.ipynb`
+### 2. `3_key_authors_graph.ipynb`
   - Calculates TF-IDF score for entities, posts and authors.
   - key authors selection: Identifies leading participants within specific topics.
   - Backbone graph building: Constructs a directed account graph (GEXF) based on user interactions.
@@ -34,6 +34,7 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 ### Not part of the pipeline
 
 - `Boost.ipynb` is not part of the ordered workflow.
+- `4_inter_intra_classification.ipynb` runs inter/intra-campaign classification experiments.
 
 ## Evaluation
 ### a. `author_insights.ipynb`
@@ -45,7 +46,7 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 
 ## Notebook details
 
-### 1) `translate_topics_entities.ipynb`
+### 1) `1_translate_topics_entities.ipynb`
 
 The pipeline's entry point. Takes a raw social media dataset, cleans and translates the text, extracts named entities, and clusters posts into topics.
 
@@ -75,9 +76,9 @@ The pipeline's entry point. Takes a raw social media dataset, cleans and transla
 
 ---
 
-### 1b) `big_data_clustering.ipynb` (for huge datasets)
+### 1b) `2_big_data_clustering.ipynb` (for huge datasets)
 
-This notebook is intended for **large-scale topic clustering** (chunked BERTopic + merge). It should be used after `translate_topics_entities.ipynb` runs into OOM.
+This notebook is intended for **large-scale topic clustering** (chunked BERTopic + merge). It should be used after `1_translate_topics_entities.ipynb` runs into OOM.
 
 **Inputs**
 - Parameters in the notebook:
@@ -101,7 +102,7 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 
 ---
 
-### 2) `key_authors_graph.ipynb`
+### 2) `3_key_authors_graph.ipynb`
 
 This notebook builds the **Key-Authors Backbone graph** for the chosen topic column and exports it to GEXF.
 

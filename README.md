@@ -50,9 +50,10 @@ Backbone-Graph/
 ├── docs/                                      # Design documentation, meeting notes, figures
 │
 ├── src/                                       # All notebooks — run from this directory
-│   ├── translate_topics_entities.ipynb        # Step 1: preprocessing, NER, topic modeling
-│   ├── big_data_clustering.ipynb              # Step 1b: chunked BERTopic for large datasets
-│   ├── key_authors_graph.ipynb                # Step 2: key authors, TF-IDF, graph export
+│   ├── 1_translate_topics_entities.ipynb      # Step 1: preprocessing, NER, topic modeling
+│   ├── 2_big_data_clustering.ipynb            # Step 1b: chunked BERTopic for large datasets
+│   ├── 3_key_authors_graph.ipynb              # Step 2: key authors, TF-IDF, graph export
+│   ├── 4_inter_intra_classification.ipynb     # Step 3: inter/intra-campaign classification
 │   ├── Boost.ipynb                            # Standalone boost-score exploration (not in pipeline)
 │   ├── README_src.md                          # Detailed src-level documentation
 │   ├── evaluation/                            # Evaluation and Checks
@@ -83,12 +84,12 @@ conda activate backbone_env_v2
 
 ## Notebook Pipeline
 
-### Step 1 — `translate_topics_entities.ipynb`
+### Step 1 — `1_translate_topics_entities.ipynb`
 
 Full preprocessing for datasets. Run this first.
 The notebook enriches the dataset by adding new columns that provide additional information.
 
-**Memory Note:** For datasets with ~100k+ posts or machines with low RAM, the topic modeling may run out of memory (OOM). Use *Step 1b* in this case (topic modeling is offloaded to `big_data_clustering.ipynb`, while Step 1 still handles preprocessing and NER). For reference, 1M posts takes approximately 60G RAM.
+**Memory Note:** For datasets with ~100k+ posts or machines with low RAM, the topic modeling may run out of memory (OOM). Use *Step 1b* in this case (topic modeling is offloaded to `2_big_data_clustering.ipynb`, while Step 1 still handles preprocessing and NER). For reference, 1M posts takes approximately 60G RAM.
 
 **Input**
  Parquet dataset file.
@@ -120,11 +121,11 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 
 ---
 
-### Step 1b — `big_data_clustering.ipynb` _(for large datasets)_
+### Step 1b — `2_big_data_clustering.ipynb` _(for large datasets)_
 
 Use this **instead of Step 1's built-in clustering** when Step 1 runs out of memory (OOM) during topic modeling.
 
-**Workflow:** Step 1 (`translate_topics_entities.ipynb`) still performs preprocessing and NER; this notebook (`big_data_clustering.ipynb`) handles only the chunked topic clustering and merges the results.
+**Workflow:** Step 1 (`1_translate_topics_entities.ipynb`) still performs preprocessing and NER; this notebook (`2_big_data_clustering.ipynb`) handles only the chunked topic clustering and merges the results.
 
 **Input**
  Parquet dataset file.
@@ -148,7 +149,7 @@ See Step 1 output.
 
 ---
 
-### Step 2 — `key_authors_graph.ipynb`
+### Step 2 — `3_key_authors_graph.ipynb`
 
 Identifies Key Authors and builds the backbone author graph. Run this after Step 1 
 
