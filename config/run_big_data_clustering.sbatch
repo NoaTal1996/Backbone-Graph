@@ -7,7 +7,7 @@
 
 #SBATCH --partition main			                ### specify partition name where to run a job. change only if you have a matching qos!! main: all nodes; gtx1080: 1080 gpu card nodes; rtx2080: 2080 nodes; teslap100: p100 nodes; titanrtx: titan nodes
 #SBATCH --time 7-00:00:00			                ### limit the time of job running. Make sure it is not greater than the partition time limit!! Format: D-H:MM:SS
-#SBATCH --job-name big_data_clustering			    ### name of the job
+#SBATCH --job-name 2_big_data_clustering			### name of the job
 #SBATCH --output=../logs/%x_%j.out                  ### %x – Job name, %j – Job ID
 #SBATCH --error=../logs/%x_%j.err
 #SBATCH --gpus=rtx_4090:1		                    ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
