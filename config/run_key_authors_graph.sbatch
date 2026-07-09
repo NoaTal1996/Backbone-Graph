@@ -7,7 +7,7 @@
 
 #SBATCH --partition main			                    ### partition name where to run a job
 #SBATCH --time 7-00:00:00			                    ### Time Limit Format: D-H:MM:SS
-#SBATCH --job-name key_authors_graph		            ### name of the job
+#SBATCH --job-name 3_key_authors_graph		            ### name of the job
 #SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
 #SBATCH --error=../logs/%x_%j.err
 ##SBATCH --gpus=rtx_4090:1
