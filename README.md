@@ -41,6 +41,8 @@ Backbone-Graph/
 │   ├── conda_requirements.yml                 # Conda environment specification
 │   ├── run_translate_topics_entities.sbatch   # SLURM job: Step 1 (preprocessing + clustering)
 │   ├── run_big_data_clustering.sbatch         # SLURM job: Step 1b (large-scale clustering)
+│   ├── run_key_authors_graph.sbatch           # SLURM job: Step 2 (key authors graph)
+│   ├── run_inter_intra_classification.sbatch  # SLURM job: Step 3 (classification)
 │   ├── slurm_commends.md                      # Common SLURM command
 │
 ├── data/                                      # Input datasets
@@ -99,8 +101,7 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 
 | Parameter | Example value | Description |
 |---|---|---|
-| `dataset_name` | `"Labeled_Datasets/Ecuador"` | Subfolder path under `data/` |
-| `file_name` | `"Ecuador_part_1.gzip.parquet"` | Input Parquet filename |
+| `input_file_path` | `"../data/Labeled_Datasets/Ecuador/Ecuador_part_1.gzip.parquet"` | Input Parquet path |
 | `min_topic_size` | `256` | BERTopic minimum cluster size |
 
 **What it does:**
@@ -109,11 +110,11 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 3. Identifies entity reuse.
 4. Performs topic clustering (BERTopic + KMeans)
 
-**Main Outputs** (to `results/` or `final_results/`):
+**Main Outputs** (to `../results/<input path relative to data>/<input stem>/step_1/`):
 
 | File | Description |
 |---|---|
-| `processed_<file_name>.gzip.parquet` | Enriched dataset |
+| `<input_stem>_step1.gzip.parquet` | Enriched dataset |
 | `dataset_summary.txt` | Dataset statistics |
 | `progress_report.txt` | Execution progress log |
 | `BERTopic_model/` | Saved BERTopic model directory |
@@ -135,6 +136,7 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 
 | Parameter | Example value | Description |
 |---|---|---|
+| `input_file_path` | `"../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet"` | Step 1 output parquet |
 | `min_topic_size` | `256` | BERTopic minimum cluster size |
 | `chunk_size` | `100k` | Number of documents per BERTopic chunk |
 
@@ -144,8 +146,13 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 3. Appends `BERTopic_topic_<min_topic_size>` column to the dataframe
 4. Saves progress reports during long runs
 
-**Main Outputs** 
-See Step 1 output.
+**Main Outputs** (to the matching `step_2/` folder):
+
+| File | Description |
+|---|---|
+| `<input_stem>_step2.gzip.parquet` | Dataset with chunked BERTopic results |
+| `BERTopic_models_min_topic_size_<min_topic_size>/` | Chunk and merged BERTopic models |
+| `*.png` | Topic distribution and account distribution plots |
 
 ---
 
@@ -161,6 +168,7 @@ Note that this notebook’s capabilities depend on the configuration of Step 1 a
 
 | Parameter | Example value | Description |
 |---|---|---|
+| `input_file_path` | `"../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet"` | Step 1 or Step 2 output parquet |
 | `account_id_col` | `"accountid"` | Column name for author identifier |
 | `topic_col` | `"BERTopic_topic_512"` | Topic column to use (must exist in dataset) |
 | `top_n` | `300` | Number of top authors per topic to select as key authors |
@@ -172,10 +180,11 @@ Note that this notebook’s capabilities depend on the configuration of Step 1 a
 4. Builds a graph using interaction relation columns.
 5. Computes IO indicators (e.g., centralities)
 
-**Main Outputs** (to the same folder as the processed dataset):
+**Main Outputs** (to the matching `step_3/` folder):
 
 | File | Description |
 |---|---|
+| `<input_stem>_step3.gzip.parquet` | Dataset copied forward from the graph step |
 | `author_topic_tfidf_by_<topic_col>.parquet` | Author-topic TF-IDF scores |
 | `io_key_authors_summary.txt` | IO indicator report |
 | `<topic_col>_accounts_graph.gexf` | Backbone graph |
@@ -211,38 +220,51 @@ These notebooks are standalone tools for inspecting and validating results. They
 
 For long-running jobs on the cluster, use the provided SLURM scripts with [papermill](https://papermill.readthedocs.io). **All `sbatch` commands must be run from `Backbone-Graph/src/`.**
 
-> **Before submitting any job:** open the target notebook and set the parameters at the top of the file (e.g. `dataset_name`, `min_topic_size`). These are NOT passed via command line — they must be configured inside the notebook.
+> **Before submitting any job:** pass the input path as the first argument. Other parameters can still be set in the notebook; Step 2 also accepts `min_topic_size` as an optional second argument.
 
 ### Step 1 — preprocessing + clustering
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_translate_topics_entities.sbatch" <file_name>
+sbatch "../config/run_translate_topics_entities.sbatch" <INPUT_FILE_PATH>
 
 # Example:
-sbatch "../config/run_translate_topics_entities.sbatch" Ecuador_part_all.gzip.parquet
+sbatch "../config/run_translate_topics_entities.sbatch" ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
 ```
 
-`file_name` is the only CLI argument. Set `dataset_name` and `min_topic_size` in the notebook beforehand.
+Output parquet: `../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet`.
 
 ### Step 1b — large-scale clustering
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_big_data_clustering.sbatch" <min_topic_size>
+sbatch "../config/run_big_data_clustering.sbatch" <STEP_1_PARQUET> [min_topic_size]
 
 # Example:
-sbatch "../config/run_big_data_clustering.sbatch" 256
+sbatch "../config/run_big_data_clustering.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet 256
 ```
 
 ### Step 2 — key authors graph
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_key_authors_graph.sbatch"
+sbatch "../config/run_key_authors_graph.sbatch" <STEP_1_OR_STEP_2_PARQUET>
+
+# Example:
+sbatch "../config/run_key_authors_graph.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
 ```
 
-No CLI arguments — set all parameters (`account_id_col`, `topic_col`, `top_n`) in the notebook beforehand.
+### Step 3 — inter/intra classification
+
+```bash
+cd Backbone-Graph/src
+sbatch "../config/run_inter_intra_classification.sbatch" <STEP_3_FOLDER>
+
+# Example:
+sbatch "../config/run_inter_intra_classification.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/
+```
+
+Outputs are saved to the matching `step_4/` folder.
 
 ### Monitoring & logs
 

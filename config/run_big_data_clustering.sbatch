@@ -25,13 +25,21 @@
 
 
 ### Read argument from command line
-MIN_TOPIC_SIZE="$1"
+INPUT_FILE_PATH="$1"
+MIN_TOPIC_SIZE="$2"
+
+if [ -z "$INPUT_FILE_PATH" ]; then
+    echo "ERROR: No input file path provided!"
+    echo "Usage: sbatch run_big_data_clustering.sbatch <INPUT_FILE_PATH> [MIN_TOPIC_SIZE]"
+    exit 1
+fi
 
 ### Print some data to output file ###
 echo `date`
 echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID
 echo -e "SLURM_JOB_NODELIST:\t" $SLURM_JOB_NODELIST "\n\n"
 echo -e "Job name:\t\t$SLURM_JOB_NAME"
+echo -e "\nINPUT_FILE_PATH:\t" $INPUT_FILE_PATH
 echo -e "\nMIN_TOPIC_SIZE:\t" $MIN_TOPIC_SIZE
 
 ### Start your code below ####
@@ -40,6 +48,12 @@ source activate backbone_env_v2
 
 # papermill
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
-OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_size_${MIN_TOPIC_SIZE}.ipynb" # added the size to the log name for better tracking
+OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}.ipynb"
 
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p min_topic_size "${MIN_TOPIC_SIZE}"
+PAPERMILL_ARGS=(-p input_file_path "$INPUT_FILE_PATH")
+if [ -n "$MIN_TOPIC_SIZE" ]; then
+    OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_size_${MIN_TOPIC_SIZE}.ipynb"
+    PAPERMILL_ARGS+=(-p min_topic_size "$MIN_TOPIC_SIZE")
+fi
+
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" "${PAPERMILL_ARGS[@]}"
