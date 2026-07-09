@@ -20,11 +20,21 @@
 
 ################  Following lines will be executed by a compute node    #######################
 
+### Read argument from command line
+INPUT_FILE_PATH="$1"
+
+if [ -z "$INPUT_FILE_PATH" ]; then
+    echo "ERROR: No input file path provided!"
+    echo "Usage: sbatch run_key_authors_graph.sbatch <INPUT_FILE_PATH>"
+    exit 1
+fi
+
 ### Print some data to output file ###
 echo "$(date)"
 echo -e "\nSLURM_JOB_ID:\t\t$SLURM_JOB_ID"
 echo -e "SLURM_JOB_NODELIST:\t$SLURM_JOB_NODELIST"
 echo -e "Job name:\t\t$SLURM_JOB_NAME"
+echo -e "INPUT_FILE_PATH:\t$INPUT_FILE_PATH"
 
 ### Start your code ###
 module load anaconda
@@ -34,6 +44,6 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}.ipynb"
 
 echo "Starting papermill..."
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_file_path "$INPUT_FILE_PATH"
 
 echo "Completed ${SLURM_JOB_NAME}!"

@@ -27,11 +27,11 @@
 
 
 ### Read argument from command line
-DATASET_FILE_NAME="$1"
+INPUT_FILE_PATH="$1"
 
-if [ -z "$DATASET_FILE_NAME" ]; then
-    echo "ERROR: No file name provided!"
-    echo "Usage: sbatch run_translate_topics_entities.sbatch <DATASET_FILE_NAME>"
+if [ -z "$INPUT_FILE_PATH" ]; then
+    echo "ERROR: No input file path provided!"
+    echo "Usage: sbatch run_translate_topics_entities.sbatch <INPUT_FILE_PATH>"
     exit 1
 fi
 
@@ -51,6 +51,5 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 # This cleans the name for the log file
 CLEAN_NAME=$(basename "$1")
 OUT_NOTEBOOK="../logs/log_${SLURM_JOB_ID}_${CLEAN_NAME}.ipynb"
-export SLURM_DATA_PATH="$1"
 # This runs the job and saves a CLEAN log name
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p file_name "$CLEAN_NAME"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_file_path "$INPUT_FILE_PATH"

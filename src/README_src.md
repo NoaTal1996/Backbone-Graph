@@ -34,7 +34,10 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 ### Not part of the pipeline
 
 - `Boost.ipynb` is not part of the ordered workflow.
-- `4_inter_intra_classification.ipynb` runs inter/intra-campaign classification experiments.
+
+### 3. `4_inter_intra_classification.ipynb`
+  - Runs classification experiments from a `step_3/` output folder.
+  - Saves results and plots to the matching `step_4/` folder.
 
 ## Evaluation
 ### a. `author_insights.ipynb`
@@ -52,8 +55,7 @@ The pipeline's entry point. Takes a raw social media dataset, cleans and transla
 
 **Inputs**
 - Parameters in the notebook:
-  - `dataset_name` — subfolder path under `data/` (e.g., `"Labeled_Datasets/Venezuela_2"`).
-  - `file_name` — input Parquet filename (defaults to `<dataset_name>_part_all.gzip.parquet`).
+  - `input_file_path` — raw parquet path under `data/` (e.g., `"../data/Labeled_Datasets/Venezuela/Venezuela_part_all.gzip.parquet"`).
   - `min_topic_size` — BERTopic minimum cluster size (also used to name the output folder).
 - Input Parquet must follow the schema at https://zenodo.org/records/14189193.
 
@@ -65,9 +67,9 @@ The pipeline's entry point. Takes a raw social media dataset, cleans and transla
 - Writes progress logs during execution.
 
 **Outputs**
-- Output folder: `results/<dataset_name>/<file_stem>/BERT_min_topic_size_<min_topic_size>/`
+- Output folder: `results/<input path relative to data>/<input_stem>/step_1/`
 - Main Artifacts created:
-  - `processed_<file_name>` (gzip parquet)
+  - `<input_stem>_step1.gzip.parquet`
   - `dataset_summary.txt`
   - `progress_report.txt`
   - `BERTopic_model_<min_topic_size>` 
@@ -82,11 +84,10 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 
 **Inputs**
 - Parameters in the notebook:
-  - `dataset_name` — same value used in notebook 1 (e.g., `"Labeled_Datasets/Egypt_UAE"`).
-  - `raw_file_name` — the original input Parquet filename.
+  - `input_file_path` — Step 1 parquet path (e.g., `"../results/Labeled_Datasets/Egypt_UAE/Egypt_UAE_part_all/step_1/Egypt_UAE_part_all_step1.gzip.parquet"`).
   - `min_topic_size` (used for BERTopic and naming the output folder).
   - `chunk_size` (controls how many documents per BERTopic chunk).
-- Reads the preprocessed parquet produced by notebook 1 (already translated and NER-enriched), located automatically under `results/<dataset_name>/<file_stem>/`.
+- Reads the preprocessed parquet produced by notebook 1.
 
 **What it does**
 - Loads the preprocessed dataset.
@@ -96,7 +97,7 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 - Saves progress reports during long runs.
 
 **Outputs**
-- `clustered_<raw_file_name_no_suffixes>.gzip.parquet`
+- `<input_stem>_step2.gzip.parquet`
 - `BERTopic_models_min_topic_size_<min_topic_size>/` (chunk models + merged model)
 - Plots (PNG): `<topic_col>_topic_clustering.png`, `<topic_col>_topic_accounts.png`
 
@@ -108,13 +109,10 @@ This notebook builds the **Key-Authors Backbone graph** for the chosen topic col
 
 **Inputs**
 - Parameters in the notebook:
-  - `dataset_folder` — subfolder path under `experimental_results/` (e.g., `"Labeled_Datasets/Ecuador"`).
-  - `file_name` — input Parquet filename (e.g., `"Ecuador_part_all.gzip.parquet"`).
-  - `dataset_procced_date` — date subfolder from notebook 1's output (e.g., `"2026_01_10"`).
+  - `input_file_path` — Step 1 or Step 2 parquet path.
   - `topic_col` (example: `BERTopic_topic_256`)
   - `top_percentage` — fraction of top authors per topic to select as key authors (e.g., `0.01` = top 1%).
   - `account_id_col` — account identifier column (default: `"accountid"`).
-- Reads from: `experimental_results/<dataset_folder>/<file_stem>/<dataset_procced_date>/processed_<file_name>`
 - The processed dataframe is expected to contain:
   - The chosen `topic_col`
   - Interaction columns used to build edges (e.g., replies/mentions/reposts; see notebook)
@@ -124,23 +122,46 @@ This notebook builds the **Key-Authors Backbone graph** for the chosen topic col
 - Produces IO summaries.
 - Builds a directed accounts graph and exports it to GEXF.
 
-**Outputs** (written to `experimental_results/<dataset_folder>/<file_stem>/<dataset_procced_date>/<run_date>/`)
+**Outputs** (written to the matching `step_3/` folder)
+- `<input_stem>_step3.gzip.parquet`
 - `author_topic_key_score_by_<topic_col>.parquet`
 - `io_key_authors_summary.txt`
 - `accounts_graph_topic_col_<topic_col>.gexf`
 - Additional indicators/plots/parquets (information gain, IO classification reports, comparisons, etc.)
+
+### 3) `4_inter_intra_classification.ipynb`
+
+Runs classification experiments from a Step 3 output folder.
+
+**Inputs**
+- Parameters in the notebook:
+  - `input_file_path` — Step 3 folder path (e.g., `"../results/Labeled_Datasets/Egypt_UAE/Egypt_UAE_part_all/step_3/"`).
+  - `target_campaign` — label used in the results for single-folder runs.
+  - `graph_filtering_setting` — node-indicators variant to load.
+
+**Outputs** (written to the matching `step_4/` folder)
+- `experiment_results_<graph_filtering_setting>.csv`
+- `strategy_comparison_auc.png`
+- `strategy_comparison_macro_f1.png`
 
 ## Batch execution (SLURM)
 
 The repo contains papermill-based SLURM scripts:
 - Translate + clustering:
 
-  - `sbatch ../config/run_translate_topics_entities.sbatch <DATASET_FILE_NAME>`
+  - `sbatch ../config/run_translate_topics_entities.sbatch <INPUT_FILE_PATH>`
   - Script: `../config/run_translate_topics_entities.sbatch`
-  - Note: it passes only `file_name`; `dataset_name` and other parameters remain as set inside the notebook.
 - Big data clustering:
 
-  - `sbatch ../config/run_big_data_clustering.sbatch <MIN_TOPIC_SIZE>`
+  - `sbatch ../config/run_big_data_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZE]`
   - Script: `../config/run_big_data_clustering.sbatch`
+- Key authors graph:
+
+  - `sbatch ../config/run_key_authors_graph.sbatch <STEP_1_OR_STEP_2_PARQUET>`
+  - Script: `../config/run_key_authors_graph.sbatch`
+- Inter/intra classification:
+
+  - `sbatch ../config/run_inter_intra_classification.sbatch <STEP_3_FOLDER>`
+  - Script: `../config/run_inter_intra_classification.sbatch`
 
 See `../config/slurm_commends.md` for examples.
