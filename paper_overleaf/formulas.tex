@@ -1,0 +1,43 @@
+\[
+tf(e, t) =\sum_{e \in t} \mathbf{1}
+\]
+
+\[
+tf(e, t) = \ln\left(\frac{1 + tf}{|e \in t|} + 3\right)
+\]
+\begin{itemize}
+  \item $e$ — entity
+  \item $t$ — topic
+\end{itemize}
+
+\[
+df(e) = \sum_{d \in D \,\land\, e \in d} \mathbf{1}
+\]
+
+\begin{itemize}
+  \item $e$ — entity
+  \item $d$ — document (topic)
+  \item $D$ — set of all documents (topics)
+\end{itemize}
+
+\[
+idf(e) = \ln\left(\frac{1 + |T|}{1 + df(e)}\right) + 3
+\]
+
+\begin{itemize}
+  \item $e$ — entity
+  \item $t$ — topic
+  \item $T$ — set of all topics
+  \item $\alpha$ — exponent scaling parameter
+\end{itemize}
+
+\[
+tfidf(e, t) = tf(e, t) \cdot \big( idf(e) \big)^{\alpha}
+\]
+
+\begin{itemize}
+  \item $e$ — entity
+  \item $t$ — topic
+  \item $d$ — document (topic)
+  \item $\alpha$ — exponent scaling parameter
+\end{itemize}
