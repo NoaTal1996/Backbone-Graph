@@ -6,6 +6,7 @@ BERTopic_model
 BERTopic_model/
 
 experimental_results/
+results/
 logs/
 data/
 *part_all*
