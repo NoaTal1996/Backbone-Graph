@@ -5,15 +5,15 @@ sjupyter --gpu rtx_6000:1
 
 ### Non-Interactive Job ###
 
-# translate_topics_entities
+# 1_translate_topics_entities
 cd /home/amitner/Backbone-Graph/src
 sbatch "../config/run_translate_topics_entities.sbatch" ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
 
-# big_data_clustering
+# 2_big_data_clustering
 cd /home/amitner/Backbone-Graph/src
 sbatch "../config/run_big_data_clustering.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet 256
 
-# key_authors_graph
+# 3_key_authors_graph
 cd /home/amitner/Backbone-Graph/src
 sbatch "../config/run_key_authors_graph.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
 
