@@ -17,10 +17,6 @@ data/
 # Re-ignore BERTopic chunk models across all campaigns — exceed GitHub's 100MB file size limit
 results/Labeled_Datasets/**/BERTopic_models_*/chunk_model_*
 
-
-# AI
-AGENTS.md
-
 # Jupyter
 .ipynb_checkpoints/
 ~/.jupyter/
