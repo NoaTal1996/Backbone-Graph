@@ -1,0 +1,18 @@
+Model: random_forest
+Training set: 16,992 samples
+Test set: 4,249 samples
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.99      1.00      0.99      4096
+          IO       0.87      0.68      0.76       153
+
+    accuracy                           0.98      4249
+   macro avg       0.93      0.84      0.88      4249
+weighted avg       0.98      0.98      0.98      4249
+
+AUC: 0.9329
+AUC-PR: 0.7451
+F1: 0.7647
+Recall: 0.6797
+Precision: 0.8739

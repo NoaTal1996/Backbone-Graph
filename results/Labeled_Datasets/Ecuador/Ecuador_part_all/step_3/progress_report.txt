@@ -1,0 +1,444 @@
+2026-07-10 14:51:53 | Starting new execution of key_authors_graph.ipynb
+2026-07-10 14:51:53 | df path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+2026-07-10 14:51:53 | df with 1,468,565 rows and 37 columns
+2026-07-10 14:51:53 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3
+2026-07-10 14:52:20 | Completed: compute_entities_tfidf
+2026-07-10 14:52:21 | Completed: get_top_entities
+2026-07-10 14:52:52 | Completed: compute_entities_tfidf
+2026-07-10 14:53:12 | Completed: compute_entities_tfidf
+2026-07-10 14:53:19 | Completed: compute_entities_tfidf
+2026-07-10 14:53:21 | Completed: compute_post_tfidf
+2026-07-10 14:54:54 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/Ecuador_part_all_step3.gzip.parquet
+2026-07-10 14:54:59 | Completed: compute_author_key_score
+2026-07-10 14:55:00 | Completed: get_topic_top_authors
+2026-07-10 14:55:00 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-10 14:55:01 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:02 | Completed: get_io_authors_by_ratio
+2026-07-10 14:55:03 | Completed: save_and_print_io_key_summary
+2026-07-10 14:55:04 | Completed: plot_venn_3_sets
+2026-07-10 14:55:05 | Completed: get_io_authors_by_ratio
+2026-07-10 14:55:05 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:05 | Completed: plot_venn_3_sets
+2026-07-10 14:55:06 | Completed: get_io_authors_by_ratio
+2026-07-10 14:55:06 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:06 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:07 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:07 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:07 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:08 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:08 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:08 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:09 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:09 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:10 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:10 | Completed: get_all_topics_key_authors
+2026-07-10 14:55:11 | Completed: get_all_topics_key_authors
+2026-07-10 15:10:29 | Completed: build_accounts_graph
+2026-07-10 16:43:12 | FAILED: compute_indicators | A process in the process pool was terminated abruptly while the future was running or pending.
+2026-07-10 16:43:12 | #######################################################
+2026-07-10 16:43:12 | #######################################################
+2026-07-11 22:28:56 | Starting new execution of key_authors_graph.ipynb
+2026-07-11 22:28:56 | df path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+2026-07-11 22:28:56 | df with 1,468,565 rows and 37 columns
+2026-07-11 22:28:56 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3
+2026-07-11 22:29:20 | Completed: compute_entities_tfidf
+2026-07-11 22:29:22 | Completed: get_top_entities
+2026-07-11 22:29:52 | Completed: compute_entities_tfidf
+2026-07-11 22:30:05 | Completed: compute_entities_tfidf
+2026-07-11 22:30:11 | Completed: compute_entities_tfidf
+2026-07-11 22:30:13 | Completed: compute_post_tfidf
+2026-07-11 22:33:47 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/Ecuador_part_all_step3.gzip.parquet
+2026-07-11 22:33:51 | Completed: compute_author_key_score
+2026-07-11 22:33:52 | Completed: get_topic_top_authors
+2026-07-11 22:33:53 | Completed: get_all_topics_key_authors
+2026-07-11 22:33:54 | Completed: get_io_authors_by_ratio
+2026-07-11 22:33:55 | Completed: save_and_print_io_key_summary
+2026-07-11 22:33:57 | Completed: plot_venn_3_sets
+2026-07-11 22:33:57 | Completed: get_io_authors_by_ratio
+2026-07-11 22:33:58 | Completed: get_all_topics_key_authors
+2026-07-11 22:33:58 | Completed: plot_venn_3_sets
+2026-07-11 22:33:58 | Completed: get_io_authors_by_ratio
+2026-07-11 22:33:59 | Completed: get_all_topics_key_authors
+2026-07-11 22:33:59 | Completed: get_all_topics_key_authors
+2026-07-11 22:33:59 | Completed: get_all_topics_key_authors
+2026-07-11 22:33:59 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:00 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:00 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:00 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:00 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:01 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:01 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:01 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:02 | Completed: get_all_topics_key_authors
+2026-07-11 22:34:02 | Completed: get_all_topics_key_authors
+2026-07-11 22:40:53 | Completed: build_accounts_graph
+2026-07-11 22:41:47 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-11 22:41:47 | Completed: compute_indicators
+2026-07-11 22:41:50 | Completed: compute_zscore
+2026-07-11 22:41:54 | Completed: compute_indicators_information_gain
+2026-07-11 22:41:55 | Completed: plot_indicators_information_gain
+2026-07-11 22:41:59 | Completed: plot_indicators_distributions
+2026-07-11 22:42:03 | Completed: plot_indicator_boxplots
+2026-07-11 22:42:05 | Completed: plot_io_correlations
+2026-07-11 22:42:06 | Completed: get_top_authors_by_indicator
+2026-07-11 22:42:27 | Completed: plot_pagerank_key_score_correlation
+2026-07-11 22:42:31 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-11 22:42:31 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-11 22:42:31 | Completed: io_classification
+2026-07-11 22:42:32 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-11 22:42:32 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-11 22:42:32 | Completed: io_classification
+2026-07-11 22:42:32 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-11 22:42:32 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-11 22:42:32 | Completed: io_classification
+2026-07-11 22:42:46 | Completed: plot_shap_analysis
+2026-07-11 22:43:45 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-11 22:43:45 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-11 22:43:45 | Completed: io_classification
+2026-07-11 22:43:45 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-11 22:43:45 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-11 22:43:45 | Completed: io_classification
+2026-07-11 22:43:45 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-11 22:43:45 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-11 22:43:45 | Completed: io_classification
+2026-07-11 22:43:55 | Completed: plot_indicator_cdf_subplots
+2026-07-11 22:43:56 | Completed: plot_io_counts_by_indicator
+2026-07-11 22:43:56 | Completed: plot_io_rate_by_indicator
+2026-07-11 22:43:56 | Completed: logit_statistical_test
+2026-07-11 22:43:57 | Completed: plot_io_counts_by_indicator
+2026-07-11 22:43:58 | Completed: plot_io_rate_by_indicator
+2026-07-11 22:43:58 | Completed: logit_statistical_test
+2026-07-11 22:43:58 | Completed: plot_io_counts_by_indicator
+2026-07-11 22:43:59 | Completed: plot_io_rate_by_indicator
+2026-07-11 22:43:59 | Completed: logit_statistical_test
+2026-07-11 22:44:00 | Completed: plot_io_counts_by_indicator
+2026-07-11 22:44:00 | Completed: plot_io_rate_by_indicator
+2026-07-11 22:44:00 | Completed: logit_statistical_test
+2026-07-11 22:44:02 | Completed: plot_io_counts_by_indicator
+2026-07-11 22:44:02 | Completed: plot_io_rate_by_indicator
+2026-07-11 22:44:07 | Completed: permutation_chi2_test
+2026-07-11 22:44:08 | Completed: plot_io_counts_by_indicator
+2026-07-11 22:44:09 | Completed: plot_io_rate_by_indicator
+2026-07-11 22:44:15 | Completed: permutation_chi2_test
+2026-07-11 22:44:17 | Starting H3 (Narrative Amplification Hypothesis)
+2026-07-11 22:44:17 | Completed: io_classification
+2026-07-11 22:44:17 | Completed: io_classification
+2026-07-11 22:44:17 | Completed: io_classification
+2026-07-11 22:44:17 | Completed: io_classification
+2026-07-11 22:44:17 | Completed: io_classification
+2026-07-11 22:44:17 | Completed: io_classification
+2026-07-11 22:44:18 | H3 analysis completed.
+2026-07-11 23:30:18 | Starting new execution of key_authors_graph.ipynb
+2026-07-11 23:30:18 | df path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+2026-07-11 23:30:18 | df with 1,468,565 rows and 37 columns
+2026-07-11 23:30:18 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3
+2026-07-11 23:31:51 | Completed: compute_entities_tfidf
+2026-07-11 23:31:52 | Completed: get_top_entities
+2026-07-11 23:32:14 | Completed: compute_entities_tfidf
+2026-07-11 23:32:28 | Completed: compute_entities_tfidf
+2026-07-11 23:32:35 | Completed: compute_entities_tfidf
+2026-07-11 23:32:37 | Completed: compute_post_tfidf
+2026-07-11 23:34:01 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/Ecuador_part_all_step3.gzip.parquet
+2026-07-11 23:34:04 | Completed: compute_author_key_score
+2026-07-11 23:34:05 | Completed: get_topic_top_authors
+2026-07-11 23:34:05 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-11 23:34:06 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:06 | Completed: get_io_authors_by_ratio
+2026-07-11 23:34:07 | Completed: save_and_print_io_key_summary
+2026-07-11 23:34:08 | Completed: plot_venn_3_sets
+2026-07-11 23:34:08 | Completed: get_io_authors_by_ratio
+2026-07-11 23:34:09 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:09 | Completed: plot_venn_3_sets
+2026-07-11 23:34:09 | Completed: get_io_authors_by_ratio
+2026-07-11 23:34:09 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:10 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:10 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:10 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:10 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:11 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:11 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:11 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:12 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:12 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:12 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:13 | Completed: get_all_topics_key_authors
+2026-07-11 23:34:13 | Completed: get_all_topics_key_authors
+2026-07-11 23:45:03 | Completed: build_accounts_graph
+2026-07-12 07:28:01 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-12 07:28:01 | Completed: compute_indicators
+2026-07-12 07:28:06 | Completed: compute_zscore
+2026-07-12 07:28:11 | Completed: compute_indicators_information_gain
+2026-07-12 07:28:13 | Completed: plot_indicators_information_gain
+2026-07-12 07:28:18 | Completed: plot_indicators_distributions
+2026-07-12 07:28:23 | Completed: plot_indicator_boxplots
+2026-07-12 07:28:25 | Completed: plot_io_correlations
+2026-07-12 07:28:27 | Completed: get_top_authors_by_indicator
+2026-07-12 07:45:39 | Completed: plot_pagerank_key_score_correlation
+2026-07-12 07:45:45 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-12 07:45:45 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-12 07:45:45 | Completed: io_classification
+2026-07-12 07:45:46 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-12 07:45:46 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-12 07:45:46 | Completed: io_classification
+2026-07-12 07:45:47 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-12 07:45:47 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-12 07:45:47 | Completed: io_classification
+2026-07-12 07:45:55 | Completed: plot_shap_analysis
+2026-07-12 07:45:57 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-12 07:45:57 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-12 07:45:57 | Completed: io_classification
+2026-07-12 07:45:57 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-12 07:45:57 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-12 07:45:57 | Completed: io_classification
+2026-07-12 07:45:57 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-12 07:45:57 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-12 07:45:57 | Completed: io_classification
+2026-07-12 07:46:07 | Completed: plot_indicator_cdf_subplots
+2026-07-12 07:46:08 | Completed: plot_io_counts_by_indicator
+2026-07-12 07:46:09 | Completed: plot_io_rate_by_indicator
+2026-07-12 07:46:09 | Completed: logit_statistical_test
+2026-07-12 07:46:10 | Completed: plot_io_counts_by_indicator
+2026-07-12 07:46:10 | Completed: plot_io_rate_by_indicator
+2026-07-12 07:46:10 | Completed: logit_statistical_test
+2026-07-12 07:46:11 | Completed: plot_io_counts_by_indicator
+2026-07-12 07:46:12 | Completed: plot_io_rate_by_indicator
+2026-07-12 07:46:12 | Completed: logit_statistical_test
+2026-07-12 07:46:13 | Completed: plot_io_counts_by_indicator
+2026-07-12 07:46:13 | Completed: plot_io_rate_by_indicator
+2026-07-12 07:46:13 | Completed: logit_statistical_test
+2026-07-12 07:46:40 | Completed: plot_io_counts_by_indicator
+2026-07-12 07:46:41 | Completed: plot_io_rate_by_indicator
+2026-07-12 07:46:50 | Completed: permutation_chi2_test
+2026-07-12 07:46:52 | Completed: plot_io_counts_by_indicator
+2026-07-12 07:46:52 | Completed: plot_io_rate_by_indicator
+2026-07-12 07:46:59 | Completed: permutation_chi2_test
+2026-07-12 07:47:01 | Starting H3 (Narrative Amplification Hypothesis)
+2026-07-12 07:47:03 | Completed: io_classification
+2026-07-12 07:47:06 | Completed: io_classification
+2026-07-12 07:47:06 | Completed: io_classification
+2026-07-12 07:47:06 | Completed: io_classification
+2026-07-12 07:47:06 | Completed: io_classification
+2026-07-12 07:47:06 | Completed: io_classification
+2026-07-12 07:47:08 | H3 analysis completed.
+2026-07-12 17:48:18 | Starting new execution of key_authors_graph.ipynb
+2026-07-12 17:48:18 | df path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+2026-07-12 17:48:18 | df with 1,468,565 rows and 37 columns
+2026-07-12 17:48:18 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3
+2026-07-12 17:48:31 | Completed: compute_entities_tfidf
+2026-07-12 17:48:32 | Completed: get_top_entities
+2026-07-12 17:48:49 | Completed: compute_entities_tfidf
+2026-07-12 17:49:00 | Completed: compute_entities_tfidf
+2026-07-12 17:49:06 | Completed: compute_entities_tfidf
+2026-07-12 17:49:08 | Completed: compute_post_tfidf
+2026-07-12 17:50:18 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/Ecuador_part_all_step3.gzip.parquet
+2026-07-12 17:50:20 | Completed: compute_author_key_score
+2026-07-12 17:50:21 | Completed: get_topic_top_authors
+2026-07-12 17:50:21 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-12 17:50:21 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:22 | Completed: get_io_authors_by_ratio
+2026-07-12 17:50:22 | Completed: save_and_print_io_key_summary
+2026-07-12 17:50:23 | Completed: plot_venn_3_sets
+2026-07-12 17:50:23 | Completed: get_io_authors_by_ratio
+2026-07-12 17:50:23 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-12 17:50:23 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:24 | Completed: plot_venn_3_sets
+2026-07-12 17:50:24 | Completed: get_io_authors_by_ratio
+2026-07-12 17:50:24 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:24 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:24 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:25 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:25 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:25 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:25 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:25 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:26 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:26 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:26 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:26 | Completed: get_all_topics_key_authors
+2026-07-12 17:50:27 | Completed: get_all_topics_key_authors
+2026-07-12 17:57:35 | Completed: build_accounts_graph
+2026-07-12 23:17:38 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-12 23:17:38 | Completed: compute_indicators
+2026-07-12 23:17:42 | Completed: compute_zscore
+2026-07-12 23:17:45 | Completed: compute_indicators_information_gain
+2026-07-12 23:17:47 | Completed: plot_indicators_information_gain
+2026-07-12 23:17:51 | Completed: plot_indicators_distributions
+2026-07-12 23:17:54 | Completed: plot_indicator_boxplots
+2026-07-12 23:17:56 | Completed: plot_io_correlations
+2026-07-12 23:17:58 | Completed: get_top_authors_by_indicator
+2026-07-12 23:34:31 | Completed: plot_pagerank_key_score_correlation
+2026-07-12 23:34:37 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-12 23:34:37 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-12 23:34:37 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_confusion_matrix.png
+2026-07-12 23:34:37 | Completed: io_classification
+2026-07-12 23:34:38 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-12 23:34:38 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-12 23:34:38 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_confusion_matrix.png
+2026-07-12 23:34:38 | Completed: io_classification
+2026-07-12 23:34:39 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-12 23:34:39 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-12 23:34:39 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_confusion_matrix.png
+2026-07-12 23:34:39 | Completed: io_classification
+2026-07-12 23:34:44 | Completed: plot_shap_analysis
+2026-07-12 23:34:46 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-12 23:34:46 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-12 23:34:46 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_confusion_matrix.png
+2026-07-12 23:34:46 | Completed: io_classification
+2026-07-12 23:34:46 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-12 23:34:46 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-12 23:34:46 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_confusion_matrix.png
+2026-07-12 23:34:46 | Completed: io_classification
+2026-07-12 23:34:47 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-12 23:34:47 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-12 23:34:47 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_confusion_matrix.png
+2026-07-12 23:34:47 | Completed: io_classification
+2026-07-12 23:34:48 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_auc_pr_comparison.png
+2026-07-12 23:37:26 | Completed: get_all_topics_key_authors
+2026-07-13 11:39:04 | Starting new execution of key_authors_graph.ipynb
+2026-07-13 11:39:04 | df path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+2026-07-13 11:39:04 | df with 1,468,565 rows and 37 columns
+2026-07-13 11:39:04 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3
+2026-07-13 11:39:19 | Completed: compute_entities_tfidf
+2026-07-13 11:39:19 | Completed: get_top_entities
+2026-07-13 11:39:37 | Completed: compute_entities_tfidf
+2026-07-13 11:39:50 | Completed: compute_entities_tfidf
+2026-07-13 11:39:56 | Completed: compute_entities_tfidf
+2026-07-13 11:39:58 | Completed: compute_post_tfidf
+2026-07-13 11:41:15 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/Ecuador_part_all_step3.gzip.parquet
+2026-07-13 11:41:17 | Completed: compute_author_key_score
+2026-07-13 11:41:18 | Completed: get_topic_top_authors
+2026-07-13 11:41:18 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-13 11:41:18 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:19 | Completed: get_io_authors_by_ratio
+2026-07-13 11:41:20 | Completed: save_and_print_io_key_summary
+2026-07-13 11:41:20 | Completed: plot_venn_3_sets
+2026-07-13 11:41:21 | Completed: get_io_authors_by_ratio
+2026-07-13 11:41:21 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-13 11:41:21 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:21 | Completed: plot_venn_3_sets
+2026-07-13 11:41:21 | Completed: get_io_authors_by_ratio
+2026-07-13 11:41:22 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:22 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:22 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:22 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:22 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:23 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:23 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:23 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:23 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:24 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:24 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:24 | Completed: get_all_topics_key_authors
+2026-07-13 11:41:25 | Completed: get_all_topics_key_authors
+2026-07-13 11:49:18 | Completed: build_accounts_graph
+2026-07-13 17:24:41 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-13 17:24:41 | Completed: compute_indicators
+2026-07-13 17:24:46 | Completed: compute_zscore
+2026-07-13 17:24:50 | Completed: compute_indicators_information_gain
+2026-07-13 17:24:52 | Completed: plot_indicators_information_gain
+2026-07-13 17:24:56 | Completed: plot_indicators_distributions
+2026-07-13 17:25:00 | Completed: plot_indicator_boxplots
+2026-07-13 17:25:02 | Completed: plot_io_correlations
+2026-07-13 17:25:04 | Completed: get_top_authors_by_indicator
+2026-07-13 17:42:28 | Completed: plot_pagerank_key_score_correlation
+2026-07-13 17:42:35 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-13 17:42:35 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-13 17:42:35 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_confusion_matrix.png
+2026-07-13 17:42:35 | Completed: io_classification
+2026-07-13 17:42:36 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-13 17:42:36 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-13 17:42:36 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_confusion_matrix.png
+2026-07-13 17:42:36 | Completed: io_classification
+2026-07-13 17:42:37 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-13 17:42:37 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-13 17:42:37 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_confusion_matrix.png
+2026-07-13 17:42:37 | Completed: io_classification
+2026-07-13 17:42:42 | Completed: plot_shap_analysis
+2026-07-13 17:42:45 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-13 17:42:45 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-13 17:42:45 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_confusion_matrix.png
+2026-07-13 17:42:45 | Completed: io_classification
+2026-07-13 17:42:45 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-13 17:42:45 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-13 17:42:45 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_confusion_matrix.png
+2026-07-13 17:42:45 | Completed: io_classification
+2026-07-13 17:42:46 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-13 17:42:46 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-13 17:42:46 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_confusion_matrix.png
+2026-07-13 17:42:46 | Completed: io_classification
+2026-07-13 17:42:47 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_auc_pr_comparison.png
+2026-07-13 17:49:20 | Completed: get_all_topics_key_authors
+2026-07-14 13:07:53 | Starting new execution of key_authors_graph.ipynb
+2026-07-14 13:07:53 | df path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+2026-07-14 13:07:53 | df with 1,468,565 rows and 37 columns
+2026-07-14 13:07:53 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3
+2026-07-14 13:08:08 | Completed: compute_entities_tfidf
+2026-07-14 13:08:08 | Completed: get_top_entities
+2026-07-14 13:08:26 | Completed: compute_entities_tfidf
+2026-07-14 13:08:39 | Completed: compute_entities_tfidf
+2026-07-14 13:08:45 | Completed: compute_entities_tfidf
+2026-07-14 13:08:47 | Completed: compute_post_tfidf
+2026-07-14 13:10:03 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/Ecuador_part_all_step3.gzip.parquet
+2026-07-14 13:10:05 | Completed: compute_author_key_score
+2026-07-14 13:10:06 | Completed: get_topic_top_authors
+2026-07-14 13:10:06 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-14 13:10:06 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:07 | Completed: get_io_authors_by_ratio
+2026-07-14 13:10:07 | Completed: save_and_print_io_key_summary
+2026-07-14 13:10:08 | Completed: plot_venn_3_sets
+2026-07-14 13:10:08 | Completed: get_io_authors_by_ratio
+2026-07-14 13:10:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-14 13:10:09 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:09 | Completed: plot_venn_3_sets
+2026-07-14 13:10:09 | Completed: get_io_authors_by_ratio
+2026-07-14 13:10:09 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:09 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:10 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:10 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:10 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:10 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:10 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:11 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:11 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:11 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:11 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:12 | Completed: get_all_topics_key_authors
+2026-07-14 13:10:12 | Completed: get_all_topics_key_authors
+2026-07-14 13:17:50 | Completed: build_accounts_graph
+2026-07-14 19:11:15 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-14 19:11:16 | Completed: compute_indicators
+2026-07-14 19:11:20 | Completed: compute_zscore
+2026-07-14 19:11:24 | Completed: compute_indicators_information_gain
+2026-07-14 19:11:26 | Completed: plot_indicators_information_gain
+2026-07-14 19:11:30 | Completed: plot_indicators_distributions
+2026-07-14 19:11:34 | Completed: plot_indicator_boxplots
+2026-07-14 19:11:36 | Completed: plot_io_correlations
+2026-07-14 19:11:38 | Completed: get_top_authors_by_indicator
+2026-07-14 19:29:07 | Completed: plot_pagerank_key_score_correlation
+2026-07-14 19:29:14 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-14 19:29:14 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-14 19:29:14 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_confusion_matrix.png
+2026-07-14 19:29:14 | Completed: io_classification
+2026-07-14 19:29:15 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-14 19:29:15 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-14 19:29:15 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_confusion_matrix.png
+2026-07-14 19:29:15 | Completed: io_classification
+2026-07-14 19:29:16 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-14 19:29:16 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-14 19:29:16 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_confusion_matrix.png
+2026-07-14 19:29:16 | Completed: io_classification
+2026-07-14 19:29:21 | Completed: plot_shap_analysis
+2026-07-14 19:29:24 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_report.txt
+2026-07-14 19:29:24 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_model.joblib
+2026-07-14 19:29:24 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_random_forest_confusion_matrix.png
+2026-07-14 19:29:24 | Completed: io_classification
+2026-07-14 19:29:24 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_report.txt
+2026-07-14 19:29:24 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_model.joblib
+2026-07-14 19:29:24 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_xgboost_confusion_matrix.png
+2026-07-14 19:29:24 | Completed: io_classification
+2026-07-14 19:29:25 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_report.txt
+2026-07-14 19:29:25 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_model.joblib
+2026-07-14 19:29:25 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_logistic_regression_confusion_matrix.png
+2026-07-14 19:29:25 | Completed: io_classification
+2026-07-14 19:29:26 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/io_classification_auc_pr_comparison.png
+2026-07-14 19:33:32 | Completed: get_all_topics_key_authors
