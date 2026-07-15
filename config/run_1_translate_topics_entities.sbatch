@@ -31,7 +31,7 @@ INPUT_FILE_PATH="$1"
 
 if [ -z "$INPUT_FILE_PATH" ]; then
     echo "ERROR: No input file path provided!"
-    echo "Usage: sbatch run_translate_topics_entities.sbatch <INPUT_FILE_PATH>"
+    echo "Usage: sbatch run_1_translate_topics_entities.sbatch <INPUT_FILE_PATH>"
     exit 1
 fi
 

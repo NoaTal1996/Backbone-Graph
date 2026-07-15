@@ -19,7 +19,7 @@ INPUT_FILE_PATH="$1"
 
 if [ -z "$INPUT_FILE_PATH" ]; then
     echo "ERROR: No input path provided!"
-    echo "Usage: sbatch run_inter_intra_classification.sbatch <INPUT_STEP_3_FOLDER>"
+    echo "Usage: sbatch run_4_inter_intra_classification.sbatch <INPUT_STEP_3_FOLDER>"
     exit 1
 fi
 
