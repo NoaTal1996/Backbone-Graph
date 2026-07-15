@@ -25,7 +25,7 @@ INPUT_FILE_PATH="$1"
 
 if [ -z "$INPUT_FILE_PATH" ]; then
     echo "ERROR: No input file path provided!"
-    echo "Usage: sbatch run_key_authors_graph.sbatch <INPUT_FILE_PATH>"
+    echo "Usage: sbatch run_3_key_authors_graph.sbatch <INPUT_FILE_PATH>"
     exit 1
 fi
 

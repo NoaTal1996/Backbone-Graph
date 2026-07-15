@@ -39,10 +39,10 @@ The pipeline is based on `pandas` and `NetworkX` and exported the data as parque
 Backbone-Graph/
 ├── config/                                    # Environment and job configuration
 │   ├── conda_requirements.yml                 # Conda environment specification
-│   ├── run_translate_topics_entities.sbatch   # SLURM job: Step 1 (preprocessing + clustering)
-│   ├── run_big_data_clustering.sbatch         # SLURM job: Step 1b (large-scale clustering)
-│   ├── run_key_authors_graph.sbatch           # SLURM job: Step 2 (key authors graph)
-│   ├── run_inter_intra_classification.sbatch  # SLURM job: Step 3 (classification)
+│   ├── run_1_translate_topics_entities.sbatch   # SLURM job: Step 1 (preprocessing + clustering)
+│   ├── run_2_big_data_clustering.sbatch         # SLURM job: Step 2 (large-scale clustering)
+│   ├── run_3_key_authors_graph.sbatch           # SLURM job: Step 3 (key authors graph)
+│   ├── run_4_inter_intra_classification.sbatch  # SLURM job: Step 4 (classification)
 │   ├── slurm_commends.md                      # Common SLURM command
 │
 ├── data/                                      # Input datasets
@@ -226,10 +226,10 @@ For long-running jobs on the cluster, use the provided SLURM scripts with [paper
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_translate_topics_entities.sbatch" <INPUT_FILE_PATH>
+sbatch "../config/run_1_translate_topics_entities.sbatch" <INPUT_FILE_PATH>
 
 # Example:
-sbatch "../config/run_translate_topics_entities.sbatch" ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
+sbatch "../config/run_1_translate_topics_entities.sbatch" ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
 ```
 
 Output parquet: `../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet`.
@@ -238,30 +238,30 @@ Output parquet: `../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecu
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_big_data_clustering.sbatch" <STEP_1_PARQUET> [min_topic_size]
+sbatch "../config/run_2_big_data_clustering.sbatch" <STEP_1_PARQUET> [min_topic_size]
 
 # Example:
-sbatch "../config/run_big_data_clustering.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet 256
+sbatch "../config/run_2_big_data_clustering.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet 256
 ```
 
 ### Step 2 — key authors graph
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_key_authors_graph.sbatch" <STEP_1_OR_STEP_2_PARQUET>
+sbatch "../config/run_3_key_authors_graph.sbatch" <STEP_1_OR_STEP_2_PARQUET>
 
 # Example:
-sbatch "../config/run_key_authors_graph.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
+sbatch "../config/run_3_key_authors_graph.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet
 ```
 
 ### Step 3 — inter/intra classification
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_inter_intra_classification.sbatch" <STEP_3_FOLDER>
+sbatch "../config/run_4_inter_intra_classification.sbatch" <STEP_3_FOLDER>
 
 # Example:
-sbatch "../config/run_inter_intra_classification.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/
+sbatch "../config/run_4_inter_intra_classification.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3/
 ```
 
 Outputs are saved to the matching `step_4/` folder.

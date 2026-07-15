@@ -30,7 +30,7 @@ MIN_TOPIC_SIZE="$2"
 
 if [ -z "$INPUT_FILE_PATH" ]; then
     echo "ERROR: No input file path provided!"
-    echo "Usage: sbatch run_big_data_clustering.sbatch <INPUT_FILE_PATH> [MIN_TOPIC_SIZE]"
+    echo "Usage: sbatch run_2_big_data_clustering.sbatch <INPUT_FILE_PATH> [MIN_TOPIC_SIZE]"
     exit 1
 fi
 

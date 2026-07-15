@@ -149,19 +149,19 @@ Runs classification experiments from a Step 3 output folder.
 The repo contains papermill-based SLURM scripts:
 - Translate + clustering:
 
-  - `sbatch ../config/run_translate_topics_entities.sbatch <INPUT_FILE_PATH>`
-  - Script: `../config/run_translate_topics_entities.sbatch`
+  - `sbatch ../config/run_1_translate_topics_entities.sbatch <INPUT_FILE_PATH>`
+  - Script: `../config/run_1_translate_topics_entities.sbatch`
 - Big data clustering:
 
-  - `sbatch ../config/run_big_data_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZE]`
-  - Script: `../config/run_big_data_clustering.sbatch`
+  - `sbatch ../config/run_2_big_data_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZE]`
+  - Script: `../config/run_2_big_data_clustering.sbatch`
 - Key authors graph:
 
-  - `sbatch ../config/run_key_authors_graph.sbatch <STEP_1_OR_STEP_2_PARQUET>`
-  - Script: `../config/run_key_authors_graph.sbatch`
+  - `sbatch ../config/run_3_key_authors_graph.sbatch <STEP_1_OR_STEP_2_PARQUET>`
+  - Script: `../config/run_3_key_authors_graph.sbatch`
 - Inter/intra classification:
 
-  - `sbatch ../config/run_inter_intra_classification.sbatch <STEP_3_FOLDER>`
-  - Script: `../config/run_inter_intra_classification.sbatch`
+  - `sbatch ../config/run_4_inter_intra_classification.sbatch <STEP_3_FOLDER>`
+  - Script: `../config/run_4_inter_intra_classification.sbatch`
 
 See `../config/slurm_commends.md` for examples.
