@@ -20,9 +20,9 @@ from xgboost import XGBClassifier
 
 try:
     # Preferred import when used as part of the src/evaluation namespace package.
-    from old.h3_narrative_amplification import delong_test
+    from old.very_old.h3_narrative_amplification import delong_test
 except ImportError:  # pragma: no cover - fallback for direct local execution.
-    from old.h3_narrative_amplification import delong_test
+    from old.very_old.h3_narrative_amplification import delong_test
 
 
 @dataclass
