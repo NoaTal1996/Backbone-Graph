@@ -15,7 +15,7 @@ dependencies:
   - gensim=4.4.0
   - shap=0.51.0
   - umap-learn=0.5.11
-  - transformers=5.2.0
+  - transformers>=4.40.0,<5
   - sentence-transformers=5.4.0
   - pytorch=2.10.0
   - bertopic=0.17.4
