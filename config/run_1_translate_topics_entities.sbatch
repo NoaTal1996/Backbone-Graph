@@ -52,4 +52,4 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 CLEAN_NAME=$(basename "$1")
 OUT_NOTEBOOK="../logs/log_${SLURM_JOB_ID}_${CLEAN_NAME}.ipynb"
 # This runs the job and saves a CLEAN log name
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_file_path "$INPUT_FILE_PATH"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"
