@@ -50,7 +50,7 @@ source activate backbone_env_v2
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}.ipynb"
 
-PAPERMILL_ARGS=(-p input_file_path "$INPUT_FILE_PATH")
+PAPERMILL_ARGS=(-p input_data_path "$INPUT_FILE_PATH")
 if [ -n "$MIN_TOPIC_SIZE" ]; then
     OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_size_${MIN_TOPIC_SIZE}.ipynb"
     PAPERMILL_ARGS+=(-p min_topic_size "$MIN_TOPIC_SIZE")

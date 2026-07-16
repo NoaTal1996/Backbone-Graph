@@ -8,6 +8,43 @@ This folder (`Backbone-Graph/src`) contains the code for this workflow.
 
 Working directory assumption (matches the notebooks): run from `Backbone-Graph/src`.
 
+## Results Folder Structure
+
+Each dataset part has one folder under
+`results/<dataset_name>/<country>/<part>/`. Notebook steps are stored as
+sibling folders. Steps 2 and 3 include the parameters that identify their
+configuration.
+
+```text
+results/
+└── <dataset_name>/
+    └── <country>/
+        └── <part>/
+            ├── step_1_translate_topics_entities/
+            │   ├── <part>_step_1.gzip.parquet
+            │   └── progress_report.txt
+            ├── step_2_big_data_clustering/
+            │   └── topic_col_<topic_col>/
+            │       ├── <part>_step_2.gzip.parquet
+            │       └── progress_report.txt
+            ├── step_3_key_authors_graph/
+            │   └── topic_col_<topic_col>_top_percentage_<top_percentage>/
+            │       ├── <part>_step_3.gzip.parquet
+            │       └── progress_report.txt
+            ├── step_4_inter_intra_classification/
+            │   └── progress_report.txt
+            └── step_Boost/
+                └── progress_report.txt
+```
+
+For example, with `topic_col = "BERTopic_topic_256"` and
+`top_percentage = 1`, the Step 3 output folder is:
+
+```text
+results/Labeled_Datasets/Ecuador/Ecuador_part_all/
+step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/
+```
+
 ## Terms
 
 - **Information Operation (IO)**: A collection of publications produced by a set of actors performing similar or complementary actions in pursuit of a shared intent, while misleading others.
@@ -36,8 +73,8 @@ Working directory assumption (matches the notebooks): run from `Backbone-Graph/s
 - `Boost.ipynb` is not part of the ordered workflow.
 
 ### 3. `4_inter_intra_classification.ipynb`
-  - Runs classification experiments from a `step_3/` output folder.
-  - Saves results and plots to the matching `step_4/` folder.
+  - Runs classification experiments from a `step_3_key_authors_graph/` configuration folder.
+  - Saves results and plots to the matching `step_4_inter_intra_classification/` folder.
 
 ## Evaluation
 ### a. `author_insights.ipynb`
@@ -55,8 +92,8 @@ The pipeline's entry point. Takes a raw social media dataset, cleans and transla
 
 **Inputs**
 - Parameters in the notebook:
-  - `input_file_path` — raw parquet path under `data/` (e.g., `"../data/Labeled_Datasets/Venezuela/Venezuela_part_all.gzip.parquet"`).
-  - `min_topic_size` — BERTopic minimum cluster size (also used to name the output folder).
+  - `input_data_path` — raw parquet path under `data/` (e.g., `"../data/Labeled_Datasets/Venezuela/Venezuela_part_all.gzip.parquet"`).
+  - `min_topic_size` — BERTopic minimum cluster size.
 - Input Parquet must follow the schema at https://zenodo.org/records/14189193.
 
 **What it does**
@@ -67,9 +104,9 @@ The pipeline's entry point. Takes a raw social media dataset, cleans and transla
 - Writes progress logs during execution.
 
 **Outputs**
-- Output folder: `results/<input path relative to data>/<input_stem>/step_1/`
+- Output folder: `results/<dataset>/<country>/<part>/step_1_translate_topics_entities/`
 - Main Artifacts created:
-  - `<input_stem>_step1.gzip.parquet`
+  - `<input_stem>_step_1.gzip.parquet`
   - `dataset_summary.txt`
   - `progress_report.txt`
   - `BERTopic_model_<min_topic_size>` 
@@ -84,8 +121,8 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 
 **Inputs**
 - Parameters in the notebook:
-  - `input_file_path` — Step 1 parquet path (e.g., `"../results/Labeled_Datasets/Egypt_UAE/Egypt_UAE_part_all/step_1/Egypt_UAE_part_all_step1.gzip.parquet"`).
-  - `min_topic_size` (used for BERTopic and naming the output folder).
+  - `input_data_path` — Step 1 parquet path (e.g., `"../results/Labeled_Datasets/Egypt_UAE/Egypt_UAE_part_all/step_1_translate_topics_entities/Egypt_UAE_part_all_step_1.gzip.parquet"`).
+  - `min_topic_size` (used for BERTopic and deriving `topic_col`).
   - `chunk_size` (controls how many documents per BERTopic chunk).
 - Reads the preprocessed parquet produced by notebook 1.
 
@@ -97,7 +134,8 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 - Saves progress reports during long runs.
 
 **Outputs**
-- `<input_stem>_step2.gzip.parquet`
+- Output folder: `step_2_big_data_clustering/topic_col_<topic_col>/`
+- `<input_stem>_step_2.gzip.parquet`
 - `BERTopic_models_min_topic_size_<min_topic_size>/` (chunk models + merged model)
 - Plots (PNG): `<topic_col>_topic_clustering.png`, `<topic_col>_topic_accounts.png`
 
@@ -109,7 +147,7 @@ This notebook builds the **Key-Authors Backbone graph** for the chosen topic col
 
 **Inputs**
 - Parameters in the notebook:
-  - `input_file_path` — Step 1 or Step 2 parquet path.
+  - `input_data_path` — Step 1 or Step 2 parquet path.
   - `topic_col` (example: `BERTopic_topic_256`)
   - `top_percentage` — fraction of top authors per topic to select as key authors (e.g., `0.01` = top 1%).
   - `account_id_col` — account identifier column (default: `"accountid"`).
@@ -122,8 +160,8 @@ This notebook builds the **Key-Authors Backbone graph** for the chosen topic col
 - Produces IO summaries.
 - Builds a directed accounts graph and exports it to GEXF.
 
-**Outputs** (written to the matching `step_3/` folder)
-- `<input_stem>_step3.gzip.parquet`
+**Outputs** (written to `step_3_key_authors_graph/topic_col_<topic_col>_top_percentage_<top_percentage>/`)
+- `<input_stem>_step_3.gzip.parquet`
 - `author_topic_key_score_by_<topic_col>.parquet`
 - `io_key_authors_summary.txt`
 - `accounts_graph_topic_col_<topic_col>.gexf`
@@ -135,11 +173,11 @@ Runs classification experiments from a Step 3 output folder.
 
 **Inputs**
 - Parameters in the notebook:
-  - `input_file_path` — Step 3 folder path (e.g., `"../results/Labeled_Datasets/Egypt_UAE/Egypt_UAE_part_all/step_3/"`).
+  - `input_data_path` — Step 3 configuration folder path.
   - `target_campaign` — label used in the results for single-folder runs.
   - `graph_filtering_setting` — node-indicators variant to load.
 
-**Outputs** (written to the matching `step_4/` folder)
+**Outputs** (written to the matching `step_4_inter_intra_classification/` folder)
 - `experiment_results_<graph_filtering_setting>.csv`
 - `strategy_comparison_auc.png`
 - `strategy_comparison_macro_f1.png`
