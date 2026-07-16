@@ -8,16 +8,20 @@ BERTopic_model/
 experimental_results/
 # results/
 logs/
-data/
+# data/
 # *part_all*
 
 
 # Big Files
+*.zip
+*.db
 *.gexf
 *.graphml
 *.gzip.parquet
 *.parquet
 
+# cache
+.tectonic-cache/
 
 # Unblock all campaign results (overrides *part_all* above)
 # !results/Labeled_Datasets/
