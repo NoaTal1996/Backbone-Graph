@@ -24,3 +24,5 @@ When downloading new package, add this to the requirements file. In default use 
 For each function make sure to have google-style description.
 
 Use the Conda environment at `backbone_env_v2` for this project.
+
+After each operation, provide a short sentence summarizing what you did.
