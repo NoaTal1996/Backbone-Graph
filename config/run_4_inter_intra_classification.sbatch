@@ -8,8 +8,8 @@
 #SBATCH --partition main
 #SBATCH --time 7-00:00:00
 #SBATCH --job-name 4_inter_intra_classification
-#SBATCH --output=../logs/%x_%j.out
-#SBATCH --error=../logs/%x_%j.err
+#SBATCH --output=../logs/%j_%x.out
+#SBATCH --error=../logs/%j_%x.err
 #SBATCH --mail-user=amitner@post.bgu.ac.il
 #SBATCH --mail-type=ALL
 #SBATCH --mem=48G
@@ -33,7 +33,7 @@ module load anaconda
 source activate backbone_env_v2
 
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
-OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}.ipynb"
+OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
 
 echo "Starting papermill..."
 conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"

@@ -8,8 +8,8 @@
 #SBATCH --partition main			                    ### partition name where to run a job
 #SBATCH --time 7-00:00:00			                    ### Time Limit Format: D-H:MM:SS
 #SBATCH --job-name 3_key_authors_graph		            ### name of the job
-#SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
-#SBATCH --error=../logs/%x_%j.err
+#SBATCH --output=../logs/%j_%x.out                      ### %j – Job ID, %x – Job name
+#SBATCH --error=../logs/%j_%x.err
 ##SBATCH --gpus=rtx_4090:1
 
 ##SBATCH --mail-user=idanmu@post.bgu.ac.il	            ### user's email for sending job status messages
@@ -41,7 +41,7 @@ module load anaconda
 source activate backbone_env_v2
 
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
-OUT_NOTEBOOK="../logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}.ipynb"
+OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
 
 echo "Starting papermill..."
 conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"
