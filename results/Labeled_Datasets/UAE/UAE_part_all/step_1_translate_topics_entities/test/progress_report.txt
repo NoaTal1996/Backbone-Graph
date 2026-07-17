@@ -1,0 +1,12 @@
+2026-07-17 16:12:38 | Input data path: ../data/Labeled_Datasets/UAE/UAE_part_all.gzip.parquet
+2026-07-17 16:12:38 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+2026-07-17 16:12:38 | Running in test mode: only processing first 1000 rows of the dataset.
+2026-07-17 16:12:38 | Storing output data to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-17 16:12:38 | postid duplication sum 0 (0.000%)
+2026-07-17 16:12:38 | Undefined post language percentage **before** mapping: 1.10%
+2026-07-17 16:12:39 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-17 16:12:39 | Removing 0 posts with undefined language code und
+2026-07-17 16:12:39 | Using device: cpu
+2026-07-17 16:13:00 | Loaded facebook/nllb-200-distilled-600M model and tokenizer on cpu
+2026-07-17 16:13:00 | Translation pipeline created.
+2026-07-17 16:13:00 | 775 posts: arb_Arab → eng_Latn
