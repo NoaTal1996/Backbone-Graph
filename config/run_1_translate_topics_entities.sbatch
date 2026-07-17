@@ -8,8 +8,8 @@
 #SBATCH --partition main			                    ### partition name where to run a job. change only if you have a matching qos!! main: all nodes; gtx1080: 1080 gpu card nodes; rtx2080: 2080 nodes; teslap100: p100 nodes; titanrtx: titan nodes
 #SBATCH --time 7-00:00:00			                    ### Time Limit Format: D-H:MM:SS
 #SBATCH --job-name 1_translate_topics_entities		    ### name of the job
-#SBATCH --output=../logs/%x_%j.out                      ### %x – Job name, %j – Job ID
-#SBATCH --error=../logs/%x_%j.err
+#SBATCH --output=../logs/%j_%x.out                      ### %j – Job ID, %x – Job name
+#SBATCH --error=../logs/%j_%x.err
 #SBATCH --gpus=rtx_4090:1		                        ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
 
 ### Note: Lines are with ## are commented out
@@ -48,8 +48,6 @@ source activate backbone_env_v2
 # papermill
 IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 
-# This cleans the name for the log file
-CLEAN_NAME=$(basename "$1")
-OUT_NOTEBOOK="../logs/log_${SLURM_JOB_ID}_${CLEAN_NAME}.ipynb"
-# This runs the job and saves a CLEAN log name
+OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
+
 conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"
