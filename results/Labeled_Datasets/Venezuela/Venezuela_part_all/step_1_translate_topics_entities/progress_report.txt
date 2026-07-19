@@ -284,3 +284,282 @@
 2026-07-16 21:47:35 | 1 posts: ben_Beng → eng_Latn
 2026-07-16 21:47:46 | 6 posts: bul_Cyrl → eng_Latn
 2026-07-16 21:48:08 | 7636 posts: cat_Latn → eng_Latn
+2026-07-17 17:28:44 | Input data path: ../data/Labeled_Datasets/Venezuela/Venezuela_part_all.gzip.parquet
+2026-07-17 17:28:44 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities
+2026-07-17 17:28:45 | Using device: cuda
+2026-07-17 17:28:49 | postid duplication sum 14374 (0.729%)
+2026-07-17 17:32:51 | Undefined post language percentage **before** mapping: 1.28%
+2026-07-17 17:32:59 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 🙏🙏🙏🙏🙏🙏🐘🍀🐘🙏🙏🙏🙏🙏🙏🙏🙏🙏
+2026-07-17 17:32:59 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 🙏🙏🙏🙏🙏🙏🐘🍀🐘🙏🙏🙏🙏🙏🙏🙏🙏🙏
+2026-07-17 17:33:00 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:00 | Language detection failed: No features in text. | lang_code=und | text=👍👍👍 ↘️↘️↘️ <URL>
+2026-07-17 17:33:01 | Language detection failed: No features in text. | lang_code=und | text=🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻 <URL>
+2026-07-17 17:33:02 | Language detection failed: No features in text. | lang_code=und | text=👍👍💯💯👏👏👏👏 <URL>
+2026-07-17 17:33:02 | Language detection failed: No features in text. | lang_code=und | text=👍👍💯💯👏👏👏 <URL>
+2026-07-17 17:33:02 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🍺🍺🍺 🍸🍸🍸 😵😵😵
+2026-07-17 17:33:03 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏻🏳️‍🌈❤️💛💚💙💜
+2026-07-17 17:33:03 | Language detection failed: No features in text. | lang_code=und | text=😍😍😍😍😍😍😍 <URL>
+2026-07-17 17:33:04 | Language detection failed: No features in text. | lang_code=und | text=😩
+2026-07-17 17:33:05 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 🌟🎈🎊🎉🇺🇸🌟🎈🎊🎉🇺🇸🌟🎈🎊🎉🇺🇸🌟🎈🎊🎉🇺🇸🌟🎈🎊🎉🇺🇸🌟🎈🎉🎉🇺🇸 <URL>
+2026-07-17 17:33:06 | Language detection failed: No features in text. | lang_code=und | text=yesssssss!!!!!!👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻 <URL>
+2026-07-17 17:33:07 | Language detection failed: No features in text. | lang_code=und | text=⚠️🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥💰💰💰💰⚠️ <URL>
+2026-07-17 17:33:07 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:07 | Language detection failed: No features in text. | lang_code=und | text=💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯 <URL>
+2026-07-17 17:33:07 | Language detection failed: No features in text. | lang_code=und | text=🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾🤞🏾 <URL>
+2026-07-17 17:33:07 | Language detection failed: No features in text. | lang_code=und | text=🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾🙏🏾 <URL>
+2026-07-17 17:33:07 | Language detection failed: No features in text. | lang_code=und | text=👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾 <URL>
+2026-07-17 17:33:08 | Language detection failed: No features in text. | lang_code=und | text=😩😩😩😩
+2026-07-17 17:33:08 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😕😕😕😮😮😮🙄🙄🙄 <URL>
+2026-07-17 17:33:08 | Language detection failed: No features in text. | lang_code=und | text=🤔😂😂😂😂😭😭😭 <URL>
+2026-07-17 17:33:08 | Language detection failed: No features in text. | lang_code=und | text=🤔🤔🤔
+2026-07-17 17:33:09 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:09 | Language detection failed: No features in text. | lang_code=und | text=😍😍😍😍😍😍😍😍😍😍😍😍😍 <URL>
+2026-07-17 17:33:10 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👏👏👏👏👏👏👏👏👏👏
+2026-07-17 17:33:11 | Language detection failed: No features in text. | lang_code=und | text=♡
+2026-07-17 17:33:13 | Language detection failed: No features in text. | lang_code=und | text=😭😭💪🏻💪🏻💪🏻
+2026-07-17 17:33:14 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸❤️🇺🇸❤️🇺🇸❤️🇺🇸❤️🇺🇸❤️🇺🇸❤️ <URL>
+2026-07-17 17:33:14 | Language detection failed: No features in text. | lang_code=und | text=😳🤦🏻‍♂️😯😏 <URL>
+2026-07-17 17:33:14 | Language detection failed: No features in text. | lang_code=und | text=838867362111709185
+2026-07-17 17:33:14 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:15 | Language detection failed: No features in text. | lang_code=und | text=🔑
+2026-07-17 17:33:16 | Language detection failed: No features in text. | lang_code=und | text=☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️☔️ <URL>
+2026-07-17 17:33:16 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:16 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:17 | Language detection failed: No features in text. | lang_code=und | text=<USER> ❤️❤️❤️❤️❤️
+2026-07-17 17:33:17 | Language detection failed: No features in text. | lang_code=und | text=👇👇👇👇👇👇👇 <URL>
+2026-07-17 17:33:17 | Language detection failed: No features in text. | lang_code=und | text=🏃🏻🏃🏼🏃🏽🏃🏾🏃🏿 <URL>
+2026-07-17 17:33:17 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️🎯🎯🎯🎯⚡️⚡️⚡️ <URL>
+2026-07-17 17:33:19 | Language detection failed: No features in text. | lang_code=und | text=🍁🌾🍃☔🍃🍁🌾 <URL>
+2026-07-17 17:33:19 | Language detection failed: No features in text. | lang_code=und | text=🍁🌾🍃☔🍃🍁🌾 <URL>
+2026-07-17 17:33:23 | Language detection failed: No features in text. | lang_code=und | text=🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊👍👌👏👏👏👏👏👏 <URL>
+2026-07-17 17:33:23 | Language detection failed: No features in text. | lang_code=und | text=🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻🇻🇪👏🏻
+2026-07-17 17:33:23 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂 👌👌👌👌👌👌 👍👍👍👍👍👍 <USER> <URL>
+2026-07-17 17:33:26 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂😢😢😢😢😂😂😂
+2026-07-17 17:33:26 | Language detection failed: No features in text. | lang_code=und | text=28. 28.28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 28. 2
+2026-07-17 17:33:26 | Language detection failed: No features in text. | lang_code=und | text=🇦🇷🇦🇷🇦🇷🇦🇷🇦🇷🇦🇷🇦🇷 ✌🏼
+2026-07-17 17:33:27 | Language detection failed: No features in text. | lang_code=und | text=👏🏼👏🏼👏🏼👏🏼 <URL>
+2026-07-17 17:33:28 | Language detection failed: No features in text. | lang_code=und | text=👇🏼👇🏼👇🏼👇🏼👇🏼 <URL>
+2026-07-17 17:33:28 | Language detection failed: No features in text. | lang_code=und | text=👍👍👍👍👍👍👍 <URL>
+2026-07-17 17:33:28 | Language detection failed: No features in text. | lang_code=und | text=👇🏼👇🏼👇🏼👇🏼 <URL>
+2026-07-17 17:33:28 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:33:29 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂🤣🤣😂😂😂🤣🤣🤣
+2026-07-17 17:33:30 | Language detection failed: No features in text. | lang_code=und | text=👏🏻👏🏻👏🏻👏🏻👏🏻 <URL>
+2026-07-17 17:33:31 | Language detection failed: No features in text. | lang_code=und | text=23:23
+2026-07-17 17:33:33 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:33:34 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣🤣✌🏻✌🏻✌🏻✌🏻 <URL>
+2026-07-17 17:33:34 | Language detection failed: No features in text. | lang_code=und | text=🙏🙏🙏🙏🙏🙏😍😍😍😍😍😍 <URL>
+2026-07-17 17:33:34 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂🤜🤜🤜🤜🤜🤜🤜🤜🤜🤜🤜🤜 <URL>
+2026-07-17 17:33:35 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 😜🤣🤣😅😅😂😂😜😁😜😂😂🤣😂😅😁😆 wow. 🐄🐂🐄🐂🐄🐂🐄🐂🐄
+2026-07-17 17:33:35 | Language detection failed: No features in text. | lang_code=und | text=😁😂🤣😀😉😆😃😄😅😘 <URL>
+2026-07-17 17:33:36 | Language detection failed: No features in text. | lang_code=und | text=👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇 <URL>
+2026-07-17 17:33:37 | Language detection failed: No features in text. | lang_code=und | text=😢😍😢😍😢😍😢😍 <URL>
+2026-07-17 17:33:39 | Language detection failed: No features in text. | lang_code=und | text=👏🏼👏🏼👏🏼👏🏼 <URL>
+2026-07-17 17:33:39 | Language detection failed: No features in text. | lang_code=und | text=👏🏼👏🏼👏🏼👏🏼 <URL>
+2026-07-17 17:33:39 | Language detection failed: No features in text. | lang_code=und | text=🏁 &lt;- 100 km -&gt; 🚗 🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴 🚗 &lt;- 7'34" -&gt; 🚗 🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴🚴
+2026-07-17 17:33:39 | Language detection failed: No features in text. | lang_code=und | text=11:22
+2026-07-17 17:33:39 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😈😈😈😍😍💪💪👍👍
+2026-07-17 17:33:39 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂
+2026-07-17 17:33:40 | Language detection failed: No features in text. | lang_code=und | text=🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂 <URL>
+2026-07-17 17:33:40 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> impeach 🏴🏴🏴🏴 🏴 🏴🏴🏴 🏴 🏴 🏴🏴🏴 🏴 🏴 🏴🏴🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴 🏴
+2026-07-17 17:33:40 | Language detection failed: No features in text. | lang_code=und | text=👇👇👇👇👇👇👇 <URL>
+2026-07-17 17:33:40 | Language detection failed: No features in text. | lang_code=und | text=🤣😂🤣😂🤣😂🤣😂🤣 <URL>
+2026-07-17 17:33:41 | Language detection failed: No features in text. | lang_code=und | text=👏👏👏👏👏👏👏👏👏👏 <URL>
+2026-07-17 17:33:41 | Language detection failed: No features in text. | lang_code=und | text=🎻🎻🎻🎻🎻🎻🎻🎻🎶🎶🎶🎶🎶🎶🎶🎶🎶 <URL>
+2026-07-17 17:33:41 | Language detection failed: No features in text. | lang_code=und | text=😍
+2026-07-17 17:33:41 | Language detection failed: No features in text. | lang_code=und | text=😂😎🙂😏😐😑😒 <URL>
+2026-07-17 17:33:41 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😍😛😛😘😙😙😙💋❤💞
+2026-07-17 17:33:42 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:43 | Language detection failed: No features in text. | lang_code=in | text=jojoh888: 😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣
+2026-07-17 17:33:43 | Language detection failed: No features in text. | lang_code=in | text=top rt jojoh888: 😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂
+2026-07-17 17:33:43 | Language detection failed: No features in text. | lang_code=in | text=top rt jojoh888: 😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂
+2026-07-17 17:33:44 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 <URL>
+2026-07-17 17:33:44 | Language detection failed: No features in text. | lang_code=und | text=🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻 <URL>
+2026-07-17 17:33:44 | Language detection failed: No features in text. | lang_code=und | text=😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡
+2026-07-17 17:33:45 | Language detection failed: No features in text. | lang_code=und | text=.....
+2026-07-17 17:33:45 | Language detection failed: No features in text. | lang_code=und | text=.....
+2026-07-17 17:33:45 | Language detection failed: No features in text. | lang_code=und | text=😭😭😭😭🌚🌚🌚🌚 <URL>
+2026-07-17 17:33:46 | Language detection failed: No features in text. | lang_code=und | text=😁😁😂😅😂😅😄👍 <URL>
+2026-07-17 17:33:46 | Language detection failed: No features in text. | lang_code=und | text=omg!!!!!! 🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽 <URL>
+2026-07-17 17:33:47 | Language detection failed: No features in text. | lang_code=und | text=.
+2026-07-17 17:33:50 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:33:53 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:33:53 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:54 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:55 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:33:57 | Language detection failed: No features in text. | lang_code=in | text=byebyeobama1: maga usa 🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺
+2026-07-17 17:34:01 | Language detection failed: No features in text. | lang_code=und | text=👍👍👍👍❤️🇱🇷1st!!❤️❤️❤️ <URL>
+2026-07-17 17:34:02 | Language detection failed: No features in text. | lang_code=und | text=✔️😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:05 | Language detection failed: No features in text. | lang_code=und | text=👏💪👏💪👏🎶🎶 <URL>
+2026-07-17 17:34:05 | Language detection failed: No features in text. | lang_code=und | text=👏👏👏🎉🎈🍾🥂 <URL>
+2026-07-17 17:34:05 | Language detection failed: No features in text. | lang_code=und | text=👍👮‍♀️🇺🇸🚔 <URL>
+2026-07-17 17:34:06 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:06 | Language detection failed: No features in text. | lang_code=und | text=...........
+2026-07-17 17:34:06 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻
+2026-07-17 17:34:06 | Language detection failed: No features in text. | lang_code=und | text=👸🌞🌈🕊️☮️❤️ <URL>
+2026-07-17 17:34:07 | Language detection failed: No features in text. | lang_code=und | text=://////
+2026-07-17 17:34:07 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😭😂😭😂😂😭😭😭😂😂
+2026-07-17 17:34:08 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🖖❤🇺🇸❤☝️❤🇮🇱
+2026-07-17 17:34:08 | Language detection failed: No features in text. | lang_code=und | text=😃😃😃😃😃🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:34:09 | Language detection failed: No features in text. | lang_code=und | text=👇👏👏👏👏👏👏 <URL>
+2026-07-17 17:34:10 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤
+2026-07-17 17:34:11 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+2026-07-17 17:34:14 | Language detection failed: No features in text. | lang_code=und | text=🤣🤣🤣🤣🤣🤣🤣 <URL>
+2026-07-17 17:34:15 | Language detection failed: No features in text. | lang_code=und | text=👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻 <URL>
+2026-07-17 17:34:15 | Language detection failed: No features in text. | lang_code=und | text=⭐️⭐️⭐️⭐️⭐️ <URL>
+2026-07-17 17:34:15 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️😭 <URL>
+2026-07-17 17:34:15 | Language detection failed: No features in text. | lang_code=und | text=⭐️⭐️⭐️⭐️⭐️ <URL>
+2026-07-17 17:34:16 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👅🐾🐾🐾🐾🐾🐾🐾😍
+2026-07-17 17:34:19 | Language detection failed: No features in text. | lang_code=und | text=🙏🏻🙏🏻🙏🏻🙏🏻 <URL>
+2026-07-17 17:34:20 | Language detection failed: No features in text. | lang_code=und | text=😬😬😬😬😬😬😬😬🤔 <URL>
+2026-07-17 17:34:24 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂👏🏻👏🏻👏🏻 <URL>
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻 <URL>
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:34:25 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:34:26 | Language detection failed: No features in text. | lang_code=und | text=⭐️✨🔥🔥🔥✨⭐️ <URL>
+2026-07-17 17:34:26 | Language detection failed: No features in text. | lang_code=und | text=👇🏻👇🏻👇🏻👇🏻👇🏻👍🏻👍🏻👊🏻👊🏻👊🏻 <URL>
+2026-07-17 17:34:26 | Language detection failed: No features in text. | lang_code=und | text=💀💀💀😂😂😂😂 <URL>
+2026-07-17 17:34:28 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:28 | Language detection failed: No features in text. | lang_code=und | text=😑🙃
+2026-07-17 17:34:28 | Language detection failed: No features in text. | lang_code=und | text=😑
+2026-07-17 17:34:29 | Language detection failed: No features in text. | lang_code=und | text=😭😭😭😭😭😭😭😭😭 <URL>
+2026-07-17 17:34:30 | Language detection failed: No features in text. | lang_code=und | text=😊😬
+2026-07-17 17:34:30 | Language detection failed: No features in text. | lang_code=und | text=🤘🏾💯✊🏾🐏🔵⚪️⚫️ <URL>
+2026-07-17 17:34:30 | Language detection failed: No features in text. | lang_code=und | text=✌🏽
+2026-07-17 17:34:32 | Language detection failed: No features in text. | lang_code=und | text=18/365.
+2026-07-17 17:34:32 | Language detection failed: No features in text. | lang_code=und | text=❤️✊🏻💛✊🏼💚✊🏽💙✊🏾💜✊🏿🏳️‍🌈 <URL>
+2026-07-17 17:34:32 | Language detection failed: No features in text. | lang_code=und | text=💙💙💙💙💙💙💙💙💙💙💙💙💙 <URL>
+2026-07-17 17:34:32 | Language detection failed: No features in text. | lang_code=und | text=🏳️‍🌈🏳️‍🌈🏳️‍🌈 <URL>
+2026-07-17 17:34:32 | Language detection failed: No features in text. | lang_code=und | text=💙💙💙💙💙💙💙💙💙💙💙💙💙 <URL>
+2026-07-17 17:34:32 | Language detection failed: No features in text. | lang_code=und | text=💜💜💜💜💜💜💜💜💜💜💜💜💜 <URL>
+2026-07-17 17:34:33 | Language detection failed: No features in text. | lang_code=und | text=🎉🔥🎉🔥🎉🔥🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:34:34 | Language detection failed: No features in text. | lang_code=und | text=@#$%!!!!!!!!!
+2026-07-17 17:34:34 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:34 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:34 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂😂😂😂👏👏👏👏👏👏
+2026-07-17 17:34:34 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 😂😂😂😂😂😂😂😂😂😂👏👏👏👏😂😂😂😂😂
+2026-07-17 17:34:35 | Language detection failed: No features in text. | lang_code=und | text=👏🏼👏🏼👏🏼😂😂😂 <URL>
+2026-07-17 17:34:35 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️❤️❤️❤️ <URL>
+2026-07-17 17:34:35 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂
+2026-07-17 17:34:36 | Language detection failed: No features in text. | lang_code=und | text=😣😣😣
+2026-07-17 17:34:38 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂👇👇🏻👇🏼👇🏽👇🏾👇🏿 <URL>
+2026-07-17 17:34:38 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂💡💡💡💡💡 <URL>
+2026-07-17 17:34:39 | Language detection failed: No features in text. | lang_code=und | text=👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏 <URL>
+2026-07-17 17:34:40 | Language detection failed: No features in text. | lang_code=und | text=👍🙏🏼🇮🇱✡️ <URL>
+2026-07-17 17:34:41 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🇺🇸🇺🇸🇺🇸🇺🇸😍❤️
+2026-07-17 17:34:41 | Language detection failed: No features in text. | lang_code=und | text=😍✊✊✊✊🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:34:41 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:42 | Language detection failed: No features in text. | lang_code=und | text=👏🏾👏🏾👏🏾👏🏾👏🏾 <URL>
+2026-07-17 17:34:46 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👏🏻👏🏻👏🏻👏🏻👏🏻
+2026-07-17 17:34:47 | Language detection failed: No features in text. | lang_code=und | text=🤘🏾❤️🔥2 ®. ((😈🔺))✌🏾️ <URL>
+2026-07-17 17:34:47 | Language detection failed: No features in text. | lang_code=und | text=㋡
+2026-07-17 17:34:48 | Language detection failed: No features in text. | lang_code=und | text=♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+2026-07-17 17:34:48 | Language detection failed: No features in text. | lang_code=und | text=😒😔
+2026-07-17 17:34:49 | Language detection failed: No features in text. | lang_code=und | text=♣
+2026-07-17 17:34:49 | Language detection failed: No features in text. | lang_code=und | text=..
+2026-07-17 17:34:49 | Language detection failed: No features in text. | lang_code=und | text=*,*
+2026-07-17 17:34:49 | Language detection failed: No features in text. | lang_code=und | text=2112
+2026-07-17 17:34:50 | Language detection failed: No features in text. | lang_code=und | text=((:
+2026-07-17 17:34:50 | Language detection failed: No features in text. | lang_code=und | text=:-((((((((((((
+2026-07-17 17:34:50 | Language detection failed: No features in text. | lang_code=und | text=:-(((((((((((
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=23 : 00 :)
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=23:00
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=23.32
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=00.00
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=24.00
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=...
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=09.30
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=20.00
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=:(
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=💋👠💄❤️💃💁 <URL>
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😭😭😭
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=😭😭😭😭😭
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=😂😂😭😭😭
+2026-07-17 17:34:51 | Language detection failed: No features in text. | lang_code=und | text=😕😭😭😭😭😭
+2026-07-17 17:34:52 | Language detection failed: No features in text. | lang_code=und | text=☝🏾☝🏾☝🏾☝🏾☝🏾
+2026-07-17 17:34:52 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸👏🏾👏🏾👏🏾💃🏾💃🏾 <URL>
+2026-07-17 17:34:54 | Language detection failed: No features in text. | lang_code=und | text=blackoutcnnpermanently ⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛
+2026-07-17 17:34:54 | Language detection failed: No features in text. | lang_code=und | text=blackoutcnnpermanently ⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛
+2026-07-17 17:34:54 | Language detection failed: No features in text. | lang_code=und | text=💀💀💀💀💀💀💀💀 <URL>
+2026-07-17 17:34:55 | Language detection failed: No features in text. | lang_code=und | text=11:11
+2026-07-17 17:34:55 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:56 | Language detection failed: No features in text. | lang_code=und | text=2016:
+2026-07-17 17:34:57 | Language detection failed: No features in text. | lang_code=und | text=😂😭☺😅😁😀😆😄😃😙 <URL>
+2026-07-17 17:34:57 | Language detection failed: No features in text. | lang_code=und | text=🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔 <URL>
+2026-07-17 17:34:58 | Language detection failed: No features in text. | lang_code=und | text=<URL> <USER> 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂
+2026-07-17 17:34:59 | Language detection failed: No features in text. | lang_code=und | text=<USER> ❤️❤️❤️❤️❤️
+2026-07-17 17:34:59 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:34:59 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂 <URL>
+2026-07-17 17:35:00 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂🤣😂🤣😂🤣😂🤣😂🤣🇺🇸🇺🇸
+2026-07-17 17:35:04 | Language detection failed: No features in text. | lang_code=und | text=🐶🏆🐶🏆🐶🏆🐶🏆🐶🏆🐶🏆 <URL>
+2026-07-17 17:35:04 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂😂😂😂😂😂😂😂
+2026-07-17 17:35:05 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️❤️ <URL>
+2026-07-17 17:35:06 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣
+2026-07-17 17:35:06 | Language detection failed: No features in text. | lang_code=und | text=⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️ <URL>
+2026-07-17 17:35:06 | Language detection failed: No features in text. | lang_code=und | text=♥️♥️♥️♥️ <URL>
+2026-07-17 17:35:07 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂🤣⛓💣💥😂🤣🤣 <URL>
+2026-07-17 17:35:07 | Language detection failed: No features in text. | lang_code=und | text=😍😍😍❤️😘😘😘😘😘 <URL>
+2026-07-17 17:35:09 | Language detection failed: No features in text. | lang_code=und | text=😂🇺🇸😂🇺🇸😂🇺🇸 <URL>
+2026-07-17 17:35:09 | Language detection failed: No features in text. | lang_code=und | text=👍👍👍👍👍👍👍👍👍👍👍 <URL>
+2026-07-17 17:35:09 | Language detection failed: No features in text. | lang_code=und | text=👍👏👍👏👍👏👍👏👍👏👍 <URL>
+2026-07-17 17:35:10 | Language detection failed: No features in text. | lang_code=und | text=🌹🌹🌹💐💐💐🖤🖤🖤 <URL>
+2026-07-17 17:35:11 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍👍👍😂😂😂🇺🇸🇺🇸🇺🇸
+2026-07-17 17:35:12 | Language detection failed: No features in text. | lang_code=und | text=🤬🤬🤬🤬🤬🤬🤬🤬👇🏼 <URL>
+2026-07-17 17:35:13 | Language detection failed: No features in text. | lang_code=und | text=🔥💫🔥💫🔥💫🔥💫🔥💫🔥💫🔥💫 <URL>
+2026-07-17 17:35:13 | Language detection failed: No features in text. | lang_code=und | text=🔥🔵🔥🔴🔥🔵🔥🔴🔥🔵🔥🔴 <URL>
+2026-07-17 17:35:13 | Language detection failed: No features in text. | lang_code=und | text=🛡🗡🛡🗡🛡🗡🛡🗡🛡🗡🛡🗡 <URL>
+2026-07-17 17:35:13 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 🤣😂🤣😂🚂🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+2026-07-17 17:35:13 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🙏🏻❤️🇺🇸❤️🙏🏻
+2026-07-17 17:35:14 | Language detection failed: No features in text. | lang_code=und | text=👏🏽👏🏽👏🏽👏🏽👏🏽👏🏽👏🏽 <URL>
+2026-07-17 17:35:14 | Language detection failed: No features in text. | lang_code=und | text=👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾 <URL>
+2026-07-17 17:35:14 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 🤞🏾🤞🏽🤞🏿🤞🏼🤞🏾🤞🏽🤞🏿🤞🏼🤞🏾🤞🏽🤞🏿🤞🏼
+2026-07-17 17:35:14 | Language detection failed: No features in text. | lang_code=und | text=😳😳😳😳😳
+2026-07-17 17:35:14 | Language detection failed: No features in text. | lang_code=und | text=😂😂😂😂😂😂😂😂😂😂😂😂😭😂😭😭😂😭😂😭😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😭😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😭😭😂😂😭😂😂😂😂😂😂😂😂😂😭😂🤣🤣🤣🤣🤣🤣🤣🤣
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=😲👏👏👏👏👏🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👏👏👏👏👏👏👏👏👏👏
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=👏👏👏👏👏👏👏👏👏👏👏 <URL>
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=😆😆😆👏👏👏👍 <URL>
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🤣😂🤣😂🤣😂🤣😂🤣
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸💥🎉🎊💥 <URL>
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸💥🎉🎊🎈💥 <URL>
+2026-07-17 17:35:15 | Language detection failed: No features in text. | lang_code=und | text=👇👇👇👇👇👇👇👇💯💯💯💯💯 <URL>
+2026-07-17 17:35:16 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> <USER> 🙏🙏🙏🙏🙏🙏❤️❤️❤️❤️❤️❤️🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+2026-07-17 17:35:16 | Language detection failed: No features in text. | lang_code=und | text=🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 <URL>
+2026-07-17 17:35:19 | Language detection failed: No features in text. | lang_code=und | text=🙏🏻🎚🙏🏻🎚🙏🏻🎚🙏🏻🎚🙏🏻🎚 <URL>
+2026-07-17 17:35:20 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂
+2026-07-17 17:35:20 | Language detection failed: No features in text. | lang_code=und | text=13. 😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂🤣😂. 🤬. <URL>
+2026-07-17 17:35:28 | Language detection failed: No features in text. | lang_code=und | text=😆👍🏼👍🏼👍🏼 <URL>
+2026-07-17 17:35:29 | Language detection failed: No features in text. | lang_code=und | text=📉📈📉📈📉📈📉📈 <URL>
+2026-07-17 17:35:30 | Language detection failed: No features in text. | lang_code=und | text=.....
+2026-07-17 17:35:30 | Language detection failed: No features in text. | lang_code=und | text=.....
+2026-07-17 17:35:30 | Language detection failed: No features in text. | lang_code=und | text=😭😭😭😭🌚🌚🌚🌚 <URL>
+2026-07-17 17:35:30 | Language detection failed: No features in text. | lang_code=und | text=.
+2026-07-17 17:35:31 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+2026-07-17 17:35:31 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿
+2026-07-17 17:35:31 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿👎🏿🙈🙈🙈🙈🙈🙈🙈🙈🙈🙉🙉🙉🙉🙉🙉🙉🙉🙉🙉
+2026-07-17 17:35:31 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> <USER> <USER> 👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿👍🏿🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
+2026-07-17 17:35:32 | Language detection failed: No features in text. | lang_code=und | text=😬😬😬😬😬😬😬😬🤔 <URL>
+2026-07-17 17:35:33 | Language detection failed: No features in text. | lang_code=und | text=🎉🎊🍾🎈2017🎈🍾🎊🎉 <URL>
+2026-07-17 17:35:34 | Language detection failed: No features in text. | lang_code=und | text=⭐🌟💌😙😙🙆🙆👼👼💋💋💋💕💖💙❤💜💛💚💓😚😚🙇🙇🌃😊😊😊☺🙆😙😙😙😙 <URL>
+2026-07-17 17:35:35 | Language detection failed: No features in text. | lang_code=und | text=❤️❤️❤️❤️❤️❤️ <URL>
+2026-07-17 17:35:35 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🇺🇸🇺🇸🇺🇸🇺🇸😍❤️
+2026-07-17 17:35:35 | Language detection failed: No features in text. | lang_code=und | text=😍✊✊✊✊🇺🇸🇺🇸🇺🇸🇺🇸 <URL>
+2026-07-17 17:35:36 | Language detection failed: No features in text. | lang_code=und | text=💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤
+2026-07-17 17:35:38 | Language detection failed: No features in text. | lang_code=und | text=<USER> 👍👍👍👏👏👏😂😂😂
+2026-07-17 17:35:38 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂👏🏻👏🏻👏🏻
+2026-07-17 17:35:40 | Language detection failed: No features in text. | lang_code=und | text=👏🏾👏🏾👏🏾👊🏾 <URL>
+2026-07-17 17:35:41 | Language detection failed: No features in text. | lang_code=und | text=😝😝😝😝😝😝😝 <URL>
+2026-07-17 17:35:42 | Language detection failed: No features in text. | lang_code=und | text=🇺🇸❤️🇺🇸❤️🇺🇸❤️🇺🇸❤️🇺🇸❤️🇺🇸❤️ <URL>
+2026-07-17 17:35:42 | Language detection failed: No features in text. | lang_code=und | text=😳🤦🏻‍♂️😯😏 <URL>
+2026-07-17 17:35:44 | Language detection failed: No features in text. | lang_code=und | text=☺️
+2026-07-17 17:35:45 | Language detection failed: No features in text. | lang_code=und | text=<USER> <USER> 👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂maga
+2026-07-17 17:35:45 | Language detection failed: No features in text. | lang_code=und | text=🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏👍 <URL>
+2026-07-17 17:35:46 | Language detection failed: No features in text. | lang_code=und | text=💃🏾👌🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾✊🏾🙌🏾 <URL>
+2026-07-17 17:35:46 | Language detection failed: No features in text. | lang_code=und | text=💪🏻💪🏻💪🏻💪🏻💪🏻 <URL>
+2026-07-17 17:35:48 | Undefined post language percentage **after** mapping: 0.01%
+2026-07-17 17:35:49 | Removing 271 posts with undefined language code und
+2026-07-17 17:35:50 | Using device: cuda

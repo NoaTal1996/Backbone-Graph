@@ -10,3 +10,81 @@
 2026-07-17 16:13:00 | Loaded facebook/nllb-200-distilled-600M model and tokenizer on cpu
 2026-07-17 16:13:00 | Translation pipeline created.
 2026-07-17 16:13:00 | 775 posts: arb_Arab → eng_Latn
+2026-07-18 17:01:16 | Input data path: ../data/Labeled_Datasets/UAE/UAE_part_all.gzip.parquet
+2026-07-18 17:01:16 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+2026-07-18 17:01:17 | Using device: cuda
+2026-07-18 17:01:17 | Running in test mode: only processing first 1000 rows of the dataset.
+2026-07-18 17:01:17 | Storing output data to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-18 17:01:17 | postid duplication sum 0 (0.000%)
+2026-07-18 17:01:17 | Undefined post language percentage **before** mapping: 1.10%
+2026-07-18 17:01:18 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-18 17:01:18 | Removing 0 posts with undefined language code und
+2026-07-18 17:01:18 | Using device: cuda
+2026-07-19 13:01:51 | Input data path: ../data/Labeled_Datasets/UAE/UAE_part_all.gzip.parquet
+2026-07-19 13:01:51 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+2026-07-19 13:01:52 | Using device: cuda
+2026-07-19 13:01:52 | Running in test mode: only processing first 1000 rows of the dataset.
+2026-07-19 13:01:52 | Storing output data to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-19 13:01:52 | postid duplication sum 0 (0.000%)
+2026-07-19 13:01:53 | Undefined post language percentage **before** mapping: 1.10%
+2026-07-19 13:01:54 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-19 13:01:54 | Removing 0 posts with undefined language code und
+2026-07-19 13:01:54 | Using device: cuda
+2026-07-19 13:02:01 | Loaded facebook/nllb-200-distilled-600M on cuda with dtype torch.float16
+2026-07-19 13:02:01 | Translation pipeline created.
+2026-07-19 13:02:01 | 774 posts: arb_Arab → eng_Latn
+2026-07-19 13:03:22 | 7 posts: cat_Latn → eng_Latn
+2026-07-19 13:03:22 | 88 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-19 13:03:27 | 6 posts: est_Latn → eng_Latn
+2026-07-19 13:03:27 | 1 posts: fra_Latn → eng_Latn
+2026-07-19 13:03:27 | 1 posts: ind_Latn → eng_Latn
+2026-07-19 13:03:27 | 2 posts: ita_Latn → eng_Latn
+2026-07-19 13:03:28 | 1 posts: nob_Latn → eng_Latn
+2026-07-19 13:03:28 | 4 posts: pes_Arab → eng_Latn
+2026-07-19 13:03:28 | 18 posts: por_Latn → eng_Latn
+2026-07-19 13:03:29 | 1 posts: ron_Latn → eng_Latn
+2026-07-19 13:03:29 | 10 posts: som_Latn → eng_Latn
+2026-07-19 13:03:35 | 85 posts: spa_Latn → eng_Latn
+2026-07-19 13:03:39 | 1 posts: tgl_Latn → eng_Latn
+2026-07-19 13:03:39 | 1 posts: tur_Latn → eng_Latn
+2026-07-19 13:03:39 | Completed: transformers_translator
+2026-07-19 13:03:39 | Translation completed.
+2026-07-19 13:03:40 | Untranslated posts: 0/1000 (0.00%)
+2026-07-19 13:03:40 | Filled untranslated posts with original cleaned text.
+2026-07-19 13:03:40 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-19 13:03:40 | Finished Translation
+Saved df to ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+Continuing to Entities Reuse
+2026-07-19 13:03:56 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-19 13:03:58 | Completed: extract_ner_entities
+2026-07-19 13:03:58 | Completed: clean_entity_columns
+2026-07-19 13:03:58 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-19 13:03:58 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-19 13:03:58 | Completed: add_entity_reuse
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-19 13:03:58 | Completed: add_entity_reuse
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-19 13:03:58 | Completed: add_entity_reuse
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-07-19 13:03:58 | Completed: add_entity_reuse
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-07-19 13:03:58 | Completed: add_entity_reuse
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-07-19 13:03:58 | Completed: add_entity_reuse
+2026-07-19 13:03:58 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-07-19 13:03:59 | Completed: add_entity_reuse
+2026-07-19 13:03:59 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-07-19 13:03:59 | Completed: add_entity_reuse
+2026-07-19 13:03:59 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-19 13:03:59 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
