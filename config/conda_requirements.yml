@@ -1,4 +1,4 @@
-name: backbone_env_v2
+name: backbone_env_v3
 channels:
   - conda-forge
   - rapidsai
@@ -10,6 +10,8 @@ dependencies:
   - pandas=3.0.1
   - numpy=2.3.5
   - pyarrow=23.0.1
+  - statsmodels=0.14.6
+  - ruptures=1.1.10
   # ML
   - scikit-learn=1.8.0
   - xgboost=3.2.0
@@ -17,12 +19,13 @@ dependencies:
   - shap=0.51.0
   - scipy=1.17.1
   # Deep learning
-  - pytorch=2.5.1
-  - torchvision=0.20.1
-  - torchaudio=2.5.1
-  - pytorch-cuda=12.4
-  - transformers=4.55.4
-  - sentence-transformers=5.4.0
+  - pytorch=2.6
+  - pytorch-gpu=2.6
+  # - torchvision=0.21
+  # - torchaudio=2.6
+  # - cuda-version=12.4
+  - transformers=4.55.4           # Transformers 5+ does not support the pipeline task used in this notebook.
+  - sentence-transformers=5.4.0   
   # BERTopic
   - bertopic=0.17.4
   - umap-learn=0.5.11
@@ -34,26 +37,25 @@ dependencies:
   - ipython=9.10.0
   - ipywidgets=8.1.8
   - venn=0.1.3
+  - tabulate=0.9.0
   # NLP
   - nltk=3.9.3
   - spacy=3.8.11
   - langdetect=1.0.9
   - emoji=2.15.0
-  - sentencepiece=0.2.1
+  # - sentencepiece=0.2.0
   # Graph / network
   - networkx=3.6.1
-  - nx-cugraph=26.06.00
+  # - nx-cugraph=26.06.00
   # Utilities
   - tqdm=4.67.3
-  - tabulate=0.9.0
-  - statsmodels=0.14.6
-  - ruptures=1.1.10
+  # Jupiter Notebook
   - ipykernel=7.2.0
   - papermill=2.7.0
   # Latex
-  - texlive-core=20260301
-  - latexmk=4.88
-  - perl=5.42.2
+  # - texlive-core=20260301
+  # - latexmk=4.88
+  # - perl=5.42.2
  # - wordfreq=3.1.1
   - pip
   - pip:
@@ -63,5 +65,5 @@ dependencies:
 
 ################ How to use? In terminal do: ################
 # conda env create -y -f ./config/conda_requirements.yml
-# conda activate backbone_env_v2
-# python -m ipykernel install --user --name backbone_env_v2 --display-name "backbone_env_v2"
+# conda activate backbone_env_v3
+# python -m ipykernel install --user --name backbone_env_v3 --display-name "backbone_env_v3"
