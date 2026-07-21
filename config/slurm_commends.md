@@ -12,6 +12,7 @@ country="UAE"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
+echo "Submitting translate topics/entities job for country=${country}"
 sbatch "../config/run_1_translate_topics_entities.sbatch" \
     "../data/Labeled_Datasets/${country}/${country}_part_all.gzip.parquet"
 ```
@@ -20,11 +21,12 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 ```bash
 
 user="$USER"
-country="UAE"
+country="Venezuela"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
 for min_cluster_size in 10 128 256 512; do
+    echo "Submitting big data clustering job for country=${country}, min_cluster_size=${min_cluster_size}"
     sbatch "../config/run_2_big_data_clustering.sbatch" \
         "../results/Labeled_Datasets/${country}/${country}_part_all/step_1_translate_topics_entities/${country}_part_all_step_1.gzip.parquet" \
         "$min_cluster_size"
@@ -39,6 +41,7 @@ topic_col="BERTopic_topic_256"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
+echo "Submitting key authors graph job for country=${country}, topic_col=${topic_col}"
 sbatch "../config/run_3_key_authors_graph.sbatch" \
     "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_big_data_clustering/topic_col_${topic_col}/${country}_part_all_step_2.gzip.parquet"
 ```
@@ -50,6 +53,7 @@ country="UAE"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
+echo "Submitting inter/intra classification job for country=${country}"
 sbatch "../config/run_4_inter_intra_classification.sbatch" \
     "../results/Labeled_Datasets/${country}/${country}_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/"
 ```
