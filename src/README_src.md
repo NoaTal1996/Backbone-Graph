@@ -60,7 +60,7 @@ step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/
   - Entities Recognition (NER): Identifying and storing named entities.
   - Topic modeling (for data up to 100k posts).
 
-> **Large dataset?** Switch to `2_big_data_clustering.ipynb` for the clustering step — pre-processing and NER still run here first.
+> **Large dataset?** Switch to `2_BERTopic_clustering.ipynb` for the clustering step — pre-processing and NER still run here first.
 
 ### 2. `3_key_authors_graph.ipynb`
   - Calculates TF-IDF score for entities, posts and authors.
@@ -115,7 +115,7 @@ The pipeline's entry point. Takes a raw social media dataset, cleans and transla
 
 ---
 
-### 1b) `2_big_data_clustering.ipynb` (for huge datasets)
+### 1b) `2_BERTopic_clustering.ipynb` (for huge datasets)
 
 This notebook is intended for **large-scale topic clustering** (chunked BERTopic + merge). It should be used after `1_translate_topics_entities.ipynb` runs into OOM.
 
@@ -191,8 +191,8 @@ The repo contains papermill-based SLURM scripts:
   - Script: `../config/run_1_translate_topics_entities.sbatch`
 - Big data clustering:
 
-  - `sbatch ../config/run_2_big_data_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZE]`
-  - Script: `../config/run_2_big_data_clustering.sbatch`
+  - `sbatch ../config/run_2_BERTopic_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZE]`
+  - Script: `../config/run_2_BERTopic_clustering.sbatch`
 - Key authors graph:
 
   - `sbatch ../config/run_3_key_authors_graph.sbatch <STEP_1_OR_STEP_2_PARQUET>`

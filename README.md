@@ -40,7 +40,7 @@ Backbone-Graph/
 ├── config/                                    # Environment and job configuration
 │   ├── conda_requirements.yml                 # Conda environment specification
 │   ├── run_1_translate_topics_entities.sbatch   # SLURM job: Step 1 (preprocessing + clustering)
-│   ├── run_2_big_data_clustering.sbatch         # SLURM job: Step 2 (large-scale clustering)
+│   ├── run_2_BERTopic_clustering.sbatch          # SLURM job: Step 2 (large-scale clustering)
 │   ├── run_3_key_authors_graph.sbatch           # SLURM job: Step 3 (key authors graph)
 │   ├── run_4_inter_intra_classification.sbatch  # SLURM job: Step 4 (classification)
 │   ├── slurm_commends.md                      # Common SLURM command
@@ -53,7 +53,7 @@ Backbone-Graph/
 │
 ├── src/                                       # All notebooks — run from this directory
 │   ├── 1_translate_topics_entities.ipynb      # Step 1: preprocessing, NER, topic modeling
-│   ├── 2_big_data_clustering.ipynb            # Step 1b: chunked BERTopic for large datasets
+│   ├── 2_BERTopic_clustering.ipynb             # Step 1b: chunked BERTopic for large datasets
 │   ├── 3_key_authors_graph.ipynb              # Step 2: key authors, TF-IDF, graph export
 │   ├── 4_inter_intra_classification.ipynb     # Step 3: inter/intra-campaign classification
 │   ├── Boost.ipynb                            # Standalone boost-score exploration (not in pipeline)
@@ -91,7 +91,7 @@ conda activate backbone_env_v2
 Full preprocessing for datasets. Run this first.
 The notebook enriches the dataset by adding new columns that provide additional information.
 
-**Memory Note:** For datasets with ~100k+ posts or machines with low RAM, the topic modeling may run out of memory (OOM). Use *Step 1b* in this case (topic modeling is offloaded to `2_big_data_clustering.ipynb`, while Step 1 still handles preprocessing and NER). For reference, 1M posts takes approximately 60G RAM.
+**Memory Note:** For datasets with ~100k+ posts or machines with low RAM, the topic modeling may run out of memory (OOM). Use *Step 1b* in this case (topic modeling is offloaded to `2_BERTopic_clustering.ipynb`, while Step 1 still handles preprocessing and NER). For reference, 1M posts takes approximately 60G RAM.
 
 **Input**
  Parquet dataset file.
@@ -122,11 +122,11 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 
 ---
 
-### Step 1b — `2_big_data_clustering.ipynb` _(for large datasets)_
+### Step 1b — `2_BERTopic_clustering.ipynb` _(for large datasets)_
 
 Use this **instead of Step 1's built-in clustering** when Step 1 runs out of memory (OOM) during topic modeling.
 
-**Workflow:** Step 1 (`1_translate_topics_entities.ipynb`) still performs preprocessing and NER; this notebook (`2_big_data_clustering.ipynb`) handles only the chunked topic clustering and merges the results.
+**Workflow:** Step 1 (`1_translate_topics_entities.ipynb`) still performs preprocessing and NER; this notebook (`2_BERTopic_clustering.ipynb`) handles only the chunked topic clustering and merges the results.
 
 **Input**
  Parquet dataset file.
@@ -238,10 +238,10 @@ Output parquet: `../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecu
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_2_big_data_clustering.sbatch" <STEP_1_PARQUET> [min_topic_size]
+sbatch "../config/run_2_BERTopic_clustering.sbatch" <STEP_1_PARQUET> [min_topic_size]
 
 # Example:
-sbatch "../config/run_2_big_data_clustering.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet 256
+sbatch "../config/run_2_BERTopic_clustering.sbatch" ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet 256
 ```
 
 ### Step 2 — key authors graph

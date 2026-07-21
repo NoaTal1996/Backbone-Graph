@@ -17,7 +17,7 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
     "../data/Labeled_Datasets/${country}/${country}_part_all.gzip.parquet"
 ```
 
-# 2_big_data_clustering
+# 2_BERTopic_clustering
 ```bash
 
 user="$USER"
@@ -27,7 +27,7 @@ cd "/home/${user}/Backbone-Graph/src" || exit 1
 
 for min_cluster_size in 10 128 256 512; do
     echo "Submitting big data clustering job for country=${country}, min_cluster_size=${min_cluster_size}"
-    sbatch "../config/run_2_big_data_clustering.sbatch" \
+    sbatch "../config/run_2_BERTopic_clustering.sbatch" \
         "../results/Labeled_Datasets/${country}/${country}_part_all/step_1_translate_topics_entities/${country}_part_all_step_1.gzip.parquet" \
         "$min_cluster_size"
 done
