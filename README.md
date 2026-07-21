@@ -146,7 +146,7 @@ schema: [Zenodo record 14189193](https://zenodo.org/records/14189193)
 3. Appends `BERTopic_topic_<min_topic_size>` column to the dataframe
 4. Saves progress reports during long runs
 
-**Main Outputs** (to the matching `step_2/` folder):
+**Main Outputs** (to the matching `step_2_BERTopic_clustering/` folder):
 
 | File | Description |
 |---|---|
@@ -168,7 +168,7 @@ Note that this notebook’s capabilities depend on the configuration of Step 1 a
 
 | Parameter | Example value | Description |
 |---|---|---|
-| `input_file_path` | `"../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2/Ecuador_part_all_step2.gzip.parquet"` | Step 1 or Step 2 output parquet |
+| `input_file_path` | `"../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/Ecuador_part_all_step_2.gzip.parquet"` | Step 1 or Step 2 output parquet |
 | `account_id_col` | `"accountid"` | Column name for author identifier |
 | `topic_col` | `"BERTopic_topic_512"` | Topic column to use (must exist in dataset) |
 | `top_n` | `300` | Number of top authors per topic to select as key authors |

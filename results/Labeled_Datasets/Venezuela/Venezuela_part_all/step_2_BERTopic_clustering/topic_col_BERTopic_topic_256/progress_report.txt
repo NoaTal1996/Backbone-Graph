@@ -1,0 +1,11 @@
+2026-07-21 20:41:58 | Input data path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-07-21 20:41:58 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-21 20:41:58 | Wrote hardware report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/hardware_info.txt
+2026-07-21 20:41:58 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-21 20:41:58 | Today date: 2026-07-21
+2026-07-21 20:41:58 | Input data path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-07-21 20:41:58 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-21 20:41:58 | Loaded df: Venezuela_part_all_step_1.gzip.parquet.
+2026-07-21 20:41:58 | df shape: (1972461, 4)
+2026-07-21 20:41:58 | min_topic_size: 256
+2026-07-21 20:42:04 | Embeddings Model loaded: SentenceTransformer on device cuda

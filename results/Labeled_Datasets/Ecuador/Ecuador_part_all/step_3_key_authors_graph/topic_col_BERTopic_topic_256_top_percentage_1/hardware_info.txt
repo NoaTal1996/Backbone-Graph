@@ -1,0 +1,14 @@
+Hardware and Slurm allocation
+----------------------------------------------------------------------
+Hostname:               ise-cpu256-31.auth.ad.bgu.ac.il
+Node physical cores:    128
+Node logical CPUs:      256
+Allocated CPUs:         24
+Allocated CPU IDs:      [61, 91, 92, 99, 100, 117, 118, 119, 120, 121, 122, 123, 189, 219, 220, 227, 228, 245, 246, 247, 248, 249, 250, 251]
+SLURM_CPUS_PER_TASK:    Not set
+SLURM_CPUS_ON_NODE:     Not set
+SLURM_JOB_CPUS_PER_NODE:Not set
+Slurm job ID:           19483174
+Slurm node list:        Not set
+GPU available:          False
+----------------------------------------------------------------------

@@ -18,6 +18,7 @@ dependencies:
   - gensim=4.4.0
   - shap=0.51.0
   - scipy=1.17.1
+  - joblib=1.5.3
   # Deep learning
   - pytorch=2.6
   - pytorch-gpu=2.6

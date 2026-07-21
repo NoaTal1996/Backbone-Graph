@@ -1,5 +1,7 @@
-### Interactive Jupyter Notebook ###
-conda activate backbone_env_v2
+### Interactive Job ###
+sinteractive  --time 0-8:00:00  --gpu rtx_6000:1
+sinteractive --time 0-8:00:00 --cpu 24
+
 sjupyter --gpu rtx_6000:1
 
 
@@ -21,7 +23,7 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 ```bash
 
 user="$USER"
-country="Venezuela"
+country="UAE"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
@@ -43,7 +45,7 @@ cd "/home/${user}/Backbone-Graph/src" || exit 1
 
 echo "Submitting key authors graph job for country=${country}, topic_col=${topic_col}"
 sbatch "../config/run_3_key_authors_graph.sbatch" \
-    "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_big_data_clustering/topic_col_${topic_col}/${country}_part_all_step_2.gzip.parquet"
+    "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_BERTopic_clustering/topic_col_${topic_col}/${country}_part_all_step_2.gzip.parquet"
 ```
 
 # 4_inter_intra_classification

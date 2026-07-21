@@ -23,7 +23,7 @@ results/
             ├── step_1_translate_topics_entities/
             │   ├── <part>_step_1.gzip.parquet
             │   └── progress_report.txt
-            ├── step_2_big_data_clustering/
+            ├── step_2_BERTopic_clustering/
             │   └── topic_col_<topic_col>/
             │       ├── <part>_step_2.gzip.parquet
             │       └── progress_report.txt
@@ -134,7 +134,7 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 - Saves progress reports during long runs.
 
 **Outputs**
-- Output folder: `step_2_big_data_clustering/topic_col_<topic_col>/`
+- Output folder: `step_2_BERTopic_clustering/topic_col_<topic_col>/`
 - `<input_stem>_step_2.gzip.parquet`
 - `BERTopic_models_min_topic_size_<min_topic_size>/` (chunk models + merged model)
 - Plots (PNG): `<topic_col>_topic_clustering.png`, `<topic_col>_topic_accounts.png`
