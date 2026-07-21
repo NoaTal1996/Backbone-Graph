@@ -28,7 +28,8 @@ dependencies:
   - sentence-transformers=5.4.0   
   # BERTopic
   - bertopic=0.17.4
-  - umap-learn=0.5.11
+  - cuml=26.06.00
+  # - umap-learn=0.5.11
   # Visualization
   - matplotlib=3.10.8
   - matplotlib-venn=1.1.2

@@ -13,7 +13,8 @@
 #SBATCH --gpus=rtx_4090:1		                    ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
 
 ### Note: Lines are with ## are commented out
-#SBATCH --mail-user=idanmu@post.bgu.ac.il	        ### user's email for sending job status messages
+##SBATCH --mail-user=idanmu@post.bgu.ac.il	        ### user's email for sending job status messages
+#SBATCH --mail-user=amitner@post.bgu.ac.il	        ### user's email for sending job status messages
 #SBATCH --mail-type=ALL			                    ### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
 #SBATCH --mem=60G				                    ### ammount of RAM memory, allocating more than 60G requires IT team's permission
 
