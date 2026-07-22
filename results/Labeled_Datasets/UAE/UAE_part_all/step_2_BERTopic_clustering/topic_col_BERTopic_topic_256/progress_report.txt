@@ -59,3 +59,11 @@ from df to ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clusteri
 2026-07-22 12:09:24 | FAILED: add_posting_same_topic | "Missing required columns: ['BERTopic_topic_10']"
 2026-07-22 12:39:12 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_128_12H_accountids for topic column BERTopic_topic_128 and time window 12H.
 2026-07-22 12:39:12 | Completed: add_posting_same_topic
+2026-07-22 12:42:38 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_128_3D_accountids for topic column BERTopic_topic_128 and time window 3D.
+2026-07-22 12:42:38 | Completed: add_posting_same_topic
+2026-07-22 12:44:34 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_256_12H_accountids for topic column BERTopic_topic_256 and time window 12H.
+2026-07-22 12:44:34 | Completed: add_posting_same_topic
+2026-07-22 12:52:47 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_256_3D_accountids for topic column BERTopic_topic_256 and time window 3D.
+2026-07-22 12:52:47 | Completed: add_posting_same_topic
+2026-07-22 12:57:15 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_512_12H_accountids for topic column BERTopic_topic_512 and time window 12H.
+2026-07-22 12:57:15 | Completed: add_posting_same_topic
