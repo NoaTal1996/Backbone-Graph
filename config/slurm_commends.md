@@ -10,7 +10,9 @@ sjupyter --gpu rtx_6000:1
 # 1_translate_topics_entities
 ```bash
 user="$USER"
-country="UAE"
+
+# Venezuela UAE Ecuador
+country="Ecuador"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
