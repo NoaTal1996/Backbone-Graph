@@ -9,3 +9,40 @@
 2026-07-21 20:41:58 | df shape: (1972461, 4)
 2026-07-21 20:41:58 | min_topic_size: 512
 2026-07-21 20:42:06 | Embeddings Model loaded: SentenceTransformer on device cuda
+2026-07-21 20:52:43 | Generated embeddings shape: (1972461, 768)
+2026-07-21 20:52:44 | Building and saving chunk models to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512 with chunk size 131072 and min_topic_size 512 on device cuda
+2026-07-21 20:53:11 | Saved chunk model 0 for texts 0 to 131072 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_0
+2026-07-21 20:53:21 | Saved chunk model 1 for texts 131072 to 262144 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_1
+2026-07-21 20:53:33 | Saved chunk model 2 for texts 262144 to 393216 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_2
+2026-07-21 20:53:45 | Saved chunk model 3 for texts 393216 to 524288 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_3
+2026-07-21 20:53:57 | Saved chunk model 4 for texts 524288 to 655360 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_4
+2026-07-21 20:54:07 | Saved chunk model 5 for texts 655360 to 786432 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_5
+2026-07-21 20:54:19 | Saved chunk model 6 for texts 786432 to 917504 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_6
+2026-07-21 20:54:30 | Saved chunk model 7 for texts 917504 to 1048576 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_7
+2026-07-21 20:54:40 | Saved chunk model 8 for texts 1048576 to 1179648 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_8
+2026-07-21 20:54:52 | Saved chunk model 9 for texts 1179648 to 1310720 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_9
+2026-07-21 20:55:01 | Saved chunk model 10 for texts 1310720 to 1441792 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_10
+2026-07-21 20:55:13 | Saved chunk model 11 for texts 1441792 to 1572864 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_11
+2026-07-21 20:55:22 | Saved chunk model 12 for texts 1572864 to 1703936 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_12
+2026-07-21 20:55:31 | Saved chunk model 13 for texts 1703936 to 1835008 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_13
+2026-07-21 20:55:39 | Saved chunk model 14 for texts 1835008 to 1966080 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_14
+2026-07-21 20:55:40 | Saved chunk model 15 for texts 1966080 to 1972461 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_15
+2026-07-21 20:55:41 | Completed: build_and_save_chunk_models
+2026-07-21 20:56:00 | Merged model saved to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/merged_BERTopic_model_min_similarity_0.7
+2026-07-21 20:56:00 | Completed: load_and_merge_BERTopic_models
+2026-07-21 20:56:54 | [update_df_collumns_atomically]
+ Updating columns: ['BERTopic_topic_512', 'BERTopic_prob_512', 'BERTopic_topic_512_top_words'] 
+from df to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-07-21 20:57:08 | [update_df_collumns_atomically]
+ Updated columns: BERTopic_topic_512, BERTopic_prob_512, BERTopic_topic_512_top_words 
+save to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-07-21 20:57:08 | Completed: update_df_collumns_atomically
+2026-07-21 20:57:08 | Saved df with BERTopic topics.
+2026-07-21 21:00:57 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_512_12H_accountids for topic column BERTopic_topic_512 and time window 12H.
+2026-07-21 21:00:57 | Completed: add_posting_same_topic
+2026-07-21 21:20:04 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_512_3D_accountids for topic column BERTopic_topic_512 and time window 3D.
+2026-07-21 21:20:04 | Completed: add_posting_same_topic
+2026-07-21 21:20:04 | [update_df_collumns_atomically]
+ Updating columns: ['posting_same_topic_BERTopic_topic_512_12H_accountids', 'posting_same_topic_BERTopic_topic_512_3D_accountids'] 
+from df to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-07-21 21:20:12 | FAILED: update_df_collumns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
