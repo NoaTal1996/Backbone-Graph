@@ -1985,3 +1985,75 @@
 2026-07-22 15:30:49 | 6962 posts: deu_Latn → eng_Latn
 2026-07-22 15:43:18 | 203 posts: ell_Grek → eng_Latn
 2026-07-22 15:44:30 | 225300 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-22 22:49:35 | 2658 posts: est_Latn → eng_Latn
+2026-07-22 22:54:21 | 1202 posts: fin_Latn → eng_Latn
+2026-07-22 22:56:01 | 8536 posts: fra_Latn → eng_Latn
+2026-07-22 23:02:52 | 21 posts: heb_Hebr → eng_Latn
+2026-07-22 23:02:53 | 375 posts: hin_Deva → eng_Latn
+2026-07-22 23:03:13 | 765 posts: hrv_Latn → eng_Latn
+2026-07-22 23:04:04 | 417 posts: hun_Latn → eng_Latn
+2026-07-22 23:04:45 | 3 posts: hye_Armn → eng_Latn
+2026-07-22 23:04:46 | 5406 posts: ind_Latn → eng_Latn
+2026-07-22 23:09:55 | 175 posts: isl_Latn → eng_Latn
+2026-07-22 23:10:02 | 11348 posts: ita_Latn → eng_Latn
+2026-07-22 23:24:32 | 10471 posts: jpn_Jpan → eng_Latn
+2026-07-22 23:55:56 | 4 posts: kan_Knda → eng_Latn
+2026-07-22 23:55:57 | 3270 posts: kor_Hang → eng_Latn
+2026-07-23 00:06:12 | 1004 posts: lit_Latn → eng_Latn
+2026-07-23 00:07:43 | 442 posts: lvs_Latn → eng_Latn
+2026-07-23 00:08:08 | 24 posts: mkd_Cyrl → eng_Latn
+2026-07-23 00:08:10 | 1726 posts: nld_Latn → eng_Latn
+2026-07-23 00:10:43 | 958 posts: nob_Latn → eng_Latn
+2026-07-23 00:11:17 | 2 posts: npi_Deva → eng_Latn
+2026-07-23 00:11:17 | 4 posts: pan_Guru → eng_Latn
+2026-07-23 00:11:17 | 47 posts: pes_Arab → eng_Latn
+2026-07-23 00:11:22 | 1271 posts: pol_Latn → eng_Latn
+2026-07-23 00:12:35 | 30448 posts: por_Latn → eng_Latn
+2026-07-23 00:43:33 | 1953 posts: ron_Latn → eng_Latn
+2026-07-23 00:46:28 | 5619 posts: rus_Cyrl → eng_Latn
+2026-07-23 00:48:33 | 527 posts: slk_Latn → eng_Latn
+2026-07-23 00:49:03 | 1400 posts: slv_Latn → eng_Latn
+2026-07-23 00:52:35 | 2005 posts: som_Latn → eng_Latn
+2026-07-23 00:55:12 | 1098724 posts: spa_Latn → eng_Latn
+2026-07-23 15:17:44 | 12 posts: srp_Cyrl → eng_Latn
+2026-07-23 15:17:44 | 892 posts: swe_Latn → eng_Latn
+2026-07-23 15:19:17 | 1534 posts: swh_Latn → eng_Latn
+2026-07-23 15:20:25 | 14 posts: tam_Taml → eng_Latn
+2026-07-23 15:20:27 | 2 posts: tel_Telu → eng_Latn
+2026-07-23 15:20:27 | 3364 posts: tgl_Latn → eng_Latn
+2026-07-23 15:24:08 | 3770 posts: tha_Thai → eng_Latn
+2026-07-23 15:34:33 | 1406 posts: tur_Latn → eng_Latn
+2026-07-23 15:35:44 | 40 posts: ukr_Cyrl → eng_Latn
+2026-07-23 15:35:56 | 142 posts: urd_Arab → eng_Latn
+2026-07-23 15:36:15 | 414 posts: vie_Latn → eng_Latn
+2026-07-23 15:36:45 | 148 posts: zho_Hans → eng_Latn
+2026-07-23 15:37:03 | Completed: transformers_translator
+2026-07-23 15:37:04 | Translation completed.
+2026-07-23 15:37:21 | Untranslated posts: 0/1468565 (0.00%)
+2026-07-23 15:37:21 | Filled untranslated posts with original cleaned text.
+2026-07-23 15:38:07 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-23 15:38:07 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities
+Continuing to Entities Reuse
+2026-07-23 15:38:10 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-23 15:58:22 | Completed: extract_ner_entities
+2026-07-23 15:58:42 | Completed: clean_entity_columns
+2026-07-23 15:58:43 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-23 15:59:29 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-23 15:59:29 |
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-23 16:02:05 | Completed: add_entity_reuse
+2026-07-23 16:02:05 |
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-23 16:09:20 | Completed: add_entity_reuse
+2026-07-23 16:09:20 |
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-23 16:09:35 | Completed: add_entity_reuse
+2026-07-23 16:09:35 |
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-07-23 16:11:01 | Completed: add_entity_reuse
+2026-07-23 16:11:01 |
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-07-23 16:16:49 | Completed: add_entity_reuse
+2026-07-23 16:16:49 |
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...

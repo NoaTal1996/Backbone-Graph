@@ -1,0 +1,18 @@
+2026-07-23 15:13:26 | Input data path: ../data/Labeled_Datasets/Cuba/Cuba_part_all.gzip.parquet
+2026-07-23 15:13:26 | Output path: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test
+2026-07-23 15:13:26 | Using device: cpu
+2026-07-23 15:13:26 | Running in test mode: only processing first 1000 rows of the dataset.
+2026-07-23 15:13:26 | Storing output data to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/Cuba_part_all_step_1.gzip.parquet
+2026-07-23 15:13:27 | postid duplication sum 0 (0.000%)
+2026-07-23 15:13:27 | Undefined post language percentage **before** mapping: 2.20%
+2026-07-23 15:13:28 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-23 15:13:28 | Removing 0 posts with undefined language code und
+2026-07-23 15:13:29 | Using device: cpu
+2026-07-23 15:13:59 | Loaded facebook/nllb-200-distilled-600M on cpu with dtype torch.float32
+2026-07-23 15:13:59 | Translation pipeline created.
+2026-07-23 15:13:59 | 1 posts: ben_Beng → eng_Latn
+2026-07-23 15:14:19 | 7 posts: cat_Latn → eng_Latn
+2026-07-23 15:14:31 | 8 posts: deu_Latn → eng_Latn
+2026-07-23 15:14:58 | 17 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-23 15:17:09 | 2 posts: ita_Latn → eng_Latn
+2026-07-23 15:17:14 | 965 posts: spa_Latn → eng_Latn

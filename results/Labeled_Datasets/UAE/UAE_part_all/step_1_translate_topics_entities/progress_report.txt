@@ -2628,3 +2628,12 @@
 2026-07-22 14:59:45 | 96 posts: als_Latn → eng_Latn
 2026-07-22 14:59:48 | 1 posts: amh_Ethi → eng_Latn
 2026-07-22 14:59:50 | 1047960 posts: arb_Arab → eng_Latn
+2026-07-23 08:59:18 | 2 posts: ben_Beng → eng_Latn
+2026-07-23 08:59:19 | 184 posts: bul_Cyrl → eng_Latn
+2026-07-23 08:59:27 | 32305 posts: cat_Latn → eng_Latn
+2026-07-23 09:16:07 | 218 posts: ces_Latn → eng_Latn
+2026-07-23 09:16:25 | 868 posts: cym_Latn → eng_Latn
+2026-07-23 09:17:11 | 646 posts: dan_Latn → eng_Latn
+2026-07-23 09:17:52 | 11817 posts: deu_Latn → eng_Latn
+2026-07-23 09:29:42 | 63 posts: ell_Grek → eng_Latn
+2026-07-23 09:29:52 | 338928 posts: eng_Latn → spa_Latn → eng_Latn
