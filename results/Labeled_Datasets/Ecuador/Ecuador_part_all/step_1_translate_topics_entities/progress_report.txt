@@ -2057,3 +2057,62 @@ Continuing to Entities Reuse
 2026-07-23 16:16:49 | Completed: add_entity_reuse
 2026-07-23 16:16:49 |
 [add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-07-23 16:48:41 | Completed: add_entity_reuse
+2026-07-23 16:48:41 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-07-23 16:49:00 | Completed: add_entity_reuse
+2026-07-23 16:49:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-07-23 16:52:58 | Completed: add_entity_reuse
+2026-07-23 16:54:04 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-23 16:54:04 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-07-23 17:03:35 | Generated embeddings shape: (1468565, 768)
+2026-07-23 17:03:47 | Trying k=4
+2026-07-23 17:06:51 | k=4, silhouette_score=0.0402
+2026-07-23 17:06:51 | Trying k=8
+2026-07-23 17:10:02 | k=8, silhouette_score=0.0310
+2026-07-23 17:10:02 | Trying k=12
+2026-07-23 17:13:14 | k=12, silhouette_score=0.0347
+2026-07-23 17:13:14 | Trying k=16
+2026-07-23 17:16:29 | k=16, silhouette_score=0.0300
+2026-07-23 17:16:29 | Trying k=20
+2026-07-23 17:19:46 | k=20, silhouette_score=0.0284
+2026-07-23 17:19:46 | Trying k=24
+2026-07-23 17:23:03 | k=24, silhouette_score=0.0259
+2026-07-23 17:23:03 | Trying k=28
+2026-07-23 17:26:17 | k=28, silhouette_score=0.0304
+2026-07-23 17:26:17 | Trying k=32
+2026-07-23 17:29:20 | k=32, silhouette_score=0.0320
+2026-07-23 17:29:20 | Trying k=36
+2026-07-23 17:32:23 | k=36, silhouette_score=0.0291
+2026-07-23 17:32:23 | Trying k=40
+2026-07-23 17:35:25 | k=40, silhouette_score=0.0325
+2026-07-23 17:35:25 | Trying k=44
+2026-07-23 17:38:28 | k=44, silhouette_score=0.0313
+2026-07-23 17:38:28 | Trying k=48
+2026-07-23 17:41:31 | k=48, silhouette_score=0.0346
+2026-07-23 17:41:31 | Trying k=52
+2026-07-23 17:44:34 | k=52, silhouette_score=0.0341
+2026-07-23 17:44:34 | Trying k=56
+2026-07-23 17:47:37 | k=56, silhouette_score=0.0354
+2026-07-23 17:47:37 | Trying k=60
+2026-07-23 17:50:40 | k=60, silhouette_score=0.0350
+2026-07-23 17:50:41 | Trying k=64
+2026-07-23 17:53:44 | k=64, silhouette_score=0.0349
+2026-07-23 17:53:44 | Trying k=68
+2026-07-23 17:56:47 | k=68, silhouette_score=0.0370
+2026-07-23 17:56:47 | Trying k=72
+2026-07-23 17:59:50 | k=72, silhouette_score=0.0358
+2026-07-23 17:59:50 | Trying k=76
+2026-07-23 18:02:53 | k=76, silhouette_score=0.0363
+2026-07-23 18:02:53 | Trying k=80
+2026-07-23 18:05:56 | k=80, silhouette_score=0.0361
+2026-07-23 18:05:56 | Trying k=84
+2026-07-23 18:08:59 | k=84, silhouette_score=0.0375
+2026-07-23 18:08:59 | Trying k=88
+2026-07-23 18:12:03 | k=88, silhouette_score=0.0354
+2026-07-23 18:12:03 | Trying k=92
+2026-07-23 18:15:06 | k=92, silhouette_score=0.0358
+2026-07-23 18:15:06 | Trying k=96

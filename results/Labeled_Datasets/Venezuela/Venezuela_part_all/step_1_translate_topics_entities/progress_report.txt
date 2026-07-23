@@ -291,3 +291,53 @@
 2026-07-22 14:59:50 | 6308 posts: deu_Latn → eng_Latn
 2026-07-22 15:06:52 | 153 posts: ell_Grek → eng_Latn
 2026-07-22 15:07:08 | 1796850 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-23 16:28:48 | 1205 posts: est_Latn → eng_Latn
+2026-07-23 16:29:59 | 693 posts: fin_Latn → eng_Latn
+2026-07-23 16:30:42 | 6228 posts: fra_Latn → eng_Latn
+2026-07-23 16:34:08 | 1 posts: guj_Gujr → eng_Latn
+2026-07-23 16:34:09 | 12 posts: heb_Hebr → eng_Latn
+2026-07-23 16:34:09 | 191 posts: hin_Deva → eng_Latn
+2026-07-23 16:34:24 | 449 posts: hrv_Latn → eng_Latn
+2026-07-23 16:34:43 | 133 posts: hun_Latn → eng_Latn
+2026-07-23 16:34:59 | 587 posts: ind_Latn → eng_Latn
+2026-07-23 16:35:27 | 38 posts: isl_Latn → eng_Latn
+2026-07-23 16:35:30 | 2608 posts: ita_Latn → eng_Latn
+2026-07-23 16:37:12 | 2771 posts: jpn_Jpan → eng_Latn
+2026-07-23 16:44:51 | 1 posts: kan_Knda → eng_Latn
+2026-07-23 16:44:51 | 787 posts: kor_Hang → eng_Latn
+2026-07-23 16:47:29 | 246 posts: lit_Latn → eng_Latn
+2026-07-23 16:47:38 | 154 posts: lvs_Latn → eng_Latn
+2026-07-23 16:47:47 | 4 posts: mal_Mlym → eng_Latn
+2026-07-23 16:47:48 | 1185 posts: nld_Latn → eng_Latn
+2026-07-23 16:49:08 | 883 posts: nob_Latn → eng_Latn
+2026-07-23 16:49:41 | 1 posts: npi_Deva → eng_Latn
+2026-07-23 16:49:41 | 51 posts: pes_Arab → eng_Latn
+2026-07-23 16:49:43 | 653 posts: pol_Latn → eng_Latn
+2026-07-23 16:50:17 | 3038 posts: por_Latn → eng_Latn
+2026-07-23 16:52:21 | 1674 posts: ron_Latn → eng_Latn
+2026-07-23 16:53:22 | 108 posts: rus_Cyrl → eng_Latn
+2026-07-23 16:53:30 | 56 posts: slk_Latn → eng_Latn
+2026-07-23 16:53:34 | 265 posts: slv_Latn → eng_Latn
+2026-07-23 16:53:51 | 491 posts: som_Latn → eng_Latn
+2026-07-23 16:54:13 | 130764 posts: spa_Latn → eng_Latn
+2026-07-23 18:04:45 | 11 posts: srp_Cyrl → eng_Latn
+2026-07-23 18:04:46 | 601 posts: swe_Latn → eng_Latn
+2026-07-23 18:05:21 | 278 posts: swh_Latn → eng_Latn
+2026-07-23 18:05:31 | 1 posts: tam_Taml → eng_Latn
+2026-07-23 18:05:32 | 1 posts: tel_Telu → eng_Latn
+2026-07-23 18:05:32 | 1476 posts: tgl_Latn → eng_Latn
+2026-07-23 18:06:35 | 449 posts: tha_Thai → eng_Latn
+2026-07-23 18:07:59 | 557 posts: tur_Latn → eng_Latn
+2026-07-23 18:08:35 | 28 posts: ukr_Cyrl → eng_Latn
+2026-07-23 18:08:42 | 6 posts: urd_Arab → eng_Latn
+2026-07-23 18:08:42 | 78 posts: vie_Latn → eng_Latn
+2026-07-23 18:08:43 | 85 posts: zho_Hans → eng_Latn
+2026-07-23 18:08:46 | Completed: transformers_translator
+2026-07-23 18:08:46 | Translation completed.
+2026-07-23 18:09:02 | Untranslated posts: 0/1972461 (0.00%)
+2026-07-23 18:09:02 | Filled untranslated posts with original cleaned text.
+2026-07-23 18:09:54 | df is saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-07-23 18:09:54 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities
+Continuing to Entities Reuse
+2026-07-23 18:09:56 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16

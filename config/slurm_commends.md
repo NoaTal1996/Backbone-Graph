@@ -41,13 +41,12 @@ done
 ```bash
 user="$USER"
 country="UAE"
-topic_col="BERTopic_topic_256"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
 echo "Submitting key authors graph job for country=${country}, topic_col=${topic_col}"
 sbatch "../config/run_3_key_authors_graph.sbatch" \
-    "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_BERTopic_clustering/topic_col_${topic_col}/${country}_part_all_step_2.gzip.parquet"
+    "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_BERTopic_clustering/${country}_part_all_step_2.gzip.parquet"
 ```
 
 # 4_inter_intra_classification

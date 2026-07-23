@@ -2637,3 +2637,15 @@
 2026-07-23 09:17:52 | 11817 posts: deu_Latn → eng_Latn
 2026-07-23 09:29:42 | 63 posts: ell_Grek → eng_Latn
 2026-07-23 09:29:52 | 338928 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-23 17:05:08 | 1642 posts: est_Latn → eng_Latn
+2026-07-23 17:07:24 | 761 posts: fin_Latn → eng_Latn
+2026-07-23 17:08:31 | 38126 posts: fra_Latn → eng_Latn
+2026-07-23 17:29:29 | 7 posts: guj_Gujr → eng_Latn
+2026-07-23 17:29:29 | 15159 posts: heb_Hebr → eng_Latn
+2026-07-23 17:39:23 | 1038 posts: hin_Deva → eng_Latn
+2026-07-23 17:40:26 | 3241 posts: hrv_Latn → eng_Latn
+2026-07-23 17:41:18 | 296 posts: hun_Latn → eng_Latn
+2026-07-23 17:41:40 | 5472 posts: ind_Latn → eng_Latn
+2026-07-23 17:45:57 | 69 posts: isl_Latn → eng_Latn
+2026-07-23 17:46:00 | 18299 posts: ita_Latn → eng_Latn
+2026-07-23 17:59:32 | 8499 posts: jpn_Jpan → eng_Latn
