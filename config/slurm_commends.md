@@ -12,7 +12,7 @@ sjupyter --gpu rtx_6000:1
 user="$USER"
 
 # Venezuela UAE Ecuador
-country="Ecuador"
+country="Cuba"
 
 cd "/home/${user}/Backbone-Graph/src" || exit 1
 
