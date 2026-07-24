@@ -40,6 +40,7 @@ echo "$(date)"
 echo -e "\nSLURM_JOB_ID:\t\t$SLURM_JOB_ID"
 echo -e "SLURM_JOB_NODELIST:\t$SLURM_JOB_NODELIST"
 echo -e "Job name:\t\t$SLURM_JOB_NAME"
+echo -e "INPUT_FILE_PATH:\t$INPUT_FILE_PATH"
 
 ### Start your code below ####
 module load anaconda				### load anaconda module

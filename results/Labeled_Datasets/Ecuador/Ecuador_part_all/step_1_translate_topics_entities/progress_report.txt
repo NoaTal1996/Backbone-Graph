@@ -2118,3 +2118,58 @@ Continuing to Topic Clustering
 2026-07-23 18:15:06 | Trying k=96
 2026-07-23 18:18:10 | k=96, silhouette_score=0.0365
 2026-07-23 18:18:10 | Trying k=100
+2026-07-23 18:21:13 | k=100, silhouette_score=0.0388
+2026-07-23 18:21:13 | Trying k=104
+2026-07-23 18:24:17 | k=104, silhouette_score=0.0384
+2026-07-23 18:24:17 | Trying k=108
+2026-07-23 18:27:21 | k=108, silhouette_score=0.0380
+2026-07-23 18:27:21 | Trying k=112
+2026-07-23 18:30:25 | k=112, silhouette_score=0.0382
+2026-07-23 18:30:25 | Trying k=116
+2026-07-23 18:33:29 | k=116, silhouette_score=0.0381
+2026-07-23 18:33:29 | Trying k=120
+2026-07-23 18:36:33 | k=120, silhouette_score=0.0390
+2026-07-23 18:36:33 | Trying k=124
+2026-07-23 18:39:37 | k=124, silhouette_score=0.0385
+2026-07-23 18:39:37 | Trying k=128
+2026-07-23 18:42:41 | k=128, silhouette_score=0.0394
+2026-07-23 18:42:41 | Best k=4, silhouette_score=0.0402
+2026-07-23 18:42:41 | Completed: auto_kmeans_topics
+2026-07-23 18:43:46 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-23 18:43:46 | Saved df with K_Means topics. Best k = 4
+2026-07-23 18:43:59 | Completed: make_topic_stats
+2026-07-23 18:44:03 | Completed: make_topic_account_stats
+2026-07-23 18:45:37 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_4_12H_accountids for topic column K_Means_topic_4 and time window 12H.
+2026-07-23 18:45:37 | Completed: add_posting_same_topic
+2026-07-23 18:51:25 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_4_3D_accountids for topic column K_Means_topic_4 and time window 3D.
+2026-07-23 18:51:25 | Completed: add_posting_same_topic
+2026-07-23 18:51:38 | Updating column postid to output_df
+2026-07-23 18:51:39 | Updating column accountid to output_df
+2026-07-23 18:51:39 | Updating column post_time to output_df
+2026-07-23 18:51:39 | Updating column post_language to output_df
+2026-07-23 18:51:39 | Updating column post_text to output_df
+2026-07-23 18:51:39 | Updating column is_control to output_df
+2026-07-23 18:51:39 | Updating column hashtags to output_df
+2026-07-23 18:51:39 | Updating column account_mentions to output_df
+2026-07-23 18:51:39 | Updating column urls to output_df
+2026-07-23 18:51:39 | Updating column clean_text_with_entities to output_df
+2026-07-23 18:51:39 | Updating column clean_text_without_enteties to output_df
+2026-07-23 18:51:39 | Updating column text_len to output_df
+2026-07-23 18:51:39 | Updating column translated_post to output_df
+2026-07-23 18:51:39 | Updating column ner_entities to output_df
+2026-07-23 18:51:39 | Updating column hashtags_reuse_12H_accountids to output_df
+2026-07-23 18:51:39 | Updating column account_mentions_reuse_12H_accountids to output_df
+2026-07-23 18:51:39 | Updating column urls_reuse_12H_accountids to output_df
+2026-07-23 18:51:39 | Updating column ner_entities_reuse_12H_accountids to output_df
+2026-07-23 18:51:39 | Updating column hashtags_reuse_3D_accountids to output_df
+2026-07-23 18:51:39 | Updating column account_mentions_reuse_3D_accountids to output_df
+2026-07-23 18:51:39 | Updating column urls_reuse_3D_accountids to output_df
+2026-07-23 18:51:39 | Updating column ner_entities_reuse_3D_accountids to output_df
+2026-07-23 18:51:39 | Updating column K_Means_topic_4 to output_df
+2026-07-23 18:51:39 | Updating column posting_same_topic_K_Means_topic_4_12H_accountids to output_df
+2026-07-23 18:51:39 | Updating column posting_same_topic_K_Means_topic_4_3D_accountids to output_df
+2026-07-23 18:53:26 | df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-23 18:53:26 | Saved final output_df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities
+2026-07-23 18:53:28 | Finished Running Successfully
+2026-07-23 18:53:28 | #######################################################
+2026-07-23 18:53:28 | #######################################################

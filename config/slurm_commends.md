@@ -14,7 +14,7 @@ user="$USER"
 # Venezuela UAE Ecuador
 country="Cuba"
 
-cd "/home/${user}/Backbone-Graph/src" || exit 1
+cd "/home/${user}/Backbone-Graph/src"
 
 echo "Submitting translate topics/entities job for country=${country}"
 sbatch "../config/run_1_translate_topics_entities.sbatch" \
@@ -25,9 +25,9 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 ```bash
 
 user="$USER"
-country="UAE"
+country="Ecuador"
 
-cd "/home/${user}/Backbone-Graph/src" || exit 1
+cd "/home/${user}/Backbone-Graph/src"
 
 for min_cluster_size in 10 128 256 512; do
     echo "Submitting BERTopic clustering job for country=${country}, min_cluster_size=${min_cluster_size}"
@@ -42,9 +42,9 @@ done
 user="$USER"
 country="UAE"
 
-cd "/home/${user}/Backbone-Graph/src" || exit 1
+cd "/home/${user}/Backbone-Graph/src"
 
-echo "Submitting key authors graph job for country=${country}, topic_col=${topic_col}"
+echo "Submitting key authors graph job for country=${country}"
 sbatch "../config/run_3_key_authors_graph.sbatch" \
     "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_BERTopic_clustering/${country}_part_all_step_2.gzip.parquet"
 ```
@@ -54,7 +54,7 @@ sbatch "../config/run_3_key_authors_graph.sbatch" \
 user="$USER"
 country="UAE"
 
-cd "/home/${user}/Backbone-Graph/src" || exit 1
+cd "/home/${user}/Backbone-Graph/src"
 
 echo "Submitting inter/intra classification job for country=${country}"
 sbatch "../config/run_4_inter_intra_classification.sbatch" \

@@ -341,3 +341,135 @@
 Saved df to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities
 Continuing to Entities Reuse
 2026-07-23 18:09:56 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-23 18:35:26 | Completed: extract_ner_entities
+2026-07-23 18:35:52 | Completed: clean_entity_columns
+2026-07-23 18:35:52 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-23 18:36:44 | df is saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-07-23 18:36:45 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-23 18:38:34 | Completed: add_entity_reuse
+2026-07-23 18:38:34 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-23 18:39:07 | Completed: add_entity_reuse
+2026-07-23 18:39:07 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-23 18:39:23 | Completed: add_entity_reuse
+2026-07-23 18:39:23 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-07-23 19:24:50 | Completed: add_entity_reuse
+2026-07-23 19:24:50 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-07-23 19:32:27 | Completed: add_entity_reuse
+2026-07-23 19:32:27 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-07-23 19:34:07 | Completed: add_entity_reuse
+2026-07-23 19:34:07 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-07-23 19:34:30 | Completed: add_entity_reuse
+2026-07-23 19:34:30 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-07-23 23:37:19 | Completed: add_entity_reuse
+2026-07-23 23:39:29 | df is saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-07-23 23:39:29 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-07-23 23:50:26 | Generated embeddings shape: (1972461, 768)
+2026-07-23 23:51:03 | Trying k=4
+2026-07-24 00:01:08 | k=4, silhouette_score=0.0212
+2026-07-24 00:01:08 | Trying k=8
+2026-07-24 00:11:20 | k=8, silhouette_score=0.0239
+2026-07-24 00:11:20 | Trying k=12
+2026-07-24 00:21:38 | k=12, silhouette_score=0.0257
+2026-07-24 00:21:38 | Trying k=16
+2026-07-24 00:32:01 | k=16, silhouette_score=0.0275
+2026-07-24 00:32:01 | Trying k=20
+2026-07-24 00:42:31 | k=20, silhouette_score=0.0285
+2026-07-24 00:42:31 | Trying k=24
+2026-07-24 00:53:03 | k=24, silhouette_score=0.0290
+2026-07-24 00:53:03 | Trying k=28
+2026-07-24 01:03:25 | k=28, silhouette_score=0.0303
+2026-07-24 01:03:25 | Trying k=32
+2026-07-24 01:13:28 | k=32, silhouette_score=0.0304
+2026-07-24 01:13:28 | Trying k=36
+2026-07-24 01:23:32 | k=36, silhouette_score=0.0311
+2026-07-24 01:23:32 | Trying k=40
+2026-07-24 01:33:36 | k=40, silhouette_score=0.0307
+2026-07-24 01:33:36 | Trying k=44
+2026-07-24 01:43:39 | k=44, silhouette_score=0.0289
+2026-07-24 01:43:39 | Trying k=48
+2026-07-24 01:53:43 | k=48, silhouette_score=0.0277
+2026-07-24 01:53:43 | Trying k=52
+2026-07-24 02:03:47 | k=52, silhouette_score=0.0292
+2026-07-24 02:03:47 | Trying k=56
+2026-07-24 02:13:51 | k=56, silhouette_score=0.0307
+2026-07-24 02:13:51 | Trying k=60
+2026-07-24 02:23:56 | k=60, silhouette_score=0.0298
+2026-07-24 02:23:56 | Trying k=64
+2026-07-24 02:34:01 | k=64, silhouette_score=0.0282
+2026-07-24 02:34:01 | Trying k=68
+2026-07-24 02:44:05 | k=68, silhouette_score=0.0294
+2026-07-24 02:44:05 | Trying k=72
+2026-07-24 02:54:09 | k=72, silhouette_score=0.0273
+2026-07-24 02:54:09 | Trying k=76
+2026-07-24 03:04:14 | k=76, silhouette_score=0.0311
+2026-07-24 03:04:14 | Trying k=80
+2026-07-24 03:14:18 | k=80, silhouette_score=0.0303
+2026-07-24 03:14:18 | Trying k=84
+2026-07-24 03:24:23 | k=84, silhouette_score=0.0303
+2026-07-24 03:24:23 | Trying k=88
+2026-07-24 03:34:28 | k=88, silhouette_score=0.0287
+2026-07-24 03:34:28 | Trying k=92
+2026-07-24 03:44:32 | k=92, silhouette_score=0.0285
+2026-07-24 03:44:32 | Trying k=96
+2026-07-24 03:54:37 | k=96, silhouette_score=0.0299
+2026-07-24 03:54:37 | Trying k=100
+2026-07-24 04:04:42 | k=100, silhouette_score=0.0309
+2026-07-24 04:04:42 | Trying k=104
+2026-07-24 04:14:47 | k=104, silhouette_score=0.0301
+2026-07-24 04:14:47 | Trying k=108
+2026-07-24 04:24:51 | k=108, silhouette_score=0.0302
+2026-07-24 04:24:51 | Trying k=112
+2026-07-24 04:34:55 | k=112, silhouette_score=0.0310
+2026-07-24 04:34:55 | Trying k=116
+2026-07-24 04:45:00 | k=116, silhouette_score=0.0297
+2026-07-24 04:45:00 | Trying k=120
+2026-07-24 04:55:06 | k=120, silhouette_score=0.0301
+2026-07-24 04:55:06 | Trying k=124
+2026-07-24 05:05:10 | k=124, silhouette_score=0.0302
+2026-07-24 05:05:10 | Trying k=128
+2026-07-24 05:15:13 | k=128, silhouette_score=0.0295
+2026-07-24 05:15:13 | Best k=36, silhouette_score=0.0311
+2026-07-24 05:15:13 | Completed: auto_kmeans_topics
+2026-07-24 05:17:03 | df is saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-07-24 05:17:03 | Saved df with K_Means topics. Best k = 36
+2026-07-24 05:18:17 | Completed: make_topic_stats
+2026-07-24 05:18:35 | Completed: make_topic_account_stats
+2026-07-24 05:20:24 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_36_12H_accountids for topic column K_Means_topic_36 and time window 12H.
+2026-07-24 05:20:24 | Completed: add_posting_same_topic
+2026-07-24 05:25:23 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_36_3D_accountids for topic column K_Means_topic_36 and time window 3D.
+2026-07-24 05:25:23 | Completed: add_posting_same_topic
+2026-07-24 05:26:04 | Updating column postid to output_df
+2026-07-24 05:26:04 | Updating column accountid to output_df
+2026-07-24 05:26:04 | Updating column post_time to output_df
+2026-07-24 05:26:04 | Updating column post_language to output_df
+2026-07-24 05:26:04 | Updating column post_text to output_df
+2026-07-24 05:26:04 | Updating column is_control to output_df
+2026-07-24 05:26:04 | Updating column hashtags to output_df
+2026-07-24 05:26:04 | Updating column account_mentions to output_df
+2026-07-24 05:26:04 | Updating column urls to output_df
+2026-07-24 05:26:04 | Updating column clean_text_with_entities to output_df
+2026-07-24 05:26:04 | Updating column clean_text_without_enteties to output_df
+2026-07-24 05:26:04 | Updating column text_len to output_df
+2026-07-24 05:26:04 | Updating column translated_post to output_df
+2026-07-24 05:26:04 | Updating column ner_entities to output_df
+2026-07-24 05:26:04 | Updating column hashtags_reuse_12H_accountids to output_df
+2026-07-24 05:26:04 | Updating column account_mentions_reuse_12H_accountids to output_df
+2026-07-24 05:26:04 | Updating column urls_reuse_12H_accountids to output_df
+2026-07-24 05:26:05 | Updating column ner_entities_reuse_12H_accountids to output_df
+2026-07-24 05:26:05 | Updating column hashtags_reuse_3D_accountids to output_df
+2026-07-24 05:26:05 | Updating column account_mentions_reuse_3D_accountids to output_df
+2026-07-24 05:26:05 | Updating column urls_reuse_3D_accountids to output_df
+2026-07-24 05:26:05 | Updating column ner_entities_reuse_3D_accountids to output_df
+2026-07-24 05:26:05 | Updating column K_Means_topic_36 to output_df
+2026-07-24 05:26:05 | Updating column posting_same_topic_K_Means_topic_36_12H_accountids to output_df
+2026-07-24 05:26:05 | Updating column posting_same_topic_K_Means_topic_36_3D_accountids to output_df
