@@ -2268,3 +2268,7 @@
 2026-07-24 12:33:25 | 267 posts: pes_Arab → eng_Latn
 2026-07-24 12:33:39 | 1752 posts: pol_Latn → eng_Latn
 2026-07-24 12:36:07 | 69371 posts: por_Latn → eng_Latn
+2026-07-24 13:58:18 | 12039 posts: ron_Latn → eng_Latn
+2026-07-24 14:13:00 | 5490 posts: rus_Cyrl → eng_Latn
+2026-07-24 14:16:39 | 1072 posts: slk_Latn → eng_Latn
+2026-07-24 14:17:59 | 2202 posts: slv_Latn → eng_Latn
