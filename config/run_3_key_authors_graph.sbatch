@@ -16,7 +16,7 @@
 #SBATCH --mail-user=amitner@post.bgu.ac.il	            ### user's email for sending job status messages
 #SBATCH --mail-type=ALL			                        ### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
 #SBATCH --mem=60G				                        ### ammount of RAM memory, allocating more than 60G requires IT team's permission
-#SBATCH --cpus-per-task=24
+#SBATCH --cpus-per-task=48
 
 ################  Following lines will be executed by a compute node    #######################
 
