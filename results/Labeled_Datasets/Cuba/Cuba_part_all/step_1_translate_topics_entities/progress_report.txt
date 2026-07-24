@@ -2272,3 +2272,5 @@
 2026-07-24 14:13:00 | 5490 posts: rus_Cyrl → eng_Latn
 2026-07-24 14:16:39 | 1072 posts: slk_Latn → eng_Latn
 2026-07-24 14:17:59 | 2202 posts: slv_Latn → eng_Latn
+2026-07-24 14:26:49 | 2822 posts: som_Latn → eng_Latn
+2026-07-24 14:30:52 | 5357733 posts: spa_Latn → eng_Latn

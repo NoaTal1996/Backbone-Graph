@@ -24,9 +24,9 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 # 2_BERTopic_clustering
 ```bash
 
-user="$USER"
 country="Ecuador"
 
+user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
 
 for min_cluster_size in 10 128 256 512; do
