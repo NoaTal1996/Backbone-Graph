@@ -392,3 +392,36 @@ Continuing to Topic Clustering
 2026-07-24 13:29:39 | Saved df with K_Means topics. Best k = 128
 2026-07-24 13:29:47 | Completed: make_topic_stats
 2026-07-24 13:29:50 | Completed: make_topic_account_stats
+2026-07-24 13:30:23 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_128_12H_accountids for topic column K_Means_topic_128 and time window 12H.
+2026-07-24 13:30:23 | Completed: add_posting_same_topic
+2026-07-24 13:31:11 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_128_3D_accountids for topic column K_Means_topic_128 and time window 3D.
+2026-07-24 13:31:11 | Completed: add_posting_same_topic
+2026-07-24 13:31:25 | Updating column postid
+2026-07-24 13:31:25 | Updating column accountid
+2026-07-24 13:31:25 | Updating column post_time
+2026-07-24 13:31:25 | Updating column post_language
+2026-07-24 13:31:25 | Updating column post_text
+2026-07-24 13:31:25 | Updating column is_control
+2026-07-24 13:31:25 | Updating column hashtags
+2026-07-24 13:31:26 | Updating column account_mentions
+2026-07-24 13:31:26 | Updating column urls
+2026-07-24 13:31:26 | Updating column clean_text_with_entities
+2026-07-24 13:31:26 | Updating column clean_text_without_enteties
+2026-07-24 13:31:26 | Updating column text_len
+2026-07-24 13:31:26 | Updating column translated_post
+2026-07-24 13:31:26 | Updating column ner_entities
+2026-07-24 13:31:26 | Updating column hashtags_reuse_12H_accountids
+2026-07-24 13:31:26 | Updating column account_mentions_reuse_12H_accountids
+2026-07-24 13:31:26 | Updating column urls_reuse_12H_accountids
+2026-07-24 13:31:26 | Updating column ner_entities_reuse_12H_accountids
+2026-07-24 13:31:26 | Updating column hashtags_reuse_3D_accountids
+2026-07-24 13:31:26 | Updating column account_mentions_reuse_3D_accountids
+2026-07-24 13:31:26 | Updating column urls_reuse_3D_accountids
+2026-07-24 13:31:26 | Updating column ner_entities_reuse_3D_accountids
+2026-07-24 13:31:26 | Updating column K_Means_topic_128
+2026-07-24 13:31:26 | Updating column posting_same_topic_K_Means_topic_128_12H_accountids
+2026-07-24 13:31:26 | Updating column posting_same_topic_K_Means_topic_128_3D_accountids
+2026-07-24 13:32:26 | Saved final output_df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities
+2026-07-24 13:32:27 | Finished Running Successfully
+2026-07-24 13:32:27 | #######################################################
+2026-07-24 13:32:27 | #######################################################

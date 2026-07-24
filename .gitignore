@@ -22,6 +22,7 @@ logs/
 *.graphml
 *.gzip.parquet
 *.parquet
+*.npy
 
 # cache
 .tectonic-cache/
