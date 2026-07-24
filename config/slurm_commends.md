@@ -24,7 +24,7 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 # 2_BERTopic_clustering
 ```bash
 
-country="Ecuador"
+country="Iran_1"
 
 user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
