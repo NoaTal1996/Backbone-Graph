@@ -1,12 +1,12 @@
 Hardware and Slurm allocation
 ---------------------------------------------------------------------------
-Hostname:               cs-4090-10.auth.ad.bgu.ac.il
+Hostname:               ise-4090-15.auth.ad.bgu.ac.il
 CPU model:              AMD EPYC 7302 16-Core Processor
 Node physical cores:    16
 Node logical CPUs:      32
 Allocated CPUs:         6
-Allocated CPU IDs:      [0, 1, 2, 16, 17, 18]
-Slurm job ID:           19536747
+Allocated CPU IDs:      [3, 4, 5, 19, 20, 21]
+Slurm job ID:           19542646
 Allocated GPUs:         1
 CUDA version:           12.6
 GPU 0 name:          NVIDIA GeForce RTX 4090

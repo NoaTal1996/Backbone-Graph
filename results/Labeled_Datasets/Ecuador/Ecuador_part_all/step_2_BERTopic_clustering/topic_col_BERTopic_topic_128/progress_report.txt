@@ -72,3 +72,101 @@ save to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clu
 2026-07-24 16:35:05 | [update_df_columns_atomically]
  Updating columns: ['translated_post', 'accountid', 'post_time', 'is_control'] 
 from df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 16:54:05 | [update_df_columns_atomically]
+ Updated columns: translated_post, accountid, post_time, is_control 
+save to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 16:54:05 | Completed: update_df_columns_atomically
+2026-07-24 16:54:05 | Initialized shared output file: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 16:54:11 | Loaded validated embeddings from: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/post_embeddings.npy, shape: (1470529, 768)
+2026-07-24 16:54:13 | Building and saving chunk models to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq with chunk size 131072 and min_topic_size 128 on device cuda
+2026-07-24 16:54:20 | Saved chunk model 0 for texts 0 to 131072 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_0
+2026-07-24 16:54:27 | Saved chunk model 1 for texts 131072 to 262144 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_1
+2026-07-24 16:54:35 | Saved chunk model 2 for texts 262144 to 393216 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_2
+2026-07-24 16:54:43 | Saved chunk model 3 for texts 393216 to 524288 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_3
+2026-07-24 16:54:51 | Saved chunk model 4 for texts 524288 to 655360 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_4
+2026-07-24 16:54:59 | Saved chunk model 5 for texts 655360 to 786432 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_5
+2026-07-24 16:55:07 | Saved chunk model 6 for texts 786432 to 917504 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_6
+2026-07-24 16:55:16 | Saved chunk model 7 for texts 917504 to 1048576 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_7
+2026-07-24 16:55:24 | Saved chunk model 8 for texts 1048576 to 1179648 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_8
+2026-07-24 16:55:32 | Saved chunk model 9 for texts 1179648 to 1310720 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_9
+2026-07-24 16:55:42 | Saved chunk model 10 for texts 1310720 to 1441792 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_10
+2026-07-24 16:55:43 | Saved chunk model 11 for texts 1441792 to 1470529 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/chunk_model_11
+2026-07-24 16:55:44 | Completed: build_and_save_chunk_models
+2026-07-24 16:55:57 | Merged model saved to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/BERTopic_models_min_topic_size_128/run_6dikaucq/merged_BERTopic_model_min_similarity_0.7
+2026-07-24 16:55:57 | Completed: load_and_merge_BERTopic_models
+2026-07-24 16:56:12 | Backup df saved to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/new_columns_df.parquet
+2026-07-24 16:56:12 | [update_df_columns_atomically]
+ Updating columns: ['BERTopic_topic_128', 'BERTopic_prob_128', 'BERTopic_topic_128_top_words'] 
+from df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 17:03:34 | [update_df_columns_atomically]
+ Updated columns: BERTopic_topic_128, BERTopic_prob_128, BERTopic_topic_128_top_words 
+save to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 17:03:34 | Completed: update_df_columns_atomically
+2026-07-24 17:03:35 | Saved df with BERTopic topics.
+2026-07-24 17:04:31 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_128_12H_accountids for topic column BERTopic_topic_128 and time window 12H.Convert to JSON string for parquet storage.
+2026-07-24 17:04:31 | Completed: add_posting_same_topic
+2026-07-24 17:07:26 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_128_3D_accountids for topic column BERTopic_topic_128 and time window 3D.Convert to JSON string for parquet storage.
+2026-07-24 17:07:27 | Completed: add_posting_same_topic
+2026-07-24 17:07:27 | [update_df_columns_atomically]
+ Updating columns: ['posting_same_topic_BERTopic_topic_128_12H_accountids', 'posting_same_topic_BERTopic_topic_128_3D_accountids'] 
+from df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 17:12:43 | [update_df_columns_atomically]
+ Updated columns: posting_same_topic_BERTopic_topic_128_12H_accountids, posting_same_topic_BERTopic_topic_128_3D_accountids 
+save to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 17:12:43 | Completed: update_df_columns_atomically
+2026-07-24 17:12:43 | Saved posting-same-topic columns: posting_same_topic_BERTopic_topic_128_12H_accountids, posting_same_topic_BERTopic_topic_128_3D_accountids
+2026-07-24 17:13:38 | Completed: make_topic_stats
+2026-07-24 17:13:39 | Completed: make_topic_account_stats
+2026-07-24 17:14:04 | Updating column translated_post
+2026-07-24 17:14:04 | Updating column accountid
+2026-07-24 17:14:04 | Updating column post_time
+2026-07-24 17:14:04 | Updating column is_control
+2026-07-24 17:14:04 | Updating column BERTopic_topic_128
+2026-07-24 17:14:04 | Updating column BERTopic_prob_128
+2026-07-24 17:14:04 | Updating column BERTopic_topic_128_top_words
+2026-07-24 17:14:04 | Updating column posting_same_topic_BERTopic_topic_128_12H_accountids
+2026-07-24 17:14:04 | Updating column posting_same_topic_BERTopic_topic_128_3D_accountids
+2026-07-24 17:14:04 | [update_df_columns_atomically]
+ Updating columns: ['postid', 'post_text', 'application_name', 'post_language', 'in_reply_to_postid', 'in_reply_to_accountid', 'post_time', 'accountid', 'account_profile_description', 'follower_count', 'following_count', 'account_creation_date', 'is_repost', 'reposted_accountid', 'reposted_postid', 'hashtags', 'urls', 'account_mentions', 'is_control', 'clean_text_with_entities', 'clean_text_without_enteties', 'text_len', 'translated_post', 'ner_entities', 'hashtags_reuse_12H_accountids', 'account_mentions_reuse_12H_accountids', 'urls_reuse_12H_accountids', 'ner_entities_reuse_12H_accountids', 'hashtags_reuse_3D_accountids', 'account_mentions_reuse_3D_accountids', 'urls_reuse_3D_accountids', 'ner_entities_reuse_3D_accountids', 'K_Means_topic_4', 'posting_same_topic_K_Means_topic_4_12H_accountids', 'posting_same_topic_K_Means_topic_4_3D_accountids', 'BERTopic_topic_128', 'BERTopic_prob_128', 'BERTopic_topic_128_top_words', 'posting_same_topic_BERTopic_topic_128_12H_accountids', 'posting_same_topic_BERTopic_topic_128_3D_accountids'] 
+from df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 22:39:14 | Input data path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-24 22:39:14 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128
+2026-07-24 22:39:14 | Wrote hardware report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/hardware_info.txt
+2026-07-24 22:39:14 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-24 22:39:14 | Today date: 2026-07-24
+2026-07-24 22:39:14 | Input data path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-24 22:39:14 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128
+2026-07-24 22:39:14 | Loaded df: Ecuador_part_all_step_1.gzip.parquet.
+2026-07-24 22:39:14 | df shape: (1470529, 4)
+2026-07-24 22:39:14 | min_topic_size: 128
+2026-07-24 22:39:14 | [update_df_columns_atomically]
+ Updating columns: ['translated_post', 'accountid', 'post_time', 'is_control'] 
+from df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-24 22:42:35 | FAILED: update_df_columns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-25 15:03:32 | Input data path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-25 15:03:32 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128
+2026-07-25 15:03:32 | Wrote hardware report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128/hardware_info.txt
+2026-07-25 15:03:32 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-25 15:03:32 | Today date: 2026-07-25
+2026-07-25 15:03:32 | Input data path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-25 15:03:32 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_128
+2026-07-25 15:03:32 | Loaded df: Ecuador_part_all_step_1.gzip.parquet.
+2026-07-25 15:03:32 | df shape: (1470529, 4)
+2026-07-25 15:03:32 | min_topic_size: 128
+2026-07-25 15:03:32 | [update_df_columns_atomically]
+ Updating columns: ['translated_post', 'accountid', 'post_time', 'is_control'] 
+from df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-07-25 15:17:44 | Casting iterable column to JSON: hashtags
+2026-07-25 15:17:48 | Casting iterable column to JSON: urls
+2026-07-25 15:17:53 | Casting iterable column to JSON: account_mentions
+2026-07-25 15:17:59 | Casting iterable column to JSON: ner_entities
+2026-07-25 15:18:04 | Casting iterable column to JSON: hashtags_reuse_12H_accountids
+2026-07-25 15:18:10 | Casting iterable column to JSON: account_mentions_reuse_12H_accountids
+2026-07-25 15:18:19 | Casting iterable column to JSON: urls_reuse_12H_accountids
+2026-07-25 15:18:23 | Casting iterable column to JSON: ner_entities_reuse_12H_accountids
+2026-07-25 15:18:29 | Casting iterable column to JSON: hashtags_reuse_3D_accountids
+2026-07-25 15:18:36 | Casting iterable column to JSON: account_mentions_reuse_3D_accountids
+2026-07-25 15:18:47 | Casting iterable column to JSON: urls_reuse_3D_accountids
+2026-07-25 15:18:52 | Casting iterable column to JSON: ner_entities_reuse_3D_accountids
+2026-07-25 15:18:59 | Casting iterable column to JSON: posting_same_topic_K_Means_topic_4_12H_accountids
+2026-07-25 15:19:22 | Casting iterable column to JSON: posting_same_topic_K_Means_topic_4_3D_accountids

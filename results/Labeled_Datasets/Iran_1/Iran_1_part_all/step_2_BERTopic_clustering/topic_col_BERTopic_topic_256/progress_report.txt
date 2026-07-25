@@ -37,3 +37,45 @@ save to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clust
  Updating columns: ['BERTopic_topic_256', 'BERTopic_prob_256', 'BERTopic_topic_256_top_words'] 
 from df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
 2026-07-24 14:37:55 | FAILED: update_df_columns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-24 17:19:23 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-24 17:19:23 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-24 17:19:23 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/hardware_info.txt
+2026-07-24 17:19:23 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-24 17:19:23 | Today date: 2026-07-24
+2026-07-24 17:19:23 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-24 17:19:23 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-24 17:19:23 | Loaded df: Iran_1_part_all_step_1.gzip.parquet.
+2026-07-24 17:19:23 | df shape: (1322573, 4)
+2026-07-24 17:19:23 | min_topic_size: 256
+2026-07-24 17:19:24 | [update_df_columns_atomically]
+ Updating columns: ['translated_post', 'accountid', 'post_time', 'is_control'] 
+from df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-24 17:19:24 | FAILED: update_df_columns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-24 22:41:04 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-24 22:41:04 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-24 22:41:04 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/hardware_info.txt
+2026-07-24 22:41:04 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-24 22:41:04 | Today date: 2026-07-24
+2026-07-24 22:41:04 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-24 22:41:04 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-24 22:41:04 | Loaded df: Iran_1_part_all_step_1.gzip.parquet.
+2026-07-24 22:41:04 | df shape: (1322573, 4)
+2026-07-24 22:41:04 | min_topic_size: 256
+2026-07-24 22:41:04 | [update_df_columns_atomically]
+ Updating columns: ['translated_post', 'accountid', 'post_time', 'is_control'] 
+from df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-24 22:41:18 | FAILED: update_df_columns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-25 15:09:35 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-25 15:09:35 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-25 15:09:35 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/hardware_info.txt
+2026-07-25 15:09:35 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-25 15:09:35 | Today date: 2026-07-25
+2026-07-25 15:09:35 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-25 15:09:35 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256
+2026-07-25 15:09:35 | Loaded df: Iran_1_part_all_step_1.gzip.parquet.
+2026-07-25 15:09:35 | df shape: (1322573, 4)
+2026-07-25 15:09:35 | min_topic_size: 256
+2026-07-25 15:09:35 | [update_df_columns_atomically]
+ Updating columns: ['translated_post', 'accountid', 'post_time', 'is_control'] 
+from df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-25 15:09:47 | FAILED: update_df_columns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
