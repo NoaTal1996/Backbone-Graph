@@ -1,11 +1,19 @@
 ### Interactive Job ###
+```bash
 sinteractive  --time 0-8:00:00  --gpu rtx_6000:1
 sinteractive --time 0-8:00:00 --cpu 24
 
-sjupyter --gpu rtx_6000:1
-
+sjupyter --gpu rtx_6000:1  # not used
+```
 
 ### Non-Interactive Job ###
+
+# Run Full Pipeline
+```bash
+country="Ecuador_Test"
+
+/home/${USER}/Backbone-Graph/config/run_full_pipeline.sh ${country}
+```
 
 # 1_translate_topics_entities
 ```bash
