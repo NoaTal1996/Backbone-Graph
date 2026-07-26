@@ -1,0 +1,33 @@
+2026-07-21 18:29:33 | Input data path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/UAE_part_all_step_1.gzip.parquet
+2026-07-21 18:29:33 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512
+2026-07-21 18:29:33 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-21 18:29:33 | Today date: 2026-07-21
+2026-07-21 18:29:33 | Input data path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/UAE_part_all_step_1.gzip.parquet
+2026-07-21 18:29:33 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512
+2026-07-21 18:29:33 | Loaded df: UAE_part_all_step_1.gzip.parquet.
+2026-07-21 18:29:33 | df shape: (1705178, 32)
+2026-07-21 18:29:33 | min_topic_size: 512
+2026-07-21 18:29:39 | Embeddings Model loaded: SentenceTransformer on device cuda
+2026-07-21 18:40:35 | Generated embeddings shape: (1705178, 768)
+2026-07-21 18:40:36 | Building and saving chunk models to ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512 with chunk size 131072 and min_topic_size 512 on device cuda
+2026-07-21 18:40:48 | Saved chunk model 0 for texts 0 to 131072 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_0
+2026-07-21 18:40:58 | Saved chunk model 1 for texts 131072 to 262144 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_1
+2026-07-21 18:41:09 | Saved chunk model 2 for texts 262144 to 393216 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_2
+2026-07-21 18:41:19 | Saved chunk model 3 for texts 393216 to 524288 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_3
+2026-07-21 18:41:32 | Saved chunk model 4 for texts 524288 to 655360 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_4
+2026-07-21 18:41:44 | Saved chunk model 5 for texts 655360 to 786432 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_5
+2026-07-21 18:41:58 | Saved chunk model 6 for texts 786432 to 917504 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_6
+2026-07-21 18:42:08 | Saved chunk model 7 for texts 917504 to 1048576 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_7
+2026-07-21 18:42:18 | Saved chunk model 8 for texts 1048576 to 1179648 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_8
+2026-07-21 18:42:28 | Saved chunk model 9 for texts 1179648 to 1310720 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_9
+2026-07-21 18:42:40 | Saved chunk model 10 for texts 1310720 to 1441792 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_10
+2026-07-21 18:42:50 | Saved chunk model 11 for texts 1441792 to 1572864 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_11
+2026-07-21 18:42:58 | Saved chunk model 12 for texts 1572864 to 1703936 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_12
+2026-07-21 18:42:58 | Saved chunk model 13 for texts 1703936 to 1705178 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/chunk_model_13
+2026-07-21 18:42:59 | Completed: build_and_save_chunk_models
+2026-07-21 18:43:15 | Merged model saved to ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/merged_BERTopic_model_min_similarity_0.7
+2026-07-21 18:43:15 | Completed: load_and_merge_BERTopic_models
+2026-07-21 18:44:02 | [update_df_collumns_atomically]
+ Updating columns: ['BERTopic_topic_512', 'BERTopic_prob_512', 'BERTopic_topic_512_top_words'] 
+from df to ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/UAE_part_all_step_2.gzip.parquet
+2026-07-21 18:44:19 | FAILED: update_df_collumns_atomically | Failed to update parquet file: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_big_data_clustering/UAE_part_all_step_2.gzip.parquet

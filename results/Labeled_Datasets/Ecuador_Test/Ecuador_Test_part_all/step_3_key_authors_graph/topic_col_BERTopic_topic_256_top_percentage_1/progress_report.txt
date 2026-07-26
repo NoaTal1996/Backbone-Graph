@@ -1,0 +1,1211 @@
+2026-07-26 13:34:01 | Input data path: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_2_BERTopic_clustering/Ecuador_Test_part_all_step_2.gzip.parquet
+2026-07-26 13:34:01 | Output path: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-26 13:34:05 | Wrote hardware report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
+2026-07-26 13:34:05 | Starting new execution of key_authors_graph.ipynb
+2026-07-26 13:34:05 | df path: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_2_BERTopic_clustering/Ecuador_Test_part_all_step_2.gzip.parquet
+2026-07-26 13:34:05 | df with 998 rows and 24 columns
+2026-07-26 13:34:05 | Output path: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-26 13:34:05 | Saved initial copy of df to ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Ecuador_Test_part_all_step_3.gzip.parquet
+2026-07-26 13:34:10 | Completed: compute_entities_tfidf
+2026-07-26 13:34:10 | Completed: get_top_entities
+2026-07-26 13:34:10 | Completed: compute_entities_tfidf
+2026-07-26 13:34:10 | Completed: compute_entities_tfidf
+2026-07-26 13:34:10 | Completed: compute_entities_tfidf
+2026-07-26 13:34:10 | Completed: compute_post_tfidf
+2026-07-26 13:34:10 | Updated disk df ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Ecuador_Test_part_all_step_3.gzip.parquet from memory df
+2026-07-26 13:34:11 | Completed: compute_author_key_score
+2026-07-26 13:34:11 | Completed: get_topic_top_authors
+2026-07-26 13:34:11 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:34:11 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:12 | Completed: get_io_authors_by_ratio
+2026-07-26 13:34:12 | Completed: save_and_print_io_key_summary
+2026-07-26 13:34:13 | Completed: plot_venn_3_sets
+2026-07-26 13:34:13 | Completed: get_io_authors_by_ratio
+2026-07-26 13:34:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: plot_venn_3_sets
+2026-07-26 13:34:13 | Completed: get_io_authors_by_ratio
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:34:15 | Completed: build_accounts_graph
+2026-07-26 13:34:16 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-26 13:34:16 | Completed: compute_indicators
+2026-07-26 13:34:18 | Completed: compute_zscore
+2026-07-26 13:34:19 | Completed: compute_indicators_information_gain
+2026-07-26 13:34:19 | Completed: plot_indicators_information_gain
+2026-07-26 13:34:23 | Completed: plot_indicators_distributions
+2026-07-26 13:34:25 | Completed: plot_indicator_boxplots
+2026-07-26 13:34:26 | Completed: plot_io_correlations
+2026-07-26 13:34:26 | Completed: get_top_authors_by_indicator
+2026-07-26 13:34:29 | Completed: plot_pagerank_key_score_correlation
+2026-07-26 13:34:38 | Saved report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_report.txt
+2026-07-26 13:34:38 | Saved model to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_model.joblib
+2026-07-26 13:34:38 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_confusion_matrix.png
+2026-07-26 13:34:38 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_predictions.csv
+2026-07-26 13:34:38 | Completed: io_classification
+2026-07-26 13:34:44 | Saved report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_report.txt
+2026-07-26 13:34:44 | Saved model to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_model.joblib
+2026-07-26 13:34:44 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_confusion_matrix.png
+2026-07-26 13:34:44 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_predictions.csv
+2026-07-26 13:34:44 | Completed: io_classification
+2026-07-26 13:34:51 | Saved report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_report.txt
+2026-07-26 13:34:51 | Saved model to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_model.joblib
+2026-07-26 13:34:51 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_confusion_matrix.png
+2026-07-26 13:34:51 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_predictions.csv
+2026-07-26 13:34:51 | Completed: io_classification
+2026-07-26 13:34:53 | Completed: plot_shap_analysis
+2026-07-26 13:35:00 | Saved report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_report.txt
+2026-07-26 13:35:00 | Saved model to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_model.joblib
+2026-07-26 13:35:00 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_confusion_matrix.png
+2026-07-26 13:35:00 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_predictions.csv
+2026-07-26 13:35:00 | Completed: io_classification
+2026-07-26 13:35:07 | Saved report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_report.txt
+2026-07-26 13:35:07 | Saved model to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_model.joblib
+2026-07-26 13:35:07 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_confusion_matrix.png
+2026-07-26 13:35:07 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_predictions.csv
+2026-07-26 13:35:07 | Completed: io_classification
+2026-07-26 13:35:07 | Saved report to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_report.txt
+2026-07-26 13:35:07 | Saved model to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_model.joblib
+2026-07-26 13:35:07 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_confusion_matrix.png
+2026-07-26 13:35:07 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_predictions.csv
+2026-07-26 13:35:07 | Completed: io_classification
+2026-07-26 13:35:08 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_auc_pr_comparison.png
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_post_tfidf
+2026-07-26 13:35:09 | Completed: compute_author_key_score
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_post_tfidf
+2026-07-26 13:35:09 | Completed: compute_author_key_score
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_entities_tfidf
+2026-07-26 13:35:09 | Completed: compute_post_tfidf
+2026-07-26 13:35:09 | Completed: compute_author_key_score
+2026-07-26 13:35:10 | Completed: compute_entities_tfidf
+2026-07-26 13:35:10 | Completed: compute_entities_tfidf
+2026-07-26 13:35:10 | Completed: compute_entities_tfidf
+2026-07-26 13:35:10 | Completed: compute_post_tfidf
+2026-07-26 13:35:10 | Completed: compute_author_key_score
+2026-07-26 13:35:10 | Completed: compute_entities_tfidf
+2026-07-26 13:35:10 | Completed: compute_entities_tfidf
+2026-07-26 13:35:10 | Completed: compute_entities_tfidf
+2026-07-26 13:35:10 | Completed: compute_post_tfidf
+2026-07-26 13:35:10 | Completed: compute_author_key_score
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:13 | #######################################################
+2026-07-26 13:35:13 | #######################################################
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Classification failed for topic_col=K_Means_topic_108, top_percentage=0.01, account_relations=interactions: division by zero
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: build_accounts_graph
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:13 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:13 | #######################################################
+2026-07-26 13:35:14 | #######################################################
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Classification failed for topic_col=K_Means_topic_108, top_percentage=0.05, account_relations=interactions: division by zero
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: build_accounts_graph
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: compute_indicators
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: get_all_topics_key_authors
+2026-07-26 13:35:14 | Completed: build_accounts_graph
+2026-07-26 13:35:14 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:14 | #######################################################
+2026-07-26 13:35:14 | #######################################################
+2026-07-26 13:35:15 | Classification failed for topic_col=K_Means_topic_108, top_percentage=0.1, account_relations=interactions: division by zero
+2026-07-26 13:35:15 | Completed: build_accounts_graph
+2026-07-26 13:35:15 | Completed: build_accounts_graph
+2026-07-26 13:35:15 | Completed: build_accounts_graph
+2026-07-26 13:35:15 | Completed: compute_indicators
+2026-07-26 13:35:15 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:15 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:15 | Completed: compute_indicators
+2026-07-26 13:35:15 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | Classification failed for topic_col=K_Means_topic_108, top_percentage=1.0, account_relations=interactions: division by zero
+2026-07-26 13:35:15 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:15 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:15 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | Classification failed for topic_col=K_Means_topic_108, top_percentage=0.2, account_relations=interactions: division by zero
+2026-07-26 13:35:15 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | Classification failed for topic_col=K_Means_topic_108, top_percentage=0.5, account_relations=interactions: division by zero
+2026-07-26 13:35:15 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | #######################################################
+2026-07-26 13:35:15 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=interactions: division by zero
+2026-07-26 13:35:15 | Completed: compute_indicators
+2026-07-26 13:35:15 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:15 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:16 | Completed: compute_indicators
+2026-07-26 13:35:16 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:16 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Completed: compute_indicators
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:16 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:16 | Completed: build_accounts_graph
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=interactions: division by zero
+2026-07-26 13:35:16 | Completed: build_accounts_graph
+2026-07-26 13:35:16 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | #######################################################
+2026-07-26 13:35:16 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | Completed: compute_indicators
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | Completed: build_accounts_graph
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=interactions: division by zero
+2026-07-26 13:35:17 | #######################################################
+2026-07-26 13:35:17 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=interactions: division by zero
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=interactions: division by zero
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=text_similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:18 | FAILED: build_accounts_graph | division by zero
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=interactions: division by zero
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Completed: compute_indicators
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:18 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | #######################################################
+2026-07-26 13:35:18 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:18 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:19 | #######################################################
+2026-07-26 13:35:19 | #######################################################
+2026-07-26 13:35:19 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=text_similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:19 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:19 | #######################################################
+2026-07-26 13:35:19 | #######################################################
+2026-07-26 13:35:19 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=text_similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:19 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:19 | Completed: build_accounts_graph
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Completed: compute_indicators
+2026-07-26 13:35:19 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:20 | #######################################################
+2026-07-26 13:35:20 | #######################################################
+2026-07-26 13:35:20 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=text_similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:20 | #######################################################
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | #######################################################
+2026-07-26 13:35:20 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:20 | #######################################################
+2026-07-26 13:35:20 | #######################################################
+2026-07-26 13:35:20 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:20 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:20 | Completed: compute_indicators
+2026-07-26 13:35:20 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity+text_similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity+text_similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=text_similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | Completed: build_accounts_graph
+2026-07-26 13:35:21 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | #######################################################
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:21 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=text_similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity+text_similarity: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+interactions_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | #######################################################
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: build_accounts_graph
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:22 | Completed: compute_indicators
+2026-07-26 13:35:23 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:23 | #######################################################
+2026-07-26 13:35:23 | #######################################################
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:23 | #######################################################
+2026-07-26 13:35:23 | #######################################################
+2026-07-26 13:35:23 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_108_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_K_Means_topic_108_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | FAILED: compute_indicators | maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | #######################################################
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | #######################################################
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: build_accounts_graph
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+interactions_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_256_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_256_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_128_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_128_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_1.0_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_512_similarity+text_similarity+interactions_top_percentage_0.5_per_topic_topic_col_BERTopic_topic_512_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.01_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.05_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Completed: compute_indicators
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet
+2026-07-26 13:35:23 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador_Test/Ecuador_Test_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_BERTopic_topic_10_similarity+text_similarity+interactions_top_percentage_0.2_per_topic_topic_col_BERTopic_topic_10_undirected_indicators.parquet

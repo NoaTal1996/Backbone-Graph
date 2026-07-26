@@ -1,0 +1,116 @@
+2026-07-23 17:12:49 | Input data path: ../data/Labeled_Datasets/Cuba/Cuba_part_all.gzip.parquet
+2026-07-23 17:12:49 | Output path: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test
+2026-07-23 17:12:49 | Using device: cpu
+2026-07-23 17:12:49 | Running in test mode: only processing first 100 rows of the dataset.
+2026-07-23 17:12:49 | Storing output data to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/Cuba_part_all_step_1.gzip.parquet
+2026-07-23 17:12:49 | postid duplication sum 0 (0.000%)
+2026-07-23 17:12:50 | Undefined post language percentage **before** mapping: 0.00%
+2026-07-23 17:12:50 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-23 17:12:50 | Removing 0 posts with undefined language code und
+2026-07-23 17:12:50 | Using device: cpu
+2026-07-23 17:13:18 | Loaded facebook/nllb-200-distilled-600M on cpu with dtype torch.float32
+2026-07-23 17:13:18 | Translation pipeline created.
+2026-07-23 17:13:18 | 1 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-23 17:13:40 | 99 posts: spa_Latn → eng_Latn
+2026-07-23 17:23:45 | Completed: transformers_translator
+2026-07-23 17:23:45 | Translation completed.
+2026-07-23 17:23:47 | Untranslated posts: 0/100 (0.00%)
+2026-07-23 17:23:47 | Filled untranslated posts with original cleaned text.
+2026-07-23 17:23:47 | df is saved to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/Cuba_part_all_step_1.gzip.parquet
+2026-07-23 17:23:47 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test
+Continuing to Entities Reuse
+2026-07-23 17:23:54 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cpu with dtype torch.float32
+2026-07-23 17:24:12 | Completed: extract_ner_entities
+2026-07-23 17:24:12 | Completed: clean_entity_columns
+2026-07-23 17:24:12 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-23 17:24:12 | df is saved to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/Cuba_part_all_step_1.gzip.parquet
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-07-23 17:24:12 | Completed: add_entity_reuse
+2026-07-23 17:24:12 | df is saved to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/Cuba_part_all_step_1.gzip.parquet
+2026-07-23 17:24:12 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-07-23 17:24:34 | Generated embeddings, from: translated_post, with model: digio/Twitter4SSE, shape: (100, 768)
+2026-07-23 17:24:34 | Saved embeddings to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/post_embeddings.npy
+2026-07-23 17:24:34 | Saved embeddings metadata to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/post_embeddings_metadata.json
+2026-07-23 17:27:02 | Trying k=4
+2026-07-23 17:27:03 | k=4, silhouette_score=0.2642
+2026-07-23 17:27:03 | Trying k=8
+2026-07-23 17:27:03 | k=8, silhouette_score=0.2748
+2026-07-23 17:27:03 | Trying k=12
+2026-07-23 17:27:03 | k=12, silhouette_score=0.2750
+2026-07-23 17:27:03 | Trying k=16
+2026-07-23 17:27:03 | k=16, silhouette_score=0.2853
+2026-07-23 17:27:03 | Trying k=20
+2026-07-23 17:27:03 | k=20, silhouette_score=0.2878
+2026-07-23 17:27:03 | Trying k=24
+2026-07-23 17:27:03 | k=24, silhouette_score=0.3044
+2026-07-23 17:27:03 | Trying k=28
+2026-07-23 17:27:03 | k=28, silhouette_score=0.3077
+2026-07-23 17:27:03 | Trying k=32
+2026-07-23 17:27:03 | k=32, silhouette_score=0.3179
+2026-07-23 17:27:03 | Trying k=36
+2026-07-23 17:27:03 | k=36, silhouette_score=0.3183
+2026-07-23 17:27:03 | Trying k=40
+2026-07-23 17:27:03 | k=40, silhouette_score=0.3219
+2026-07-23 17:27:03 | Trying k=44
+2026-07-23 17:27:03 | k=44, silhouette_score=0.3303
+2026-07-23 17:27:03 | Trying k=48
+2026-07-23 17:27:03 | k=48, silhouette_score=0.3269
+2026-07-23 17:27:04 | Trying k=52
+2026-07-23 17:27:04 | k=52, silhouette_score=0.3318
+2026-07-23 17:27:04 | Trying k=56
+2026-07-23 17:27:04 | k=56, silhouette_score=0.3381
+2026-07-23 17:27:04 | Trying k=60
+2026-07-23 17:27:04 | k=60, silhouette_score=0.3366
+2026-07-23 17:27:04 | Trying k=64
+2026-07-23 17:27:04 | k=64, silhouette_score=0.3425
+2026-07-23 17:27:04 | Trying k=68
+2026-07-23 17:27:04 | k=68, silhouette_score=0.3439
+2026-07-23 17:27:04 | Trying k=72
+2026-07-23 17:27:04 | k=72, silhouette_score=0.3323
+2026-07-23 17:27:04 | Trying k=76
+2026-07-23 17:27:04 | k=76, silhouette_score=0.3300
+2026-07-23 17:27:04 | Trying k=80
+2026-07-23 17:27:05 | k=80, silhouette_score=0.3300
+2026-07-23 17:27:05 | Trying k=84
+2026-07-23 17:27:05 | k=84, silhouette_score=0.3300
+2026-07-23 17:27:05 | Trying k=88
+2026-07-23 17:27:05 | k=88, silhouette_score=0.3300
+2026-07-23 17:27:05 | Trying k=92
+2026-07-23 17:27:05 | k=92, silhouette_score=0.3300
+2026-07-23 17:27:05 | Trying k=96
+2026-07-23 17:27:05 | k=96, silhouette_score=0.3300
+2026-07-23 17:27:05 | Best k=68, silhouette_score=0.3439
+2026-07-23 17:27:05 | Completed: auto_kmeans_topics
+2026-07-23 17:28:02 | df is saved to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/test/Cuba_part_all_step_1.gzip.parquet
+2026-07-23 17:28:02 | Saved df with K_Means topics. Best k = 68
+2026-07-23 17:33:02 | Completed: make_topic_stats
+2026-07-23 17:34:02 | Completed: make_topic_account_stats
+2026-07-23 17:36:02 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_68_12H_accountids for topic column K_Means_topic_68 and time window 12H.
+2026-07-23 17:36:02 | Completed: add_posting_same_topic
+2026-07-23 17:36:02 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_68_3D_accountids for topic column K_Means_topic_68 and time window 3D.
+2026-07-23 17:36:02 | Completed: add_posting_same_topic

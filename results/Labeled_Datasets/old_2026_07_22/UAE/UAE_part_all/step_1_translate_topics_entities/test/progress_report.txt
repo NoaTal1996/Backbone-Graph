@@ -1,0 +1,290 @@
+2026-07-21 16:30:39 | Input data path: ../data/Labeled_Datasets/UAE/UAE_part_all.gzip.parquet
+2026-07-21 16:30:39 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+2026-07-21 16:30:39 | Using device: cuda
+2026-07-21 16:30:39 | Running in test mode: only processing first 1000 rows of the dataset.
+2026-07-21 16:30:39 | Storing output data to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 16:30:39 | postid duplication sum 0 (0.000%)
+2026-07-21 16:30:40 | Undefined post language percentage **before** mapping: 1.10%
+2026-07-21 16:30:41 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-21 16:30:41 | Removing 0 posts with undefined language code und
+2026-07-21 16:30:41 | Using device: cuda
+2026-07-21 16:30:54 | Loaded facebook/nllb-200-distilled-600M on cuda with dtype torch.float16
+2026-07-21 16:30:54 | Translation pipeline created.
+2026-07-21 16:30:54 | 773 posts: arb_Arab → eng_Latn
+2026-07-21 16:31:51 | 7 posts: cat_Latn → eng_Latn
+2026-07-21 16:31:51 | 89 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-21 16:31:53 | 5 posts: est_Latn → eng_Latn
+2026-07-21 16:31:53 | 1 posts: fra_Latn → eng_Latn
+2026-07-21 16:31:53 | 1 posts: ind_Latn → eng_Latn
+2026-07-21 16:31:53 | 2 posts: ita_Latn → eng_Latn
+2026-07-21 16:31:53 | 2 posts: nob_Latn → eng_Latn
+2026-07-21 16:31:54 | 4 posts: pes_Arab → eng_Latn
+2026-07-21 16:31:54 | 18 posts: por_Latn → eng_Latn
+2026-07-21 16:31:54 | 1 posts: ron_Latn → eng_Latn
+2026-07-21 16:31:54 | 10 posts: som_Latn → eng_Latn
+2026-07-21 16:31:55 | 85 posts: spa_Latn → eng_Latn
+2026-07-21 16:31:57 | 1 posts: tgl_Latn → eng_Latn
+2026-07-21 16:31:57 | 1 posts: tur_Latn → eng_Latn
+2026-07-21 16:31:57 | Completed: transformers_translator
+2026-07-21 16:31:57 | Translation completed.
+2026-07-21 16:31:59 | Untranslated posts: 0/1000 (0.00%)
+2026-07-21 16:31:59 | Filled untranslated posts with original cleaned text.
+2026-07-21 16:31:59 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 16:31:59 | Finished Translation
+Saved df to ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+Continuing to Entities Reuse
+2026-07-21 16:32:02 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-21 16:32:03 | Completed: extract_ner_entities
+2026-07-21 16:32:03 | Completed: clean_entity_columns
+2026-07-21 16:32:03 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-21 16:32:03 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-07-21 16:32:03 | Completed: add_entity_reuse
+2026-07-21 16:32:03 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 16:32:03 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-07-21 16:32:10 | Generated embeddings shape: (1000, 768)
+2026-07-21 16:32:12 | Trying k=4
+2026-07-21 16:32:15 | k=4, silhouette_score=0.0411
+2026-07-21 16:32:15 | Trying k=8
+2026-07-21 16:32:15 | k=8, silhouette_score=0.0316
+2026-07-21 16:32:15 | Trying k=12
+2026-07-21 16:32:15 | k=12, silhouette_score=0.0280
+2026-07-21 16:32:15 | Trying k=16
+2026-07-21 16:32:15 | k=16, silhouette_score=0.0332
+2026-07-21 16:32:15 | Trying k=20
+2026-07-21 16:32:15 | k=20, silhouette_score=0.0258
+2026-07-21 16:32:15 | Trying k=24
+2026-07-21 16:32:15 | k=24, silhouette_score=0.0363
+2026-07-21 16:32:15 | Trying k=28
+2026-07-21 16:32:15 | k=28, silhouette_score=0.0347
+2026-07-21 16:32:15 | Trying k=32
+2026-07-21 16:32:15 | k=32, silhouette_score=0.0267
+2026-07-21 16:32:15 | Trying k=36
+2026-07-21 16:32:15 | k=36, silhouette_score=0.0324
+2026-07-21 16:32:15 | Trying k=40
+2026-07-21 16:32:15 | k=40, silhouette_score=0.0294
+2026-07-21 16:32:15 | Trying k=44
+2026-07-21 16:32:15 | k=44, silhouette_score=0.0356
+2026-07-21 16:32:15 | Trying k=48
+2026-07-21 16:32:15 | k=48, silhouette_score=0.0320
+2026-07-21 16:32:15 | Trying k=52
+2026-07-21 16:32:15 | k=52, silhouette_score=0.0295
+2026-07-21 16:32:15 | Trying k=56
+2026-07-21 16:32:15 | k=56, silhouette_score=0.0316
+2026-07-21 16:32:15 | Trying k=60
+2026-07-21 16:32:15 | k=60, silhouette_score=0.0328
+2026-07-21 16:32:15 | Trying k=64
+2026-07-21 16:32:15 | k=64, silhouette_score=0.0339
+2026-07-21 16:32:15 | Trying k=68
+2026-07-21 16:32:15 | k=68, silhouette_score=0.0327
+2026-07-21 16:32:15 | Trying k=72
+2026-07-21 16:32:15 | k=72, silhouette_score=0.0348
+2026-07-21 16:32:15 | Trying k=76
+2026-07-21 16:32:16 | k=76, silhouette_score=0.0399
+2026-07-21 16:32:16 | Trying k=80
+2026-07-21 16:32:16 | k=80, silhouette_score=0.0323
+2026-07-21 16:32:16 | Trying k=84
+2026-07-21 16:32:16 | k=84, silhouette_score=0.0350
+2026-07-21 16:32:16 | Trying k=88
+2026-07-21 16:32:16 | k=88, silhouette_score=0.0346
+2026-07-21 16:32:16 | Trying k=92
+2026-07-21 16:32:16 | k=92, silhouette_score=0.0386
+2026-07-21 16:32:16 | Trying k=96
+2026-07-21 16:32:16 | k=96, silhouette_score=0.0382
+2026-07-21 16:32:16 | Trying k=100
+2026-07-21 16:32:16 | k=100, silhouette_score=0.0393
+2026-07-21 16:32:16 | Trying k=104
+2026-07-21 16:32:16 | k=104, silhouette_score=0.0335
+2026-07-21 16:32:16 | Trying k=108
+2026-07-21 16:32:16 | k=108, silhouette_score=0.0309
+2026-07-21 16:32:16 | Trying k=112
+2026-07-21 16:32:16 | k=112, silhouette_score=0.0368
+2026-07-21 16:32:16 | Trying k=116
+2026-07-21 16:32:16 | k=116, silhouette_score=0.0404
+2026-07-21 16:32:16 | Trying k=120
+2026-07-21 16:32:16 | k=120, silhouette_score=0.0392
+2026-07-21 16:32:16 | Trying k=124
+2026-07-21 16:32:16 | k=124, silhouette_score=0.0369
+2026-07-21 16:32:16 | Trying k=128
+2026-07-21 16:32:16 | k=128, silhouette_score=0.0383
+2026-07-21 16:32:16 | Best k=4, silhouette_score=0.0411
+2026-07-21 16:32:16 | Completed: auto_kmeans_topics
+2026-07-21 16:32:16 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 16:32:16 | Saved df with K_Means topics. Best k = 4
+2026-07-21 16:32:16 | Completed: make_topic_stats
+2026-07-21 16:32:17 | Completed: make_topic_account_stats
+2026-07-21 16:32:17 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 16:32:17 | Finished Running Successfully
+2026-07-21 16:32:17 | #######################################################
+2026-07-21 16:32:17 | #######################################################
+2026-07-21 17:37:43 | Input data path: ../data/Labeled_Datasets/UAE/UAE_part_all.gzip.parquet
+2026-07-21 17:37:43 | Output path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+2026-07-21 17:37:43 | Using device: cuda
+2026-07-21 17:37:43 | Running in test mode: only processing first 1000 rows of the dataset.
+2026-07-21 17:37:43 | Storing output data to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 17:37:43 | postid duplication sum 0 (0.000%)
+2026-07-21 17:37:44 | Undefined post language percentage **before** mapping: 1.10%
+2026-07-21 17:37:44 | Undefined post language percentage **after** mapping: 0.00%
+2026-07-21 17:37:44 | Removing 0 posts with undefined language code und
+2026-07-21 17:37:44 | Using device: cuda
+2026-07-21 17:37:48 | Loaded facebook/nllb-200-distilled-600M on cuda with dtype torch.float16
+2026-07-21 17:37:48 | Translation pipeline created.
+2026-07-21 17:37:48 | 773 posts: arb_Arab → eng_Latn
+2026-07-21 17:38:47 | 7 posts: cat_Latn → eng_Latn
+2026-07-21 17:38:47 | 89 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-21 17:38:49 | 5 posts: est_Latn → eng_Latn
+2026-07-21 17:38:49 | 1 posts: fra_Latn → eng_Latn
+2026-07-21 17:38:50 | 1 posts: ind_Latn → eng_Latn
+2026-07-21 17:38:50 | 2 posts: ita_Latn → eng_Latn
+2026-07-21 17:38:50 | 1 posts: nob_Latn → eng_Latn
+2026-07-21 17:38:50 | 5 posts: pes_Arab → eng_Latn
+2026-07-21 17:38:50 | 18 posts: por_Latn → eng_Latn
+2026-07-21 17:38:50 | 1 posts: ron_Latn → eng_Latn
+2026-07-21 17:38:51 | 10 posts: som_Latn → eng_Latn
+2026-07-21 17:38:54 | 85 posts: spa_Latn → eng_Latn
+2026-07-21 17:38:55 | 1 posts: tgl_Latn → eng_Latn
+2026-07-21 17:38:56 | 1 posts: tur_Latn → eng_Latn
+2026-07-21 17:38:56 | Completed: transformers_translator
+2026-07-21 17:38:56 | Translation completed.
+2026-07-21 17:38:56 | Untranslated posts: 0/1000 (0.00%)
+2026-07-21 17:38:56 | Filled untranslated posts with original cleaned text.
+2026-07-21 17:38:56 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 17:38:56 | Finished Translation
+Saved df to ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test
+Continuing to Entities Reuse
+2026-07-21 17:38:59 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-21 17:39:00 | Completed: extract_ner_entities
+2026-07-21 17:39:00 | Completed: clean_entity_columns
+2026-07-21 17:39:00 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-21 17:39:00 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 3D...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 3D...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 3D...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:00 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 3D...
+2026-07-21 17:39:00 | Completed: add_entity_reuse
+2026-07-21 17:39:01 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 17:39:01 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-07-21 17:39:05 | Generated embeddings shape: (1000, 768)
+2026-07-21 17:39:05 | Trying k=4
+2026-07-21 17:39:05 | k=4, silhouette_score=0.0414
+2026-07-21 17:39:05 | Trying k=8
+2026-07-21 17:39:05 | k=8, silhouette_score=0.0337
+2026-07-21 17:39:05 | Trying k=12
+2026-07-21 17:39:05 | k=12, silhouette_score=0.0266
+2026-07-21 17:39:05 | Trying k=16
+2026-07-21 17:39:05 | k=16, silhouette_score=0.0349
+2026-07-21 17:39:05 | Trying k=20
+2026-07-21 17:39:05 | k=20, silhouette_score=0.0264
+2026-07-21 17:39:05 | Trying k=24
+2026-07-21 17:39:05 | k=24, silhouette_score=0.0228
+2026-07-21 17:39:05 | Trying k=28
+2026-07-21 17:39:05 | k=28, silhouette_score=0.0316
+2026-07-21 17:39:05 | Trying k=32
+2026-07-21 17:39:05 | k=32, silhouette_score=0.0286
+2026-07-21 17:39:05 | Trying k=36
+2026-07-21 17:39:05 | k=36, silhouette_score=0.0235
+2026-07-21 17:39:05 | Trying k=40
+2026-07-21 17:39:05 | k=40, silhouette_score=0.0308
+2026-07-21 17:39:05 | Trying k=44
+2026-07-21 17:39:05 | k=44, silhouette_score=0.0340
+2026-07-21 17:39:05 | Trying k=48
+2026-07-21 17:39:05 | k=48, silhouette_score=0.0308
+2026-07-21 17:39:05 | Trying k=52
+2026-07-21 17:39:05 | k=52, silhouette_score=0.0287
+2026-07-21 17:39:05 | Trying k=56
+2026-07-21 17:39:05 | k=56, silhouette_score=0.0314
+2026-07-21 17:39:05 | Trying k=60
+2026-07-21 17:39:05 | k=60, silhouette_score=0.0279
+2026-07-21 17:39:05 | Trying k=64
+2026-07-21 17:39:05 | k=64, silhouette_score=0.0294
+2026-07-21 17:39:05 | Trying k=68
+2026-07-21 17:39:05 | k=68, silhouette_score=0.0312
+2026-07-21 17:39:05 | Trying k=72
+2026-07-21 17:39:05 | k=72, silhouette_score=0.0344
+2026-07-21 17:39:05 | Trying k=76
+2026-07-21 17:39:05 | k=76, silhouette_score=0.0366
+2026-07-21 17:39:05 | Trying k=80
+2026-07-21 17:39:05 | k=80, silhouette_score=0.0360
+2026-07-21 17:39:05 | Trying k=84
+2026-07-21 17:39:05 | k=84, silhouette_score=0.0323
+2026-07-21 17:39:05 | Trying k=88
+2026-07-21 17:39:05 | k=88, silhouette_score=0.0364
+2026-07-21 17:39:05 | Trying k=92
+2026-07-21 17:39:05 | k=92, silhouette_score=0.0376
+2026-07-21 17:39:05 | Trying k=96
+2026-07-21 17:39:05 | k=96, silhouette_score=0.0375
+2026-07-21 17:39:05 | Trying k=100
+2026-07-21 17:39:05 | k=100, silhouette_score=0.0342
+2026-07-21 17:39:05 | Trying k=104
+2026-07-21 17:39:06 | k=104, silhouette_score=0.0433
+2026-07-21 17:39:06 | Trying k=108
+2026-07-21 17:39:06 | k=108, silhouette_score=0.0369
+2026-07-21 17:39:06 | Trying k=112
+2026-07-21 17:39:06 | k=112, silhouette_score=0.0385
+2026-07-21 17:39:06 | Trying k=116
+2026-07-21 17:39:06 | k=116, silhouette_score=0.0442
+2026-07-21 17:39:06 | Trying k=120
+2026-07-21 17:39:06 | k=120, silhouette_score=0.0399
+2026-07-21 17:39:06 | Trying k=124
+2026-07-21 17:39:06 | k=124, silhouette_score=0.0392
+2026-07-21 17:39:06 | Trying k=128
+2026-07-21 17:39:06 | k=128, silhouette_score=0.0333
+2026-07-21 17:39:06 | Best k=116, silhouette_score=0.0442
+2026-07-21 17:39:06 | Completed: auto_kmeans_topics
+2026-07-21 17:39:06 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 17:39:06 | Saved df with K_Means topics. Best k = 116
+2026-07-21 17:39:06 | Completed: make_topic_stats
+2026-07-21 17:39:07 | Completed: make_topic_account_stats
+2026-07-21 17:39:08 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_116_12H_accountids for topic column K_Means_topic_116 and time window 12H.
+2026-07-21 17:39:08 | Completed: add_posting_same_topic
+2026-07-21 17:39:08 | [add_posting_same_topic] Added posting_same_topic_K_Means_topic_116_3D_accountids for topic column K_Means_topic_116 and time window 3D.
+2026-07-21 17:39:08 | Completed: add_posting_same_topic
+2026-07-21 17:39:08 | df is saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/test/UAE_part_all_step_1.gzip.parquet
+2026-07-21 17:39:08 | Finished Running Successfully
+2026-07-21 17:39:08 | #######################################################
+2026-07-21 17:39:08 | #######################################################
