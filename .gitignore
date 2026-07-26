@@ -13,6 +13,7 @@ experimental_results/
 logs/
 # data/
 # *part_all*
+.github/
 
 
 # Big Files
