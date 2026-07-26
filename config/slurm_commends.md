@@ -10,7 +10,7 @@ sjupyter --gpu rtx_6000:1  # not used
 
 # Run Full Pipeline
 ```bash
-country="Ecuador_Test"
+country="UAE"
 
 /home/${USER}/Backbone-Graph/config/run_full_pipeline.sh ${country}
 ```
