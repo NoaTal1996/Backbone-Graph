@@ -20,6 +20,8 @@
 
 ################  Following lines will be executed by a compute node    #######################
 
+set -e
+
 ### Read argument from command line
 INPUT_FILE_PATH="$1"
 
