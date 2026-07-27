@@ -1,11 +1,46 @@
-2026-07-27 11:36:37 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
-2026-07-27 11:36:37 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
-2026-07-27 11:36:41 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
-2026-07-27 11:36:41 | #################### START ####################
-2026-07-27 11:36:41 | #################### START ####################
-2026-07-27 11:36:41 | Starting new execution of key_authors_graph.ipynb
-2026-07-27 11:36:41 | df path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
-2026-07-27 11:36:41 | df with 1,322,573 rows and 24 columns
-2026-07-27 11:36:41 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
-2026-07-27 11:37:17 | Saved initial copy of df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Iran_1_part_all_step_3.gzip.parquet
-2026-07-27 11:37:42 | Completed: compute_entities_tfidf
+2026-07-27 18:11:14 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 18:11:14 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-27 18:11:23 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
+2026-07-27 18:11:23 | #################### START ####################
+2026-07-27 18:11:23 | #################### START ####################
+2026-07-27 18:11:23 | Starting new execution of key_authors_graph.ipynb
+2026-07-27 18:11:23 | df path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 18:11:23 | df with 1,322,573 rows and 24 columns
+2026-07-27 18:11:23 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-27 18:11:25 | Copied input data to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Iran_1_part_all_step_3.gzip.parquet
+2026-07-27 18:11:50 | Completed: compute_entities_tfidf
+2026-07-27 18:11:51 | Completed: get_top_entities
+2026-07-27 18:11:57 | Completed: compute_entities_tfidf
+2026-07-27 18:11:58 | Completed: compute_entities_tfidf
+2026-07-27 18:12:01 | Completed: compute_entities_tfidf
+2026-07-27 18:12:02 | Completed: compute_post_tfidf
+2026-07-27 18:15:07 | Updated disk df ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Iran_1_part_all_step_3.gzip.parquet from memory df
+2026-07-27 18:15:12 | Completed: compute_author_key_score
+2026-07-27 18:15:13 | Completed: get_topic_top_authors
+2026-07-27 18:15:13 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 18:15:14 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:14 | Completed: get_io_authors_by_ratio
+2026-07-27 18:15:15 | Completed: save_and_print_io_key_summary
+2026-07-27 18:15:15 | Completed: plot_venn_3_sets
+2026-07-27 18:15:16 | Completed: get_io_authors_by_ratio
+2026-07-27 18:15:16 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 18:15:16 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:16 | Completed: plot_venn_3_sets
+2026-07-27 18:15:17 | Completed: get_io_authors_by_ratio
+2026-07-27 18:15:17 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:17 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:17 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:18 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:18 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:18 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:18 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:19 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:19 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:19 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:20 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:20 | Completed: get_all_topics_key_authors
+2026-07-27 18:15:20 | Completed: get_all_topics_key_authors
+2026-07-27 18:22:56 | Completed: build_accounts_graph
+2026-07-27 18:44:35 | FAILED: compute_indicators | A process in the process pool was terminated abruptly while the future was running or pending.
+2026-07-27 18:44:35 | #######################################################
+2026-07-27 18:44:35 | #######################################################
