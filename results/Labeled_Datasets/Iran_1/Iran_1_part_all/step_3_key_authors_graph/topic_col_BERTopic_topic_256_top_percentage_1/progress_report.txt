@@ -1,0 +1,11 @@
+2026-07-27 11:36:37 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:36:37 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-27 11:36:41 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
+2026-07-27 11:36:41 | #################### START ####################
+2026-07-27 11:36:41 | #################### START ####################
+2026-07-27 11:36:41 | Starting new execution of key_authors_graph.ipynb
+2026-07-27 11:36:41 | df path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:36:41 | df with 1,322,573 rows and 24 columns
+2026-07-27 11:36:41 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-27 11:37:17 | Saved initial copy of df to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Iran_1_part_all_step_3.gzip.parquet
+2026-07-27 11:37:42 | Completed: compute_entities_tfidf

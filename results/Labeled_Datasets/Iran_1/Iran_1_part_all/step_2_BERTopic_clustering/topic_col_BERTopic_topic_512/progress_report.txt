@@ -1,0 +1,55 @@
+2026-07-27 11:24:38 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-27 11:24:38 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512
+2026-07-27 11:24:38 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/hardware_info.txt
+2026-07-27 11:24:38 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-07-27 11:24:38 | Today date: 2026-07-27
+2026-07-27 11:24:38 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/Iran_1_part_all_step_1.gzip.parquet
+2026-07-27 11:24:38 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512
+2026-07-27 11:24:38 | Loaded df: Iran_1_part_all_step_1.gzip.parquet.
+2026-07-27 11:24:38 | df shape: (1322573, 4)
+2026-07-27 11:24:38 | min_topic_size: 512
+2026-07-27 11:25:06 | Shared output file already exists: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:25:08 | Loaded validated embeddings from: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_1_translate_topics_entities/post_embeddings.npy, shape: (1322573, 768)
+2026-07-27 11:25:08 | [build_and_save_chunk_models] Using device cuda
+2026-07-27 11:25:10 | Building chunk models in ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao; chunk_size=131072, min_topic_size=512, device=cuda
+2026-07-27 11:25:22 | Saved chunk model 0 for rows 0:131072 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_0
+2026-07-27 11:25:30 | Saved chunk model 1 for rows 131072:262144 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_1
+2026-07-27 11:25:39 | Saved chunk model 2 for rows 262144:393216 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_2
+2026-07-27 11:25:47 | Saved chunk model 3 for rows 393216:524288 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_3
+2026-07-27 11:25:57 | Saved chunk model 4 for rows 524288:655360 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_4
+2026-07-27 11:26:05 | Saved chunk model 5 for rows 655360:786432 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_5
+2026-07-27 11:26:13 | Saved chunk model 6 for rows 786432:917504 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_6
+2026-07-27 11:26:27 | Saved chunk model 7 for rows 917504:1048576 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_7
+2026-07-27 11:26:38 | Saved chunk model 8 for rows 1048576:1179648 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_8
+2026-07-27 11:26:52 | Saved chunk model 9 for rows 1179648:1310720 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_9
+2026-07-27 11:26:54 | Saved chunk model 10 for rows 1310720:1322573 at ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/chunk_model_10
+2026-07-27 11:26:54 | Completed: build_and_save_chunk_models
+2026-07-27 11:27:02 | Merged model saved to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/BERTopic_models_min_topic_size_512/run_3xkjn7ao/merged_BERTopic_model_min_similarity_0.7
+2026-07-27 11:27:02 | Completed: load_and_merge_BERTopic_models
+2026-07-27 11:27:14 | Backup df saved to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_512/new_columns_df.parquet
+2026-07-27 11:27:14 | [update_df_columns_atomically]
+Updating columns: ['BERTopic_topic_512', 'BERTopic_prob_512', 'BERTopic_topic_512_top_words']
+Disk path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:28:59 | [update_df_columns_atomically]
+Updated columns: BERTopic_topic_512, BERTopic_prob_512, BERTopic_topic_512_top_words
+Saved to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:28:59 | Completed: update_df_columns_atomically
+2026-07-27 11:28:59 | Saved df with BERTopic topics.
+2026-07-27 11:29:49 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_512_12H_accountids for topic column BERTopic_topic_512 and time window 12H.Convert to JSON string for parquet storage.
+2026-07-27 11:29:49 | Completed: add_posting_same_topic
+2026-07-27 11:32:15 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_512_3D_accountids for topic column BERTopic_topic_512 and time window 3D.Convert to JSON string for parquet storage.
+2026-07-27 11:32:15 | Completed: add_posting_same_topic
+2026-07-27 11:32:15 | [update_df_columns_atomically]
+Updating columns: ['posting_same_topic_BERTopic_topic_512_12H_accountids', 'posting_same_topic_BERTopic_topic_512_3D_accountids']
+Disk path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:34:26 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_512_12H_accountids, posting_same_topic_BERTopic_topic_512_3D_accountids
+Saved to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:34:26 | Completed: update_df_columns_atomically
+2026-07-27 11:34:26 | Saved posting-same-topic columns: posting_same_topic_BERTopic_topic_512_12H_accountids, posting_same_topic_BERTopic_topic_512_3D_accountids
+2026-07-27 11:34:35 | Completed: make_topic_stats
+2026-07-27 11:34:36 | Completed: make_topic_account_stats
+2026-07-27 11:34:37 | Final output is complete: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 11:34:37 | Finished Running Successfully
+2026-07-27 11:34:37 | #######################################################
+2026-07-27 11:34:37 | #######################################################

@@ -2274,3 +2274,39 @@
 2026-07-24 14:17:59 | 2202 posts: slv_Latn → eng_Latn
 2026-07-24 14:26:49 | 2822 posts: som_Latn → eng_Latn
 2026-07-24 14:30:52 | 5357733 posts: spa_Latn → eng_Latn
+2026-07-27 04:20:08 | 16 posts: srp_Cyrl → eng_Latn
+2026-07-27 04:20:08 | 1263 posts: swe_Latn → eng_Latn
+2026-07-27 04:21:32 | 2087 posts: swh_Latn → eng_Latn
+2026-07-27 04:23:45 | 7 posts: tam_Taml → eng_Latn
+2026-07-27 04:23:46 | 10 posts: tel_Telu → eng_Latn
+2026-07-27 04:23:47 | 4910 posts: tgl_Latn → eng_Latn
+2026-07-27 04:29:28 | 2706 posts: tha_Thai → eng_Latn
+2026-07-27 04:37:20 | 3441 posts: tur_Latn → eng_Latn
+2026-07-27 04:41:31 | 213 posts: ukr_Cyrl → eng_Latn
+2026-07-27 04:42:15 | 50 posts: urd_Arab → eng_Latn
+2026-07-27 04:42:18 | 535 posts: vie_Latn → eng_Latn
+2026-07-27 04:43:12 | 316 posts: zho_Hans → eng_Latn
+2026-07-27 04:43:44 | Completed: transformers_translator
+2026-07-27 04:43:46 | Translation completed.
+2026-07-27 04:44:53 | Untranslated posts: 0/6153110 (0.00%)
+2026-07-27 04:44:54 | Filled untranslated posts with original cleaned text.
+2026-07-27 04:48:06 | df is saved to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet
+2026-07-27 04:48:06 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities
+Continuing to Entities Reuse
+2026-07-27 04:48:08 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-27 06:18:19 | Completed: extract_ner_entities
+2026-07-27 06:19:47 | Completed: clean_entity_columns
+2026-07-27 06:19:48 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-27 06:23:03 | df is saved to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet
+2026-07-27 06:23:04 | 
+[add_entity_reuse] Adding entity reuse columns for 'hashtags' with time window 12H...
+2026-07-27 08:51:13 | Completed: add_entity_reuse
+2026-07-27 08:51:13 | 
+[add_entity_reuse] Adding entity reuse columns for 'account_mentions' with time window 12H...
+2026-07-27 10:36:39 | Completed: add_entity_reuse
+2026-07-27 10:36:39 | 
+[add_entity_reuse] Adding entity reuse columns for 'urls' with time window 12H...
+2026-07-27 10:37:29 | Completed: add_entity_reuse
+2026-07-27 10:37:29 | 
+[add_entity_reuse] Adding entity reuse columns for 'ner_entities' with time window 12H...
