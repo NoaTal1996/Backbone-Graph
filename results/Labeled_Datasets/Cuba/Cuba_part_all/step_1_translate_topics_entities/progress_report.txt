@@ -2319,3 +2319,22 @@ Continuing to Entities Reuse
 2026-07-28 15:32:16 | Wrote hardware report to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/hardware_info.txt
 2026-07-28 15:32:18 | Initialized output file from source: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet
 2026-07-28 15:32:31 | postid duplication sum 236 (0.004%)
+2026-07-28 15:47:55 | Undefined post language percentage **before** mapping: 3.28%
+2026-07-28 15:48:04 | Language detection failed: No features in text. | lang_code=und | text=😊😊😊😊
+2026-07-28 15:48:05 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🇨🇺🇪🇨🇨🇳🇦🇷🇧🇷🇦🇨🇦🇩🇦🇪🇦🇫🇦🇬🇦🇮🇦🇱🇦🇲🇦🇸🇦🇹🇦🇺🇦🇼🇦🇽🇦🇿🇧🇦🇧🇧🇧🇩🇧🇪🇧🇫🇧🇬🇧🇭🇧🇮🇧🇯🇧🇲🇧🇳🇧🇴🇧🇶🇧🇸🇧🇹🇧🇼🇧🇾🇧🇿🇨🇭🇨🇮🇨🇰🇨🇱🇨🇲🇨🇷🇨🇿🇩🇪🇩🇯🇩
+2026-07-28 15:48:06 | Language detection failed: No features in text. | lang_code=und | text=👍
+2026-07-28 15:48:07 | Language detection failed: No features in text. | lang_code=und | text=❤️🖤❤️🖤❤️ 🖤 ❤️ 🖤❤️🖤❤️ ❤️ 🖤 ❤️ ❤️🖤❤️🖤❤️ 🖤 ❤️ 🖤❤️🖤❤️🖤 ❤️ 🖤 🖤❤️🖤❤️🖤 ❤️ 🖤 ❤️ 🖤 ❤️…
+2026-07-28 15:48:07 | Language detection failed: No features in text. | lang_code=und | text=❤️🖤❤️🖤❤️ 🖤 ❤️ 🖤❤️🖤❤️ ❤️ 🖤 ❤️ ❤️🖤❤️🖤❤️ 🖤 ❤️ 🖤❤️🖤❤️🖤 ❤️ 🖤 🖤❤️🖤❤️🖤 ❤️ 🖤 ❤️ 🖤 ❤️…
+2026-07-28 15:48:07 | Language detection failed: No features in text. | lang_code=und | text=🖤
+2026-07-28 15:48:08 | Language detection failed: No features in text. | lang_code=und | text=❤️🖤❤️🖤❤️ 🖤 ❤️ 🖤❤️🖤❤️ ❤️ 🖤 ❤️ ❤️🖤❤️🖤❤️ 🖤 ❤️ 🖤❤️🖤❤️🖤 ❤️ 🖤 🖤❤️🖤❤️🖤 ❤️ 🖤 ❤️ 🖤 ❤️…
+2026-07-28 15:48:13 | Language detection failed: No features in text. | lang_code=und | text=<USER> 🤣🤣🤣🤣🤣🤣🤣🤣🤣
+2026-07-28 15:48:16 | Language detection failed: No features in text. | lang_code=und | text=👍
+2026-07-28 15:48:16 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂 😂 😂 😂 😂 😂 😂 😂 😂 😂 😂 😂 😂 😂
+2026-07-28 15:48:22 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂👏👏👏👏👏
+2026-07-28 15:48:22 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂👏👏👏👏👏
+2026-07-28 15:48:28 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂😂😂😂😂🙊🙊🙊🙊🙊
+2026-07-28 15:48:30 | Language detection failed: No features in text. | lang_code=und | text=🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺…
+2026-07-28 15:48:31 | Language detection failed: No features in text. | lang_code=und | text=💪🏋️‍♂️🆙👟⚽👊 <URL>
+2026-07-28 15:48:32 | Language detection failed: No features in text. | lang_code=und | text=🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺 🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺🇨🇺🇨🇺🇨🇺 🇨🇺…
+2026-07-28 15:48:33 | Language detection failed: No features in text. | lang_code=und | text=🔴🔴🔴
+2026-07-28 15:48:33 | Language detection failed: No features in text. | lang_code=und | text=🔴🔴🔴
