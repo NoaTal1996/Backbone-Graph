@@ -44,3 +44,297 @@
 2026-07-27 18:44:35 | FAILED: compute_indicators | A process in the process pool was terminated abruptly while the future was running or pending.
 2026-07-27 18:44:35 | #######################################################
 2026-07-27 18:44:35 | #######################################################
+2026-07-27 21:38:59 | Input data path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 21:38:59 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-27 21:39:04 | Wrote hardware report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
+2026-07-27 21:39:04 | #################### START ####################
+2026-07-27 21:39:04 | #################### START ####################
+2026-07-27 21:39:04 | Starting new execution of key_authors_graph.ipynb
+2026-07-27 21:39:04 | df path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_2_BERTopic_clustering/Iran_1_part_all_step_2.gzip.parquet
+2026-07-27 21:39:04 | df with 1,322,573 rows and 24 columns
+2026-07-27 21:39:04 | Output path: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-07-27 21:39:06 | Copied input data to ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Iran_1_part_all_step_3.gzip.parquet
+2026-07-27 21:39:36 | Completed: compute_entities_tfidf
+2026-07-27 21:39:38 | Completed: get_top_entities
+2026-07-27 21:39:46 | Completed: compute_entities_tfidf
+2026-07-27 21:39:48 | Completed: compute_entities_tfidf
+2026-07-27 21:39:50 | Completed: compute_entities_tfidf
+2026-07-27 21:39:52 | Completed: compute_post_tfidf
+2026-07-27 21:43:18 | Updated disk df ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Iran_1_part_all_step_3.gzip.parquet from memory df
+2026-07-27 21:43:24 | Completed: compute_author_key_score
+2026-07-27 21:43:25 | Completed: get_topic_top_authors
+2026-07-27 21:43:25 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 21:43:26 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:27 | Completed: get_io_authors_by_ratio
+2026-07-27 21:43:27 | Completed: save_and_print_io_key_summary
+2026-07-27 21:43:28 | Completed: plot_venn_3_sets
+2026-07-27 21:43:28 | Completed: get_io_authors_by_ratio
+2026-07-27 21:43:28 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 21:43:29 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:29 | Completed: plot_venn_3_sets
+2026-07-27 21:43:29 | Completed: get_io_authors_by_ratio
+2026-07-27 21:43:30 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:30 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:30 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:30 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:31 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:31 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:31 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:32 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:32 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:32 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:32 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:33 | Completed: get_all_topics_key_authors
+2026-07-27 21:43:33 | Completed: get_all_topics_key_authors
+2026-07-27 21:51:24 | Completed: build_accounts_graph
+2026-07-27 22:49:09 | node_indicators_df is saved to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-07-27 22:49:09 | Completed: compute_indicators
+2026-07-27 22:49:12 | Completed: compute_zscore
+2026-07-27 22:49:14 | Completed: compute_indicators_information_gain
+2026-07-27 22:49:15 | Completed: plot_indicators_information_gain
+2026-07-27 22:49:19 | Completed: plot_indicators_distributions
+2026-07-27 22:49:22 | Completed: plot_indicator_boxplots
+2026-07-27 22:49:24 | Completed: plot_io_correlations
+2026-07-27 22:49:25 | Completed: get_top_authors_by_indicator
+2026-07-27 22:50:54 | Completed: plot_pagerank_key_score_correlation
+2026-07-27 22:51:10 | Saved report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_report.txt
+2026-07-27 22:51:10 | Saved model to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_model.joblib
+2026-07-27 22:51:10 | Saved confusion matrix to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_confusion_matrix.png
+2026-07-27 22:51:10 | Saved CV predictions to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_predictions.csv
+2026-07-27 22:51:10 | Completed: io_classification
+2026-07-27 22:51:19 | Saved report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_report.txt
+2026-07-27 22:51:19 | Saved model to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_model.joblib
+2026-07-27 22:51:19 | Saved confusion matrix to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_confusion_matrix.png
+2026-07-27 22:51:19 | Saved CV predictions to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_predictions.csv
+2026-07-27 22:51:19 | Completed: io_classification
+2026-07-27 22:51:27 | Saved report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_report.txt
+2026-07-27 22:51:27 | Saved model to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_model.joblib
+2026-07-27 22:51:27 | Saved confusion matrix to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_confusion_matrix.png
+2026-07-27 22:51:27 | Saved CV predictions to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_predictions.csv
+2026-07-27 22:51:27 | Completed: io_classification
+2026-07-27 22:51:30 | Completed: plot_shap_analysis
+2026-07-27 22:51:39 | Saved report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_report.txt
+2026-07-27 22:51:39 | Saved model to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_model.joblib
+2026-07-27 22:51:39 | Saved confusion matrix to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_confusion_matrix.png
+2026-07-27 22:51:39 | Saved CV predictions to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_cv_predictions.csv
+2026-07-27 22:51:39 | Completed: io_classification
+2026-07-27 22:51:47 | Saved report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_report.txt
+2026-07-27 22:51:47 | Saved model to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_model.joblib
+2026-07-27 22:51:47 | Saved confusion matrix to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_confusion_matrix.png
+2026-07-27 22:51:47 | Saved CV predictions to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_cv_predictions.csv
+2026-07-27 22:51:47 | Completed: io_classification
+2026-07-27 22:51:54 | Saved report to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_report.txt
+2026-07-27 22:51:54 | Saved model to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_model.joblib
+2026-07-27 22:51:54 | Saved confusion matrix to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_confusion_matrix.png
+2026-07-27 22:51:54 | Saved CV predictions to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_cv_predictions.csv
+2026-07-27 22:51:54 | Completed: io_classification
+2026-07-27 22:51:56 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Iran_1/Iran_1_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_auc_pr_comparison.png
+2026-07-27 22:51:59 | ######## Starting run_classification_sweep_analysis ########
+2026-07-27 22:52:06 | Completed: compute_entities_tfidf
+2026-07-27 22:52:08 | Completed: compute_entities_tfidf
+2026-07-27 22:52:11 | Completed: compute_entities_tfidf
+2026-07-27 22:52:12 | Completed: compute_post_tfidf
+2026-07-27 22:52:13 | Completed: compute_author_key_score
+2026-07-27 22:52:21 | Completed: compute_entities_tfidf
+2026-07-27 22:52:24 | Completed: compute_entities_tfidf
+2026-07-27 22:52:27 | Completed: compute_entities_tfidf
+2026-07-27 22:52:28 | Completed: compute_post_tfidf
+2026-07-27 22:52:29 | Completed: compute_author_key_score
+2026-07-27 22:52:36 | Completed: compute_entities_tfidf
+2026-07-27 22:52:39 | Completed: compute_entities_tfidf
+2026-07-27 22:52:40 | Completed: compute_entities_tfidf
+2026-07-27 22:52:42 | Completed: compute_post_tfidf
+2026-07-27 22:52:42 | Completed: compute_author_key_score
+2026-07-27 22:53:05 | Completed: compute_entities_tfidf
+2026-07-27 22:53:17 | Completed: compute_entities_tfidf
+2026-07-27 22:53:20 | Completed: compute_entities_tfidf
+2026-07-27 22:53:21 | Completed: compute_post_tfidf
+2026-07-27 22:53:24 | Completed: compute_author_key_score
+2026-07-27 22:53:31 | Completed: compute_entities_tfidf
+2026-07-27 22:53:33 | Completed: compute_entities_tfidf
+2026-07-27 22:53:34 | Completed: compute_entities_tfidf
+2026-07-27 22:53:36 | Completed: compute_post_tfidf
+2026-07-27 22:53:37 | Completed: compute_author_key_score
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.05 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.2 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 1.0 and account_relations_configuration interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.5 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.1 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.05 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.01 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_128, top_percentage 0.1 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:08 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.01 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:08 | [get_all_topics_key_authors] top_percentage is 100%, so all authors will be selected as key authors.
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:09 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:15 | Completed: build_accounts_graph
+2026-07-27 22:54:16 | Completed: build_accounts_graph
+2026-07-27 22:54:16 | Completed: build_accounts_graph
+2026-07-27 22:54:16 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:54:16 | #######################################################
+2026-07-27 22:54:16 | #######################################################
+2026-07-27 22:54:16 | Classification failed for topic_col=K_Means_topic_128, top_percentage=0.01, account_relations=interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-27 22:54:16 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration text_similarity.
+2026-07-27 22:54:17 | Completed: build_accounts_graph
+2026-07-27 22:54:17 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:54:17 | #######################################################
+2026-07-27 22:54:17 | #######################################################
+2026-07-27 22:54:17 | Classification failed for topic_col=K_Means_topic_128, top_percentage=0.05, account_relations=interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-27 22:54:17 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:54:17 | #######################################################
+2026-07-27 22:54:17 | #######################################################
+2026-07-27 22:54:17 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration interactions.
+2026-07-27 22:54:17 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration similarity+text_similarity.
+2026-07-27 22:54:17 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-27 22:54:17 | Completed: build_accounts_graph
+2026-07-27 22:54:18 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:18 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:18 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:18 | Completed: build_accounts_graph
+2026-07-27 22:54:18 | Completed: build_accounts_graph
+2026-07-27 22:54:18 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:54:18 | #######################################################
+2026-07-27 22:54:18 | #######################################################
+2026-07-27 22:54:18 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=interactions: maximum recursion depth exceeded while calling a Python object
+2026-07-27 22:54:18 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration similarity+interactions.
+2026-07-27 22:54:19 | Completed: build_accounts_graph
+2026-07-27 22:54:19 | Completed: get_all_topics_key_authors
+2026-07-27 22:54:20 | Completed: build_accounts_graph
+2026-07-27 22:55:06 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:55:13 | #######################################################
+2026-07-27 22:55:20 | #######################################################
+2026-07-27 22:55:26 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration text_similarity+interactions.
+2026-07-27 22:55:28 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:55:30 | FAILED: compute_indicators | (PowerIterationFailedConvergence(...), 'power iteration failed to converge within 100 iterations')
+2026-07-27 22:55:34 | #######################################################
+2026-07-27 22:55:36 | #######################################################
+2026-07-27 22:55:40 | #######################################################
+2026-07-27 22:55:42 | #######################################################
+2026-07-27 22:55:46 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.2 and account_relations_configuration similarity+text_similarity+interactions.
+2026-07-27 22:55:48 | [_run_classification_for_top_percentage] Starting for topic_col BERTopic_topic_128, top_percentage 0.5 and account_relations_configuration similarity.
+2026-07-27 22:55:50 | Completed: get_all_topics_key_authors
+2026-07-27 22:56:11 | Completed: get_all_topics_key_authors
+2026-07-27 22:56:13 | Completed: get_all_topics_key_authors
