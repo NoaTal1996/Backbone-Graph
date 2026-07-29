@@ -10,18 +10,17 @@ sjupyter --gpu rtx_6000:1  # not used
 
 # Run Full Pipeline
 ```bash
-country="UAE"
+country="Venezuela"
 
 /home/${USER}/Backbone-Graph/config/run_full_pipeline.sh ${country}
 ```
 
 # 1_translate_topics_entities
 ```bash
+
+country="Ecuador"
+
 user="$USER"
-
-# Venezuela UAE Ecuador
-country="Cuba"
-
 cd "/home/${user}/Backbone-Graph/src"
 
 echo "Submitting translate topics/entities job for country=${country}"
@@ -47,9 +46,10 @@ done
 
 # 3_key_authors_graph
 ```bash
-user="$USER"
-country="UAE"
 
+country="Iran_1"
+
+user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
 
 echo "Submitting key authors graph job for country=${country}"
