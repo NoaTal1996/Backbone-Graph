@@ -16,6 +16,8 @@ min_cluster_sizes=(10 128 256 512)
 
 cd "${project_root}/src" || exit 1
 
+echo "Launch pipeline from working directory: $(pwd)"
+
 step_1_input="../data/Labeled_Datasets/${country}/${country}_part_all.gzip.parquet"
 
 step_1_output="../results/Labeled_Datasets/${country}/${country}_part_all/step_1_translate_topics_entities/${country}_part_all_step_1.gzip.parquet"

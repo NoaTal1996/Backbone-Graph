@@ -10,7 +10,7 @@ sjupyter --gpu rtx_6000:1  # not used
 
 # Run Full Pipeline
 ```bash
-country="Venezuela"
+country="Armenia"
 
 /home/${USER}/Backbone-Graph/config/run_full_pipeline.sh ${country}
 ```
@@ -47,7 +47,7 @@ done
 # 3_key_authors_graph
 ```bash
 
-country="Iran_1"
+country="UAE"
 
 user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
@@ -59,14 +59,16 @@ sbatch "../config/run_3_key_authors_graph.sbatch" \
 
 # 4_inter_intra_classification
 ```bash
-user="$USER"
-country="UAE"
 
+country="Cuba_Test"
+
+user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
 
 echo "Submitting inter/intra classification job for country=${country}"
 sbatch "../config/run_4_inter_intra_classification.sbatch" \
-    "../results/Labeled_Datasets/${country}/${country}_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/"
+"../results/Labeled_Datasets/${country}/${country}_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/"
+
 ```
 
 ### Interactive Job ###
