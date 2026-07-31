@@ -47,6 +47,11 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
 
 echo "Starting papermill..."
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"
+if ! conda run --no-capture-output -n backbone_env_v2 \
+    papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" \
+    -p input_data_path "$INPUT_FILE_PATH"; then
+    echo "ERROR: ${SLURM_JOB_NAME} failed during Papermill execution." >&2
+    exit 1
+fi
 
 echo "Completed ${SLURM_JOB_NAME}!"
