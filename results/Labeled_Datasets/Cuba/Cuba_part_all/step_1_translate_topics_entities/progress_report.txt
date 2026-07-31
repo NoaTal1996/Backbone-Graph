@@ -2403,3 +2403,69 @@ Continuing to Entities Reuse
 2026-07-28 15:50:29 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😂😂😂😂😂 👀😂😂😂😂
 2026-07-28 15:50:31 | Language detection failed: No features in text. | lang_code=und | text=<USER> 😱😱😱😱😱😱🤦🏽‍♀️🤦🏽‍♀️🤦🏽‍♀️🤦🏽‍♀️
 2026-07-28 15:50:31 | Language detection failed: No features in text. | lang_code=und | text=👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏 <URL>
+2026-07-29 15:05:24 | ###################### START ########################
+2026-07-29 15:05:30 | ###################### START ########################
+2026-07-29 15:05:30 | Starting script: `1_translate_topics_entities.ipynb` Good Luck!
+2026-07-29 15:05:30 | Input data path: ../data/Labeled_Datasets/Cuba/Cuba_part_all.gzip.parquet
+2026-07-29 15:05:30 | Output path: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities
+2026-07-29 15:05:30 | Using device: cuda
+2026-07-29 15:05:30 | Wrote hardware report to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/hardware_info.txt
+2026-07-29 15:05:30 | Memory after input loading: RSS=7.29 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.02 GiB
+2026-07-29 15:05:32 | Initialized output file from source: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet
+2026-07-29 15:05:43 | postid duplication sum 236 (0.004%)
+2026-07-29 15:07:13 | Undefined post language percentage **before** mapping: 3.28%
+2026-07-29 15:31:37 | Undefined post language percentage **after** mapping: 0.04%
+2026-07-29 15:31:37 | Removing 2185 posts with undefined language code und
+2026-07-29 15:45:31 | Using device: cuda
+2026-07-29 15:45:41 | Loaded facebook/nllb-200-distilled-600M on cuda with dtype torch.float16
+2026-07-29 15:45:41 | Translation pipeline created.
+2026-07-29 15:45:41 | 301 posts: afr_Latn → eng_Latn
+2026-07-29 15:45:58 | 253 posts: als_Latn → eng_Latn
+2026-07-29 15:46:05 | 9400 posts: arb_Arab → eng_Latn
+2026-07-29 15:59:16 | 1315 posts: ben_Beng → eng_Latn
+2026-07-29 16:02:01 | 1 posts: bod_Tibt → eng_Latn
+2026-07-29 16:02:01 | 39 posts: bos_Latn → eng_Latn
+2026-07-29 16:02:05 | 76 posts: bul_Cyrl → eng_Latn
+2026-07-29 16:02:09 | 50851 posts: cat_Latn → eng_Latn
+2026-07-29 16:25:35 | 1481 posts: ces_Latn → eng_Latn
+2026-07-29 16:28:38 | 1 posts: ckb_Arab → eng_Latn
+2026-07-29 16:28:38 | 2667 posts: cym_Latn → eng_Latn
+2026-07-29 16:31:19 | 2199 posts: dan_Latn → eng_Latn
+2026-07-29 16:34:23 | 42011 posts: deu_Latn → eng_Latn
+2026-07-29 17:27:41 | 315 posts: ell_Grek → eng_Latn
+2026-07-29 17:28:22 | 501565 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-30 09:58:14 | 2600 posts: est_Latn → eng_Latn
+2026-07-30 10:02:50 | 1136 posts: eus_Latn → eng_Latn
+2026-07-30 10:04:42 | 1394 posts: fin_Latn → eng_Latn
+2026-07-30 10:07:02 | 15881 posts: fra_Latn → eng_Latn
+2026-07-30 10:22:22 | 2 posts: guj_Gujr → eng_Latn
+2026-07-30 10:22:23 | 2005 posts: hat_Latn → eng_Latn
+2026-07-30 10:25:17 | 23 posts: heb_Hebr → eng_Latn
+2026-07-30 10:25:18 | 355 posts: hin_Deva → eng_Latn
+2026-07-30 10:25:45 | 705 posts: hrv_Latn → eng_Latn
+2026-07-30 10:26:44 | 1015 posts: hun_Latn → eng_Latn
+2026-07-30 10:28:30 | 3 posts: hye_Armn → eng_Latn
+2026-07-30 10:28:30 | 10007 posts: ind_Latn → eng_Latn
+2026-07-30 10:40:27 | 212 posts: isl_Latn → eng_Latn
+2026-07-30 10:40:47 | 20464 posts: ita_Latn → eng_Latn
+2026-07-30 11:03:56 | 10729 posts: jpn_Jpan → eng_Latn
+2026-07-30 11:28:48 | 161 posts: kan_Knda → eng_Latn
+2026-07-30 11:29:12 | 2934 posts: kor_Hang → eng_Latn
+2026-07-30 11:35:31 | 1912 posts: lit_Latn → eng_Latn
+2026-07-30 11:38:47 | 861 posts: lvs_Latn → eng_Latn
+2026-07-30 11:39:50 | 6 posts: mar_Deva → eng_Latn
+2026-07-30 11:39:51 | 7 posts: mkd_Cyrl → eng_Latn
+2026-07-30 11:39:51 | 2209 posts: nld_Latn → eng_Latn
+2026-07-30 11:43:21 | 978 posts: nob_Latn → eng_Latn
+2026-07-30 11:44:06 | 22 posts: npi_Deva → eng_Latn
+2026-07-30 11:44:07 | 3 posts: pan_Guru → eng_Latn
+2026-07-30 11:44:07 | 1 posts: pbt_Arab → eng_Latn
+2026-07-30 11:44:07 | 266 posts: pes_Arab → eng_Latn
+2026-07-30 11:44:26 | 1671 posts: pol_Latn → eng_Latn
+2026-07-30 11:46:32 | 69112 posts: por_Latn → eng_Latn
+2026-07-30 13:14:22 | 11817 posts: ron_Latn → eng_Latn
+2026-07-30 13:29:47 | 5489 posts: rus_Cyrl → eng_Latn
+2026-07-30 13:34:00 | 1004 posts: slk_Latn → eng_Latn
+2026-07-30 13:35:14 | 2039 posts: slv_Latn → eng_Latn
+2026-07-30 13:40:43 | 2270 posts: som_Latn → eng_Latn
+2026-07-30 13:42:34 | 5356660 posts: spa_Latn → eng_Latn

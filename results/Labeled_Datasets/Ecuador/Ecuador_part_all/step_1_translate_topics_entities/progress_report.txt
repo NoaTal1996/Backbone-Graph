@@ -1509,3 +1509,199 @@
 2026-07-28 15:47:22 | 196 posts: afr_Latn → eng_Latn
 2026-07-28 15:47:27 | 153 posts: als_Latn → eng_Latn
 2026-07-28 15:47:36 | 2793 posts: arb_Arab → eng_Latn
+2026-07-29 15:05:51 | ###################### START ########################
+2026-07-29 15:05:56 | ###################### START ########################
+2026-07-29 15:05:56 | Starting script: `1_translate_topics_entities.ipynb` Good Luck!
+2026-07-29 15:05:56 | Input data path: ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
+2026-07-29 15:05:56 | Output path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities
+2026-07-29 15:05:57 | Using device: cuda
+2026-07-29 15:05:57 | Wrote hardware report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/hardware_info.txt
+2026-07-29 15:05:57 | Memory after input loading: RSS=2.99 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.02 GiB
+2026-07-29 15:05:59 | Initialized output file from source: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+2026-07-29 15:06:02 | postid duplication sum 57 (0.004%)
+2026-07-29 15:06:22 | Undefined post language percentage **before** mapping: 4.92%
+2026-07-29 15:14:46 | Undefined post language percentage **after** mapping: 0.10%
+2026-07-29 15:14:46 | Removing 1493 posts with undefined language code und
+2026-07-29 15:17:47 | Using device: cuda
+2026-07-29 15:18:18 | Loaded facebook/nllb-200-distilled-600M on cuda with dtype torch.float16
+2026-07-29 15:18:18 | Translation pipeline created.
+2026-07-29 15:18:19 | 203 posts: afr_Latn → eng_Latn
+2026-07-29 15:18:28 | 163 posts: als_Latn → eng_Latn
+2026-07-29 15:18:36 | 2799 posts: arb_Arab → eng_Latn
+2026-07-29 15:23:02 | 3 posts: ben_Beng → eng_Latn
+2026-07-29 15:23:07 | 1 posts: bos_Latn → eng_Latn
+2026-07-29 15:23:07 | 413 posts: bul_Cyrl → eng_Latn
+2026-07-29 15:23:27 | 27058 posts: cat_Latn → eng_Latn
+2026-07-29 15:37:38 | 465 posts: ces_Latn → eng_Latn
+2026-07-29 15:38:21 | 7 posts: ckb_Arab → eng_Latn
+2026-07-29 15:38:22 | 964 posts: cym_Latn → eng_Latn
+2026-07-29 15:39:17 | 773 posts: dan_Latn → eng_Latn
+2026-07-29 15:40:01 | 6864 posts: deu_Latn → eng_Latn
+2026-07-29 15:51:00 | 202 posts: ell_Grek → eng_Latn
+2026-07-29 15:51:43 | 223347 posts: eng_Latn → spa_Latn → eng_Latn
+2026-07-29 23:23:43 | 2296 posts: est_Latn → eng_Latn
+2026-07-29 23:27:45 | 614 posts: eus_Latn → eng_Latn
+2026-07-29 23:28:40 | 748 posts: fin_Latn → eng_Latn
+2026-07-29 23:29:57 | 8409 posts: fra_Latn → eng_Latn
+2026-07-29 23:37:51 | 1039 posts: hat_Latn → eng_Latn
+2026-07-29 23:39:08 | 21 posts: heb_Hebr → eng_Latn
+2026-07-29 23:39:10 | 375 posts: hin_Deva → eng_Latn
+2026-07-29 23:39:31 | 651 posts: hrv_Latn → eng_Latn
+2026-07-29 23:40:16 | 386 posts: hun_Latn → eng_Latn
+2026-07-29 23:40:51 | 3 posts: hye_Armn → eng_Latn
+2026-07-29 23:40:52 | 12922 posts: ind_Latn → eng_Latn
+2026-07-29 23:51:52 | 175 posts: isl_Latn → eng_Latn
+2026-07-29 23:52:00 | 10211 posts: ita_Latn → eng_Latn
+2026-07-30 00:05:26 | 10469 posts: jpn_Jpan → eng_Latn
+2026-07-30 00:31:39 | 4 posts: kan_Knda → eng_Latn
+2026-07-30 00:31:40 | 3267 posts: kor_Hang → eng_Latn
+2026-07-30 00:39:10 | 943 posts: lit_Latn → eng_Latn
+2026-07-30 00:40:26 | 450 posts: lvs_Latn → eng_Latn
+2026-07-30 00:40:49 | 23 posts: mkd_Cyrl → eng_Latn
+2026-07-30 00:40:50 | 1644 posts: nld_Latn → eng_Latn
+2026-07-30 00:43:09 | 764 posts: nob_Latn → eng_Latn
+2026-07-30 00:43:39 | 2 posts: npi_Deva → eng_Latn
+2026-07-30 00:43:39 | 4 posts: pan_Guru → eng_Latn
+2026-07-30 00:43:39 | 41 posts: pes_Arab → eng_Latn
+2026-07-30 00:43:43 | 1228 posts: pol_Latn → eng_Latn
+2026-07-30 00:44:54 | 30291 posts: por_Latn → eng_Latn
+2026-07-30 01:15:30 | 1681 posts: ron_Latn → eng_Latn
+2026-07-30 01:18:04 | 5621 posts: rus_Cyrl → eng_Latn
+2026-07-30 01:20:58 | 486 posts: slk_Latn → eng_Latn
+2026-07-30 01:21:24 | 1213 posts: slv_Latn → eng_Latn
+2026-07-30 01:23:56 | 1371 posts: som_Latn → eng_Latn
+2026-07-30 01:25:33 | 1098295 posts: spa_Latn → eng_Latn
+2026-07-30 18:39:35 | 12 posts: srp_Cyrl → eng_Latn
+2026-07-30 18:39:35 | 774 posts: swe_Latn → eng_Latn
+2026-07-30 18:40:43 | 629 posts: swh_Latn → eng_Latn
+2026-07-30 18:41:06 | 14 posts: tam_Taml → eng_Latn
+2026-07-30 18:41:08 | 2 posts: tel_Telu → eng_Latn
+2026-07-30 18:41:08 | 2860 posts: tgl_Latn → eng_Latn
+2026-07-30 18:43:54 | 3767 posts: tha_Thai → eng_Latn
+2026-07-30 18:51:56 | 1333 posts: tur_Latn → eng_Latn
+2026-07-30 18:53:19 | 40 posts: ukr_Cyrl → eng_Latn
+2026-07-30 18:53:24 | 142 posts: urd_Arab → eng_Latn
+2026-07-30 18:53:41 | 402 posts: vie_Latn → eng_Latn
+2026-07-30 18:54:11 | 152 posts: zho_Hans → eng_Latn
+2026-07-30 18:54:29 | Completed: transformers_translator
+2026-07-30 18:54:29 | Translation completed.
+2026-07-30 18:54:29 | Memory after translation: RSS=5.00 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=2.09 GiB
+2026-07-30 18:54:47 | Untranslated posts: 0/1469036 (0.00%)
+2026-07-30 18:54:47 | Filled untranslated posts with original cleaned text.
+2026-07-30 18:55:47 | Updated columns ['is_control', 'post_language', 'clean_text_with_entities', 'clean_text_without_enteties', 'translated_post'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 18:55:47 | Memory after saving ['is_control', 'post_language', 'clean_text_with_entities', 'clean_text_without_enteties', 'translated_post']: RSS=5.43 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=2.09 GiB
+2026-07-30 18:55:48 | Released working columns from memory: ['post_text', 'post_language', 'clean_text_with_entities', 'clean_text_without_enteties']
+2026-07-30 18:55:48 | Memory after releasing translated source columns: RSS=5.16 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=2.09 GiB
+2026-07-30 18:55:48 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet
+Continuing to Entities Reuse
+2026-07-30 18:55:55 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-07-30 19:20:57 | Completed: extract_ner_entities
+2026-07-30 19:20:58 | Memory after NER extraction: RSS=5.26 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:21:13 | Completed: clean_entity_columns
+2026-07-30 19:21:13 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-07-30 19:22:32 | Updated columns ['hashtags', 'account_mentions', 'urls', 'ner_entities'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 19:22:32 | Memory after saving ['hashtags', 'account_mentions', 'urls', 'ner_entities']: RSS=6.18 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:22:34 | 
+[add_entity_reuse] Adding 'hashtags' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-07-30 19:23:15 | Completed: add_entity_reuse
+2026-07-30 19:24:19 | Updated columns ['hashtags_reuse_12H_accountids', 'hashtags_reuse_3D_accountids'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 19:24:19 | Memory after saving ['hashtags_reuse_12H_accountids', 'hashtags_reuse_3D_accountids']: RSS=7.20 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:24:19 | Saved and released source and JSON reuse columns for hashtags: ['hashtags_reuse_12H_accountids', 'hashtags_reuse_3D_accountids']
+2026-07-30 19:24:20 | 
+[add_entity_reuse] Adding 'account_mentions' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-07-30 19:25:25 | Completed: add_entity_reuse
+2026-07-30 19:26:37 | Updated columns ['account_mentions_reuse_12H_accountids', 'account_mentions_reuse_3D_accountids'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 19:26:37 | Memory after saving ['account_mentions_reuse_12H_accountids', 'account_mentions_reuse_3D_accountids']: RSS=8.85 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:26:38 | Saved and released source and JSON reuse columns for account_mentions: ['account_mentions_reuse_12H_accountids', 'account_mentions_reuse_3D_accountids']
+2026-07-30 19:26:38 | 
+[add_entity_reuse] Adding 'urls' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-07-30 19:27:04 | Completed: add_entity_reuse
+2026-07-30 19:28:19 | Updated columns ['urls_reuse_12H_accountids', 'urls_reuse_3D_accountids'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 19:28:19 | Memory after saving ['urls_reuse_12H_accountids', 'urls_reuse_3D_accountids']: RSS=9.29 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:28:19 | Saved and released source and JSON reuse columns for urls: ['urls_reuse_12H_accountids', 'urls_reuse_3D_accountids']
+2026-07-30 19:28:20 | 
+[add_entity_reuse] Adding 'ner_entities' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-07-30 19:28:59 | Completed: add_entity_reuse
+2026-07-30 19:30:18 | Updated columns ['ner_entities_reuse_12H_accountids', 'ner_entities_reuse_3D_accountids'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 19:30:18 | Memory after saving ['ner_entities_reuse_12H_accountids', 'ner_entities_reuse_3D_accountids']: RSS=9.06 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:30:18 | Saved and released source and JSON reuse columns for ner_entities: ['ner_entities_reuse_12H_accountids', 'ner_entities_reuse_3D_accountids']
+2026-07-30 19:30:19 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-07-30 19:30:19 | Released working column from memory: postid
+2026-07-30 19:30:19 | Memory after entity reuse: RSS=8.88 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-07-30 19:39:43 | Generated embeddings, from: translated_post, with model: digio/Twitter4SSE, shape: (1469036, 768)
+2026-07-30 19:39:43 | Saved embeddings to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/post_embeddings.npy
+2026-07-30 19:39:43 | Saved embeddings metadata to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/post_embeddings_metadata.json
+2026-07-30 19:39:43 | Released working text column from memory: translated_post
+2026-07-30 19:39:43 | Memory after disk-backed embedding generation: RSS=10.93 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.80 GiB
+2026-07-30 19:39:45 | Trying k=16
+2026-07-30 19:39:50 | k=16, silhouette_score=0.0236
+2026-07-30 19:39:50 | Trying k=20
+2026-07-30 19:39:56 | k=20, silhouette_score=0.0251
+2026-07-30 19:39:56 | Trying k=24
+2026-07-30 19:40:02 | k=24, silhouette_score=0.0323
+2026-07-30 19:40:02 | Trying k=28
+2026-07-30 19:40:07 | k=28, silhouette_score=0.0347
+2026-07-30 19:40:07 | Trying k=32
+2026-07-30 19:40:11 | k=32, silhouette_score=0.0315
+2026-07-30 19:40:11 | Trying k=36
+2026-07-30 19:40:16 | k=36, silhouette_score=0.0323
+2026-07-30 19:40:16 | Trying k=40
+2026-07-30 19:40:21 | k=40, silhouette_score=0.0319
+2026-07-30 19:40:21 | Trying k=44
+2026-07-30 19:40:26 | k=44, silhouette_score=0.0330
+2026-07-30 19:40:26 | Trying k=48
+2026-07-30 19:40:30 | k=48, silhouette_score=0.0332
+2026-07-30 19:40:30 | Trying k=52
+2026-07-30 19:40:35 | k=52, silhouette_score=0.0329
+2026-07-30 19:40:35 | Trying k=56
+2026-07-30 19:40:40 | k=56, silhouette_score=0.0350
+2026-07-30 19:40:40 | Trying k=60
+2026-07-30 19:40:45 | k=60, silhouette_score=0.0336
+2026-07-30 19:40:45 | Trying k=64
+2026-07-30 19:40:50 | k=64, silhouette_score=0.0344
+2026-07-30 19:40:50 | Trying k=68
+2026-07-30 19:40:56 | k=68, silhouette_score=0.0352
+2026-07-30 19:40:56 | Trying k=72
+2026-07-30 19:41:02 | k=72, silhouette_score=0.0356
+2026-07-30 19:41:02 | Trying k=76
+2026-07-30 19:41:08 | k=76, silhouette_score=0.0351
+2026-07-30 19:41:08 | Trying k=80
+2026-07-30 19:41:14 | k=80, silhouette_score=0.0349
+2026-07-30 19:41:14 | Trying k=84
+2026-07-30 19:41:21 | k=84, silhouette_score=0.0353
+2026-07-30 19:41:21 | Trying k=88
+2026-07-30 19:41:28 | k=88, silhouette_score=0.0355
+2026-07-30 19:41:28 | Trying k=92
+2026-07-30 19:41:35 | k=92, silhouette_score=0.0355
+2026-07-30 19:41:35 | Trying k=96
+2026-07-30 19:41:43 | k=96, silhouette_score=0.0356
+2026-07-30 19:41:43 | Trying k=100
+2026-07-30 19:41:51 | k=100, silhouette_score=0.0366
+2026-07-30 19:41:51 | Trying k=104
+2026-07-30 19:41:58 | k=104, silhouette_score=0.0365
+2026-07-30 19:41:58 | Trying k=108
+2026-07-30 19:42:07 | k=108, silhouette_score=0.0365
+2026-07-30 19:42:07 | Trying k=112
+2026-07-30 19:42:15 | k=112, silhouette_score=0.0365
+2026-07-30 19:42:15 | Trying k=116
+2026-07-30 19:42:24 | k=116, silhouette_score=0.0370
+2026-07-30 19:42:24 | Trying k=120
+2026-07-30 19:42:32 | k=120, silhouette_score=0.0371
+2026-07-30 19:42:32 | Trying k=124
+2026-07-30 19:42:41 | k=124, silhouette_score=0.0380
+2026-07-30 19:42:41 | Trying k=128
+2026-07-30 19:42:51 | k=128, silhouette_score=0.0379
+2026-07-30 19:43:18 | Saved best KMeans model with k=124 to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/kmeans_model_best_k_124.joblib
+2026-07-30 19:43:18 | Best k=124, silhouette_score=0.0380
+2026-07-30 19:43:18 | Completed: auto_kmeans_topics
+2026-07-30 19:43:18 | Memory after sampled MiniBatchKMeans clustering: RSS=8.84 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.80 GiB
+2026-07-30 19:44:36 | Updated columns ['K_Means_topic_124'] in ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-07-30 19:44:36 | Memory after saving ['K_Means_topic_124']: RSS=8.91 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.80 GiB
+2026-07-30 19:44:36 | Saved df with K_Means topics. Best k = 124
+2026-07-30 19:44:40 | Completed: make_topic_stats
+2026-07-30 19:44:43 | FAILED: make_topic_account_stats | cannot convert NA to integer
+2026-07-30 19:44:43 | #######################################################
+2026-07-30 19:44:43 | #######################################################

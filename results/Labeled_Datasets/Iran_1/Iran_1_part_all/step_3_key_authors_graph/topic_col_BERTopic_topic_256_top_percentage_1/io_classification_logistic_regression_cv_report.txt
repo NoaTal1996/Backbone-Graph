@@ -1,20 +1,20 @@
 Model: logistic_regression
 Cross-validation folds: 5
-Samples: 5,665
+Samples: 5,675
 IO samples: 660
-Non-IO samples: 5,005
+Non-IO samples: 5,015
 
               precision    recall  f1-score   support
 
-      Non-IO       0.99      1.00      0.99      5005
+      Non-IO       0.99      1.00      0.99      5015
           IO       1.00      0.89      0.94       660
 
-    accuracy                           0.99      5665
-   macro avg       0.99      0.94      0.97      5665
-weighted avg       0.99      0.99      0.99      5665
+    accuracy                           0.99      5675
+   macro avg       0.99      0.94      0.97      5675
+weighted avg       0.99      0.99      0.99      5675
 
-Cross-validated ROC AUC: 0.9761
-Cross-validated AUC-PR: 0.9574
-Cross-validated F1: 0.9406
-Cross-validated Recall: 0.8879
+Cross-validated ROC AUC: 0.9768
+Cross-validated AUC-PR: 0.9579
+Cross-validated F1: 0.9415
+Cross-validated Recall: 0.8894
 Cross-validated Precision: 1.0000
