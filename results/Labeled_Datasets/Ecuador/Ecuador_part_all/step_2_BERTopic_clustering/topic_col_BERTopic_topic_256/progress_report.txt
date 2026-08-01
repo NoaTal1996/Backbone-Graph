@@ -19,3 +19,49 @@
 2026-08-01 12:02:40 | Saved chunk model 4 for rows 524288:655360 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_4
 2026-08-01 12:02:48 | Saved chunk model 5 for rows 655360:786432 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_5
 2026-08-01 12:02:56 | Saved chunk model 6 for rows 786432:917504 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_6
+2026-08-01 12:03:05 | Saved chunk model 7 for rows 917504:1048576 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_7
+2026-08-01 12:03:14 | Saved chunk model 8 for rows 1048576:1179648 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_8
+2026-08-01 12:03:22 | Saved chunk model 9 for rows 1179648:1310720 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_9
+2026-08-01 12:03:31 | Saved chunk model 10 for rows 1310720:1441792 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_10
+2026-08-01 12:03:33 | Saved chunk model 11 for rows 1441792:1469036 at ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/chunk_model_11
+2026-08-01 12:03:33 | Completed: build_and_save_chunk_models
+2026-08-01 12:03:43 | Merged model saved to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/BERTopic_models_min_topic_size_256/run_tcx3t5me/merged_BERTopic_model_min_similarity_0.7
+2026-08-01 12:03:43 | Completed: load_and_merge_BERTopic_models
+2026-08-01 12:03:58 | Backup df saved to ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_256/new_columns_df.parquet
+2026-08-01 12:03:58 | [update_df_columns_atomically]
+Updating columns: ['BERTopic_topic_256', 'BERTopic_prob_256', 'BERTopic_topic_256_top_words']
+Disk path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:05:13 | [update_df_columns_atomically]
+Updated columns: BERTopic_topic_256, BERTopic_prob_256, BERTopic_topic_256_top_words
+Saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:05:13 | Completed: update_df_columns_atomically
+2026-08-01 12:05:13 | Saved df with BERTopic topics.
+2026-08-01 12:05:13 | Released working column from memory: translated_post
+2026-08-01 12:10:04 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_256_3D_accountids for topic column BERTopic_topic_256 and time window 3D. Values were serialized as JSON strings for Parquet storage.
+2026-08-01 12:10:04 | Completed: add_posting_same_topic
+2026-08-01 12:10:06 | [update_df_columns_atomically]
+Updating columns: ['posting_same_topic_BERTopic_topic_256_3D_accountids']
+Disk path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:15:09 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_256_3D_accountids
+Saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:15:09 | Completed: update_df_columns_atomically
+2026-08-01 12:15:09 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_256_3D_accountids
+2026-08-01 12:15:09 | Released working column from memory: posting_same_topic_BERTopic_topic_256_3D_accountids
+2026-08-01 12:16:30 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_256_12H_accountids for topic column BERTopic_topic_256 and time window 12H. Values were serialized as JSON strings for Parquet storage.
+2026-08-01 12:16:30 | Completed: add_posting_same_topic
+2026-08-01 12:16:32 | [update_df_columns_atomically]
+Updating columns: ['posting_same_topic_BERTopic_topic_256_12H_accountids']
+Disk path: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:24:21 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_256_12H_accountids
+Saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:24:21 | Completed: update_df_columns_atomically
+2026-08-01 12:24:21 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_256_12H_accountids
+2026-08-01 12:24:22 | Released working column from memory: posting_same_topic_BERTopic_topic_256_12H_accountids
+2026-08-01 12:24:28 | Completed: make_topic_stats
+2026-08-01 12:24:29 | Completed: make_topic_account_stats
+2026-08-01 12:24:30 | Final output is complete: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_2_BERTopic_clustering/Ecuador_part_all_step_2.gzip.parquet
+2026-08-01 12:24:30 | Finished Running Successfully
+2026-08-01 12:24:30 | #######################################################
+2026-08-01 12:24:30 | #######################################################
