@@ -1,0 +1,6 @@
+Posts time range: 2014-08 → 2020-11
+
+df shape:                                (142078, 9)
+posts with hashtags #:                   112,731  (79.34%)
+posts with account_mentions @:           47,017  (33.09%)
+posts with urls:                         124,124  (87.36%)
