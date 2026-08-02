@@ -63,3 +63,74 @@ Saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTop
 2026-07-31 10:34:42 | Completed: update_df_columns_atomically
 2026-07-31 10:34:42 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_10_12H_accountids
 2026-07-31 10:34:42 | Released working column from memory: posting_same_topic_BERTopic_topic_10_12H_accountids
+2026-08-02 10:48:53 | Input data path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-08-02 10:48:53 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10
+2026-08-02 10:48:53 | Wrote hardware report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/hardware_info.txt
+2026-08-02 10:48:53 |  ############# running: big_data_topic_clustering.ipynb ############# 
+2026-08-02 10:48:53 | Today date: 2026-08-02
+2026-08-02 10:48:53 | Input data path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/Venezuela_part_all_step_1.gzip.parquet
+2026-08-02 10:48:53 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10
+2026-08-02 10:48:53 | Loaded df: Venezuela_part_all_step_1.gzip.parquet.
+2026-08-02 10:48:53 | df shape: (1972465, 4)
+2026-08-02 10:48:53 | min_topic_size: 10
+2026-08-02 10:48:53 | Shared output file already exists: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 10:49:40 | Loaded validated embeddings from: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_1_translate_topics_entities/post_embeddings.npy, shape: (1972465, 768)
+2026-08-02 10:49:41 | [build_and_save_chunk_models] Using device cuda
+2026-08-02 10:49:51 | Building chunk models in ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj; chunk_size=131072, min_topic_size=10, device=cuda
+2026-08-02 10:50:06 | Saved chunk model 0 for rows 0:131072 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_0
+2026-08-02 10:50:19 | Saved chunk model 1 for rows 131072:262144 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_1
+2026-08-02 10:50:30 | Saved chunk model 2 for rows 262144:393216 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_2
+2026-08-02 10:50:45 | Saved chunk model 3 for rows 393216:524288 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_3
+2026-08-02 10:50:58 | Saved chunk model 4 for rows 524288:655360 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_4
+2026-08-02 10:51:07 | Saved chunk model 5 for rows 655360:786432 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_5
+2026-08-02 10:51:19 | Saved chunk model 6 for rows 786432:917504 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_6
+2026-08-02 10:51:31 | Saved chunk model 7 for rows 917504:1048576 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_7
+2026-08-02 10:51:42 | Saved chunk model 8 for rows 1048576:1179648 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_8
+2026-08-02 10:51:53 | Saved chunk model 9 for rows 1179648:1310720 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_9
+2026-08-02 10:52:08 | Saved chunk model 10 for rows 1310720:1441792 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_10
+2026-08-02 10:52:26 | Saved chunk model 11 for rows 1441792:1572864 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_11
+2026-08-02 10:52:39 | Saved chunk model 12 for rows 1572864:1703936 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_12
+2026-08-02 10:52:52 | Saved chunk model 13 for rows 1703936:1835008 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_13
+2026-08-02 10:53:06 | Saved chunk model 14 for rows 1835008:1966080 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_14
+2026-08-02 10:53:07 | Saved chunk model 15 for rows 1966080:1972465 at ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/chunk_model_15
+2026-08-02 10:53:08 | Completed: build_and_save_chunk_models
+2026-08-02 10:53:36 | Merged model saved to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_9k2kr5cj/merged_BERTopic_model_min_similarity_0.7
+2026-08-02 10:53:36 | Completed: load_and_merge_BERTopic_models
+2026-08-02 10:56:34 | Backup df saved to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/new_columns_df.parquet
+2026-08-02 10:56:34 | [update_df_columns_atomically]
+Updating columns: ['BERTopic_topic_10', 'BERTopic_prob_10', 'BERTopic_topic_10_top_words']
+Disk path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:05:53 | [update_df_columns_atomically]
+Updated columns: BERTopic_topic_10, BERTopic_prob_10, BERTopic_topic_10_top_words
+Saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:05:53 | Completed: update_df_columns_atomically
+2026-08-02 11:05:54 | Saved df with BERTopic topics.
+2026-08-02 11:05:54 | Released working column from memory: translated_post
+2026-08-02 11:06:49 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_10_3D_accountids for topic column BERTopic_topic_10 and time window 3D. Values were serialized as JSON strings for Parquet storage.
+2026-08-02 11:06:49 | Completed: add_posting_same_topic
+2026-08-02 11:06:51 | [update_df_columns_atomically]
+Updating columns: ['posting_same_topic_BERTopic_topic_10_3D_accountids']
+Disk path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:14:40 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_10_3D_accountids
+Saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:14:40 | Completed: update_df_columns_atomically
+2026-08-02 11:14:40 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_10_3D_accountids
+2026-08-02 11:14:41 | Released working column from memory: posting_same_topic_BERTopic_topic_10_3D_accountids
+2026-08-02 11:15:17 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_10_12H_accountids for topic column BERTopic_topic_10 and time window 12H. Values were serialized as JSON strings for Parquet storage.
+2026-08-02 11:15:17 | Completed: add_posting_same_topic
+2026-08-02 11:15:19 | [update_df_columns_atomically]
+Updating columns: ['posting_same_topic_BERTopic_topic_10_12H_accountids']
+Disk path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:23:07 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_10_12H_accountids
+Saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:23:07 | Completed: update_df_columns_atomically
+2026-08-02 11:23:07 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_10_12H_accountids
+2026-08-02 11:23:08 | Released working column from memory: posting_same_topic_BERTopic_topic_10_12H_accountids
+2026-08-02 11:23:17 | Completed: make_topic_stats
+2026-08-02 11:24:18 | Completed: make_topic_account_stats
+2026-08-02 11:25:07 | Final output is complete: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-02 11:25:07 | Finished Running Successfully
+2026-08-02 11:25:07 | #######################################################
+2026-08-02 11:25:07 | #######################################################
