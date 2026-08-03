@@ -2469,3 +2469,148 @@ Continuing to Entities Reuse
 2026-07-30 13:35:14 | 2039 posts: slv_Latn → eng_Latn
 2026-07-30 13:40:43 | 2270 posts: som_Latn → eng_Latn
 2026-07-30 13:42:34 | 5356660 posts: spa_Latn → eng_Latn
+2026-08-03 00:20:56 | 16 posts: srp_Cyrl → eng_Latn
+2026-08-03 00:20:57 | 1173 posts: swe_Latn → eng_Latn
+2026-08-03 00:22:23 | 1737 posts: swh_Latn → eng_Latn
+2026-08-03 00:24:09 | 7 posts: tam_Taml → eng_Latn
+2026-08-03 00:24:10 | 10 posts: tel_Telu → eng_Latn
+2026-08-03 00:24:11 | 4569 posts: tgl_Latn → eng_Latn
+2026-08-03 00:29:35 | 2709 posts: tha_Thai → eng_Latn
+2026-08-03 00:36:03 | 3365 posts: tur_Latn → eng_Latn
+2026-08-03 00:40:17 | 213 posts: ukr_Cyrl → eng_Latn
+2026-08-03 00:40:42 | 49 posts: urd_Arab → eng_Latn
+2026-08-03 00:40:46 | 531 posts: vie_Latn → eng_Latn
+2026-08-03 00:41:35 | 339 posts: zho_Hans → eng_Latn
+2026-08-03 00:42:16 | Completed: transformers_translator
+2026-08-03 00:42:16 | Translation completed.
+2026-08-03 00:42:17 | Memory after translation: RSS=13.79 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=2.13 GiB
+2026-08-03 00:43:26 | Untranslated posts: 0/6153146 (0.00%)
+2026-08-03 00:43:26 | Filled untranslated posts with original cleaned text.
+2026-08-03 00:47:19 | Updated columns ['is_control', 'post_language', 'clean_text_with_entities', 'clean_text_without_enteties', 'translated_post'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 00:47:19 | Memory after saving ['is_control', 'post_language', 'clean_text_with_entities', 'clean_text_without_enteties', 'translated_post']: RSS=15.17 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=2.13 GiB
+2026-08-03 00:47:21 | Released working columns from memory: ['post_text', 'post_language', 'clean_text_with_entities', 'clean_text_without_enteties']
+2026-08-03 00:47:21 | Memory after releasing translated source columns: RSS=13.71 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=2.13 GiB
+2026-08-03 00:47:21 | Finished Translation
+Saved df to ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet
+Continuing to Entities Reuse
+2026-08-03 00:47:24 | Loaded TweebankNLP/bertweet-tb2_wnut17-ner on cuda with dtype torch.float16
+2026-08-03 02:35:57 | Completed: extract_ner_entities
+2026-08-03 02:35:59 | Memory after NER extraction: RSS=14.17 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 02:37:01 | Completed: clean_entity_columns
+2026-08-03 02:37:02 | Saved df with clean_entity_columns, entity_cols_lst = ['hashtags', 'account_mentions', 'urls', 'ner_entities']
+2026-08-03 02:42:18 | Updated columns ['hashtags', 'account_mentions', 'urls', 'ner_entities'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 02:42:18 | Memory after saving ['hashtags', 'account_mentions', 'urls', 'ner_entities']: RSS=18.32 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 02:42:24 | 
+[add_entity_reuse] Adding 'hashtags' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-08-03 02:48:47 | Completed: add_entity_reuse
+2026-08-03 02:54:35 | Updated columns ['hashtags_reuse_12H_accountids', 'hashtags_reuse_3D_accountids'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 02:54:35 | Memory after saving ['hashtags_reuse_12H_accountids', 'hashtags_reuse_3D_accountids']: RSS=35.98 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 02:54:37 | Saved and released source and JSON reuse columns for hashtags: ['hashtags_reuse_12H_accountids', 'hashtags_reuse_3D_accountids']
+2026-08-03 02:54:39 | 
+[add_entity_reuse] Adding 'account_mentions' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-08-03 03:01:34 | Completed: add_entity_reuse
+2026-08-03 03:10:07 | Updated columns ['account_mentions_reuse_12H_accountids', 'account_mentions_reuse_3D_accountids'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 03:10:07 | Memory after saving ['account_mentions_reuse_12H_accountids', 'account_mentions_reuse_3D_accountids']: RSS=35.93 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 03:10:09 | Saved and released source and JSON reuse columns for account_mentions: ['account_mentions_reuse_12H_accountids', 'account_mentions_reuse_3D_accountids']
+2026-08-03 03:10:11 | 
+[add_entity_reuse] Adding 'urls' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-08-03 03:11:49 | Completed: add_entity_reuse
+2026-08-03 03:20:17 | Updated columns ['urls_reuse_12H_accountids', 'urls_reuse_3D_accountids'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 03:20:17 | Memory after saving ['urls_reuse_12H_accountids', 'urls_reuse_3D_accountids']: RSS=36.28 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 03:20:18 | Saved and released source and JSON reuse columns for urls: ['urls_reuse_12H_accountids', 'urls_reuse_3D_accountids']
+2026-08-03 03:20:20 | 
+[add_entity_reuse] Adding 'ner_entities' reuse columns for time windows: ['12H', '3D']. include_post_ids=False
+2026-08-03 03:25:43 | Completed: add_entity_reuse
+2026-08-03 03:35:14 | Updated columns ['ner_entities_reuse_12H_accountids', 'ner_entities_reuse_3D_accountids'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 03:35:14 | Memory after saving ['ner_entities_reuse_12H_accountids', 'ner_entities_reuse_3D_accountids']: RSS=34.72 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 03:35:16 | Saved and released source and JSON reuse columns for ner_entities: ['ner_entities_reuse_12H_accountids', 'ner_entities_reuse_3D_accountids']
+2026-08-03 03:35:18 | Finished Entities Reuse
+Added reuse columns for entity types: ['hashtags', 'account_mentions', 'urls', 'ner_entities'] and time windows: ['12H', '3D']
+Continuing to Topic Clustering
+2026-08-03 03:35:18 | Released working column from memory: postid
+2026-08-03 03:35:18 | Memory after entity reuse: RSS=33.67 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.30 GiB
+2026-08-03 04:10:49 | Generated embeddings, from: translated_post, with model: digio/Twitter4SSE, shape: (6153146, 768)
+2026-08-03 04:10:49 | Saved embeddings to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/post_embeddings.npy
+2026-08-03 04:10:49 | Saved embeddings metadata to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/post_embeddings_metadata.json
+2026-08-03 04:10:50 | Released working text column from memory: translated_post
+2026-08-03 04:10:50 | Memory after disk-backed embedding generation: RSS=42.04 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.80 GiB
+2026-08-03 04:10:56 | Trying k=16
+2026-08-03 04:10:59 | k=16, silhouette_score=0.0547
+2026-08-03 04:10:59 | Trying k=20
+2026-08-03 04:11:03 | k=20, silhouette_score=0.0570
+2026-08-03 04:11:03 | Trying k=24
+2026-08-03 04:11:06 | k=24, silhouette_score=0.0573
+2026-08-03 04:11:06 | Trying k=28
+2026-08-03 04:11:09 | k=28, silhouette_score=0.0602
+2026-08-03 04:11:09 | Trying k=32
+2026-08-03 04:11:13 | k=32, silhouette_score=0.0602
+2026-08-03 04:11:13 | Trying k=36
+2026-08-03 04:11:17 | k=36, silhouette_score=0.0626
+2026-08-03 04:11:17 | Trying k=40
+2026-08-03 04:11:21 | k=40, silhouette_score=0.0613
+2026-08-03 04:11:21 | Trying k=44
+2026-08-03 04:11:25 | k=44, silhouette_score=0.0622
+2026-08-03 04:11:25 | Trying k=48
+2026-08-03 04:11:30 | k=48, silhouette_score=0.0636
+2026-08-03 04:11:30 | Trying k=52
+2026-08-03 04:11:35 | k=52, silhouette_score=0.0647
+2026-08-03 04:11:35 | Trying k=56
+2026-08-03 04:11:40 | k=56, silhouette_score=0.0620
+2026-08-03 04:11:40 | Trying k=60
+2026-08-03 04:11:45 | k=60, silhouette_score=0.0620
+2026-08-03 04:11:45 | Trying k=64
+2026-08-03 04:11:51 | k=64, silhouette_score=0.0617
+2026-08-03 04:11:51 | Trying k=68
+2026-08-03 04:11:56 | k=68, silhouette_score=0.0630
+2026-08-03 04:11:56 | Trying k=72
+2026-08-03 04:12:03 | k=72, silhouette_score=0.0645
+2026-08-03 04:12:03 | Trying k=76
+2026-08-03 04:12:10 | k=76, silhouette_score=0.0645
+2026-08-03 04:12:10 | Trying k=80
+2026-08-03 04:12:16 | k=80, silhouette_score=0.0653
+2026-08-03 04:12:16 | Trying k=84
+2026-08-03 04:12:23 | k=84, silhouette_score=0.0663
+2026-08-03 04:12:23 | Trying k=88
+2026-08-03 04:12:30 | k=88, silhouette_score=0.0657
+2026-08-03 04:12:30 | Trying k=92
+2026-08-03 04:12:37 | k=92, silhouette_score=0.0667
+2026-08-03 04:12:37 | Trying k=96
+2026-08-03 04:12:44 | k=96, silhouette_score=0.0680
+2026-08-03 04:12:44 | Trying k=100
+2026-08-03 04:12:52 | k=100, silhouette_score=0.0693
+2026-08-03 04:12:52 | Trying k=104
+2026-08-03 04:13:00 | k=104, silhouette_score=0.0702
+2026-08-03 04:13:00 | Trying k=108
+2026-08-03 04:13:08 | k=108, silhouette_score=0.0695
+2026-08-03 04:13:08 | Trying k=112
+2026-08-03 04:13:18 | k=112, silhouette_score=0.0704
+2026-08-03 04:13:18 | Trying k=116
+2026-08-03 04:13:27 | k=116, silhouette_score=0.0702
+2026-08-03 04:13:27 | Trying k=120
+2026-08-03 04:13:38 | k=120, silhouette_score=0.0711
+2026-08-03 04:13:38 | Trying k=124
+2026-08-03 04:13:47 | k=124, silhouette_score=0.0717
+2026-08-03 04:13:47 | Trying k=128
+2026-08-03 04:13:59 | k=128, silhouette_score=0.0679
+2026-08-03 04:15:29 | Saved best KMeans model with k=124 to ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/kmeans_model_best_k_124.joblib
+2026-08-03 04:15:29 | Best k=124, silhouette_score=0.0717
+2026-08-03 04:15:29 | Completed: auto_kmeans_topics
+2026-08-03 04:15:30 | Memory after sampled MiniBatchKMeans clustering: RSS=33.26 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.80 GiB
+2026-08-03 04:25:37 | Updated columns ['K_Means_topic_124'] in ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet using 25,000-row batches.
+2026-08-03 04:25:37 | Memory after saving ['K_Means_topic_124']: RSS=33.70 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.80 GiB
+2026-08-03 04:25:38 | Saved df with K_Means topics. Best k = 124
+2026-08-03 04:25:51 | Completed: make_topic_stats
+2026-08-03 04:25:56 | FAILED: make_topic_account_stats | cannot convert NA to integer
+2026-08-03 04:25:56 | #######################################################
+2026-08-03 04:25:56 | #######################################################
+2026-08-03 12:26:52 | ###################### START ########################
+2026-08-03 12:26:52 | ###################### START ########################
+2026-08-03 12:26:52 | Starting script: `1_translate_topics_entities.ipynb` Good Luck!
+2026-08-03 12:26:52 | Input data path: ../data/Labeled_Datasets/Cuba/Cuba_part_all.gzip.parquet
+2026-08-03 12:26:52 | Output path: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities
+2026-08-03 12:26:53 | Using device: cuda
+2026-08-03 12:26:53 | Wrote hardware report to: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/hardware_info.txt
+2026-08-03 12:26:53 | Memory after input loading: RSS=7.30 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.02 GiB
+2026-08-03 12:26:55 | Initialized output file from source: ../results/Labeled_Datasets/Cuba/Cuba_part_all/step_1_translate_topics_entities/Cuba_part_all_step_1.gzip.parquet
+2026-08-03 12:27:05 | postid duplication sum 236 (0.004%)
+2026-08-03 12:28:33 | Undefined post language percentage **before** mapping: 3.28%

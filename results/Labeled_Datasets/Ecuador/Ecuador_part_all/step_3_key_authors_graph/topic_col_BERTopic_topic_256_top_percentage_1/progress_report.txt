@@ -41,3 +41,121 @@
 2026-08-01 15:41:09 | job_id=19673544 | Completed: get_all_topics_key_authors
 2026-08-01 15:41:09 | job_id=19673544 | Completed: get_all_topics_key_authors
 2026-08-01 15:53:47 | job_id=19673544 | Completed: build_accounts_graph
+2026-08-02 13:22:21 | job_id=19673544 | node_indicators_df is saved to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-08-02 13:22:21 | job_id=19673544 | Completed: compute_indicators
+2026-08-02 13:22:23 | job_id=19673544 | Completed: compute_zscore
+2026-08-02 13:22:25 | job_id=19673544 | Completed: compute_indicators_information_gain
+2026-08-02 13:22:26 | job_id=19673544 | Completed: plot_indicators_information_gain
+2026-08-02 13:22:29 | job_id=19673544 | Completed: plot_indicators_distributions
+2026-08-02 13:22:32 | job_id=19673544 | Completed: plot_indicator_boxplots
+2026-08-02 13:22:32 | job_id=19673544 | Completed: plot_io_correlations
+2026-08-02 13:22:33 | job_id=19673544 | Completed: get_top_authors_by_indicator
+2026-08-02 13:42:59 | job_id=19673544 | Completed: plot_pagerank_key_score_correlation
+2026-08-02 13:43:16 | job_id=19673544 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_report.txt
+2026-08-02 13:43:16 | job_id=19673544 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_model.joblib
+2026-08-02 13:43:16 | job_id=19673544 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_confusion_matrix.png
+2026-08-02 13:43:16 | job_id=19673544 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_predictions.csv
+2026-08-02 13:43:16 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:43:17 | job_id=19673544 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_report.txt
+2026-08-02 13:43:17 | job_id=19673544 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_model.joblib
+2026-08-02 13:43:17 | job_id=19673544 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_confusion_matrix.png
+2026-08-02 13:43:17 | job_id=19673544 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_predictions.csv
+2026-08-02 13:43:17 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:43:18 | job_id=19673544 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_report.txt
+2026-08-02 13:43:18 | job_id=19673544 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_model.joblib
+2026-08-02 13:43:18 | job_id=19673544 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_confusion_matrix.png
+2026-08-02 13:43:18 | job_id=19673544 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_predictions.csv
+2026-08-02 13:43:18 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:43:26 | job_id=19673544 | Completed: plot_shap_analysis
+2026-08-02 13:43:29 | job_id=19673544 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_report.txt
+2026-08-02 13:43:29 | job_id=19673544 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_model.joblib
+2026-08-02 13:43:29 | job_id=19673544 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_confusion_matrix.png
+2026-08-02 13:43:29 | job_id=19673544 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_predictions.csv
+2026-08-02 13:43:29 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:43:30 | job_id=19673544 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_report.txt
+2026-08-02 13:43:30 | job_id=19673544 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_model.joblib
+2026-08-02 13:43:30 | job_id=19673544 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_confusion_matrix.png
+2026-08-02 13:43:30 | job_id=19673544 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_predictions.csv
+2026-08-02 13:43:30 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:43:30 | job_id=19673544 | Saved report to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_report.txt
+2026-08-02 13:43:30 | job_id=19673544 | Saved model to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_model.joblib
+2026-08-02 13:43:30 | job_id=19673544 | Saved confusion matrix to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_confusion_matrix.png
+2026-08-02 13:43:30 | job_id=19673544 | Saved CV predictions to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_predictions.csv
+2026-08-02 13:43:30 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:43:31 | job_id=19673544 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_auc_pr_comparison.png
+2026-08-02 13:43:32 | job_id=19673544 | ######## Starting run_classification_sweep_analysis ########
+2026-08-02 13:43:47 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:44:08 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:44:28 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:44:39 | job_id=19673544 | Completed: compute_post_tfidf
+2026-08-02 13:44:40 | job_id=19673544 | Completed: compute_author_key_score
+2026-08-02 13:44:48 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:45:10 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:45:30 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:45:41 | job_id=19673544 | Completed: compute_post_tfidf
+2026-08-02 13:45:42 | job_id=19673544 | Completed: compute_author_key_score
+2026-08-02 13:45:50 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:46:10 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:46:30 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:46:41 | job_id=19673544 | Completed: compute_post_tfidf
+2026-08-02 13:46:42 | job_id=19673544 | Completed: compute_author_key_score
+2026-08-02 13:46:50 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:47:12 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:47:32 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:47:43 | job_id=19673544 | Completed: compute_post_tfidf
+2026-08-02 13:47:48 | job_id=19673544 | Completed: compute_author_key_score
+2026-08-02 13:47:57 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:48:18 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:48:38 | job_id=19673544 | Completed: compute_entities_tfidf
+2026-08-02 13:48:50 | job_id=19673544 | Completed: compute_post_tfidf
+2026-08-02 13:48:50 | job_id=19673544 | Completed: compute_author_key_score
+2026-08-02 13:48:54 | job_id=19673544 | Classification sweep parallelism:
+- Experiments: 210
+- Allocated CPUs: 32
+- Allocated memory: 160.00 GiB
+- Memory target: 120.00 GiB (75%)
+- Current RSS: 33.28 GiB
+- Dataframe memory: 4.58 GiB
+- Author-score memory: 0.57 GiB
+- Estimated memory per graph worker: 5.15 GiB
+- CPU worker limit: 8
+- Memory worker limit: 16
+- Selected graph workers: 8
+- CV workers per graph worker: 1
+- Maximum combined CPU concurrency: 8
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration similarity.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration similarity+interactions.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration similarity+text_similarity.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration interactions.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration text_similarity+interactions.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration similarity+text_similarity+interactions.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.01 and account_relations_configuration text_similarity.
+2026-08-02 13:48:59 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.05 and account_relations_configuration similarity.
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:48:59 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:54:55 | job_id=19673544 | Completed: build_accounts_graph
+2026-08-02 13:55:14 | job_id=19673544 | Completed: compute_indicators
+2026-08-02 13:55:33 | job_id=19673544 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_124_interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_124_undirected_indicators.parquet
+2026-08-02 13:55:33 | job_id=19673544 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_124_interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_124_undirected_indicators.parquet
+2026-08-02 13:55:44 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:55:56 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:56:16 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:56:26 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:56:55 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:57:05 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:57:17 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:57:22 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:57:40 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:57:48 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:57:59 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:58:05 | job_id=19673544 | Completed: io_classification
+2026-08-02 13:58:22 | job_id=19673544 | Classification sweep progress: 1 / 210 experiments finished
+2026-08-02 13:58:22 | job_id=19673544 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.05 and account_relations_configuration text_similarity.
+2026-08-02 13:58:22 | job_id=19673544 | Completed: get_all_topics_key_authors
+2026-08-02 13:59:53 | job_id=19673544 | Completed: build_accounts_graph
