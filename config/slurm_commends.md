@@ -33,16 +33,15 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 ```bash
 
 country="Iran_1"
+min_topic_sizes="10,128,256,512"
 
 user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
 
-for min_cluster_size in 10 128 256 512; do
-    echo "Submitting BERTopic clustering job for country=${country}, min_cluster_size=${min_cluster_size}"
-    sbatch "../config/run_2_BERTopic_clustering.sbatch" \
-        "../results/Labeled_Datasets/${country}/${country}_part_all/step_1_translate_topics_entities/${country}_part_all_step_1.gzip.parquet" \
-        "$min_cluster_size"
-done
+echo "Submitting BERTopic clustering job for country=${country}, min_topic_sizes=${min_topic_sizes}"
+sbatch "../config/run_2_BERTopic_clustering.sbatch" \
+    "../results/Labeled_Datasets/${country}/${country}_part_all/step_1_translate_topics_entities/${country}_part_all_step_1.gzip.parquet" \
+    "$min_topic_sizes"
 ```
 
 # 3_key_authors_graph

@@ -28,18 +28,11 @@
 
 ### Read argument from command line
 INPUT_FILE_PATH="$1"
-MIN_TOPIC_SIZES="$2"
+MIN_TOPIC_SIZE="$2"
 
 if [ -z "$INPUT_FILE_PATH" ]; then
     echo "ERROR: No input file path provided!"
-    echo "Usage: sbatch run_2_BERTopic_clustering.sbatch <INPUT_FILE_PATH> [MIN_TOPIC_SIZES]"
-    echo "Example topic-size list: 128,256,512"
-    exit 1
-fi
-
-if [ -n "$MIN_TOPIC_SIZES" ] && ! [[ "$MIN_TOPIC_SIZES" =~ ^[1-9][0-9]*(,[1-9][0-9]*)*$ ]]; then
-    echo "ERROR: MIN_TOPIC_SIZES must be a comma-separated list of positive integers."
-    echo "Example: 128,256,512"
+    echo "Usage: sbatch run_2_BERTopic_clustering.sbatch <INPUT_FILE_PATH> [MIN_TOPIC_SIZE]"
     exit 1
 fi
 
@@ -49,7 +42,7 @@ echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID
 echo -e "SLURM_JOB_NODELIST:\t" $SLURM_JOB_NODELIST "\n\n"
 echo -e "Job name:\t\t$SLURM_JOB_NAME"
 echo -e "\nINPUT_FILE_PATH:\t" $INPUT_FILE_PATH
-echo -e "\nMIN_TOPIC_SIZES:\t" $MIN_TOPIC_SIZES
+echo -e "\nMIN_TOPIC_SIZE:\t" $MIN_TOPIC_SIZE
 
 ### Start your code below ####
 module load anaconda				### load anaconda module
@@ -60,8 +53,8 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
 
 PAPERMILL_ARGS=(-p input_data_path "$INPUT_FILE_PATH")
-if [ -n "$MIN_TOPIC_SIZES" ]; then
-    PAPERMILL_ARGS+=(-y "min_topic_sizes: [$MIN_TOPIC_SIZES]")
+if [ -n "$MIN_TOPIC_SIZE" ]; then
+    PAPERMILL_ARGS+=(-p min_topic_size "$MIN_TOPIC_SIZE")
 fi
 
 conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" "${PAPERMILL_ARGS[@]}"

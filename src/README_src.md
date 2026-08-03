@@ -122,21 +122,24 @@ This notebook is intended for **large-scale topic clustering** (chunked BERTopic
 **Inputs**
 - Parameters in the notebook:
   - `input_data_path` — Step 1 parquet path (e.g., `"../results/Labeled_Datasets/Egypt_UAE/Egypt_UAE_part_all/step_1_translate_topics_entities/Egypt_UAE_part_all_step_1.gzip.parquet"`).
-  - `min_topic_size` (used for BERTopic and deriving `topic_col`).
+  - `min_topic_sizes` — list of BERTopic minimum cluster sizes, for example `[128, 256, 512]`.
+  - `min_topic_size` — optional legacy scalar that overrides `min_topic_sizes` when provided.
   - `chunk_size` (controls how many documents per BERTopic chunk).
 - Reads the preprocessed parquet produced by notebook 1.
 
 **What it does**
 - Loads the preprocessed dataset.
-- Trains BERTopic in chunks and merges the chunk models.
-- Adds topic labels back into the dataframe.
+- Generates or loads embeddings once, then trains and merges chunked BERTopic models sequentially for every requested minimum topic size.
+- Adds the topic, probability, top-word, and posting-same-topic columns for every size to one combined dataframe.
+- Stages each size's generated columns to its backup Parquet in bounded batches, releases them from memory, then streams all staged columns into the shared Parquet in one atomic update after every requested size finishes.
+- Performs a tiny periodic CUDA operation while running so an allocated GPU remains active during CPU-heavy stages.
 - Generates topic statistics and plots (post counts per topic, unique accounts per topic).
 - Saves progress reports during long runs.
 
 **Outputs**
 - Output folder: `step_2_BERTopic_clustering/topic_col_<topic_col>/`
-- `<input_stem>_step_2.gzip.parquet`
-- `BERTopic_models_min_topic_size_<min_topic_size>/` (chunk models + merged model)
+- `<input_stem>_step_2.gzip.parquet` containing the generated columns for all requested topic sizes.
+- Per-size `topic_col_BERTopic_topic_<min_topic_size>/` folders containing reports, plots, backups, and `BERTopic_models_min_topic_size_<min_topic_size>/`.
 - Plots (PNG): `<topic_col>_topic_clustering.png`, `<topic_col>_topic_accounts.png`
 
 ---
@@ -191,7 +194,8 @@ The repo contains papermill-based SLURM scripts:
   - Script: `../config/run_1_translate_topics_entities.sbatch`
 - Big data clustering:
 
-  - `sbatch ../config/run_2_BERTopic_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZE]`
+  - `sbatch ../config/run_2_BERTopic_clustering.sbatch <STEP_1_PARQUET> [MIN_TOPIC_SIZES]`
+  - Example: `sbatch ../config/run_2_BERTopic_clustering.sbatch <STEP_1_PARQUET> 128,256,512`
   - Script: `../config/run_2_BERTopic_clustering.sbatch`
 - Key authors graph:
 
