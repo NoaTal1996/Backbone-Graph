@@ -10,7 +10,8 @@
 #SBATCH --job-name 2_BERTopic_clustering			### name of the job
 #SBATCH --output=../logs/%j_%x.out                  ### %j – Job ID, %x – Job name
 #SBATCH --error=../logs/%j_%x.err
-#SBATCH --gpus=rtx_4090:1		                    ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
+##SBATCH --gpus=rtx_4090:1		                    ### number of GPUs, allocating more than 1 requires IT team's permission. Example to request 3090 gpu: #SBATCH --gpus=rtx_3090:1
+#SBATCH --cpus-per-task=16
 
 ### Note: Lines are with ## are commented out
 ##SBATCH --mail-user=idanmu@post.bgu.ac.il	        ### user's email for sending job status messages
