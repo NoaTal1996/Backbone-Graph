@@ -19,7 +19,8 @@ The plots should have larger text and number should to be formatted with :, .
 
 Keep the code easy to understand, modify, and reuse.
 
-When downloading new package, add this to the requirements file. In default use conda do make the env and downloading. 
+When downloading a new package, add it to `config/conda_requirements.yml`.
+Use Conda by default for creating environments and installing packages.
 
 For each function make sure to have google-style description.
 
