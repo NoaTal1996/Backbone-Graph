@@ -69,3 +69,8 @@ Disk path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clusteri
 2026-08-03 12:33:48 | Loaded validated embeddings from: ../results/Labeled_Datasets/UAE/UAE_part_all/step_1_translate_topics_entities/post_embeddings.npy, shape: (1705186, 768)
 2026-08-03 12:33:48 | [build_and_save_chunk_models] Using device cpu
 2026-08-03 12:33:48 | Building chunk models in ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_79_be_wd; chunk_size=131072, min_topic_size=10, device=cpu
+2026-08-03 12:36:01 | Saved chunk model 0 for rows 0:131072 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_79_be_wd/chunk_model_0
+2026-08-03 12:49:33 | Saved chunk model 1 for rows 131072:262144 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_79_be_wd/chunk_model_1
+2026-08-03 12:53:55 | Saved chunk model 2 for rows 262144:393216 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_79_be_wd/chunk_model_2
+2026-08-03 13:51:49 | Saved chunk model 3 for rows 393216:524288 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_79_be_wd/chunk_model_3
+2026-08-03 14:02:08 | Saved chunk model 4 for rows 524288:655360 at ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/topic_col_BERTopic_topic_10/BERTopic_models_min_topic_size_10/run_79_be_wd/chunk_model_4

@@ -1,0 +1,11 @@
+2026-08-03 14:08:29 | ###################### START ########################
+2026-08-03 14:08:29 | ###################### START ########################
+2026-08-03 14:08:29 | Starting script: `1_translate_topics_entities.ipynb` Good Luck!
+2026-08-03 14:08:29 | Input data path: ../data/Labeled_Datasets/China_1/China_1_part_all.gzip.parquet
+2026-08-03 14:08:29 | Output path: ../results/Labeled_Datasets/China_1/China_1_part_all/step_1_translate_topics_entities
+2026-08-03 14:08:29 | Using device: cuda
+2026-08-03 14:08:29 | Wrote hardware report to: ../results/Labeled_Datasets/China_1/China_1_part_all/step_1_translate_topics_entities/hardware_info.txt
+2026-08-03 14:08:29 | Memory after input loading: RSS=5.13 GiB, CUDA allocated=0.01 GiB, reserved=0.02 GiB, peak=0.02 GiB
+2026-08-03 14:08:31 | Initialized output file from source: ../results/Labeled_Datasets/China_1/China_1_part_all/step_1_translate_topics_entities/China_1_part_all_step_1.gzip.parquet
+2026-08-03 14:08:37 | postid duplication sum 59 (0.002%)
+2026-08-03 14:09:15 | Undefined post language percentage **before** mapping: 5.42%
