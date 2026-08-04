@@ -525,3 +525,33 @@ Cross-validated Precision: 0.0000
 2026-08-04 13:19:16 | job_id=19744263 | Completed: build_accounts_graph
 2026-08-04 13:21:34 | job_id=19744263 | Completed: build_accounts_graph
 2026-08-04 13:31:31 | job_id=19744263 | Completed: build_accounts_graph
+2026-08-04 17:46:14 | job_id=19744263 | Completed: compute_indicators
+2026-08-04 17:46:24 | job_id=19744263 | Saved graph-author indicators to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_124_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_124_undirected_indicators.parquet
+2026-08-04 17:46:24 | job_id=19744263 | Saved all-author indicators to: ../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_124_similarity+text_similarity_top_percentage_0.05_per_topic_topic_col_K_Means_topic_124_undirected_indicators.parquet
+2026-08-04 17:46:24 | job_id=19744263 | Classification training: model=random_forest, samples=8,416, features=14, IO samples=593, non-IO samples=7,823, CV folds=5, CV jobs=1
+2026-08-04 17:46:33 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:46:33 | job_id=19744263 | Classification training: model=random_forest, samples=21,923, features=14, IO samples=787, non-IO samples=21,136, CV folds=5, CV jobs=1
+2026-08-04 17:46:44 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:46:48 | job_id=19744263 | Classification training: model=xgboost, samples=8,416, features=14, IO samples=593, non-IO samples=7,823, CV folds=5, CV jobs=1
+2026-08-04 17:46:53 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:46:53 | job_id=19744263 | Classification training: model=xgboost, samples=21,923, features=14, IO samples=787, non-IO samples=21,136, CV folds=5, CV jobs=1
+2026-08-04 17:46:58 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:47:07 | job_id=19744263 | Classification training: model=random_forest, samples=8,416, features=1, IO samples=593, non-IO samples=7,823, CV folds=5, CV jobs=1
+2026-08-04 17:47:13 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:47:13 | job_id=19744263 | Classification training: model=random_forest, samples=21,923, features=1, IO samples=787, non-IO samples=21,136, CV folds=5, CV jobs=1
+2026-08-04 17:47:19 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:47:24 | job_id=19744263 | Classification training: model=xgboost, samples=8,416, features=1, IO samples=593, non-IO samples=7,823, CV folds=5, CV jobs=1
+2026-08-04 17:47:29 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:47:29 | job_id=19744263 | Classification training: model=xgboost, samples=21,923, features=1, IO samples=787, non-IO samples=21,136, CV folds=5, CV jobs=1
+2026-08-04 17:47:34 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:47:43 | job_id=19744263 | Classification training: model=random_forest, samples=8,416, features=12, IO samples=593, non-IO samples=7,823, CV folds=5, CV jobs=1
+2026-08-04 17:47:52 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:47:52 | job_id=19744263 | Classification training: model=random_forest, samples=21,923, features=12, IO samples=787, non-IO samples=21,136, CV folds=5, CV jobs=1
+2026-08-04 17:48:03 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:48:07 | job_id=19744263 | Classification training: model=xgboost, samples=8,416, features=12, IO samples=593, non-IO samples=7,823, CV folds=5, CV jobs=1
+2026-08-04 17:48:12 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:48:12 | job_id=19744263 | Classification training: model=xgboost, samples=21,923, features=12, IO samples=787, non-IO samples=21,136, CV folds=5, CV jobs=1
+2026-08-04 17:48:17 | job_id=19744263 | Completed: io_classification
+2026-08-04 17:48:30 | job_id=19744263 | Classification sweep progress: 9 / 210 experiments finished
+2026-08-04 17:48:30 | job_id=19744263 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_124, top_percentage 0.1 and account_relations_configuration similarity.
+2026-08-04 17:48:31 | job_id=19744263 | Completed: get_all_topics_key_authors
