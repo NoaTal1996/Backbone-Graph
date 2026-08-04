@@ -21841,3 +21841,144 @@ Cross-validated Precision: 0.0000
 2026-08-04 11:51:27 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=14, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
 2026-08-04 11:51:27 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
 2026-08-04 11:51:27 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:28 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:28 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=14, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:28 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:28 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:28 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:28 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:28 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:28 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:28 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=14, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:29 | job_id=19793090 | Classification sweep progress: 3 / 210 experiments finished
+2026-08-04 11:51:29 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration similarity.
+2026-08-04 11:51:29 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:29 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:29 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:29 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:29 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:29 | job_id=19793090 | Completed: get_all_topics_key_authors
+2026-08-04 11:51:29 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=14, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:29 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:30 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:30 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:30 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:30 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:31 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:31 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:31 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:31 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:31 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:31 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:31 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:31 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:31 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:32 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:32 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:32 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:32 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:33 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:33 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:33 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:33 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:33 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:34 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:34 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:34 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:34 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:34 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=1, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:35 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:35 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:35 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:35 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:35 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:35 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:35 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:36 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:36 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:36 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:36 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:36 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:36 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:37 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:37 | job_id=19793090 | Classification training: model=random_forest, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:37 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:37 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:37 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:37 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:38 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:38 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:38 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:38 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:38 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:38 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:38 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:38 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:38 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:39 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:39 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:39 | job_id=19793090 | Classification sweep progress: 4 / 210 experiments finished
+2026-08-04 11:51:39 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration text_similarity.
+2026-08-04 11:51:39 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:39 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:40 | job_id=19793090 | Completed: get_all_topics_key_authors
+2026-08-04 11:51:40 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:40 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:40 | job_id=19793090 | Classification sweep progress: 5 / 210 experiments finished
+2026-08-04 11:51:40 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration interactions.
+2026-08-04 11:51:40 | job_id=19793090 | Classification sweep progress: 6 / 210 experiments finished
+2026-08-04 11:51:40 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration similarity+text_similarity.
+2026-08-04 11:51:40 | job_id=19793090 | Classification training: model=xgboost, samples=1,119, features=12, IO samples=27, non-IO samples=1,092, CV folds=5, CV jobs=1
+2026-08-04 11:51:41 | job_id=19793090 | Completed: get_all_topics_key_authors
+2026-08-04 11:51:41 | job_id=19793090 | Completed: get_all_topics_key_authors
+2026-08-04 11:51:41 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:41 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:42 | job_id=19793090 | Classification sweep progress: 7 / 210 experiments finished
+2026-08-04 11:51:42 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration similarity+interactions.
+2026-08-04 11:51:42 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:42 | job_id=19793090 | Completed: get_all_topics_key_authors
+2026-08-04 11:51:43 | job_id=19793090 | Classification sweep progress: 8 / 210 experiments finished
+2026-08-04 11:51:43 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration text_similarity+interactions.
+2026-08-04 11:51:44 | job_id=19793090 | Completed: get_all_topics_key_authors
+2026-08-04 11:51:44 | job_id=19793090 | Completed: build_accounts_graph
+2026-08-04 11:51:46 | job_id=19793090 | Completed: build_accounts_graph
+2026-08-04 11:51:50 | job_id=19793090 | Completed: compute_indicators
+2026-08-04 11:51:51 | job_id=19793090 | Saved graph-author indicators to: ../results/Labeled_Datasets/Armenia/Armenia_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_116_interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_116_undirected_indicators.parquet
+2026-08-04 11:51:51 | job_id=19793090 | Saved all-author indicators to: ../results/Labeled_Datasets/Armenia/Armenia_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_116_interactions_top_percentage_0.1_per_topic_topic_col_K_Means_topic_116_undirected_indicators.parquet
+2026-08-04 11:51:51 | job_id=19793090 | Classification training: model=random_forest, samples=1,779, features=14, IO samples=31, non-IO samples=1,748, CV folds=5, CV jobs=1
+2026-08-04 11:51:52 | job_id=19793090 | Completed: build_accounts_graph
+2026-08-04 11:51:53 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:53 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=14, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:54 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:55 | job_id=19793090 | Classification training: model=xgboost, samples=1,779, features=14, IO samples=31, non-IO samples=1,748, CV folds=5, CV jobs=1
+2026-08-04 11:51:56 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:56 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=14, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:51:57 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:58 | job_id=19793090 | Classification training: model=random_forest, samples=1,779, features=1, IO samples=31, non-IO samples=1,748, CV folds=5, CV jobs=1
+2026-08-04 11:51:59 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:51:59 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:52:00 | job_id=19793090 | Completed: build_accounts_graph
+2026-08-04 11:52:01 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:01 | job_id=19793090 | Completed: build_accounts_graph
+2026-08-04 11:52:01 | job_id=19793090 | Classification training: model=xgboost, samples=1,779, features=1, IO samples=31, non-IO samples=1,748, CV folds=5, CV jobs=1
+2026-08-04 11:52:02 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:02 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=1, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:52:02 | job_id=19793090 | Completed: build_accounts_graph
+2026-08-04 11:52:03 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:04 | job_id=19793090 | Classification training: model=random_forest, samples=1,779, features=12, IO samples=31, non-IO samples=1,748, CV folds=5, CV jobs=1
+2026-08-04 11:52:06 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:06 | job_id=19793090 | Classification training: model=random_forest, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:52:07 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:08 | job_id=19793090 | Classification training: model=xgboost, samples=1,779, features=12, IO samples=31, non-IO samples=1,748, CV folds=5, CV jobs=1
+2026-08-04 11:52:09 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:09 | job_id=19793090 | Classification training: model=xgboost, samples=1,798, features=12, IO samples=31, non-IO samples=1,767, CV folds=5, CV jobs=1
+2026-08-04 11:52:10 | job_id=19793090 | Completed: io_classification
+2026-08-04 11:52:11 | job_id=19793090 | Classification sweep progress: 9 / 210 experiments finished
+2026-08-04 11:52:11 | job_id=19793090 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_116, top_percentage 0.1 and account_relations_configuration similarity+text_similarity+interactions.
+2026-08-04 11:52:12 | job_id=19793090 | Completed: get_all_topics_key_authors
