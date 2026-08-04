@@ -1526,3 +1526,35 @@ Cross-validated Precision: 0.0000
 - CSV: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.csv
 - LaTeX: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.tex
 - PNG: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.png
+2026-08-04 10:23:00 | job_id=19787634 | Input data path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-04 10:23:00 | job_id=19787634 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-08-04 10:23:04 | job_id=19787634 | Wrote hardware report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
+2026-08-04 10:23:04 | job_id=19787634 | #################### START ####################
+2026-08-04 10:23:04 | job_id=19787634 | #################### START ####################
+2026-08-04 10:23:04 | job_id=19787634 | Starting new execution of key_authors_graph.ipynb
+2026-08-04 10:23:04 | job_id=19787634 | df path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-04 10:23:04 | job_id=19787634 | df with 1,972,465 rows and 24 columns
+2026-08-04 10:23:04 | job_id=19787634 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-08-04 10:23:10 | job_id=19787634 | Copied input data to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Venezuela_part_all_step_3.gzip.parquet
+2026-08-04 10:24:21 | job_id=19787634 | Completed: compute_entities_tfidf
+2026-08-04 10:24:30 | job_id=19787634 | Completed: get_top_entities
+2026-08-04 10:24:43 | job_id=19787634 | Completed: compute_entities_tfidf
+2026-08-04 10:25:14 | job_id=19787634 | Completed: compute_entities_tfidf
+2026-08-04 10:25:47 | job_id=19787634 | Completed: compute_entities_tfidf
+2026-08-04 10:26:07 | job_id=19787634 | Completed: compute_post_tfidf
+2026-08-04 11:47:01 | job_id=19793049 | Input data path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-04 11:47:01 | job_id=19793049 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-08-04 11:47:03 | job_id=19793049 | Wrote hardware report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/hardware_info.txt
+2026-08-04 11:47:04 | job_id=19793049 | #################### START ####################
+2026-08-04 11:47:04 | job_id=19793049 | #################### START ####################
+2026-08-04 11:47:04 | job_id=19793049 | Starting new execution of key_authors_graph.ipynb
+2026-08-04 11:47:04 | job_id=19793049 | df path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_2_BERTopic_clustering/Venezuela_part_all_step_2.gzip.parquet
+2026-08-04 11:47:04 | job_id=19793049 | df with 1,972,465 rows and 24 columns
+2026-08-04 11:47:04 | job_id=19793049 | Output path: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1
+2026-08-04 11:47:10 | job_id=19793049 | Copied input data to ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/Venezuela_part_all_step_3.gzip.parquet
+2026-08-04 11:48:23 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 11:48:32 | job_id=19793049 | Completed: get_top_entities
+2026-08-04 11:48:44 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 11:49:14 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 11:49:47 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 11:50:07 | job_id=19793049 | Completed: compute_post_tfidf

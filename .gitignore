@@ -9,11 +9,12 @@
 
 # folders
 experimental_results/
-# results/
+results/
 logs/
 # data/
 # *part_all*
 .github/
+.codex/
 
 
 # Big Files
