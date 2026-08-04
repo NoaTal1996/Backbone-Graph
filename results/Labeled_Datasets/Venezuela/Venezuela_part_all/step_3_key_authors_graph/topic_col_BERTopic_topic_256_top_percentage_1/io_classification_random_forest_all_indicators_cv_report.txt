@@ -1,20 +1,20 @@
 Model: random_forest
 Cross-validation folds: 5
-Samples: 10,354
-IO samples: 610
-Non-IO samples: 9,744
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
 
               precision    recall  f1-score   support
 
-      Non-IO       1.00      1.00      1.00      9744
-          IO       0.99      0.93      0.96       610
+      Non-IO       1.00      1.00      1.00      9745
+          IO       1.00      0.94      0.97       611
 
-    accuracy                           1.00     10354
-   macro avg       1.00      0.96      0.98     10354
-weighted avg       1.00      1.00      1.00     10354
+    accuracy                           1.00     10356
+   macro avg       1.00      0.97      0.98     10356
+weighted avg       1.00      1.00      1.00     10356
 
-Cross-validated ROC AUC: 0.9934
-Cross-validated AUC-PR: 0.9774
-Cross-validated F1: 0.9610
-Cross-validated Recall: 0.9295
-Cross-validated Precision: 0.9947
+Cross-validated ROC AUC: 0.9933
+Cross-validated AUC-PR: 0.9778
+Cross-validated F1: 0.9662
+Cross-validated Recall: 0.9362
+Cross-validated Precision: 0.9983

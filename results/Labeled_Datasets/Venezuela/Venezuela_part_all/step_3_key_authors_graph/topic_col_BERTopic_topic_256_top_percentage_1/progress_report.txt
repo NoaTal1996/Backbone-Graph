@@ -1583,3 +1583,261 @@ Cross-validated Precision: 0.0000
 2026-08-04 12:03:48 | job_id=19793049 | Completed: get_all_topics_key_authors
 2026-08-04 12:03:49 | job_id=19793049 | Completed: get_all_topics_key_authors
 2026-08-04 12:28:07 | job_id=19793049 | Completed: build_accounts_graph
+2026-08-04 18:20:05 | job_id=19793049 | node_indicators_df is saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-08-04 18:20:05 | job_id=19793049 | Completed: compute_indicators
+2026-08-04 18:20:07 | job_id=19793049 | Completed: compute_zscore
+2026-08-04 18:20:09 | job_id=19793049 | Completed: compute_indicators_information_gain
+2026-08-04 18:20:09 | job_id=19793049 | Completed: plot_indicators_information_gain
+2026-08-04 18:20:13 | job_id=19793049 | Completed: plot_indicators_distributions
+2026-08-04 18:20:15 | job_id=19793049 | Completed: plot_indicator_boxplots
+2026-08-04 18:20:16 | job_id=19793049 | Completed: plot_io_correlations
+2026-08-04 18:20:17 | job_id=19793049 | Completed: get_top_authors_by_indicator
+2026-08-04 18:25:00 | job_id=19793049 | Completed: plot_pagerank_key_score_correlation
+2026-08-04 18:25:02 | job_id=19793049 | Classification training: model=random_forest, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=4
+2026-08-04 18:25:08 | job_id=19793049 | Model: random_forest
+Cross-validation folds: 5
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
+
+              precision    recall  f1-score   support
+
+      Non-IO       1.00      1.00      1.00      9745
+          IO       1.00      0.94      0.97       611
+
+    accuracy                           1.00     10356
+   macro avg       1.00      0.97      0.98     10356
+weighted avg       1.00      1.00      1.00     10356
+
+Cross-validated ROC AUC: 0.9933
+Cross-validated AUC-PR: 0.9778
+Cross-validated F1: 0.9662
+Cross-validated Recall: 0.9362
+Cross-validated Precision: 0.9983
+
+2026-08-04 18:25:10 | job_id=19793049 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_report.txt
+2026-08-04 18:25:10 | job_id=19793049 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_model.joblib
+2026-08-04 18:25:10 | job_id=19793049 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_confusion_matrix.png
+2026-08-04 18:25:10 | job_id=19793049 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_predictions.csv
+2026-08-04 18:25:10 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:25:10 | job_id=19793049 | Classification training: model=xgboost, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=4
+2026-08-04 18:25:11 | job_id=19793049 | Model: xgboost
+Cross-validation folds: 5
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
+
+              precision    recall  f1-score   support
+
+      Non-IO       1.00      1.00      1.00      9745
+          IO       0.99      0.94      0.96       611
+
+    accuracy                           1.00     10356
+   macro avg       0.99      0.97      0.98     10356
+weighted avg       1.00      1.00      1.00     10356
+
+Cross-validated ROC AUC: 0.9942
+Cross-validated AUC-PR: 0.9816
+Cross-validated F1: 0.9638
+Cross-validated Recall: 0.9378
+Cross-validated Precision: 0.9913
+
+2026-08-04 18:25:11 | job_id=19793049 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_report.txt
+2026-08-04 18:25:11 | job_id=19793049 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_model.joblib
+2026-08-04 18:25:11 | job_id=19793049 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_confusion_matrix.png
+2026-08-04 18:25:11 | job_id=19793049 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_predictions.csv
+2026-08-04 18:25:11 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:25:11 | job_id=19793049 | Classification training: model=logistic_regression, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=4
+2026-08-04 18:25:12 | job_id=19793049 | Model: logistic_regression
+Cross-validation folds: 5
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9745
+          IO       0.20      0.00      0.01       611
+
+    accuracy                           0.94     10356
+   macro avg       0.57      0.50      0.49     10356
+weighted avg       0.90      0.94      0.91     10356
+
+Cross-validated ROC AUC: 0.2154
+Cross-validated AUC-PR: 0.0370
+Cross-validated F1: 0.0064
+Cross-validated Recall: 0.0033
+Cross-validated Precision: 0.2000
+
+2026-08-04 18:25:12 | job_id=19793049 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_report.txt
+2026-08-04 18:25:12 | job_id=19793049 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_model.joblib
+2026-08-04 18:25:12 | job_id=19793049 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_confusion_matrix.png
+2026-08-04 18:25:12 | job_id=19793049 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_predictions.csv
+2026-08-04 18:25:12 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:25:16 | job_id=19793049 | Completed: plot_shap_analysis
+2026-08-04 18:25:17 | job_id=19793049 | Classification training: model=random_forest, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=4
+2026-08-04 18:25:17 | job_id=19793049 | Model: random_forest
+Cross-validation folds: 5
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9745
+          IO       0.57      0.04      0.08       611
+
+    accuracy                           0.94     10356
+   macro avg       0.75      0.52      0.52     10356
+weighted avg       0.92      0.94      0.92     10356
+
+Cross-validated ROC AUC: 0.8860
+Cross-validated AUC-PR: 0.3170
+Cross-validated F1: 0.0791
+Cross-validated Recall: 0.0426
+Cross-validated Precision: 0.5652
+
+2026-08-04 18:25:18 | job_id=19793049 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_report.txt
+2026-08-04 18:25:18 | job_id=19793049 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_model.joblib
+2026-08-04 18:25:18 | job_id=19793049 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_confusion_matrix.png
+2026-08-04 18:25:18 | job_id=19793049 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_predictions.csv
+2026-08-04 18:25:18 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:25:18 | job_id=19793049 | Classification training: model=xgboost, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=4
+2026-08-04 18:25:18 | job_id=19793049 | Model: xgboost
+Cross-validation folds: 5
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9745
+          IO       0.62      0.01      0.03       611
+
+    accuracy                           0.94     10356
+   macro avg       0.78      0.51      0.50     10356
+weighted avg       0.92      0.94      0.91     10356
+
+Cross-validated ROC AUC: 0.8810
+Cross-validated AUC-PR: 0.2754
+Cross-validated F1: 0.0256
+Cross-validated Recall: 0.0131
+Cross-validated Precision: 0.6154
+
+2026-08-04 18:25:18 | job_id=19793049 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_report.txt
+2026-08-04 18:25:18 | job_id=19793049 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_model.joblib
+2026-08-04 18:25:18 | job_id=19793049 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_confusion_matrix.png
+2026-08-04 18:25:18 | job_id=19793049 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_predictions.csv
+2026-08-04 18:25:18 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:25:18 | job_id=19793049 | Classification training: model=logistic_regression, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=4
+2026-08-04 18:25:18 | job_id=19793049 | Model: logistic_regression
+Cross-validation folds: 5
+Samples: 10,356
+IO samples: 611
+Non-IO samples: 9,745
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9745
+          IO       0.00      0.00      0.00       611
+
+    accuracy                           0.94     10356
+   macro avg       0.47      0.50      0.48     10356
+weighted avg       0.89      0.94      0.91     10356
+
+Cross-validated ROC AUC: 0.7253
+Cross-validated AUC-PR: 0.1287
+Cross-validated F1: 0.0000
+Cross-validated Recall: 0.0000
+Cross-validated Precision: 0.0000
+
+2026-08-04 18:25:19 | job_id=19793049 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_report.txt
+2026-08-04 18:25:19 | job_id=19793049 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_model.joblib
+2026-08-04 18:25:19 | job_id=19793049 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_confusion_matrix.png
+2026-08-04 18:25:19 | job_id=19793049 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_predictions.csv
+2026-08-04 18:25:19 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:25:19 | job_id=19793049 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_auc_pr_comparison.png
+2026-08-04 18:25:47 | job_id=19793049 | Memory cleanup before classification sweep:
+- Before: 55.02 GiB
+- After: 53.25 GiB
+- Released: 1.76 GiB
+2026-08-04 18:25:47 | job_id=19793049 | ######## Starting run_classification_sweep_analysis ########
+2026-08-04 18:25:58 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:26:27 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:27:00 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:27:18 | job_id=19793049 | Completed: compute_post_tfidf
+2026-08-04 18:27:19 | job_id=19793049 | Completed: compute_author_key_score
+2026-08-04 18:27:30 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:27:59 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:28:31 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:28:50 | job_id=19793049 | Completed: compute_post_tfidf
+2026-08-04 18:28:51 | job_id=19793049 | Completed: compute_author_key_score
+2026-08-04 18:29:02 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:29:31 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:30:03 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:30:22 | job_id=19793049 | Completed: compute_post_tfidf
+2026-08-04 18:30:23 | job_id=19793049 | Completed: compute_author_key_score
+2026-08-04 18:30:34 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:31:03 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:31:36 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:31:54 | job_id=19793049 | Completed: compute_post_tfidf
+2026-08-04 18:32:01 | job_id=19793049 | Completed: compute_author_key_score
+2026-08-04 18:32:14 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:32:43 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:33:16 | job_id=19793049 | Completed: compute_entities_tfidf
+2026-08-04 18:33:35 | job_id=19793049 | Completed: compute_post_tfidf
+2026-08-04 18:33:36 | job_id=19793049 | Completed: compute_author_key_score
+2026-08-04 18:33:41 | job_id=19793049 | Classification sweep parallelism:
+- Experiments: 210
+- Allocated CPUs: 12
+- Allocated memory: 180.00 GiB
+- Memory target: 135.00 GiB (75%)
+- Current RSS: 54.17 GiB
+- Dataframe memory: 6.77 GiB
+- Author-score memory: 0.43 GiB
+- Estimated memory per graph worker: 21.61 GiB
+- CPU worker limit: 12
+- Memory worker limit: 3
+- Selected graph workers: 3
+- CV workers per graph worker: 1
+- Maximum combined CPU concurrency: 3
+2026-08-04 18:33:44 | job_id=19793049 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration similarity.
+2026-08-04 18:33:44 | job_id=19793049 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration interactions.
+2026-08-04 18:33:44 | job_id=19793049 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration text_similarity.
+2026-08-04 18:33:45 | job_id=19793049 | Completed: get_all_topics_key_authors
+2026-08-04 18:33:45 | job_id=19793049 | Completed: get_all_topics_key_authors
+2026-08-04 18:33:45 | job_id=19793049 | Completed: get_all_topics_key_authors
+2026-08-04 18:42:04 | job_id=19793049 | Completed: build_accounts_graph
+2026-08-04 18:42:46 | job_id=19793049 | Completed: compute_indicators
+2026-08-04 18:43:01 | job_id=19793049 | Saved graph-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_60_interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-04 18:43:01 | job_id=19793049 | Saved all-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_60_interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-04 18:43:01 | job_id=19793049 | Classification training: model=random_forest, samples=3,785, features=14, IO samples=339, non-IO samples=3,446, CV folds=5, CV jobs=1
+2026-08-04 18:43:11 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:43:11 | job_id=19793049 | Classification training: model=random_forest, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-04 18:43:20 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:43:28 | job_id=19793049 | Classification training: model=xgboost, samples=3,785, features=14, IO samples=339, non-IO samples=3,446, CV folds=5, CV jobs=1
+2026-08-04 18:43:36 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:43:36 | job_id=19793049 | Classification training: model=xgboost, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-04 18:43:44 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:44:00 | job_id=19793049 | Classification training: model=random_forest, samples=3,785, features=1, IO samples=339, non-IO samples=3,446, CV folds=5, CV jobs=1
+2026-08-04 18:44:08 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:44:08 | job_id=19793049 | Classification training: model=random_forest, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-04 18:44:17 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:44:25 | job_id=19793049 | Classification training: model=xgboost, samples=3,785, features=1, IO samples=339, non-IO samples=3,446, CV folds=5, CV jobs=1
+2026-08-04 18:44:33 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:44:33 | job_id=19793049 | Classification training: model=xgboost, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-04 18:44:41 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:44:56 | job_id=19793049 | Classification training: model=random_forest, samples=3,785, features=12, IO samples=339, non-IO samples=3,446, CV folds=5, CV jobs=1
+2026-08-04 18:45:06 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:45:06 | job_id=19793049 | Classification training: model=random_forest, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-04 18:45:15 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:45:23 | job_id=19793049 | Classification training: model=xgboost, samples=3,785, features=12, IO samples=339, non-IO samples=3,446, CV folds=5, CV jobs=1
+2026-08-04 18:45:31 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:45:31 | job_id=19793049 | Classification training: model=xgboost, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-04 18:45:39 | job_id=19793049 | Completed: io_classification
+2026-08-04 18:46:02 | job_id=19793049 | Classification sweep progress: 1 / 210 experiments finished
+2026-08-04 18:46:02 | job_id=19793049 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration similarity+text_similarity.
+2026-08-04 18:46:04 | job_id=19793049 | Completed: get_all_topics_key_authors
+2026-08-04 18:49:54 | job_id=19793049 | Completed: build_accounts_graph
+2026-08-04 18:53:39 | job_id=19793049 | Completed: build_accounts_graph
+2026-08-04 19:11:35 | job_id=19793049 | Completed: build_accounts_graph
