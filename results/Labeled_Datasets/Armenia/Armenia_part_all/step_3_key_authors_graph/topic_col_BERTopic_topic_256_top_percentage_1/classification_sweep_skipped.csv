@@ -3,6 +3,6 @@ BERTopic_topic_512,0.01,similarity,ValueError,"ValueError('Insufficient authors 
 BERTopic_topic_512,0.01,text_similarity,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
 BERTopic_topic_512,0.01,interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
 BERTopic_topic_512,0.01,similarity+text_similarity,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
-BERTopic_topic_512,0.01,similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
 BERTopic_topic_512,0.01,text_similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
 BERTopic_topic_512,0.01,similarity+text_similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
