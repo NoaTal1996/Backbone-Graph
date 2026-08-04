@@ -29,9 +29,9 @@ logs/
 *.joblib
 
 # Include classification_sweep_indicators folders
-!**/classification_sweep_indicators/
-!**/classification_sweep_indicators/**/
-!**/classification_sweep_indicators/**/*.parquet
+# !**/classification_sweep_indicators/
+# !**/classification_sweep_indicators/**/
+# !**/classification_sweep_indicators/**/*.parquet
 
 # cache
 .tectonic-cache/
