@@ -1,5 +1,24 @@
-\begin{tabular}{}
+\begin{tabular}{lrlllrrrrrrrrrrr}
 \toprule
+topic_col & top_percentage & account_relations_configuration & indicators_configuration & model & indicators_runtime_seconds & graph_authors_auc & graph_authors_f1 & graph_authors_auc_pr & graph_authors_recall & graph_authors_precision & all_authors_auc & all_authors_f1 & all_authors_auc_pr & all_authors_recall & all_authors_precision \\
 \midrule
+K_Means_topic_60 & 0.0100 & interactions & All & random_forest & 12.1891 & 0.9827 & 0.3333 & 0.6677 & 0.2000 & 1.0000 & 0.5263 & 0.0000 & 0.0671 & 0.0000 & 0.0000 \\
+K_Means_topic_60 & 0.0100 & interactions & All & xgboost & 12.1891 & 1.0000 & 0.7500 & 1.0000 & 0.6000 & 1.0000 & 0.5246 & 0.0098 & 0.0665 & 0.0049 & 1.0000 \\
+K_Means_topic_60 & 0.0100 & interactions & All but Betweenness and Harmonic & random_forest & 12.1891 & 0.9915 & 0.5714 & 0.7092 & 0.4000 & 1.0000 & 0.5243 & 0.0033 & 0.0665 & 0.0016 & 1.0000 \\
+K_Means_topic_60 & 0.0100 & interactions & All but Betweenness and Harmonic & xgboost & 12.1891 & 1.0000 & 0.7500 & 1.0000 & 0.6000 & 1.0000 & 0.5262 & 0.0098 & 0.0679 & 0.0049 & 1.0000 \\
+K_Means_topic_60 & 0.0100 & interactions & Core Number Only & random_forest & 12.1891 & 0.6062 & 0.0000 & 0.0123 & 0.0000 & 0.0000 & 0.5209 & 0.0000 & 0.0614 & 0.0000 & 0.0000 \\
+K_Means_topic_60 & 0.0100 & interactions & Core Number Only & xgboost & 12.1891 & 0.4992 & 0.0000 & 0.0098 & 0.0000 & 0.0000 & 0.5201 & 0.0000 & 0.0613 & 0.0000 & 0.0000 \\
+K_Means_topic_60 & 0.0100 & similarity & All & random_forest & 130.9106 & 0.9683 & 0.9341 & 0.9372 & 0.8966 & 0.9750 & 0.6141 & 0.2225 & 0.1958 & 0.1260 & 0.9506 \\
+K_Means_topic_60 & 0.0100 & similarity & All & xgboost & 130.9106 & 0.9791 & 0.9157 & 0.9383 & 0.8736 & 0.9620 & 0.6133 & 0.2193 & 0.1930 & 0.1244 & 0.9268 \\
+K_Means_topic_60 & 0.0100 & similarity & All but Betweenness and Harmonic & random_forest & 130.9106 & 0.9779 & 0.9102 & 0.9371 & 0.8736 & 0.9500 & 0.6134 & 0.2222 & 0.1961 & 0.1260 & 0.9390 \\
+K_Means_topic_60 & 0.0100 & similarity & All but Betweenness and Harmonic & xgboost & 130.9106 & 0.9767 & 0.9091 & 0.9276 & 0.8621 & 0.9615 & 0.6134 & 0.2168 & 0.1928 & 0.1227 & 0.9259 \\
+K_Means_topic_60 & 0.0100 & similarity & Core Number Only & random_forest & 130.9106 & 0.8389 & 0.0000 & 0.2389 & 0.0000 & 0.0000 & 0.5687 & 0.0000 & 0.0921 & 0.0000 & 0.0000 \\
+K_Means_topic_60 & 0.0100 & similarity & Core Number Only & xgboost & 130.9106 & 0.8376 & 0.0000 & 0.2408 & 0.0000 & 0.0000 & 0.5696 & 0.0000 & 0.0928 & 0.0000 & 0.0000 \\
+K_Means_topic_60 & 0.0100 & text_similarity & All & random_forest & 153.3075 & 0.9709 & 0.9294 & 0.9446 & 0.9080 & 0.9518 & 0.6168 & 0.2225 & 0.1978 & 0.1260 & 0.9506 \\
+K_Means_topic_60 & 0.0100 & text_similarity & All & xgboost & 153.3075 & 0.9752 & 0.9157 & 0.9328 & 0.8736 & 0.9620 & 0.6162 & 0.2277 & 0.1965 & 0.1293 & 0.9518 \\
+K_Means_topic_60 & 0.0100 & text_similarity & All but Betweenness and Harmonic & random_forest & 153.3075 & 0.9705 & 0.9277 & 0.9409 & 0.8851 & 0.9747 & 0.6147 & 0.2203 & 0.1963 & 0.1244 & 0.9620 \\
+K_Means_topic_60 & 0.0100 & text_similarity & All but Betweenness and Harmonic & xgboost & 153.3075 & 0.9765 & 0.9091 & 0.9178 & 0.8621 & 0.9615 & 0.6122 & 0.2174 & 0.1915 & 0.1227 & 0.9494 \\
+K_Means_topic_60 & 0.0100 & text_similarity & Core Number Only & random_forest & 153.3075 & 0.8491 & 0.0000 & 0.2618 & 0.0000 & 0.0000 & 0.5720 & 0.0000 & 0.0934 & 0.0000 & 0.0000 \\
+K_Means_topic_60 & 0.0100 & text_similarity & Core Number Only & xgboost & 153.3075 & 0.8531 & 0.0000 & 0.2701 & 0.0000 & 0.0000 & 0.5729 & 0.0000 & 0.0944 & 0.0000 & 0.0000 \\
 \bottomrule
 \end{tabular}

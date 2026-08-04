@@ -788,3 +788,741 @@
 2026-08-03 15:00:30 | job_id=19744325 | Completed: get_all_topics_key_authors
 2026-08-03 15:00:30 | job_id=19744325 | Completed: get_all_topics_key_authors
 2026-08-03 15:25:54 | job_id=19744325 | Completed: build_accounts_graph
+2026-08-03 21:29:30 | job_id=19744325 | node_indicators_df is saved to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/accounts_graph_topic_col_BERTopic_topic_256_node_indicators.parquet
+2026-08-03 21:29:30 | job_id=19744325 | Completed: compute_indicators
+2026-08-03 21:29:32 | job_id=19744325 | Completed: compute_zscore
+2026-08-03 21:29:34 | job_id=19744325 | Completed: compute_indicators_information_gain
+2026-08-03 21:29:34 | job_id=19744325 | Completed: plot_indicators_information_gain
+2026-08-03 21:29:38 | job_id=19744325 | Completed: plot_indicators_distributions
+2026-08-03 21:29:40 | job_id=19744325 | Completed: plot_indicator_boxplots
+2026-08-03 21:29:41 | job_id=19744325 | Completed: plot_io_correlations
+2026-08-03 21:29:42 | job_id=19744325 | Completed: get_top_authors_by_indicator
+2026-08-03 21:34:25 | job_id=19744325 | Completed: plot_pagerank_key_score_correlation
+2026-08-03 21:34:26 | job_id=19744325 | Classification training: model=random_forest, samples=10,354, features=14, IO samples=610, non-IO samples=9,744, CV folds=5, CV jobs=4
+2026-08-03 21:34:33 | job_id=19744325 | Model: random_forest
+Cross-validation folds: 5
+Samples: 10,354
+IO samples: 610
+Non-IO samples: 9,744
+
+              precision    recall  f1-score   support
+
+      Non-IO       1.00      1.00      1.00      9744
+          IO       0.99      0.93      0.96       610
+
+    accuracy                           1.00     10354
+   macro avg       1.00      0.96      0.98     10354
+weighted avg       1.00      1.00      1.00     10354
+
+Cross-validated ROC AUC: 0.9934
+Cross-validated AUC-PR: 0.9774
+Cross-validated F1: 0.9610
+Cross-validated Recall: 0.9295
+Cross-validated Precision: 0.9947
+
+2026-08-03 21:34:34 | job_id=19744325 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_report.txt
+2026-08-03 21:34:34 | job_id=19744325 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_model.joblib
+2026-08-03 21:34:34 | job_id=19744325 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_confusion_matrix.png
+2026-08-03 21:34:34 | job_id=19744325 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_all_indicators_cv_predictions.csv
+2026-08-03 21:34:34 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:34:35 | job_id=19744325 | Classification training: model=xgboost, samples=10,354, features=14, IO samples=610, non-IO samples=9,744, CV folds=5, CV jobs=4
+2026-08-03 21:34:35 | job_id=19744325 | Model: xgboost
+Cross-validation folds: 5
+Samples: 10,354
+IO samples: 610
+Non-IO samples: 9,744
+
+              precision    recall  f1-score   support
+
+      Non-IO       1.00      1.00      1.00      9744
+          IO       0.98      0.93      0.96       610
+
+    accuracy                           0.99     10354
+   macro avg       0.99      0.97      0.98     10354
+weighted avg       0.99      0.99      0.99     10354
+
+Cross-validated ROC AUC: 0.9942
+Cross-validated AUC-PR: 0.9787
+Cross-validated F1: 0.9564
+Cross-validated Recall: 0.9344
+Cross-validated Precision: 0.9794
+
+2026-08-03 21:34:35 | job_id=19744325 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_report.txt
+2026-08-03 21:34:35 | job_id=19744325 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_model.joblib
+2026-08-03 21:34:35 | job_id=19744325 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_confusion_matrix.png
+2026-08-03 21:34:35 | job_id=19744325 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_all_indicators_cv_predictions.csv
+2026-08-03 21:34:35 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:34:36 | job_id=19744325 | Classification training: model=logistic_regression, samples=10,354, features=14, IO samples=610, non-IO samples=9,744, CV folds=5, CV jobs=4
+2026-08-03 21:34:36 | job_id=19744325 | Model: logistic_regression
+Cross-validation folds: 5
+Samples: 10,354
+IO samples: 610
+Non-IO samples: 9,744
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9744
+          IO       0.00      0.00      0.00       610
+
+    accuracy                           0.94     10354
+   macro avg       0.47      0.50      0.48     10354
+weighted avg       0.89      0.94      0.91     10354
+
+Cross-validated ROC AUC: 0.2034
+Cross-validated AUC-PR: 0.0345
+Cross-validated F1: 0.0000
+Cross-validated Recall: 0.0000
+Cross-validated Precision: 0.0000
+
+2026-08-03 21:34:36 | job_id=19744325 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_report.txt
+2026-08-03 21:34:36 | job_id=19744325 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_model.joblib
+2026-08-03 21:34:36 | job_id=19744325 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_confusion_matrix.png
+2026-08-03 21:34:36 | job_id=19744325 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_all_indicators_cv_predictions.csv
+2026-08-03 21:34:36 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:34:40 | job_id=19744325 | Completed: plot_shap_analysis
+2026-08-03 21:34:41 | job_id=19744325 | Classification training: model=random_forest, samples=10,354, features=1, IO samples=610, non-IO samples=9,744, CV folds=5, CV jobs=4
+2026-08-03 21:34:42 | job_id=19744325 | Model: random_forest
+Cross-validation folds: 5
+Samples: 10,354
+IO samples: 610
+Non-IO samples: 9,744
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9744
+          IO       0.58      0.04      0.08       610
+
+    accuracy                           0.94     10354
+   macro avg       0.76      0.52      0.52     10354
+weighted avg       0.92      0.94      0.92     10354
+
+Cross-validated ROC AUC: 0.8817
+Cross-validated AUC-PR: 0.3103
+Cross-validated F1: 0.0766
+Cross-validated Recall: 0.0410
+Cross-validated Precision: 0.5814
+
+2026-08-03 21:34:42 | job_id=19744325 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_report.txt
+2026-08-03 21:34:42 | job_id=19744325 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_model.joblib
+2026-08-03 21:34:42 | job_id=19744325 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_confusion_matrix.png
+2026-08-03 21:34:42 | job_id=19744325 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_random_forest_core_number_only_cv_predictions.csv
+2026-08-03 21:34:42 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:34:42 | job_id=19744325 | Classification training: model=xgboost, samples=10,354, features=1, IO samples=610, non-IO samples=9,744, CV folds=5, CV jobs=4
+2026-08-03 21:34:43 | job_id=19744325 | Model: xgboost
+Cross-validation folds: 5
+Samples: 10,354
+IO samples: 610
+Non-IO samples: 9,744
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9744
+          IO       0.67      0.00      0.01       610
+
+    accuracy                           0.94     10354
+   macro avg       0.80      0.50      0.49     10354
+weighted avg       0.93      0.94      0.91     10354
+
+Cross-validated ROC AUC: 0.8774
+Cross-validated AUC-PR: 0.2772
+Cross-validated F1: 0.0065
+Cross-validated Recall: 0.0033
+Cross-validated Precision: 0.6667
+
+2026-08-03 21:34:43 | job_id=19744325 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_report.txt
+2026-08-03 21:34:43 | job_id=19744325 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_model.joblib
+2026-08-03 21:34:43 | job_id=19744325 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_confusion_matrix.png
+2026-08-03 21:34:43 | job_id=19744325 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_xgboost_core_number_only_cv_predictions.csv
+2026-08-03 21:34:43 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:34:43 | job_id=19744325 | Classification training: model=logistic_regression, samples=10,354, features=1, IO samples=610, non-IO samples=9,744, CV folds=5, CV jobs=4
+2026-08-03 21:34:43 | job_id=19744325 | Model: logistic_regression
+Cross-validation folds: 5
+Samples: 10,354
+IO samples: 610
+Non-IO samples: 9,744
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.94      1.00      0.97      9744
+          IO       0.00      0.00      0.00       610
+
+    accuracy                           0.94     10354
+   macro avg       0.47      0.50      0.48     10354
+weighted avg       0.89      0.94      0.91     10354
+
+Cross-validated ROC AUC: 0.7248
+Cross-validated AUC-PR: 0.1256
+Cross-validated F1: 0.0000
+Cross-validated Recall: 0.0000
+Cross-validated Precision: 0.0000
+
+2026-08-03 21:34:43 | job_id=19744325 | Saved report to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_report.txt
+2026-08-03 21:34:43 | job_id=19744325 | Saved model to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_model.joblib
+2026-08-03 21:34:43 | job_id=19744325 | Saved confusion matrix to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_confusion_matrix.png
+2026-08-03 21:34:43 | job_id=19744325 | Saved CV predictions to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_logistic_regression_core_number_only_cv_predictions.csv
+2026-08-03 21:34:43 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:34:44 | job_id=19744325 | Saved AUC-PR comparison to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/io_classification_auc_pr_comparison.png
+2026-08-03 21:35:12 | job_id=19744325 | Memory cleanup before classification sweep:
+- Before: 55.20 GiB
+- After: 53.31 GiB
+- Released: 1.89 GiB
+2026-08-03 21:35:12 | job_id=19744325 | ######## Starting run_classification_sweep_analysis ########
+2026-08-03 21:35:23 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:35:53 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:36:26 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:36:46 | job_id=19744325 | Completed: compute_post_tfidf
+2026-08-03 21:36:47 | job_id=19744325 | Completed: compute_author_key_score
+2026-08-03 21:36:58 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:37:27 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:38:00 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:38:19 | job_id=19744325 | Completed: compute_post_tfidf
+2026-08-03 21:38:20 | job_id=19744325 | Completed: compute_author_key_score
+2026-08-03 21:38:31 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:39:02 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:39:35 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:39:54 | job_id=19744325 | Completed: compute_post_tfidf
+2026-08-03 21:39:55 | job_id=19744325 | Completed: compute_author_key_score
+2026-08-03 21:40:07 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:40:36 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:41:10 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:41:29 | job_id=19744325 | Completed: compute_post_tfidf
+2026-08-03 21:41:37 | job_id=19744325 | Completed: compute_author_key_score
+2026-08-03 21:41:49 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:42:19 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:42:53 | job_id=19744325 | Completed: compute_entities_tfidf
+2026-08-03 21:43:12 | job_id=19744325 | Completed: compute_post_tfidf
+2026-08-03 21:43:13 | job_id=19744325 | Completed: compute_author_key_score
+2026-08-03 21:43:18 | job_id=19744325 | Classification sweep parallelism:
+- Experiments: 210
+- Allocated CPUs: 12
+- Allocated memory: 180.00 GiB
+- Memory target: 135.00 GiB (75%)
+- Current RSS: 54.27 GiB
+- Dataframe memory: 6.77 GiB
+- Author-score memory: 0.43 GiB
+- Estimated memory per graph worker: 21.61 GiB
+- CPU worker limit: 12
+- Memory worker limit: 3
+- Selected graph workers: 3
+- CV workers per graph worker: 1
+- Maximum combined CPU concurrency: 3
+2026-08-03 21:43:20 | job_id=19744325 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration similarity.
+2026-08-03 21:43:20 | job_id=19744325 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration text_similarity.
+2026-08-03 21:43:20 | job_id=19744325 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration interactions.
+2026-08-03 21:43:21 | job_id=19744325 | Completed: get_all_topics_key_authors
+2026-08-03 21:43:21 | job_id=19744325 | Completed: get_all_topics_key_authors
+2026-08-03 21:43:21 | job_id=19744325 | Completed: get_all_topics_key_authors
+2026-08-03 21:51:15 | job_id=19744325 | Completed: build_accounts_graph
+2026-08-03 21:51:27 | job_id=19744325 | Completed: compute_indicators
+2026-08-03 21:51:42 | job_id=19744325 | Saved graph-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_60_interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-03 21:51:42 | job_id=19744325 | Saved all-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_60_interactions_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-03 21:51:42 | job_id=19744325 | Classification training: model=random_forest, samples=509, features=14, IO samples=5, non-IO samples=504, CV folds=5, CV jobs=1
+2026-08-03 21:51:50 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:51:50 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 21:51:59 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:52:06 | job_id=19744325 | Classification training: model=xgboost, samples=509, features=14, IO samples=5, non-IO samples=504, CV folds=5, CV jobs=1
+2026-08-03 21:52:14 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:52:14 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 21:52:21 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:52:36 | job_id=19744325 | Classification training: model=random_forest, samples=509, features=1, IO samples=5, non-IO samples=504, CV folds=5, CV jobs=1
+2026-08-03 21:52:44 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:52:44 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 21:52:53 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:53:00 | job_id=19744325 | Classification training: model=xgboost, samples=509, features=1, IO samples=5, non-IO samples=504, CV folds=5, CV jobs=1
+2026-08-03 21:53:08 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:53:08 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 21:53:15 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:53:30 | job_id=19744325 | Classification training: model=random_forest, samples=509, features=12, IO samples=5, non-IO samples=504, CV folds=5, CV jobs=1
+2026-08-03 21:53:38 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:53:38 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 21:53:47 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:53:54 | job_id=19744325 | Classification training: model=xgboost, samples=509, features=12, IO samples=5, non-IO samples=504, CV folds=5, CV jobs=1
+2026-08-03 21:54:02 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:54:02 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 21:54:10 | job_id=19744325 | Completed: io_classification
+2026-08-03 21:54:32 | job_id=19744325 | Classification sweep progress: 1 / 210 experiments finished
+2026-08-03 21:54:32 | job_id=19744325 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration similarity+text_similarity.
+2026-08-03 21:54:33 | job_id=19744325 | Completed: get_all_topics_key_authors
+2026-08-03 21:57:23 | job_id=19744325 | Completed: build_accounts_graph
+2026-08-03 21:59:57 | job_id=19744325 | Completed: compute_indicators
+2026-08-03 22:00:15 | job_id=19744325 | Saved graph-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_60_text_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-03 22:00:15 | job_id=19744325 | Saved all-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_60_text_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-03 22:00:15 | job_id=19744325 | Classification training: model=random_forest, samples=1,490, features=14, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:00:27 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:00:27 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:00:38 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:00:46 | job_id=19744325 | Classification training: model=xgboost, samples=1,490, features=14, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:00:54 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:00:54 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:01:02 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:01:19 | job_id=19744325 | Classification training: model=random_forest, samples=1,490, features=1, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:01:31 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:01:31 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:01:43 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:01:51 | job_id=19744325 | Classification training: model=xgboost, samples=1,490, features=1, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:01:59 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:01:59 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:02:07 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:02:16 | job_id=19744325 | Completed: build_accounts_graph
+2026-08-03 22:02:23 | job_id=19744325 | Classification training: model=random_forest, samples=1,490, features=12, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:02:32 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:02:32 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:02:41 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:02:49 | job_id=19744325 | Classification training: model=xgboost, samples=1,490, features=12, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:02:57 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:02:57 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:03:05 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:03:29 | job_id=19744325 | Classification sweep progress: 2 / 210 experiments finished
+2026-08-03 22:03:29 | job_id=19744325 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration similarity+interactions.
+2026-08-03 22:03:29 | job_id=19744325 | Completed: get_all_topics_key_authors
+2026-08-03 22:04:27 | job_id=19744325 | Completed: compute_indicators
+2026-08-03 22:04:48 | job_id=19744325 | Saved graph-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/graph_authors/accounts_graph_K_Means_topic_60_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-03 22:04:48 | job_id=19744325 | Saved all-author indicators to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_indicators/all_authors/accounts_graph_K_Means_topic_60_similarity_top_percentage_0.01_per_topic_topic_col_K_Means_topic_60_undirected_indicators.parquet
+2026-08-03 22:04:48 | job_id=19744325 | Classification training: model=random_forest, samples=1,490, features=14, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:04:59 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:04:59 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:05:12 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:05:22 | job_id=19744325 | Classification training: model=xgboost, samples=1,490, features=14, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:05:33 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:05:33 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=14, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:05:44 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:06:05 | job_id=19744325 | Classification training: model=random_forest, samples=1,490, features=1, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:06:16 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:06:16 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:06:28 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:06:38 | job_id=19744325 | Classification training: model=xgboost, samples=1,490, features=1, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:06:49 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:06:49 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=1, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:07:00 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:07:21 | job_id=19744325 | Classification training: model=random_forest, samples=1,490, features=12, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:07:33 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:07:33 | job_id=19744325 | Classification training: model=random_forest, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:07:45 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:07:55 | job_id=19744325 | Classification training: model=xgboost, samples=1,490, features=12, IO samples=87, non-IO samples=1,403, CV folds=5, CV jobs=1
+2026-08-03 22:08:06 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:08:06 | job_id=19744325 | Classification training: model=xgboost, samples=10,356, features=12, IO samples=611, non-IO samples=9,745, CV folds=5, CV jobs=1
+2026-08-03 22:08:17 | job_id=19744325 | Completed: io_classification
+2026-08-03 22:08:49 | job_id=19744325 | Classification sweep progress: 3 / 210 experiments finished
+2026-08-03 22:08:49 | job_id=19744325 | [_run_classification_for_top_percentage] Starting for topic_col K_Means_topic_60, top_percentage 0.01 and account_relations_configuration text_similarity+interactions.
+2026-08-03 22:08:49 | job_id=19744325 | Completed: get_all_topics_key_authors
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.01, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 4 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.01, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 5 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.01, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 6 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 7 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 8 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 9 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 10 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 11 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 12 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 13 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.05, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 14 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 15 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 16 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 17 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 18 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 19 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 20 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.1, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 21 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 22 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 23 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 24 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 25 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 26 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 27 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.2, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 28 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 29 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 30 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 31 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 32 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 33 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 34 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=0.5, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 35 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 36 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 37 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 38 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 39 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 40 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 41 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=K_Means_topic_60, top_percentage=1.0, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 42 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 43 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 44 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 45 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 46 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 47 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 48 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 49 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 50 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 51 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 52 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 53 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 54 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 55 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.05, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 56 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 57 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 58 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 59 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 60 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 61 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 62 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.1, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 63 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 64 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 65 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 66 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 67 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 68 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 69 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.2, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 70 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 71 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 72 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 73 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 74 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 75 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 76 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=0.5, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 77 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 78 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 79 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 80 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 81 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 82 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 83 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_256, top_percentage=1.0, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 84 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 85 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 86 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 87 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 88 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 89 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 90 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 91 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 92 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 93 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 94 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 95 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 96 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 97 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.05, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 98 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 99 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 100 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 101 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 102 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 103 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 104 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.1, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 105 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 106 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 107 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 108 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 109 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 110 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 111 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.2, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 112 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 113 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 114 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 115 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 116 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 117 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 118 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=0.5, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 119 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 120 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 121 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 122 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 123 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 124 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 125 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_512, top_percentage=1.0, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 126 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 127 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 128 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 129 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 130 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 131 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 132 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 133 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 134 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 135 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 136 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 137 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 138 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 139 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.05, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 140 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 141 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 142 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 143 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 144 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 145 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 146 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.1, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 147 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 148 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 149 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 150 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 151 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 152 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 153 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.2, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 154 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 155 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 156 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 157 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 158 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 159 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 160 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=0.5, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 161 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 162 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 163 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 164 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 165 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 166 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 167 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_10, top_percentage=1.0, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 168 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 169 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 170 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 171 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 172 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 173 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 174 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.01, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 175 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 176 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 177 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 178 / 210 experiments finished
+2026-08-03 22:22:51 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:51 | job_id=19744325 | Classification sweep progress: 179 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 180 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 181 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.05, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 182 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 183 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 184 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 185 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 186 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 187 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 188 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.1, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 189 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 190 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 191 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 192 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 193 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 194 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 195 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.2, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 196 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 197 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 198 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 199 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 200 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 201 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 202 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=0.5, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 203 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 204 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 205 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 206 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=similarity+text_similarity: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 207 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 208 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 209 / 210 experiments finished
+2026-08-03 22:22:52 | job_id=19744325 | Classification failed for topic_col=BERTopic_topic_128, top_percentage=1.0, account_relations=similarity+text_similarity+interactions: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+2026-08-03 22:22:52 | job_id=19744325 | Classification sweep progress: 210 / 210 experiments finished
+2026-08-03 22:23:00 | job_id=19744325 | Saved classification failures to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_failures.csv
+2026-08-03 22:23:00 | job_id=19744325 | Saved skipped classifications to: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_skipped.csv
+2026-08-03 22:23:00 | job_id=19744325 | Saved classification results to:
+- Markdown: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.md
+- CSV: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.csv
+- LaTeX: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.tex
+- PNG: ../results/Labeled_Datasets/Venezuela/Venezuela_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_1/classification_sweep_results.png

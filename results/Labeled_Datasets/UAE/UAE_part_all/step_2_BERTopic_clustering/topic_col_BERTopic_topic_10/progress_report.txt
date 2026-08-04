@@ -101,3 +101,26 @@ Saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clusterin
 2026-08-03 16:55:07 | [update_df_columns_atomically]
 Updating columns: ['posting_same_topic_BERTopic_topic_10_3D_accountids']
 Disk path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/UAE_part_all_step_2.gzip.parquet
+2026-08-03 18:40:07 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_10_3D_accountids
+Saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/UAE_part_all_step_2.gzip.parquet
+2026-08-03 18:40:11 | Completed: update_df_columns_atomically
+2026-08-03 18:40:11 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_10_3D_accountids
+2026-08-03 18:40:12 | Released working column from memory: posting_same_topic_BERTopic_topic_10_3D_accountids
+2026-08-03 18:40:48 | [add_posting_same_topic] Added posting_same_topic_BERTopic_topic_10_12H_accountids for topic column BERTopic_topic_10 and time window 12H. Values were serialized as JSON strings for Parquet storage.
+2026-08-03 18:40:48 | Completed: add_posting_same_topic
+2026-08-03 18:40:50 | [update_df_columns_atomically]
+Updating columns: ['posting_same_topic_BERTopic_topic_10_12H_accountids']
+Disk path: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/UAE_part_all_step_2.gzip.parquet
+2026-08-03 20:17:25 | [update_df_columns_atomically]
+Updated columns: posting_same_topic_BERTopic_topic_10_12H_accountids
+Saved to: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/UAE_part_all_step_2.gzip.parquet
+2026-08-03 20:17:28 | Completed: update_df_columns_atomically
+2026-08-03 20:17:28 | Saved posting-same-topic column: posting_same_topic_BERTopic_topic_10_12H_accountids
+2026-08-03 20:17:29 | Released working column from memory: posting_same_topic_BERTopic_topic_10_12H_accountids
+2026-08-03 20:17:35 | Completed: make_topic_stats
+2026-08-03 20:17:59 | Completed: make_topic_account_stats
+2026-08-03 20:18:19 | Final output is complete: ../results/Labeled_Datasets/UAE/UAE_part_all/step_2_BERTopic_clustering/UAE_part_all_step_2.gzip.parquet
+2026-08-03 20:18:19 | Finished Running Successfully
+2026-08-03 20:18:19 | #######################################################
+2026-08-03 20:18:19 | #######################################################

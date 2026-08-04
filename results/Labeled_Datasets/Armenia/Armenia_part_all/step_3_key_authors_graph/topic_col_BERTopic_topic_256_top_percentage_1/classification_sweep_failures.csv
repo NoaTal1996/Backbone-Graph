@@ -1,11 +1,8 @@
 topic_col,top_percentage,account_relations_configuration,error_type,error
-BERTopic_topic_512,0.01,similarity,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.01,interactions,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.01,text_similarity,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.01,similarity+text_similarity,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.01,similarity+interactions,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.01,text_similarity+interactions,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.01,similarity+text_similarity+interactions,ValueError,ValueError('IO classification requires both control and IO authors; found classes [0]')
-BERTopic_topic_512,0.05,interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 36, 1: 1}')"
-BERTopic_topic_512,0.1,text_similarity,RuntimeError,"RuntimeError(""Indicator 'eigenvector_centrality' failed for graph 'accounts_graph_BERTopic_topic_512_text_similarity_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512' with 373 nodes and 3,002 edges"")"
-BERTopic_topic_512,0.1,text_similarity+interactions,RuntimeError,"RuntimeError(""Indicator 'eigenvector_centrality' failed for graph 'accounts_graph_BERTopic_topic_512_text_similarity+interactions_top_percentage_0.1_per_topic_topic_col_BERTopic_topic_512' with 373 nodes and 3,085 edges"")"
+BERTopic_topic_512,0.01,text_similarity,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,similarity,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,similarity+text_similarity,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,text_similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
+BERTopic_topic_512,0.01,similarity+text_similarity+interactions,ValueError,"ValueError('Insufficient authors for stratified cross-validation; class counts are {0: 79, 1: 1}')"
