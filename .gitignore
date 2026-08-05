@@ -28,13 +28,17 @@ logs/
 *.tmp
 *.joblib
 
+
+# Progress reports (to ba able to use git)
+progress_report.txt
+progress_report_*.txt
+
 # Include classification_sweep_indicators folders
 # !**/classification_sweep_indicators/
 # !**/classification_sweep_indicators/**/
 # !**/classification_sweep_indicators/**/*.parquet
 
-# cache
-.tectonic-cache/
+
 
 # Unblock all campaign results (overrides *part_all* above)
 # !results/Labeled_Datasets/
