@@ -57,6 +57,20 @@ sbatch "../config/run_3_key_authors_graph.sbatch" \
     "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_BERTopic_clustering/${country}_part_all_step_2.gzip.parquet"
 ```
 
+# classification_sweep
+```bash
+
+country="Ecuador"
+
+user="$USER"
+cd "/home/${user}/Backbone-Graph/src"
+
+echo "Submitting classification sweep job for country=${country}"
+sbatch "../config/run_classification_sweep.sbatch" \
+    "../results/Labeled_Datasets/${country}/${country}_part_all/step_2_BERTopic_clustering/${country}_part_all_step_2.gzip.parquet"
+```
+
+
 # 4_inter_intra_classification
 ```bash
 
