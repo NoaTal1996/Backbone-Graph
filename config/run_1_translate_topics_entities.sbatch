@@ -28,10 +28,16 @@
 
 ### Read argument from command line
 INPUT_FILE_PATH="$1"
+FORCE_RESTART="${2:-false}"
 
 if [ -z "$INPUT_FILE_PATH" ]; then
     echo "ERROR: No input file path provided!"
-    echo "Usage: sbatch run_1_translate_topics_entities.sbatch <INPUT_FILE_PATH>"
+    echo "Usage: sbatch run_1_translate_topics_entities.sbatch <INPUT_FILE_PATH> [FORCE_RESTART]"
+    exit 1
+fi
+
+if [[ "$FORCE_RESTART" != "true" && "$FORCE_RESTART" != "false" ]]; then
+    echo "ERROR: FORCE_RESTART must be 'true' or 'false'."
     exit 1
 fi
 
@@ -41,6 +47,7 @@ echo -e "\nSLURM_JOB_ID:\t\t$SLURM_JOB_ID"
 echo -e "SLURM_JOB_NODELIST:\t$SLURM_JOB_NODELIST"
 echo -e "Job name:\t\t$SLURM_JOB_NAME"
 echo -e "INPUT_FILE_PATH:\t$INPUT_FILE_PATH"
+echo -e "FORCE_RESTART:\t\t$FORCE_RESTART"
 
 ### Start your code below ####
 module load anaconda				### load anaconda module
@@ -51,4 +58,8 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 
 OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
 
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"
+conda run -n backbone_env_v2 papermill \
+    "${IN_NOTEBOOK}" \
+    "${OUT_NOTEBOOK}" \
+    -p input_data_path "$INPUT_FILE_PATH" \
+    -p force_restart "$FORCE_RESTART"

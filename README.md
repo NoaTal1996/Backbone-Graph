@@ -226,13 +226,22 @@ For long-running jobs on the cluster, use the provided SLURM scripts with [paper
 
 ```bash
 cd Backbone-Graph/src
-sbatch "../config/run_1_translate_topics_entities.sbatch" <INPUT_FILE_PATH>
+sbatch "../config/run_1_translate_topics_entities.sbatch" <INPUT_FILE_PATH> [FORCE_RESTART]
 
 # Example:
 sbatch "../config/run_1_translate_topics_entities.sbatch" ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet
 ```
 
-Output parquet: `../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1/Ecuador_part_all_step1.gzip.parquet`.
+Step 1 resumes compatible translation, NER, entity-reuse, embedding, K-Means,
+and same-topic checkpoints automatically. Pass `true` as the optional second
+argument only when all existing Step 1 progress should be discarded:
+
+```bash
+sbatch "../config/run_1_translate_topics_entities.sbatch" \
+    ../data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet true
+```
+
+Output parquet: `../results/Labeled_Datasets/Ecuador/Ecuador_part_all/step_1_translate_topics_entities/Ecuador_part_all_step_1.gzip.parquet`.
 
 ### Step 1b — large-scale clustering
 

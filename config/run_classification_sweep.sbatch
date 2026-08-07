@@ -17,7 +17,7 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mem=58G
 #SBATCH --cpus-per-task=8
-#SBATCH --array=1-35%21
+#SBATCH --array=1-35
 
 set -euo pipefail
 
