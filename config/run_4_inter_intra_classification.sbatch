@@ -15,13 +15,13 @@
 #SBATCH --mem=48G
 #SBATCH --cpus-per-task=24
 
-INPUT_FILE_PATH="$1"
+# INPUT_FILE_PATH="$1"
 
-if [ -z "$INPUT_FILE_PATH" ]; then
-    echo "ERROR: No input path provided!"
-    echo "Usage: sbatch run_4_inter_intra_classification.sbatch <INPUT_STEP_3_FOLDER>"
-    exit 1
-fi
+# if [ -z "$INPUT_FILE_PATH" ]; then
+#     echo "ERROR: No input path provided!"
+#     echo "Usage: sbatch run_4_inter_intra_classification.sbatch <INPUT_STEP_3_FOLDER>"
+#     exit 1
+# fi
 
 echo "$(date)"
 echo -e "\nSLURM_JOB_ID:\t\t$SLURM_JOB_ID"
@@ -36,6 +36,6 @@ IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_JOB_ID}_${SLURM_JOB_NAME}.ipynb"
 
 echo "Starting papermill..."
-conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p input_data_path "$INPUT_FILE_PATH"
+conda run -n backbone_env_v2 papermill "${IN_NOTEBOOK}" "${OUT_NOTEBOOK}" -p # input_data_path "$INPUT_FILE_PATH"
 
 echo "Completed ${SLURM_JOB_NAME}!"
