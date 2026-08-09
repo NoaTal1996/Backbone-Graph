@@ -12,8 +12,8 @@
 #SBATCH --error=../logs/%j_%x.err
 #SBATCH --mail-user=amitner@post.bgu.ac.il
 #SBATCH --mail-type=ALL
-#SBATCH --mem=48G
-#SBATCH --cpus-per-task=24
+##SBATCH --mem=48G
+##SBATCH --cpus-per-task=24
 
 # INPUT_FILE_PATH="$1"
 

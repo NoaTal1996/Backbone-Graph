@@ -15,8 +15,8 @@
 #SBATCH --error=../logs/%A_%a_%x.err
 #SBATCH --mail-user=amitner@post.bgu.ac.il
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mem=150G
-#SBATCH --cpus-per-task=12
+#SBATCH --mem=100G
+#SBATCH --cpus-per-task=5
 #SBATCH --array=1-35
 
 set -euo pipefail
