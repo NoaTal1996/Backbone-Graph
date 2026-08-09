@@ -9,7 +9,7 @@
 
 # folders
 experimental_results/
-results/
+# results/
 logs/
 # data/
 # *part_all*
