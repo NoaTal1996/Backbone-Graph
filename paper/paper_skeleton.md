@@ -34,7 +34,7 @@ The main indicator story is about dense coordination. IO drivers are expected to
 
 ![indicator_information_gain](.\figure_examples\indicator_information_gain.png)
 
-### 3.2 Influential IO Drivers Detection
+### 3.2 Influential Key IO Drivers Detection
 
 The paper also separates ordinary participation from narrative leadership. Some users simply appear in a topic, while others repeatedly use the entities that define that topic and help drive the discussion. The author-topic key score captures this idea by measuring how strongly an author is associated with topic-specific entities. This creates a topic-aware backbone: first focus on authors who matter to the narratives, then inspect which of them are also structurally embedded in coordinated behavior. The story is that influential IO drivers are suspicious not only because they post, but because they both push narratives and move with others.
 
