@@ -32,7 +32,7 @@ sbatch "../config/run_1_translate_topics_entities.sbatch" \
 # 2_BERTopic_clustering
 ```bash
 
-country="Iran_1"
+country="Cuba"
 min_topic_sizes="10,128,256,512"
 
 user="$USER"
