@@ -2,7 +2,7 @@
 ```bash
 sinteractive  --time 0-8:00:00  --gpu rtx_6000:1
 sinteractive --time 0-8:00:00 --cpu 24
-sinteractive --time 0-8:00:00
+sinteractive --time 0-10:00:00
 
 sjupyter --gpu rtx_6000:1  # not used
 ```
