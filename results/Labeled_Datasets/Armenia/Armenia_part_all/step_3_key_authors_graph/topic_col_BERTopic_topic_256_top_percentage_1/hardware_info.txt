@@ -1,11 +1,11 @@
 Hardware and Slurm allocation
 ---------------------------------------------------------------------------
-Hostname:               ise-cpu256-12.auth.ad.bgu.ac.il
-CPU model:              AMD EPYC 7763 64-Core Processor
-Node physical cores:    128
-Node logical CPUs:      256
+Hostname:               ise-cpu-intl-01.auth.ad.bgu.ac.il
+CPU model:              Intel(R) Xeon(R) CPU E5-4610 v2 @ 2.30GHz
+Node physical cores:    32
+Node logical CPUs:      64
 Allocated CPUs:         12
-Allocated CPU IDs:      [0, 1, 2, 3, 10, 11, 128, 129, 130, 131, 138, 139]
-Slurm job ID:           19793090
+Allocated CPU IDs:      [5, 6, 7, 14, 17, 18, 37, 38, 39, 46, 49, 50]
+Slurm job ID:           19993688
 Allocated GPUs:         0
 ---------------------------------------------------------------------------

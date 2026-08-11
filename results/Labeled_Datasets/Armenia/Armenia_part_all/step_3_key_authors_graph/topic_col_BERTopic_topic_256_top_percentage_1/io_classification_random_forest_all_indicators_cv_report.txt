@@ -13,8 +13,8 @@ Non-IO samples: 1,767
    macro avg       1.00      0.82      0.89      1798
 weighted avg       0.99      0.99      0.99      1798
 
-Cross-validated ROC AUC: 0.9369
-Cross-validated AUC-PR: 0.8065
+Cross-validated ROC AUC: 0.9389
+Cross-validated AUC-PR: 0.8140
 Cross-validated F1: 0.7843
 Cross-validated Recall: 0.6452
 Cross-validated Precision: 1.0000

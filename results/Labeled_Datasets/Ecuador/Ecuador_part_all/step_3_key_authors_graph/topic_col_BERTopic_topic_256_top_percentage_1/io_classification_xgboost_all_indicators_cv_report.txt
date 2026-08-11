@@ -7,14 +7,14 @@ Non-IO samples: 21,136
               precision    recall  f1-score   support
 
       Non-IO       0.99      1.00      1.00     21136
-          IO       0.97      0.85      0.91       787
+          IO       0.96      0.85      0.90       787
 
     accuracy                           0.99     21923
-   macro avg       0.98      0.93      0.95     21923
+   macro avg       0.98      0.92      0.95     21923
 weighted avg       0.99      0.99      0.99     21923
 
-Cross-validated ROC AUC: 0.9890
-Cross-validated AUC-PR: 0.9386
-Cross-validated F1: 0.9075
-Cross-validated Recall: 0.8539
-Cross-validated Precision: 0.9683
+Cross-validated ROC AUC: 0.9876
+Cross-validated AUC-PR: 0.9366
+Cross-validated F1: 0.9027
+Cross-validated Recall: 0.8488
+Cross-validated Precision: 0.9639
