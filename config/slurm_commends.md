@@ -11,7 +11,7 @@ sjupyter --gpu rtx_6000:1  # not used
 
 # Run Full Pipeline
 ```bash
-country="Armenia"
+country="Ecuador"
 
 /home/${USER}/Backbone-Graph/config/run_full_pipeline.sh ${country}
 ```
@@ -47,7 +47,7 @@ sbatch "../config/run_2_BERTopic_clustering.sbatch" \
 # 3_key_authors_graph
 ```bash
 
-country="UAE"
+country="Iran_1"
 
 user="$USER"
 cd "/home/${user}/Backbone-Graph/src"
@@ -60,7 +60,7 @@ sbatch "../config/run_3_key_authors_graph.sbatch" \
 # classification_sweep
 ```bash
 
-country="Ecuador"
+country="Armenia"
 
 user="$USER"
 cd "/home/${user}/Backbone-Graph/src"

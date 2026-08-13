@@ -1,0 +1,164 @@
+{
+  "format_version": 1,
+  "input": {
+    "mtime_ns": 1766325498767476910,
+    "path": "/home/amitner/Backbone-Graph/data/Labeled_Datasets/Ecuador/Ecuador_part_all.gzip.parquet",
+    "row_count": 1470529,
+    "schema": "postid: string\npost_text: string\napplication_name: string\npost_language: string\nin_reply_to_postid: string\nin_reply_to_accountid: string\npost_time: timestamp[us]\naccountid: string\naccount_profile_description: string\nfollower_count: int64\nfollowing_count: int64\naccount_creation_date: date32[day]\nis_repost: bool\nreposted_accountid: string\nreposted_postid: string\nhashtags: list<element: string>\n  child 0, element: string\nurls: list<element: string>\n  child 0, element: string\naccount_mentions: list<element: string>\n  child 0, element: string\nis_control: bool\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 2689",
+    "size": 208741857
+  },
+  "stages": {
+    "embeddings": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "embedding_dimension": 768,
+        "model_name": "digio/Twitter4SSE",
+        "row_count": 1469036,
+        "storage_dtype": "float16",
+        "text_column": "translated_post",
+        "texts_fingerprint": "d376d18b2694fde0753b8572cea9c2096cccbc43f99eda291b70b1677b85659b"
+      },
+      "output_columns": [],
+      "saved_rows": 1469036,
+      "signature": "0c44836ed176216fd4d2bd6caf80d850a38b033627079ae85d90186211edb25c",
+      "status": "complete"
+    },
+    "entity_reuse:account_mentions": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "account_mentions_reuse_12H_accountids",
+        "account_mentions_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "d56add68ca41b7bb65b18cedb4c37cfc1604e32fa4d5e5f967e473842ed0d121",
+      "status": "complete"
+    },
+    "entity_reuse:hashtags": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "hashtags_reuse_12H_accountids",
+        "hashtags_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "d6c7ad4947cd9391cb72b1adde02e5db1145613dc74575da411be3b9be7433dd",
+      "status": "complete"
+    },
+    "entity_reuse:ner_entities": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "ner_entities_reuse_12H_accountids",
+        "ner_entities_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "7516b32962a231467e301141ef4cf0eb32757d2d6bdc5727eb7ab1c9ed795cce",
+      "status": "complete"
+    },
+    "entity_reuse:urls": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "urls_reuse_12H_accountids",
+        "urls_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "84329b8289aa1494fe76770d22a41a5d33dc26e8aff83d267839d508b241028d",
+      "status": "complete"
+    },
+    "kmeans_topics": {
+      "dependencies": [
+        "embeddings"
+      ],
+      "metadata": {
+        "best_k": 128
+      },
+      "output_columns": [
+        "K_Means_topic_128"
+      ],
+      "saved_rows": 0,
+      "signature": "8ba756f0cece9745174a819124f26d9023b8af78a61b3d0be0a1e3854f59b033",
+      "status": "complete"
+    },
+    "ner_entities": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "hashtags",
+        "account_mentions",
+        "urls",
+        "ner_entities"
+      ],
+      "saved_rows": 1469036,
+      "signature": "11a1613307353a2040086bcb1ef2eb5a9b82f1c7131e77270c167be1ed5f86cd",
+      "status": "complete"
+    },
+    "same_topic_reuse:12H": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_128_12H_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "404d71f28acfb0f53f84ef8361205309cbc27f0b6187b8ff4cbc1073fc587dfc",
+      "status": "complete"
+    },
+    "same_topic_reuse:3D": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_128_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "8540954f14d6ba24dc846963ee4200801cb75e1428d552c924b3288369c80ae6",
+      "status": "complete"
+    },
+    "translation": {
+      "dependencies": [],
+      "metadata": {
+        "row_count": 1469036
+      },
+      "output_columns": [
+        "is_control",
+        "post_language",
+        "clean_text_with_entities",
+        "clean_text_without_enteties",
+        "translated_post"
+      ],
+      "saved_rows": 1469036,
+      "signature": "82a329bbb1869b78c2aae28d0ecedb641df65649d113a26a3543e22c75cb0e3b",
+      "status": "complete"
+    }
+  }
+}

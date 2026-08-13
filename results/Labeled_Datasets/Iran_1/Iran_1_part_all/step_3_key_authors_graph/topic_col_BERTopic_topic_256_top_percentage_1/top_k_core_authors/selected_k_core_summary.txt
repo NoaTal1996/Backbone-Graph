@@ -1,0 +1,14 @@
+Selected k-core report
+Anchor author: 00743ec585f4839f024221d1762985d2559f046eb7
+Core number: 351
+Authors in connected k-core: 387
+Authors selected for word clouds: 7
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  total_posts  selected_top_posts  mean_selected_post_tfidf  max_selected_post_tfidf                                                  wordcloud_file
+00743ec585f4839f024221d1762985d2559f046eb7                True          351     551           104973          178                  10                  0.563904                 0.900297 author_00743ec585f4839f024221d1762985d2559f046eb7_wordcloud.png
+189678253978b9dfa960ed807b342b81d09d91206e               False          351     520           105296          196                  10                  0.800480                 1.434696 author_189678253978b9dfa960ed807b342b81d09d91206e_wordcloud.png
+56f4f468d528bdaad32b1c78bda55bb82458518e6c               False          351     477            90326          325                  10                  1.600657                 1.810099 author_56f4f468d528bdaad32b1c78bda55bb82458518e6c_wordcloud.png
+60cc694bad50c951386721a4ff420d9c500ab77c95               False          351     498           245745         1034                  10                  1.655506                 3.325258 author_60cc694bad50c951386721a4ff420d9c500ab77c95_wordcloud.png
+8e1cffcf1610edacaa584278797078bc9e7729677a               False          351     471            94262          278                  10                  0.354950                 0.554829 author_8e1cffcf1610edacaa584278797078bc9e7729677a_wordcloud.png
+da74ac4094c7c7868b483d0e2f65d796a5a2a02f58               False          351     402            20925           30                  10                  0.250809                 0.941788 author_da74ac4094c7c7868b483d0e2f65d796a5a2a02f58_wordcloud.png
+e6dc176be7693bf9d26d8cb16241546959da151378               False          351     882           208724          640                  10                  1.344584                 1.682738 author_e6dc176be7693bf9d26d8cb16241546959da151378_wordcloud.png
