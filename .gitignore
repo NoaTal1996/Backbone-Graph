@@ -27,6 +27,7 @@ logs/
 *.npy
 *.tmp
 *.joblib
+*old*
 
 
 # Progress reports (to ba able to use git)
