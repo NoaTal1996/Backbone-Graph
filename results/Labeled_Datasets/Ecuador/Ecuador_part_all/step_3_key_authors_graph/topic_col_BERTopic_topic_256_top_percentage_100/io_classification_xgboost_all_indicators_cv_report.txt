@@ -1,0 +1,20 @@
+Model: xgboost
+Cross-validation folds: 5
+Samples: 21,923
+IO samples: 787
+Non-IO samples: 21,136
+
+              precision    recall  f1-score   support
+
+      Non-IO       0.99      1.00      1.00     21136
+          IO       0.95      0.82      0.88       787
+
+    accuracy                           0.99     21923
+   macro avg       0.97      0.91      0.94     21923
+weighted avg       0.99      0.99      0.99     21923
+
+Cross-validated ROC AUC: 0.9782
+Cross-validated AUC-PR: 0.9157
+Cross-validated F1: 0.8816
+Cross-validated Recall: 0.8234
+Cross-validated Precision: 0.9488

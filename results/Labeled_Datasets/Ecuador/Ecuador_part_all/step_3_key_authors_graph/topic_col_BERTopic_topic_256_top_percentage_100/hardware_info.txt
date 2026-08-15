@@ -1,0 +1,11 @@
+Hardware and Slurm allocation
+---------------------------------------------------------------------------
+Hostname:               cs-cpu-11.auth.ad.bgu.ac.il
+CPU model:              Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+Node physical cores:    48
+Node logical CPUs:      96
+Allocated CPUs:         12
+Allocated CPU IDs:      [21, 23, 25, 27, 29, 31, 69, 71, 73, 75, 77, 79]
+Slurm job ID:           20169782
+Allocated GPUs:         0
+---------------------------------------------------------------------------
