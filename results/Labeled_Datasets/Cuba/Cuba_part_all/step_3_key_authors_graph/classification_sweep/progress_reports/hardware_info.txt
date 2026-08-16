@@ -1,11 +1,11 @@
 Hardware and Slurm allocation
 ---------------------------------------------------------------------------
-Hostname:               ise-cpu-intl-17.auth.ad.bgu.ac.il
-CPU model:              Intel(R) Xeon(R) CPU E5-2660 v4 @ 2.00GHz
-Node physical cores:    28
-Node logical CPUs:      56
+Hostname:               ise-cpu-intl-07.auth.ad.bgu.ac.il
+CPU model:              Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+Node physical cores:    36
+Node logical CPUs:      72
 Allocated CPUs:         6
-Allocated CPU IDs:      [0, 1, 2, 28, 29, 30]
-Slurm job ID:           20158319
+Allocated CPU IDs:      [0, 1, 2, 36, 37, 38]
+Slurm job ID:           20204223
 Allocated GPUs:         0
 ---------------------------------------------------------------------------
