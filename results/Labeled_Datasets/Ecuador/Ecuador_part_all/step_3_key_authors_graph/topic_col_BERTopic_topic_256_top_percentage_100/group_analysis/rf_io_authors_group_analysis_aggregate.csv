@@ -1,0 +1,6 @@
+group_type,number_of_unique_groups,average_number_of_nodes,average_io_percentage,average_same_top_topic_percentage
+maximal_k_core_component,205,9.970731707317073,79.77409235114288,89.11157309707865
+direct_neighbors,786,433.6208651399491,72.54070949360035,46.04117522699304
+louvain_community,37,567.5135135135135,71.81638253834954,72.74143406262817
+same_top_topic,48,397.4375,53.65273483594035,100.0
+classifier_predicted_io,1,786.0,100.0,22.408365265007888

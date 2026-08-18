@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 00743ec585f4839f024221d1762985d2559f046eb7
+Core number: 124
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 312
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences  top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+00743ec585f4839f024221d1762985d2559f046eb7                True          124     166             3000              223                       261     iranian                 7 author_00743ec585f4839f024221d1762985d2559f046eb7_entities.csv author_00743ec585f4839f024221d1762985d2559f046eb7_entities.png
+175e97d246ddf597726007860d5db91d19feb9cb36               False          124     188             8128              340                       529     #روحانی                47 author_175e97d246ddf597726007860d5db91d19feb9cb36_entities.csv author_175e97d246ddf597726007860d5db91d19feb9cb36_entities.png
+62306a0fe50a68977b3b6d4b2c7b3ed2f74b6c719e               False          124     204             9446              918                      1591 palestinian                70 author_62306a0fe50a68977b3b6d4b2c7b3ed2f74b6c719e_entities.csv author_62306a0fe50a68977b3b6d4b2c7b3ed2f74b6c719e_entities.png
+ac78671ee627a2287e07103df25e6dc12648cfb65c               False          124     219             9031             1172                      2272  #palestine               161 author_ac78671ee627a2287e07103df25e6dc12648cfb65c_entities.csv author_ac78671ee627a2287e07103df25e6dc12648cfb65c_entities.png

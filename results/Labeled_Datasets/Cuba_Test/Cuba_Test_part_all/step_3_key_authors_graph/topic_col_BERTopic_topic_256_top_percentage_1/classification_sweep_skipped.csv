@@ -1,5 +1,0 @@
-topic_col,top_percentage,account_relations_configuration,error_type,error
-BERTopic_topic_512,0.01,interactions,ValueError,ValueError('Indicator calculation requires at least two nodes and one edge; received 20 nodes and 0 edges')
-BERTopic_topic_512,0.05,interactions,ValueError,ValueError('Indicator calculation requires at least two nodes and one edge; received 60 nodes and 0 edges')
-BERTopic_topic_256,0.01,interactions,ValueError,ValueError('Indicator calculation requires at least two nodes and one edge; received 20 nodes and 0 edges')
-BERTopic_topic_256,0.05,interactions,ValueError,ValueError('Indicator calculation requires at least two nodes and one edge; received 60 nodes and 0 edges')
