@@ -1,7 +1,0 @@
-{
-  "model_name": "digio/Twitter4SSE",
-  "text_column": "translated_post",
-  "row_count": 2000,
-  "embedding_dimension": 768,
-  "texts_fingerprint": "52a875e112d43bac8864d116084dd334b3a7631e8505bee31b2b420619734ff5"
-}

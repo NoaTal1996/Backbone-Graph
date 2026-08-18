@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 0002f4c0533fd04918796df299eaa522bcdebe3696
+Core number: 332
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 347
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+0002f4c0533fd04918796df299eaa522bcdebe3696                True          332     403          3833568             1373                     10882      #cuba              2033 author_0002f4c0533fd04918796df299eaa522bcdebe3696_entities.csv author_0002f4c0533fd04918796df299eaa522bcdebe3696_entities.png
+4d64424fcad455f1d16916ebb5831a39a30298c11c               False          332     440          4516278             2858                     12665      #cuba              1516 author_4d64424fcad455f1d16916ebb5831a39a30298c11c_entities.csv author_4d64424fcad455f1d16916ebb5831a39a30298c11c_entities.png
+8074cf75f6903b612aac5d5af25e8ec35b329d1c63               False          332     354          1062987              361                      2680      #cuba               456 author_8074cf75f6903b612aac5d5af25e8ec35b329d1c63_entities.csv author_8074cf75f6903b612aac5d5af25e8ec35b329d1c63_entities.png
+ed8b97eb3a7cb4947514ba95ef4325e8940381b3bf               False          332     414          2642745             2342                      8893      #cuba              1006 author_ed8b97eb3a7cb4947514ba95ef4325e8940381b3bf_entities.csv author_ed8b97eb3a7cb4947514ba95ef4325e8940381b3bf_entities.png

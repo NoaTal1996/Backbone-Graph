@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 000844a4d21ae38b5cbe0d9f86664245236b744204
+Core number: 1,019
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 1,186
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+000844a4d21ae38b5cbe0d9f86664245236b744204                True         1019    1803            44345              383                       581      #تونس                23 author_000844a4d21ae38b5cbe0d9f86664245236b744204_entities.csv author_000844a4d21ae38b5cbe0d9f86664245236b744204_entities.png
+27a2c01c02dcbcce04b42343f8d1eee5eaff75ed01               False         1019    1276            29534              104                       187     #اليمن                11 author_27a2c01c02dcbcce04b42343f8d1eee5eaff75ed01_entities.csv author_27a2c01c02dcbcce04b42343f8d1eee5eaff75ed01_entities.png
+6b9d1c2ed1be0127256a7d3c448a65537d6035f14b               False         1019    3378           819298             1450                      4122        god               383 author_6b9d1c2ed1be0127256a7d3c448a65537d6035f14b_entities.csv author_6b9d1c2ed1be0127256a7d3c448a65537d6035f14b_entities.png
+98bd840934a5e384b88aa6b56ebede0621ab54f99b               False         1019    1421            57890              151                       301        god                26 author_98bd840934a5e384b88aa6b56ebede0621ab54f99b_entities.csv author_98bd840934a5e384b88aa6b56ebede0621ab54f99b_entities.png
