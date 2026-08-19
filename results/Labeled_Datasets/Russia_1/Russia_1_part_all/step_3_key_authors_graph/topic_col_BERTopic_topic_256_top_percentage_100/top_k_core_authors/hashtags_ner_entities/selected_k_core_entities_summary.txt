@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 002274eeaf5d65a4faa12ddc11d3b464e706bdd6d9
+Core number: 726
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 799
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+002274eeaf5d65a4faa12ddc11d3b464e706bdd6d9                True          726    1250           235753              699                      1301    ukraine                78 author_002274eeaf5d65a4faa12ddc11d3b464e706bdd6d9_entities.csv author_002274eeaf5d65a4faa12ddc11d3b464e706bdd6d9_entities.png
+9e2c775731c8942cdbca85555e052829d7490d6b6d               False          726    1342            50997             1803                      4051     russia               167 author_9e2c775731c8942cdbca85555e052829d7490d6b6d_entities.csv author_9e2c775731c8942cdbca85555e052829d7490d6b6d_entities.png
+9eb360bf78d95d9dff9cc845cbf3c9767a3c6d85dc               False          726    1061            65725              325                       474     russia                24 author_9eb360bf78d95d9dff9cc845cbf3c9767a3c6d85dc_entities.csv author_9eb360bf78d95d9dff9cc845cbf3c9767a3c6d85dc_entities.png
+cc75a4a38042463f7d595e4fe9ed45b4dd74a05032               False          726    1571           278799             1181                      2985    ukraine               210 author_cc75a4a38042463f7d595e4fe9ed45b4dd74a05032_entities.csv author_cc75a4a38042463f7d595e4fe9ed45b4dd74a05032_entities.png
