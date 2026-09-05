@@ -5,12 +5,12 @@
 ### To ignore, just add another # - like so: ##SBATCH
 
 ### Submit from src/:
-### sbatch ../config/run_classification_sweep.sbatch <INPUT_FILE_PATH>
+### sbatch ../config/run_3_classification_sweep.sbatch <INPUT_FILE_PATH>
 ################################################################################################
 
 #SBATCH --partition=main
 #SBATCH --time=7-00:00:00
-#SBATCH --job-name=classification_sweep
+#SBATCH --job-name=3_classification_sweep
 #SBATCH --output=../logs/%A_%a_%x.out
 #SBATCH --error=../logs/%A_%a_%x.err
 #SBATCH --mail-user=amitner@post.bgu.ac.il
@@ -25,7 +25,7 @@ INPUT_FILE_PATH="${1:-}"
 
 if [[ -z "${INPUT_FILE_PATH}" ]]; then
     echo "ERROR: No input file path provided." >&2
-    echo "Usage: sbatch ../config/run_classification_sweep.sbatch <INPUT_FILE_PATH>" >&2
+    echo "Usage: sbatch ../config/run_3_classification_sweep.sbatch <INPUT_FILE_PATH>" >&2
     exit 1
 fi
 
@@ -41,7 +41,7 @@ echo -e "SLURM_JOB_NODELIST:\t${SLURM_JOB_NODELIST}"
 echo -e "Job name:\t\t${SLURM_JOB_NAME}"
 echo -e "INPUT_FILE_PATH:\t${INPUT_FILE_PATH}"
 
-IN_NOTEBOOK="classification_sweep.ipynb"
+IN_NOTEBOOK="${SLURM_JOB_NAME}.ipynb"
 OUT_NOTEBOOK="../logs/${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}_${SLURM_JOB_NAME}.ipynb"
 
 echo "Starting Papermill task ${SLURM_ARRAY_TASK_ID}..."
