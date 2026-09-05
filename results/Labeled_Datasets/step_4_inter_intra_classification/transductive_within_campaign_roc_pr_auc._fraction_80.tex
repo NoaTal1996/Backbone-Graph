@@ -1,0 +1,23 @@
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lrrrr}
+        \toprule
+        Target campaign & \multicolumn{2}{c}{ROC--AUC} & \multicolumn{2}{c}{PR--AUC} \\
+        \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+         & Random Forest & XGBoost & Random Forest & XGBoost \\
+        \midrule
+        Iran\_1    & 0.991 & 0.994 & 0.983 & 0.985 \\
+        UAE        & 0.995 & 0.997 & 0.992 & 0.994 \\
+        Venezuela  & 0.984 & 0.985 & 0.964 & 0.966 \\
+        China\_1   & 0.986 & 0.990 & 0.940 & 0.934 \\
+        Cuba       & 0.985 & 0.993 & 0.966 & 0.968 \\
+        Russia\_1  & 0.999 & 0.999 & 0.994 & 0.995 \\
+        \midrule
+        Mean       & 0.990 & 0.993 & 0.973 & 0.973 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Transductive within-campaign classification using 80\% of the
+    labeled target-campaign accounts for training. Values are means over five
+    stratified splits.}
+    \label{tab:transductive-within-campaign-auc-80pct}
+\end{table}
