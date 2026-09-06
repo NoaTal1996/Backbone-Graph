@@ -1,0 +1,34 @@
+\begin{tabular}{llrr}
+\toprule
+model & account\_relations\_configuration & roc\_auc & pr\_auc \\
+\midrule
+logistic\_regression & interactions & 0.855 & 0.634 \\
+random\_forest & interactions & 0.951 & 0.860 \\
+xgboost & interactions & 0.958 & 0.857 \\
+logistic\_regression & similarity & 0.922 & 0.692 \\
+random\_forest & similarity & 0.993 & 0.969 \\
+xgboost & similarity & 0.995 & 0.972 \\
+logistic\_regression & similarity+interactions & 0.913 & 0.673 \\
+random\_forest & similarity+interactions & 0.992 & 0.968 \\
+xgboost & similarity+interactions & 0.994 & 0.970 \\
+logistic\_regression & similarity+text\_similarity & 0.936 & 0.766 \\
+random\_forest & similarity+text\_similarity & 0.994 & 0.983 \\
+xgboost & similarity+text\_similarity & 0.996 & 0.983 \\
+logistic\_regression & similarity+text\_similarity+interactions & 0.928 & 0.751 \\
+random\_forest & similarity+text\_similarity+interactions & 0.994 & 0.981 \\
+xgboost & similarity+text\_similarity+interactions & 0.996 & 0.981 \\
+logistic\_regression & text\_similarity & 0.922 & 0.794 \\
+random\_forest & text\_similarity & 0.994 & 0.983 \\
+xgboost & text\_similarity & 0.996 & 0.983 \\
+logistic\_regression & text\_similarity+interactions & 0.910 & 0.760 \\
+random\_forest & text\_similarity+interactions & 0.993 & 0.981 \\
+xgboost & text\_similarity+interactions & 0.995 & 0.982 \\
+all models average & interactions & 0.921 & 0.784 \\
+all models average & similarity & 0.970 & 0.878 \\
+all models average & similarity+interactions & 0.966 & 0.870 \\
+all models average & similarity+text\_similarity & 0.975 & 0.911 \\
+all models average & similarity+text\_similarity+interactions & 0.972 & 0.904 \\
+all models average & text\_similarity & 0.971 & 0.920 \\
+all models average & text\_similarity+interactions & 0.966 & 0.907 \\
+\bottomrule
+\end{tabular}

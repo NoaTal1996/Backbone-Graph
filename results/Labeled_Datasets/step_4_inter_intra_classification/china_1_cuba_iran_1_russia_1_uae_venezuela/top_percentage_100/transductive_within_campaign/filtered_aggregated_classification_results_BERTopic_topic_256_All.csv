@@ -1,0 +1,29 @@
+model,account_relations_configuration,roc_auc,pr_auc
+logistic_regression,interactions,0.8551652313582165,0.6341688390896679
+random_forest,interactions,0.9505477456430751,0.8601253260340597
+xgboost,interactions,0.9575281630703035,0.8569747530998439
+logistic_regression,similarity,0.922249538760629,0.6918713013181571
+random_forest,similarity,0.9925599381964015,0.9685592099820796
+xgboost,similarity,0.995032129556538,0.9723310107002439
+logistic_regression,similarity+interactions,0.9126941148636313,0.6732127440611978
+random_forest,similarity+interactions,0.992350966850426,0.968443314964983
+xgboost,similarity+interactions,0.9941587989140935,0.9696945804171917
+logistic_regression,similarity+text_similarity,0.9359548275721314,0.7661966912985556
+random_forest,similarity+text_similarity,0.9943685498249321,0.983149730735852
+xgboost,similarity+text_similarity,0.9957886575355949,0.9829886348119089
+logistic_regression,similarity+text_similarity+interactions,0.9281686553433506,0.7505055067498856
+random_forest,similarity+text_similarity+interactions,0.9935444576290577,0.9806008696185512
+xgboost,similarity+text_similarity+interactions,0.9957556957308632,0.9813434227860899
+logistic_regression,text_similarity,0.9218608572750449,0.7940457271495247
+random_forest,text_similarity,0.9942294256179033,0.9826387542038043
+xgboost,text_similarity,0.9956143159350345,0.982701555219486
+logistic_regression,text_similarity+interactions,0.910086844059747,0.7600014326518906
+random_forest,text_similarity+interactions,0.9930253342986296,0.9808199352456186
+xgboost,text_similarity+interactions,0.9947390363951424,0.981601648716162
+all models average,interactions,0.921080380023865,0.7837563060745238
+all models average,similarity,0.9699472021711895,0.8775871740001602
+all models average,similarity+interactions,0.966401293542717,0.8704502131477909
+all models average,similarity+text_similarity,0.9753706783108861,0.9107783522821055
+all models average,similarity+text_similarity+interactions,0.9724896029010904,0.9041499330515089
+all models average,text_similarity,0.9705681996093275,0.9197953455242717
+all models average,text_similarity+interactions,0.9659504049178397,0.9074743388712238

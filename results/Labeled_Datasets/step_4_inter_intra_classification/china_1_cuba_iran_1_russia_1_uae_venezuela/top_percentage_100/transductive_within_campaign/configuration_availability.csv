@@ -1,0 +1,20 @@
+configuration,value,present_in,missing_from,present_in_all_datasets
+topic_col,BERTopic_topic_10,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+topic_col,BERTopic_topic_128,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+topic_col,BERTopic_topic_256,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+topic_col,BERTopic_topic_512,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+topic_col,K_Means_topic_108,Cuba,"Iran_1, UAE, Venezuela, China_1, Russia_1",False
+topic_col,K_Means_topic_112,China_1,"Iran_1, UAE, Venezuela, Cuba, Russia_1",False
+topic_col,K_Means_topic_128,Iran_1,"UAE, Venezuela, China_1, Cuba, Russia_1",False
+topic_col,K_Means_topic_16,"UAE, Russia_1","Iran_1, Venezuela, China_1, Cuba",False
+topic_col,K_Means_topic_60,Venezuela,"Iran_1, UAE, China_1, Cuba, Russia_1",False
+account_relations_configuration,interactions,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+account_relations_configuration,similarity,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+account_relations_configuration,similarity+interactions,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+account_relations_configuration,similarity+text_similarity,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+account_relations_configuration,similarity+text_similarity+interactions,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+account_relations_configuration,text_similarity,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+account_relations_configuration,text_similarity+interactions,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+indicators_configuration,All,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+indicators_configuration,All but Betweenness and Harmonic,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True
+indicators_configuration,Core Number Only,"Iran_1, UAE, Venezuela, China_1, Cuba, Russia_1",None,True

@@ -1,0 +1,10 @@
+Capability,Ours,IOHunter
+Transductive within-campaign classification,✓,✓
+Inductive cross-campaign/country classification,✓,✓
+Limited-label evaluation,✓,✓
+Raw text required for classification,✗,✓
+Interpretable graph indicators for classification,✓,✗
+Comparison of graph relation types,✓,✗
+Topic-aware / narrative group analysis,✓,✗
+Graph embedding,✗,✓
+Neural network classification,✗,✓

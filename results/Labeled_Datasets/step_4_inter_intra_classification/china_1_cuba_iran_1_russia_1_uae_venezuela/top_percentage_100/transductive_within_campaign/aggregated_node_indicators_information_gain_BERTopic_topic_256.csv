@@ -1,0 +1,13 @@
+indicator,mean_information_gain
+core_number,0.18245111092336685
+louvain_community,0.17052842703034557
+degree_centrality,0.14505533868428894
+eigenvector_centrality,0.12781545837984784
+harmonic_centrality,0.12314186713628189
+posting_dominance,0.08545721165771819
+key_score_sum,0.07860964813400016
+top_topic,0.0749879281911918
+clustering,0.06683655754547745
+key_score_dominance,0.06277461326748192
+pagerank,0.05991718031742138
+betweenness_centrality,0.016208671489604084

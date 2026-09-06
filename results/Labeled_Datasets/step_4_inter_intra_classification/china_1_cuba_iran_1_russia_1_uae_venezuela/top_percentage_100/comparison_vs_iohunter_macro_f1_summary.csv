@@ -1,0 +1,15 @@
+Setting,Campaign,I Can See U (RF),I Can See U (XGBoost),IOHunter,Delta (RF - IOHunter)
+Transductive,China,0.949,0.954,0.929,+0.020
+Transductive,Cuba,0.983,0.978,0.989,-0.006
+Transductive,Iran,0.982,0.981,0.966,+0.016
+Transductive,Russia,0.982,0.982,0.923,+0.059
+Transductive,UAE,0.977,0.979,0.988,-0.011
+Transductive,Venezuela,0.969,0.974,0.991,-0.022
+Transductive,Average,0.974,0.975,0.964,+0.009
+Inductive,China,0.513,0.506,0.581,-0.069
+Inductive,Cuba,0.923,0.833,0.899,+0.024
+Inductive,Iran,0.938,0.902,0.728,+0.210
+Inductive,Russia,0.864,0.851,0.798,+0.066
+Inductive,UAE,0.897,0.915,0.839,+0.057
+Inductive,Venezuela,0.688,0.672,0.910,-0.222
+Inductive,Average,0.804,0.780,0.793,+0.011
