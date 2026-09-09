@@ -1,0 +1,19 @@
+\begin{figure}[htbp]
+\centering
+\begin{tabular}{lrrr}
+\hline
+Campaign & I Can See U (RF) & IOHunter & $\Delta$ (RF $-$ IOHunter) \\
+\hline
+China & 0.513 & 0.581 & -0.069 \\
+Cuba & 0.923 & 0.899 & +0.024 \\
+Iran & 0.938 & 0.728 & +0.210 \\
+Russia & 0.864 & 0.798 & +0.066 \\
+UAE & 0.897 & 0.839 & +0.057 \\
+Venezuela & 0.688 & 0.910 & -0.222 \\
+\hline
+\textbf{Average} & \textbf{0.804} & \textbf{0.793} & \textbf{+0.011} \\
+\hline
+\end{tabular}
+\caption{Inductive cross-campaign Macro-F1 comparison of I Can See U with a random forest (RF) classifier and IOHunter. Each campaign is held out for testing while training on the other five campaigns; IOHunter uses the notebook\textquotesingle{}s ``Only PreTrain results, without fine-tuning on the target campaign. Average is the unweighted mean across the six campaigns. $\Delta$ is RF minus IOHunter, with positive values favoring RF. Averages and differences are computed before rounding to three decimal places, so displayed scores may not subtract exactly to the displayed differences.}
+\label{fig:inductive-rf-iohunter-macro-f1}
+\end{figure}
