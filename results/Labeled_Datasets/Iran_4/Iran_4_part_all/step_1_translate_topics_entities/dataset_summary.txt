@@ -1,0 +1,6 @@
+Posts time range: 2008-04 → 2019-05
+
+df shape:                                (561585, 9)
+posts with hashtags #:                   253,058  (45.06%)
+posts with account_mentions @:           385,248  (68.60%)
+posts with urls:                         284,021  (50.57%)

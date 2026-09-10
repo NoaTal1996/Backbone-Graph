@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "input": {
+    "mtime_ns": 1789047181029286158,
+    "path": "/home/amitner/Backbone-Graph/data/Labeled_Datasets/Iran_2/Iran_2_part_all.gzip.parquet",
+    "row_count": 1631793,
+    "schema": "postid: string\npost_text: string\napplication_name: string\npost_language: string\nin_reply_to_postid: string\nin_reply_to_accountid: string\npost_time: timestamp[us]\naccountid: string\naccount_profile_description: string\nfollower_count: int64\nfollowing_count: int64\naccount_creation_date: date32[day]\nis_repost: bool\nreposted_accountid: string\nreposted_postid: string\nhashtags: list<element: string>\n  child 0, element: string\nurls: list<element: string>\n  child 0, element: string\naccount_mentions: list<element: string>\n  child 0, element: string\nis_control: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2499",
+    "size": 235080489
+  },
+  "stages": {}
+}
