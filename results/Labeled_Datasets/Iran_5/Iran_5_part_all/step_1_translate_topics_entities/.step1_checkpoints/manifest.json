@@ -8,12 +8,157 @@
     "size": 10066764
   },
   "stages": {
+    "embeddings": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "embedding_dimension": 768,
+        "model_name": "digio/Twitter4SSE",
+        "row_count": 45348,
+        "storage_dtype": "float16",
+        "text_column": "translated_post",
+        "texts_fingerprint": "dde1424e5993089b4c66f6e6043c4db3aa295428d6d36d5c111d374b4809467a"
+      },
+      "output_columns": [],
+      "saved_rows": 45348,
+      "signature": "fd0b09cac8c9ea89b79ec97d0ab7b80d079ae9bd21cdf29b888b5f2566126146",
+      "status": "complete"
+    },
+    "entity_reuse:account_mentions": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "account_mentions_reuse_12H_accountids",
+        "account_mentions_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "85e97c4ec6ab4140bc7d53ebed9b3ce6082de912cee9357b0a7f91dea698dbb5",
+      "status": "complete"
+    },
+    "entity_reuse:hashtags": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "hashtags_reuse_12H_accountids",
+        "hashtags_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "259b62e485ee1ecc412ab5ba8b85c6c038ac0d25a79027f71a24a7de39f61f2b",
+      "status": "complete"
+    },
+    "entity_reuse:ner_entities": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "ner_entities_reuse_12H_accountids",
+        "ner_entities_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "550a2cc31cd1c253b2cab4ec96af2925283e222eba7e0270352957c36cee9cf5",
+      "status": "complete"
+    },
+    "entity_reuse:urls": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "urls_reuse_12H_accountids",
+        "urls_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "9016b2b6f06ce6ba859d669393a098fa09e54ce9b1febe09e756beadd145ce43",
+      "status": "complete"
+    },
+    "kmeans_topics": {
+      "dependencies": [
+        "embeddings"
+      ],
+      "metadata": {
+        "best_k": 128
+      },
+      "output_columns": [
+        "K_Means_topic_128"
+      ],
+      "saved_rows": 0,
+      "signature": "e335756486eb1ab1670c8399d34406a0d44de81063bcbf96bb31c4c40d046d29",
+      "status": "complete"
+    },
+    "ner_entities": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "hashtags",
+        "account_mentions",
+        "urls",
+        "ner_entities"
+      ],
+      "saved_rows": 45348,
+      "signature": "f5f9b77a63aec918598dcbee75fdf1a53963b24413d99b0252b4a87a545c5805",
+      "status": "complete"
+    },
+    "same_topic_reuse:12H": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_128_12H_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "e6694bff8edfe400f6991ec3ae8df54a38b4c9cfb91fcf15eee49eba1d3a63b6",
+      "status": "complete"
+    },
+    "same_topic_reuse:3D": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_128_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "16dff72bca3b7846370b83cdffea97db33caade62f8062ea31a9417235abac2b",
+      "status": "complete"
+    },
     "translation": {
       "dependencies": [],
-      "metadata": {},
-      "saved_rows": 10240,
+      "metadata": {
+        "row_count": 45348
+      },
+      "output_columns": [
+        "is_control",
+        "post_language",
+        "clean_text_with_entities",
+        "clean_text_without_enteties",
+        "translated_post"
+      ],
+      "saved_rows": 45348,
       "signature": "ef5729fab13cdba42186d0941123a00fbc61f6726b912e340f43853e30328e05",
-      "status": "pending"
+      "status": "complete"
     }
   }
 }

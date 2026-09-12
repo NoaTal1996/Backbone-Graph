@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 02e0b401272508d4789f0e4ed95114a1cd2944f2b3
+Core number: 83
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 95
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences         top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+02e0b401272508d4789f0e4ed95114a1cd2944f2b3                True           83     109             3401              128                       246              trump                40 author_02e0b401272508d4789f0e4ed95114a1cd2944f2b3_entities.csv author_02e0b401272508d4789f0e4ed95114a1cd2944f2b3_entities.png
+213fc84ca4c1b171377555b5837aa9edd6efce1885               False           83     130             6004              463                      1086 #frasesdereflexion                49 author_213fc84ca4c1b171377555b5837aa9edd6efce1885_entities.csv author_213fc84ca4c1b171377555b5837aa9edd6efce1885_entities.png
+2e278bb03b1e29c4660e12057e1c015bd4a9057130               False           83     128             2415              173                       355         #ری_استارت                17 author_2e278bb03b1e29c4660e12057e1c015bd4a9057130_entities.csv author_2e278bb03b1e29c4660e12057e1c015bd4a9057130_entities.png
+fcfe9a20f55c3898eb1f4fccc86dbfd0e2ec5fd59e               False           83     137             9843              384                       833              trump                89 author_fcfe9a20f55c3898eb1f4fccc86dbfd0e2ec5fd59e_entities.csv author_fcfe9a20f55c3898eb1f4fccc86dbfd0e2ec5fd59e_entities.png

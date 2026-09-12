@@ -1,0 +1,11 @@
+Selected k-core report
+Anchor author: 02e0b401272508d4789f0e4ed95114a1cd2944f2b3
+Core number: 83
+Authors in connected k-core: 95
+Authors selected for word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  total_posts  selected_top_posts  mean_selected_post_tfidf  max_selected_post_tfidf                                                  wordcloud_file
+02e0b401272508d4789f0e4ed95114a1cd2944f2b3                True           83     109             3401          102                  10                  0.817469                 1.077320 author_02e0b401272508d4789f0e4ed95114a1cd2944f2b3_wordcloud.png
+213fc84ca4c1b171377555b5837aa9edd6efce1885               False           83     130             6004          307                  10                  1.110281                 2.140051 author_213fc84ca4c1b171377555b5837aa9edd6efce1885_wordcloud.png
+2e278bb03b1e29c4660e12057e1c015bd4a9057130               False           83     128             2415           67                  10                  1.010371                 1.639465 author_2e278bb03b1e29c4660e12057e1c015bd4a9057130_wordcloud.png
+fcfe9a20f55c3898eb1f4fccc86dbfd0e2ec5fd59e               False           83     137             9843          424                  10                  1.016186                 1.206064 author_fcfe9a20f55c3898eb1f4fccc86dbfd0e2ec5fd59e_wordcloud.png

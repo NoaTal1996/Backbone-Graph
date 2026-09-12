@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 01340e4dfd7748b5f942c0654b078ab68f8cb4add1
+Core number: 203
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 206
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences              top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+01340e4dfd7748b5f942c0654b078ab68f8cb4add1                True          203     205              391                4                         4     #black_lives_matter                 1 author_01340e4dfd7748b5f942c0654b078ab68f8cb4add1_entities.csv author_01340e4dfd7748b5f942c0654b078ab68f8cb4add1_entities.png
+0d842dd252d138142fd8e006531934c128d6f4155c               False          203     205              638                4                         8     #black_lives_matter                 2 author_0d842dd252d138142fd8e006531934c128d6f4155c_entities.csv author_0d842dd252d138142fd8e006531934c128d6f4155c_entities.png
+594daff8c60f9e704f61e8f8fd70021d74265e63ed               False          203     206              446               19                        19 #justiceforbellymujinga                 1 author_594daff8c60f9e704f61e8f8fd70021d74265e63ed_entities.csv author_594daff8c60f9e704f61e8f8fd70021d74265e63ed_entities.png
+a65463f8a42d19666f8480fa9993fb1193d4bdb7bc               False          203     210             2417                8                       491        #togetherwestand                99 author_a65463f8a42d19666f8480fa9993fb1193d4bdb7bc_entities.csv author_a65463f8a42d19666f8480fa9993fb1193d4bdb7bc_entities.png

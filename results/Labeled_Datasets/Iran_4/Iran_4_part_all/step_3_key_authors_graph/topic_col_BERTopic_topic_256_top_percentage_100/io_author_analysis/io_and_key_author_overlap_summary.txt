@@ -1,0 +1,10 @@
+### io_key_summary ###
+
+Number of all authors: 10,131
+
+Number of IO authors: 2,519 (24.9% of all authors)
+Number of key authors: 10,131 (100.0% of all authors)
+Number of boost authors: 0 (0.0% of all authors)
+
+Number of authors that are both IO and key: 2,519
+100.0% of IO authors are also key authors

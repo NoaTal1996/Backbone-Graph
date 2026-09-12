@@ -1,0 +1,4 @@
+start_date,end_date,BERTopic_topic_256,post_count,topic_top_words
+2020-06-02,2020-06-05,0,3141,"user, url, god, you, us, going, coronavirus, new, hey, thank"
+2020-06-02,2020-06-05,1,252,"url, quite, took, finally"
+2020-06-02,2020-06-05,2,59,"username, follows, users, case"

@@ -1,0 +1,8 @@
+group_type,number_of_unique_groups,average_number_of_nodes,average_io_percentage,average_same_top_topic_percentage
+maximal_k_core_component,72,106.0372340425532,97.98760408057423,85.85775198421767
+direct_neighbors,2222,201.23807380738074,97.44710675748095,84.73261041233503
+louvain_community,13,1090.6882327399044,90.2622481222884,78.58152929219595
+same_top_topic,12,6921.112881806109,27.450108446097936,100.0
+classifier_predicted_io_random_forest,1,2519.0,100.0,76.43439738465749
+classifier_predicted_io_xgboost,1,2522.0,99.88104678826328,76.4532143695901
+classifier_predicted_io_logistic_regression,1,1928.0,83.86929460580913,76.5315409638532

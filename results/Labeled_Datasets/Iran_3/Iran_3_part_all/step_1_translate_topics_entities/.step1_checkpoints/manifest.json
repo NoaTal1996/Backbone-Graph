@@ -8,12 +8,157 @@
     "size": 310879797
   },
   "stages": {
+    "embeddings": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "embedding_dimension": 768,
+        "model_name": "digio/Twitter4SSE",
+        "row_count": 2003842,
+        "storage_dtype": "float16",
+        "text_column": "translated_post",
+        "texts_fingerprint": "8aad0583969c9c3691d418012534d730f937741b0a495fedb9fc00ae62f16407"
+      },
+      "output_columns": [],
+      "saved_rows": 2003842,
+      "signature": "a8340c52412105102c6ded8509db36140493122a8a2b08f8da4b68d6fa3e556d",
+      "status": "complete"
+    },
+    "entity_reuse:account_mentions": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "account_mentions_reuse_12H_accountids",
+        "account_mentions_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "90d53744dae7ae456ed22f3a52af8cbb1f4450b432f55ba477458177873c1428",
+      "status": "complete"
+    },
+    "entity_reuse:hashtags": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "hashtags_reuse_12H_accountids",
+        "hashtags_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "13675ca4af53f765c98afd6c20fa85ca613bf735b6adc3c1125b2c897b86ea62",
+      "status": "complete"
+    },
+    "entity_reuse:ner_entities": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "ner_entities_reuse_12H_accountids",
+        "ner_entities_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "01a3dc56bbd716c7209fefe725bbe3e8d63fde1792bdec9e47bf1a61b7a6635f",
+      "status": "complete"
+    },
+    "entity_reuse:urls": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "urls_reuse_12H_accountids",
+        "urls_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "f1afc1c6dc417b46f7c714e5be10a6aa7d73937056b1f42c50b95f355680d1e9",
+      "status": "complete"
+    },
+    "kmeans_topics": {
+      "dependencies": [
+        "embeddings"
+      ],
+      "metadata": {
+        "best_k": 16
+      },
+      "output_columns": [
+        "K_Means_topic_16"
+      ],
+      "saved_rows": 0,
+      "signature": "3bfc8e413cab2f399f6fb160cb7c051e58e82e26c75fb31356c76fe0902c0c12",
+      "status": "complete"
+    },
+    "ner_entities": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "hashtags",
+        "account_mentions",
+        "urls",
+        "ner_entities"
+      ],
+      "saved_rows": 2003842,
+      "signature": "0f230a4cce1c3ae7fe43626826bce0de513501b95424b8d79af054aac7912366",
+      "status": "complete"
+    },
+    "same_topic_reuse:12H": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_16_12H_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "32913cc4b90179ff40745594b447449a3a6b79ab23444c828cfae71cf19f7e7f",
+      "status": "complete"
+    },
+    "same_topic_reuse:3D": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_16_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "34209b26af9fae9ff8690488731553ad21c4c110ed5588f6105876307d3282b0",
+      "status": "complete"
+    },
     "translation": {
       "dependencies": [],
-      "metadata": {},
-      "saved_rows": 10240,
+      "metadata": {
+        "row_count": 2003842
+      },
+      "output_columns": [
+        "is_control",
+        "post_language",
+        "clean_text_with_entities",
+        "clean_text_without_enteties",
+        "translated_post"
+      ],
+      "saved_rows": 2003842,
       "signature": "9d1a25e40d5ebd41034a3c5aea8890b0fa16677d89b32fa8e4deed3c9bc6877c",
-      "status": "pending"
+      "status": "complete"
     }
   }
 }
