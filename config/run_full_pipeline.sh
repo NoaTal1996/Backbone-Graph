@@ -84,6 +84,27 @@ echo "Step 3 submitted:"
 echo "  job_id=${step_3_job_id}"
 echo "  waits_for=${step_2_job_id}"
 
+# ------------------------------------------------------------
+# Classification sweep
+# Runs alongside Step 3 after Step 2 succeeds. Task 28 selects
+# BERTopic_topic_256 with all relations under standard topic-column order.
+# ------------------------------------------------------------
+classification_sweep_job_id=$(
+    sbatch --parsable \
+        --array=28 \
+        --dependency="afterok:${step_2_job_id}" \
+        "../config/run_3_classification_sweep.sbatch" \
+        "${step_2_output}"
+)
+
+classification_sweep_job_id="${classification_sweep_job_id%%;*}"
+
+echo
+echo "Classification sweep submitted:"
+echo "  job_id=${classification_sweep_job_id}"
+echo "  task_index=28"
+echo "  waits_for=${step_2_job_id}"
+
 echo
 echo "Pipeline submitted successfully."
 echo
@@ -91,6 +112,7 @@ echo "Execution order:"
 echo "  Step 1: ${step_1_job_id}"
 echo "  Step 2: ${step_2_job_id} (${min_topic_sizes})"
 echo "  Step 3: ${step_3_job_id}"
+echo "  Classification sweep: ${classification_sweep_job_id} (task 28, alongside Step 3)"
 echo
 echo "Jobs status:"
 squeue --me
