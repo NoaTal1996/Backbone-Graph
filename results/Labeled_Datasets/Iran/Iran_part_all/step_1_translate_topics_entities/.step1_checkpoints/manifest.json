@@ -7,5 +7,13 @@
     "schema": "postid: string\npost_text: string\napplication_name: string\npost_language: string\nin_reply_to_postid: string\nin_reply_to_accountid: string\npost_time: timestamp[us]\naccountid: string\naccount_profile_description: string\nfollower_count: int64\nfollowing_count: int64\naccount_creation_date: date32[day]\nis_repost: bool\nreposted_accountid: string\nreposted_postid: string\nhashtags: list<element: string>\n  child 0, element: string\nurls: list<element: string>\n  child 0, element: string\naccount_mentions: list<element: string>\n  child 0, element: string\nis_control: bool\nsource_campaign: string",
     "size": 1067578202
   },
-  "stages": {}
+  "stages": {
+    "translation": {
+      "dependencies": [],
+      "metadata": {},
+      "saved_rows": 0,
+      "signature": "7762b29119b9997ebbed17413386e4e06f03182e602b5bf96e921a7dbb26e973",
+      "status": "pending"
+    }
+  }
 }

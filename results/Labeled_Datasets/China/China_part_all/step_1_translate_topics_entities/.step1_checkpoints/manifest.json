@@ -7,5 +7,158 @@
     "schema": "postid: string\npost_text: string\napplication_name: string\npost_language: string\nin_reply_to_postid: string\nin_reply_to_accountid: string\npost_time: timestamp[us]\naccountid: string\naccount_profile_description: string\nfollower_count: int64\nfollowing_count: int64\naccount_creation_date: date32[day]\nis_repost: bool\nreposted_accountid: string\nreposted_postid: string\nhashtags: list<element: string>\n  child 0, element: string\nurls: list<element: string>\n  child 0, element: string\naccount_mentions: list<element: string>\n  child 0, element: string\nis_control: bool\nsource_campaign: string",
     "size": 950405893
   },
-  "stages": {}
+  "stages": {
+    "embeddings": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "embedding_dimension": 768,
+        "model_name": "digio/Twitter4SSE",
+        "row_count": 7064839,
+        "storage_dtype": "float16",
+        "text_column": "translated_post",
+        "texts_fingerprint": "73004171661de65015e8f997372a8b277ac90afbb170ec3f60119d7273fe8847"
+      },
+      "output_columns": [],
+      "saved_rows": 7064839,
+      "signature": "50738ee3851172b16506460e1681bb9794b283a769b48bdcfeec45a955352cc3",
+      "status": "complete"
+    },
+    "entity_reuse:account_mentions": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "account_mentions_reuse_12H_accountids",
+        "account_mentions_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "5a5342467abf4f4de9598292933f9ab94bf94e699c5fe57d80daa4e27cce195b",
+      "status": "complete"
+    },
+    "entity_reuse:hashtags": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "hashtags_reuse_12H_accountids",
+        "hashtags_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "8ff717122d971f43b875518041e3139ab64116306d6b2a1a6c3797aa0d5b39f5",
+      "status": "complete"
+    },
+    "entity_reuse:ner_entities": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "ner_entities_reuse_12H_accountids",
+        "ner_entities_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "e2336a417f2c6f1a30e66685133eb97f8409dd743095b10250e2760fbeab9fbe",
+      "status": "complete"
+    },
+    "entity_reuse:urls": {
+      "dependencies": [
+        "ner_entities"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "urls_reuse_12H_accountids",
+        "urls_reuse_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "ac3df926aa680872d394931805cb17aefe6b2c24670cc7d7f743591322cd0f37",
+      "status": "complete"
+    },
+    "kmeans_topics": {
+      "dependencies": [
+        "embeddings"
+      ],
+      "metadata": {
+        "best_k": 52
+      },
+      "output_columns": [
+        "K_Means_topic_52"
+      ],
+      "saved_rows": 0,
+      "signature": "0a29590c94b1c1063e19afaf19d8b678a84c600187488dbd996a31633028d63a",
+      "status": "complete"
+    },
+    "ner_entities": {
+      "dependencies": [
+        "translation"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "hashtags",
+        "account_mentions",
+        "urls",
+        "ner_entities"
+      ],
+      "saved_rows": 7064839,
+      "signature": "1487d115454603ed64dcd613ee72d6c9678d13a99cc9d6720eace55b815ae103",
+      "status": "complete"
+    },
+    "same_topic_reuse:12H": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_52_12H_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "31bcaaf1ea9a7ee3ae9506a8ce4457d346cd9645849979b9e8ef1ce45e69cca4",
+      "status": "complete"
+    },
+    "same_topic_reuse:3D": {
+      "dependencies": [
+        "kmeans_topics"
+      ],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "posting_same_topic_K_Means_topic_52_3D_accountids"
+      ],
+      "saved_rows": 0,
+      "signature": "088a6b1d0fb2dc175b96ccffd9b1a1cbb49f4d6ee6462f37ab0301c47a2dfd80",
+      "status": "complete"
+    },
+    "translation": {
+      "dependencies": [],
+      "metadata": {
+        "row_count": 7064839
+      },
+      "output_columns": [
+        "is_control",
+        "post_language",
+        "clean_text_with_entities",
+        "clean_text_without_enteties",
+        "translated_post"
+      ],
+      "saved_rows": 7064839,
+      "signature": "b3d0a42443fdc76bee9374ab4b064b38cf1e2afd4bf834cb9b9c9e5adec70bd2",
+      "status": "complete"
+    }
+  }
 }

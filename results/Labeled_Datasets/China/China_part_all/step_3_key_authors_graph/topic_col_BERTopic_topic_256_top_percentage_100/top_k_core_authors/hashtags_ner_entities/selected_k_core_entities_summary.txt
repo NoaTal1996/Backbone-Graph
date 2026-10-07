@@ -1,0 +1,12 @@
+Selected k-core entity report
+Anchor author: 00207a4c27c1938c87bafc11c5fa1b698de218e69c
+Core number: 448
+Entity columns: ['hashtags', 'ner_entities']
+Authors in connected k-core: 450
+Authors selected for entity word clouds: 4
+
+                                 accountid  is_top_core_author  core_number  degree  weighted_degree  unique_entities  total_entity_occurrences    top_entity  top_entity_count                                                  entities_file                                                 wordcloud_file
+00207a4c27c1938c87bafc11c5fa1b698de218e69c                True          448     497            35507               31                       147      #btsarmy                32 author_00207a4c27c1938c87bafc11c5fa1b698de218e69c_entities.csv author_00207a4c27c1938c87bafc11c5fa1b698de218e69c_entities.png
+11304b6e5c94b99801b21159ccfb142893ea6781ca               False          448     490            58333               35                       353 #iheartawards                98 author_11304b6e5c94b99801b21159ccfb142893ea6781ca_entities.csv author_11304b6e5c94b99801b21159ccfb142893ea6781ca_entities.png
+44281e7f050fe3c9bd6d164e3bb098a203b869e093               False          448     549            93824               86                       475         #exol                92 author_44281e7f050fe3c9bd6d164e3bb098a203b869e093_entities.csv author_44281e7f050fe3c9bd6d164e3bb098a203b869e093_entities.png
+48d0b88022aba5c2f6d314ef9d98a476df12d0daa7               False          448     546            80111              129                       569 #iheartawards                83 author_48d0b88022aba5c2f6d314ef9d98a476df12d0daa7_entities.csv author_48d0b88022aba5c2f6d314ef9d98a476df12d0daa7_entities.png

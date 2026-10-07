@@ -17,6 +17,9 @@ logs/
 .codex/
 results/Labeled_Datasets/*_Test
 data/Labeled_Datasets/*_Test
+results/Labeled_Datasets/China/China_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_100/top_k_core_authors/group_shared_hashtags/peak_shared_hashtag_report.md
+results/Labeled_Datasets/China/China_part_all/step_3_key_authors_graph/topic_col_BERTopic_topic_256_top_percentage_100/top_k_core_authors/group_shared_hashtags/peak_shared_hashtag_posts.csv
+results/**/post_embeddings_metadata.json
 
 
 
