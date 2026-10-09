@@ -14,7 +14,7 @@ handling, logging, config files, or unnecessary abstractions.
 Do not create new code files unless specifically asked to do so, or unless you have asked the user and received permission.
 
 When possible, display results clearly using pandas DataFrames or other simple
-output methods. When you create figures or results, save them to `./result/` after creating
+output methods. When you create figures or results, save them to `./results/` after creating
 the directory if it does not exist, and call `plt.show()` only after saving.
 When possible, compute basic statistics and visualize them with plots.
 The plots should have larger text and number should to be formatted with :, .
